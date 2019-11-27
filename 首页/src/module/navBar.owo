@@ -1,0 +1,100 @@
+<template lang="pug">
+.nav-bar.w1200
+  .logo
+    img(src="@|people-picture-logo.png|")
+  .nav
+    .nav-item.active
+      a(href="#") 首页
+    .nav-item
+      a(href="#") 最新
+    .nav-item
+      a(href="#") 图片故事
+    .nav-item
+      a(href="#") 专题策划
+    .nav-item
+      a(href="#") 见报图片
+    .nav-item
+      a(href="#") 按分类查询
+  .menu
+    .menu-item
+      .icon &#xe643;
+      p 作品发布
+    .menu-item
+      .icon &#xe603;
+      p 作品购买
+    .menu-item
+      .icon &#xe634;
+      p 联系我们
+    .menu-item
+      .icon &#xe60f;
+      p 全部公告
+    .menu-item
+      .icon &#xe619;
+      p 个人中心
+  
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.nav-bar {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.nav, .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  .icon {
+    width: 54px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  p {
+    text-align: center;
+    line-height: 20px;
+  }
+}
+.nav {
+  font-size: 22px;
+  color: #484848;
+  .nav-item {
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    display: block;
+    width: 100%;
+    // margin: 0 10px;
+    // padding-right: 20px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    border-right: 1px solid #ccc;
+  }
+  .active {
+    color: #e1001d;
+    font-weight: bold;
+    background-image: url('@|triangle.png|');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+</style>

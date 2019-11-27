@@ -1,0 +1,160 @@
+body, html, .owo, .page-box {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+
+a {
+  color: #333;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.title-bar {
+  height: 45px;
+  overflow: hidden;
+  background-color: #d62c13;
+}
+
+.title-bar .content {
+  width: 1200px;
+  height: 45px;
+  margin: auto;
+}
+
+.title-bar img {
+  margin: 7px 10px;
+  height: 31px;
+}
+
+.title-bar a {
+  float: left;
+  display: block;
+}
+
+.title-bar .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+.title-bar a {
+  color: #333;
+  height: 100%;
+  text-decoration: none;
+}
+.nav-bar {
+  display: -webkit-box;
+  display: flex;
+  padding-top: 20px;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar .nav,
+.nav-bar .menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.nav-bar .menu-item {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.nav-bar .menu-item .icon {
+  width: 54px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.nav-bar .menu-item p {
+  text-align: center;
+  line-height: 20px;
+}
+
+.nav-bar .nav {
+  font-size: 22px;
+  color: #484848;
+}
+
+.nav-bar .nav .nav-item {
+  text-align: center;
+  height: 60px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.nav-bar .nav a {
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  border-right: 1px solid #ccc;
+}
+
+.nav-bar .nav .active {
+  color: #e1001d;
+  font-weight: bold;
+  background-image: url('../resource/triangle.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+

@@ -26,7 +26,7 @@
       .icon &#xe634;
       p 联系我们
     .menu-item
-      .icon &#xe60f;
+      .icon &#xe606;
       p 全部公告
     .menu-item
       .icon &#xe619;
@@ -46,35 +46,41 @@
 <style lang="less">
 .nav-bar {
   display: flex;
-  padding-top: 20px;
+  padding-top: 10px;
   justify-content: space-between;
 }
 .nav, .menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #484848;
 }
 .menu-item {
   width: 60px;
   height: 60px;
   cursor: pointer;
   .icon {
-    width: 54px;
+    width: 100%;
     text-align: center;
     font-size: 24px;
     line-height: 40px;
   }
   p {
     text-align: center;
-    line-height: 20px;
+    line-height: 18px;
+    font-size: 12px;
   }
 }
+.nav-item:last-child a {
+  border-right: none;
+}
 .nav {
-  font-size: 22px;
+  font-size: 18px;
   color: #484848;
+  font-family: "Microsoft YaHei";
   .nav-item {
     text-align: center;
-    height: 60px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

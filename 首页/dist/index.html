@@ -25,7 +25,7 @@
       
     <!-- 附属css文件 -->
     <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
-    <link rel="stylesheet" href="http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css" charset="utf-8">
+    <link rel="stylesheet" href="./static/css/swiper.4.5.0.min.css" charset="utf-8">
       
   </head>
   <body>
@@ -37,10 +37,10 @@
         <img width="80" height="31" alt="人民网" title="人民网" src="./static/resource/logo.png">
       </a>
     </div>
-  </div><div class="nav-bar w1200" template="navBar"><div class="logo"><img src="./static/resource/people-picture-logo.png"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item"><div class="icon"></div><p>个人中心</p></div></div></div></div>
+  </div><div class="nav-box"><div class="nav-bar w1200" template="navBar"><div class="logo"><img src="./static/resource/people-picture-logo.png"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item"><div class="icon"></div><p>个人中心</p></div></div></div></div><div class="swiper-container" template="swiperBox"><div class="swiper-wrapper"><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/12/4/fc4ce79d347640438ea3b3ded95ed8b5eaTQ_l.jpg"><p>盐城黄海湿地申遗成功</p></a></div><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/11/29/1f1c703fd1cc45478399e57a587fbc7fKIIq_l.jpg"><p>盐城黄海湿地申遗成功</p></a></div><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/11/29/042b8e311d054c0c876238c67bd62119blVK_l.jpg"><p>盐城黄海湿地申遗成功</p></a></div></div><div class="swiper-pagination"></div></div></div>
     
 
-    <script src="http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="./static/js/swiper.4.5.0.min.js" type="text/javascript"  charset="UTF-8"></script>
     <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script><!-- 框架script代码 --><script>// 存储页面基本信息
 var owo = {
   // 手机入口
@@ -62,11 +62,37 @@ owo.script = {
     "template": {
       "navBar": {
         "created": function created() {}
+      },
+      "swiperBox": {
+        "created": function created() {
+          var mySwiper = new Swiper('.swiper-container', {
+            autoplay: {
+              delay: 3000
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true
+            }
+          });
+        }
       }
     }
   },
   "navBar": {
     "created": function created() {}
+  },
+  "swiperBox": {
+    "created": function created() {
+      var mySwiper = new Swiper('.swiper-container', {
+        autoplay: {
+          delay: 3000
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      });
+    }
   }
 };</script>
 <!-- 框架script文件 -->

@@ -83,8 +83,8 @@ module.exports = {
     //   src: "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
     // },
     {
-      name: "idangerous.swiper2.7.0",
-      src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"
+      name: "swiper.4.5.0.min",
+      src: "./src/resource/swiper.4.5.0.min.js"
     },
     // {
     //   name: "idangerous.swiper.3dflow",
@@ -104,8 +104,8 @@ module.exports = {
       resource: true
     },
     {
-      name: "idangerous.swiper2.7.0",
-      src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css",
+      name: "swiper.4.5.0.min",
+      src: "./src/resource/swiper.4.5.0.min.css",
     },
     // {
     //   name: "idangerous.swiper.3dflow",

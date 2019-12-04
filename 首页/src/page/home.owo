@@ -1,7 +1,9 @@
 <template lang="pug">
 .home
   plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page")
-  plug(_name="navBar" _logo="@|logo.png|" _src="./src/module/navBar.owo")
+  .nav-box
+    plug(_name="navBar" _logo="@|logo.png|" _src="./src/module/navBar.owo")
+  plug(_name="swiperBox" _src="./src/module/swiperBox.owo")
 </template>
 
 <script>
@@ -14,5 +16,15 @@
 
 
 <style lang="less">
-
+.title-bar {
+  margin-bottom: 73px;
+}
+.nav-box {
+  box-shadow: 0px 3px 10px #9c94bd;
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  top: 45px;
+}
 </style>

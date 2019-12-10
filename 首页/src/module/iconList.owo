@@ -1,0 +1,38 @@
+<template>
+  <ul class="icon-list">
+    <li><a href="#" target="_blank">伊朗指责美借制裁为页岩油销售抢市场</a></li>
+    <li><a href="#" target="_blank">英美"差评"风波关联"脱欧"的权力争斗？</a></li>
+    <li><a href="#" target="_blank">日本重申不打算撤v销对韩国出口管制</a></li>
+    <li><a href="#" target="_blank">伦敦暴力犯罪居高不下 警力不足是主因</a></li>
+    <li><a href="#" target="_blank">日本重申不打算撤销对韩国出口管制</a></li>
+    <li><a href="#" target="_blank">伦敦暴力犯罪居高不下 警力不足是主因</a></li>
+  </ul>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+  .icon-list {
+    margin-top: 10px;
+  }
+  li {
+    background-image: url("@|list-icon.png|");
+    background-repeat: no-repeat;
+    line-height: 18px;
+    font-size: 18px;
+    padding-left: 20px;
+    color: #484848;
+    margin-bottom: 23px;
+    background-position: left center;
+  }
+  li:hover {
+    color: #e1001d;
+  }
+</style>

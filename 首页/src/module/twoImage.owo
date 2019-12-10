@@ -1,7 +1,18 @@
 <template>
 <div class="two-image">
-  <img class="two-image-left" src="http://www.people.com.cn/NMediaFile/2019/1210/MAIN201912100905297421093176188.jpg">
-  <img class="two-image-right" src="http://www.people.com.cn/NMediaFile/2019/1210/MAIN201912100910176362195635606.jpg">
+  <div class="two-image-left two-image-item">
+    <a href="#">
+      <img width="380" height="220" src="http://www.people.com.cn/NMediaFile/2019/1210/MAIN201912100905297421093176188.jpg">
+      <p>黑龙江垦区农作物航化植保作业全面展开</p>
+    </a>
+  </div>
+  <div class="two-image-right two-image-item">
+    <a href="#">
+      <img width="380" height="220" src="http://www.people.com.cn/NMediaFile/2019/1210/MAIN201912100910176362195635606.jpg">
+      <p>甘肃高台：盛夏雨后黑河湿地风光旖旎美如画</p>
+    </a>
+  </div>
+  
 </div>
 </template>
 
@@ -16,12 +27,21 @@
 
 <style lang="less">
 img {
-  width: 380px;
-  height: 220px;
   display: block;
-  float: left;
 }
 .two-image-left {
+  width: 380px;
+  height: 220px;
   padding-right: 30px;
+}
+.two-image-item {
+  float: left;
+}
+p {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  height: 30px;
 }
 </style>

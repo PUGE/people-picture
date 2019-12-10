@@ -19,8 +19,8 @@
   position: relative;
 }
 h1 {
-  font-size: 48px;
-  line-height: 66px;
+  font-size: 26px;
+  line-height: 48px;
 }
 a {
   display: block;

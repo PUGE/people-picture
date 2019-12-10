@@ -1,5 +1,5 @@
 <template lang="pug">
-.swiper-container
+.swiper-box.swiper-container
   .swiper-wrapper
     .swiper-slide
       a(href="#")
@@ -19,13 +19,13 @@
 <script>
   module.exports = {
     created: function () {
-      var mySwiper = new Swiper('.swiper-container', {
+      var mySwiper = new Swiper(this.$el, {
         loop: true,
         autoplay: {
           delay: 3000
         },
         pagination: {
-          el: '.swiper-pagination',
+          el: owo.query('.swiper-pagination')[0],
           clickable :true,
         },
       })
@@ -35,7 +35,7 @@
 
 
 <style lang="less">
-.swiper-container {
+.swiper-box {
   width: 100%;
   height: 480px;
 }

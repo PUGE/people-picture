@@ -11,6 +11,9 @@
       plug(_name="twoImage" _src="./src/module/twoImage.owo")
     .right.fl
       plug(_name="titleMore" _text="最新公告" _src="./src/module/titleMore.owo")
+      plug(_name="iconList" _src="./src/module/iconList.owo")
+  //- 编辑推荐
+  plug.w1200(_name="recommend" _src="./src/module/recommend.owo")
 </template>
 
 <script>
@@ -48,6 +51,6 @@
   margin-top: 20px;
 }
 .two-image {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 </style>

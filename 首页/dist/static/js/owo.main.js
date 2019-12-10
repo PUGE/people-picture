@@ -1,5 +1,5 @@
-// Tue Dec 10 2019 16:39:38 GMT+0800 (GMT+08:00)
-
+// Tue Dec 10 2019 23:56:36 GMT+0800 (GMT+08:00)
+var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
 

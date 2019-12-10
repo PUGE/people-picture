@@ -285,7 +285,25 @@ li {
 
 .icon-list li:hover {
   color: #e1001d;
+}.owo-hover-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
+.owo-hover-grow:hover, .owo-hover-grow:focus, .owo-hover-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .recommend {
   height: 655px;
   overflow: hidden;
@@ -308,10 +326,14 @@ li {
   position: relative;
 }
 
+.recommend .swiper-slide p {
+  display: none;
+}
+
 .recommend .swiper-slide img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
   left: 0;
   right: 0;
@@ -327,7 +349,7 @@ li {
   z-index: 9;
 }
 
-.recommend .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+.recommend .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
   display: block;
   border-radius: 0;
   width: 25px;
@@ -337,7 +359,7 @@ li {
   margin-left: 25px;
 }
 
-.recommend .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet-active {
+.recommend .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {
   margin-left: 0;
   width: 50px;
 }
@@ -347,7 +369,7 @@ li {
   width: 50px;
   right: 0;
   left: auto;
-  top: 10px;
+  top: 60px;
 }
 
 .recommend .info-box {
@@ -358,6 +380,31 @@ li {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 9;
+}
+
+.recommend .control {
+  position: absolute;
+  bottom: 60px;
+  z-index: 9;
+  left: 40px;
+}
+
+.recommend .control img {
+  display: block;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.recommend .text-info {
+  color: white;
+  width: 280px;
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+  padding: 0 20px;
+  height: 200px;
+  font-size: 20px;
+  line-height: 30px;
 }
 .title-bar {
   margin-bottom: 73px;

@@ -5,39 +5,56 @@
       .swiper-slide
         a(href="#")
           img(src="http://vip-public.people.com.cn/photo/2019/12/4/fc4ce79d347640438ea3b3ded95ed8b5eaTQ_l.jpg")
-          p 盐城黄海湿地申遗成功
+          p 盐城黄海湿地申遗成功1
       .swiper-slide
         a(href="#")
           img(src="http://vip-public.people.com.cn/photo/2019/11/29/1f1c703fd1cc45478399e57a587fbc7fKIIq_l.jpg")
-          p 盐城黄海湿地申遗成功
+          p 盐城黄海湿地申遗成功2
       .swiper-slide
         a(href="#")
           img(src="http://vip-public.people.com.cn/photo/2019/11/29/042b8e311d054c0c876238c67bd62119blVK_l.jpg")
-          p 盐城黄海湿地申遗成功
+          p 盐城黄海湿地申遗成功3
     .swiper-pagination
     //- 左侧信息遮蔽罩
     .info-box
+  .control
+    img.top(src="@|top.png|" o-hover="grow" :tap="prev")
+    img.bottom(src="@|bottom.png|" o-hover="grow" :tap="next")
+  //- 图片介绍文字
+  .text-info 降雨致江西新余大面积受灾受困群众紧急转移
   img.recommend-image(src="@|recommend-title.png|")
 </template>
 
 <script>
-  module.exports = {
-    data: {
-      swiper: null
-    },
-    created: function () {
-      this.data.swiper = new Swiper(this.$el.getElementsByClassName('swiper-container')[0], {
-        loop: true,
-        autoplay: {
-          delay: 5000
+module.exports = {
+  data: {
+    swiper: null
+  },
+  created: function () {
+    this.data.swiper = new Swiper(this.$el.getElementsByClassName('swiper-container')[0], {
+      loop: true,
+      direction : 'vertical',
+      autoplay: {
+        delay: 5000
+      },
+      pagination: {
+        clickable :true,
+        el: this.$el.getElementsByClassName('swiper-pagination')[0],
+      },
+      on:{
+        slideChange: function(){
+          owo.query('.text-info')[0].innerHTML = this.slides[this.activeIndex].getElementsByTagName('p')[0].innerHTML
         },
-        pagination: {
-          clickable :true,
-          el: this.$el.getElementsByClassName('swiper-pagination')[0],
-        },
-      })
-    }
+      },
+    })
+  },
+  prev: function () {
+    this.data.swiper.slidePrev()
+  },
+  next: function () {
+    this.data.swiper.slideNext()
   }
+}
 </script>
 
 
@@ -60,10 +77,13 @@
     height: 100%;
     position: relative;
   }
+  p {
+    display: none;
+  }
   img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     position: absolute;
     left: 0;
     right: 0;
@@ -78,7 +98,7 @@
   top: -10px;
   z-index: 9;
 }
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
   display: block;
   border-radius: 0;
   width: 25px;
@@ -87,7 +107,7 @@
   margin: 10px 0;
   margin-left: 25px;
 }
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet-active {
   margin-left: 0;
   width: 50px;
 }
@@ -96,7 +116,7 @@
   width: 50px;
   right: 0;
   left: auto;
-  top: 10px;
+  top: 60px;
 }
 .info-box {
   position: absolute;
@@ -106,5 +126,27 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 9;
+}
+.control {
+  position: absolute;
+  bottom: 60px;
+  z-index: 9;
+  left: 40px;
+  img {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+  }
+}
+.text-info {
+  color: white;
+  width: 280px;
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+  padding: 0 20px;
+  height: 200px;
+  font-size: 20px;
+  line-height: 30px;
 }
 </style>

@@ -64,25 +64,18 @@
     <li><a href="#" target="_blank">伦敦暴力犯罪居高不下 警力不足是主因</a></li>
     <li><a href="#" target="_blank">日本重申不打算撤销对韩国出口管制</a></li>
     <li><a href="#" target="_blank">伦敦暴力犯罪居高不下 警力不足是主因</a></li>
-  </ul></div></div><div class="recommend w1200" template="recommend"><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/12/4/fc4ce79d347640438ea3b3ded95ed8b5eaTQ_l.jpg"><p>盐城黄海湿地申遗成功</p></a></div><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/11/29/1f1c703fd1cc45478399e57a587fbc7fKIIq_l.jpg"><p>盐城黄海湿地申遗成功</p></a></div><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/11/29/042b8e311d054c0c876238c67bd62119blVK_l.jpg"><p>盐城黄海湿地申遗成功</p></a></div></div><div class="swiper-pagination"></div><div class="info-box"></div></div><img class="recommend-image" src="./static/resource/recommend-title.png"></div></div>
+  </ul></div></div><div class="recommend w1200" template="recommend"><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/12/4/fc4ce79d347640438ea3b3ded95ed8b5eaTQ_l.jpg"><p>盐城黄海湿地申遗成功1</p></a></div><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/11/29/1f1c703fd1cc45478399e57a587fbc7fKIIq_l.jpg"><p>盐城黄海湿地申遗成功2</p></a></div><div class="swiper-slide"><a href="#"><img src="http://vip-public.people.com.cn/photo/2019/11/29/042b8e311d054c0c876238c67bd62119blVK_l.jpg"><p>盐城黄海湿地申遗成功3</p></a></div></div><div class="swiper-pagination"></div><div class="info-box"></div></div><div class="control"><img class="top owo-hover-grow" src="./static/resource/top.png" :tap="prev"><img class="bottom owo-hover-grow" src="./static/resource/bottom.png" :tap="next"></div><div class="text-info">降雨致江西新余大面积受灾受困群众紧急转移</div><img class="recommend-image" src="./static/resource/recommend-title.png"></div></div>
     
 
     <script src="./static/js/swiper.4.5.0.min.js" type="text/javascript"  charset="UTF-8"></script>
-    <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script><!-- 框架script代码 --><script>// 存储页面基本信息
-var owo = {
-  // 手机入口
-  phoneEnter: "null",
-  // 全局方法变量
-  tool: {},
-  // 框架状态变量
-  state: {}
-};
-/*
+    <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script><!-- 框架script代码 --><!-- 框架script文件 -->
+<script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>
+<script>/*
   存储每个页面的函数
   键名：页面名称
   键值：方法列表
 */
-
+owo.phoneEnter = "null";
 owo.script = {
   "home": {
     "created": function created() {},
@@ -123,72 +116,33 @@ owo.script = {
         "created": function created() {
           this.data.swiper = new Swiper(this.$el.getElementsByClassName('swiper-container')[0], {
             loop: true,
+            direction: 'vertical',
             autoplay: {
               delay: 5000
             },
             pagination: {
               clickable: true,
               el: this.$el.getElementsByClassName('swiper-pagination')[0]
+            },
+            on: {
+              slideChange: function slideChange() {
+                owo.query('.text-info')[0].innerHTML = this.slides[this.activeIndex].getElementsByTagName('p')[0].innerHTML;
+              }
             }
           });
+        },
+        "prev": function prev() {
+          this.data.swiper.slidePrev();
+        },
+        "next": function next() {
+          this.data.swiper.slideNext();
         },
         "prop": {
           "class": "w1200"
         }
       }
     }
-  },
-  "navBar": {
-    "created": function created() {}
-  },
-  "swiperBox": {
-    "created": function created() {
-      var mySwiper = new Swiper(this.$el, {
-        loop: true,
-        autoplay: {
-          delay: 3000
-        },
-        pagination: {
-          el: owo.query('.swiper-pagination')[0],
-          clickable: true
-        }
-      });
-    }
-  },
-  "titleMore": {
-    "created": function created() {}
-  },
-  "twoImage": {
-    "created": function created() {}
-  },
-  "titleMore-1": {
-    "created": function created() {}
-  },
-  "iconList": {
-    "created": function created() {}
-  },
-  "recommend": {
-    "data": {
-      "swiper": null
-    },
-    "created": function created() {
-      this.data.swiper = new Swiper(this.$el.getElementsByClassName('swiper-container')[0], {
-        loop: true,
-        autoplay: {
-          delay: 5000
-        },
-        pagination: {
-          clickable: true,
-          el: this.$el.getElementsByClassName('swiper-pagination')[0]
-        }
-      });
-    },
-    "prop": {
-      "class": "w1200"
-    }
   }
 };</script>
-<!-- 框架script文件 -->
-<script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>
   </body>
 </html>

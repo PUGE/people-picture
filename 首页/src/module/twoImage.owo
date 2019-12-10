@@ -1,0 +1,27 @@
+<template>
+<div class="two-image">
+  <img class="two-image-left" src="http://www.people.com.cn/NMediaFile/2019/1210/MAIN201912100905297421093176188.jpg">
+  <img class="two-image-right" src="http://www.people.com.cn/NMediaFile/2019/1210/MAIN201912100910176362195635606.jpg">
+</div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+img {
+  width: 380px;
+  height: 220px;
+  display: block;
+  float: left;
+}
+.two-image-left {
+  padding-right: 30px;
+}
+</style>

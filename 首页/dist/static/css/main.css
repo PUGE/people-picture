@@ -82,3 +82,7 @@ a {
   display: inline-block;
   user-select: none;
 }
+
+.fl {
+  float: left;
+}

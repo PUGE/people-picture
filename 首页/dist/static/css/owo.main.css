@@ -109,7 +109,7 @@ li {
 
 .nav-bar .menu-item {
   width: 60px;
-  height: 60px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ li {
   width: 100%;
   text-align: center;
   font-size: 24px;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .nav-bar .menu-item p {
@@ -231,16 +231,63 @@ li {
   background: #e22f19;
   opacity: 1;
 }
+.title-more {
+  position: relative;
+}
+
+.title-more h1 {
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.title-more a {
+  display: block;
+  color: #969696;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.two-image img {
+  width: 380px;
+  height: 220px;
+  display: block;
+  float: left;
+}
+
+.two-image .two-image-left {
+  padding-right: 30px;
+}
 .title-bar {
   margin-bottom: 73px;
 }
 
 .nav-box {
-  box-shadow: 0px 3px 10px #9c94bd;
+  box-shadow: 0px 0px 6px #9c94bd;
   z-index: 9;
   position: absolute;
   width: 100%;
   background-color: white;
   top: 45px;
+}
+
+.news-card {
+  height: 330px;
+}
+
+.news-card .left {
+  width: 790px;
+  margin-right: 50px;
+}
+
+.news-card .right {
+  width: 360px;
+}
+
+.news-card.w1200 {
+  margin-top: 20px;
+}
+
+.two-image {
+  margin-top: 5px;
 }
 

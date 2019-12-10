@@ -1,0 +1,32 @@
+<template>
+<div class="title-more">
+  <h1>{{prop._text}}</h1>
+  <a href="#">更多>></a>
+</div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.title-more {
+  position: relative;
+}
+h1 {
+  font-size: 48px;
+  line-height: 66px;
+}
+a {
+  display: block;
+  color: #969696;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+</style>

@@ -2930,3 +2930,1989 @@
 [2019-12-11T22:31:56.179] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
 [2019-12-11T22:31:56.179] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
 [2019-12-11T22:31:56.180] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:33:34.017] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:33:34.017] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:33:34.017] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:33:34.017] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:33:34.017] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:33:34.018] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:33:34.018] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:33:34.018] [INFO] default - 开始处理模块: home
+[2019-12-11T22:33:34.047] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:33:34.048] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:33:34.051] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:33:34.053] [DEBUG] default - 模块topBar处理用时: 6 毫秒!
+[2019-12-11T22:33:34.053] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:33:34.080] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:33:34.095] [DEBUG] default - 模块navBar处理用时: 42 毫秒!
+[2019-12-11T22:33:34.095] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:33:34.106] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:33:34.113] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-12-11T22:33:34.113] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:33:34.126] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:33:34.132] [DEBUG] default - 模块searchBar处理用时: 19 毫秒!
+[2019-12-11T22:33:34.132] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:33:34.134] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:33:34.136] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T22:33:34.136] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:33:34.139] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:33:34.142] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T22:33:34.142] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:33:34.142] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:33:34.144] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:33:34.144] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:33:34.144] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:33:34.148] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:33:34.151] [DEBUG] default - 模块iconList处理用时: 7 毫秒!
+[2019-12-11T22:33:34.151] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:33:34.169] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:33:34.176] [DEBUG] default - 模块recommend处理用时: 25 毫秒!
+[2019-12-11T22:33:34.176] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:33:34.190] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:33:34.195] [DEBUG] default - 模块navBar2处理用时: 19 毫秒!
+[2019-12-11T22:33:34.195] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:33:34.229] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:33:34.239] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T22:33:34.239] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:33:34.239] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:33:34.278] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:33:34.285] [DEBUG] default - 模块expandableImageBox处理用时: 46 毫秒!
+[2019-12-11T22:33:34.285] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:33:34.285] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:33:34.318] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:33:34.323] [DEBUG] default - 模块expandableImageBox处理用时: 38 毫秒!
+[2019-12-11T22:33:34.323] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:33:34.323] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:33:34.350] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:33:34.354] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T22:33:34.354] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:33:34.354] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:33:34.385] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:33:34.389] [DEBUG] default - 模块expandableImageBox处理用时: 35 毫秒!
+[2019-12-11T22:33:34.389] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:33:34.401] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:33:34.403] [DEBUG] default - 模块customer处理用时: 14 毫秒!
+[2019-12-11T22:33:34.409] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:33:34.412] [DEBUG] default - 页面home处理用时: 394 毫秒!
+[2019-12-11T22:33:34.412] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:33:34.412] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:33:34.412] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:33:34.413] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:33:34.413] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:33:34.413] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:33:34.432] [INFO] default - 处理字体: {}
+[2019-12-11T22:33:34.438] [INFO] default - 使用postcss处理完毕! 用时: 25 毫秒
+[2019-12-11T22:33:34.438] [INFO] default - 正在处理script!
+[2019-12-11T22:33:34.533] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:33:34.534] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:33:34.534] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:33:34.534] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:33:34.534] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:33:34.534] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:33:34.534] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:33:34.534] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:33:34.534] [DEBUG] default - 输出scriptData
+[2019-12-11T22:33:34.534] [DEBUG] default - 准备输出html!
+[2019-12-11T22:33:34.534] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:33:34.534] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:33:34.535] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:33:34.535] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:33:34.535] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:33:34.535] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:33:34.536] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:33:34.536] [INFO] default - 编译结束!
+[2019-12-11T22:33:34.537] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:33:34.539] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:33:34.539] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:33:34.539] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:33:34.540] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:33:34.540] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:33:34.540] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:34:11.916] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:34:11.916] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:34:11.916] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:34:11.916] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:34:11.916] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:34:11.917] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:34:11.917] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:34:11.917] [INFO] default - 开始处理模块: home
+[2019-12-11T22:34:11.947] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:34:11.947] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:34:11.949] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:34:11.952] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T22:34:11.952] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:34:11.978] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:34:11.994] [DEBUG] default - 模块navBar处理用时: 42 毫秒!
+[2019-12-11T22:34:11.994] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:34:12.005] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:34:12.011] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T22:34:12.011] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:34:12.021] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:34:12.027] [DEBUG] default - 模块searchBar处理用时: 16 毫秒!
+[2019-12-11T22:34:12.027] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:34:12.030] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:34:12.032] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:34:12.032] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:34:12.036] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:34:12.039] [DEBUG] default - 模块twoImage处理用时: 7 毫秒!
+[2019-12-11T22:34:12.039] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:34:12.039] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:34:12.041] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:34:12.041] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:34:12.041] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:34:12.045] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:34:12.049] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T22:34:12.049] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:34:12.068] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:34:12.075] [DEBUG] default - 模块recommend处理用时: 26 毫秒!
+[2019-12-11T22:34:12.075] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:34:12.086] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:34:12.091] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T22:34:12.091] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:34:12.124] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:34:12.132] [DEBUG] default - 模块expandableImageBox处理用时: 41 毫秒!
+[2019-12-11T22:34:12.132] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:34:12.132] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:34:12.166] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:34:12.174] [DEBUG] default - 模块expandableImageBox处理用时: 42 毫秒!
+[2019-12-11T22:34:12.174] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:34:12.174] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:34:12.207] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:34:12.213] [DEBUG] default - 模块expandableImageBox处理用时: 39 毫秒!
+[2019-12-11T22:34:12.213] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:34:12.213] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:34:12.243] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:34:12.246] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T22:34:12.246] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:34:12.246] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:34:12.275] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:34:12.279] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T22:34:12.279] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:34:12.284] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:34:12.286] [DEBUG] default - 模块customer处理用时: 7 毫秒!
+[2019-12-11T22:34:12.291] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:34:12.294] [DEBUG] default - 页面home处理用时: 377 毫秒!
+[2019-12-11T22:34:12.294] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:34:12.294] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:34:12.294] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:34:12.294] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:34:12.294] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:34:12.294] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:34:12.311] [INFO] default - 处理字体: {}
+[2019-12-11T22:34:12.317] [INFO] default - 使用postcss处理完毕! 用时: 23 毫秒
+[2019-12-11T22:34:12.317] [INFO] default - 正在处理script!
+[2019-12-11T22:34:12.404] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:34:12.405] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:34:12.405] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:34:12.405] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:34:12.405] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:34:12.406] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:34:12.406] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:34:12.406] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:34:12.406] [DEBUG] default - 输出scriptData
+[2019-12-11T22:34:12.409] [DEBUG] default - 准备输出html!
+[2019-12-11T22:34:12.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:34:12.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:34:12.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:34:12.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:34:12.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:34:12.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:34:12.411] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:34:12.411] [INFO] default - 编译结束!
+[2019-12-11T22:34:12.412] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:34:12.413] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:34:12.413] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:34:12.413] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:34:12.414] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:34:12.414] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:34:12.414] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:38:51.176] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:38:51.176] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:38:51.176] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:38:51.176] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:38:51.176] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:38:51.176] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:38:51.177] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:38:51.177] [INFO] default - 开始处理模块: home
+[2019-12-11T22:38:51.209] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:38:51.209] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:38:51.212] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:38:51.214] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T22:38:51.214] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:38:51.241] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:38:51.256] [DEBUG] default - 模块navBar处理用时: 42 毫秒!
+[2019-12-11T22:38:51.256] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:38:51.271] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:38:51.279] [DEBUG] default - 模块swiperBox处理用时: 23 毫秒!
+[2019-12-11T22:38:51.279] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:38:51.290] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:38:51.296] [DEBUG] default - 模块searchBar处理用时: 17 毫秒!
+[2019-12-11T22:38:51.296] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:38:51.299] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:38:51.301] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:38:51.301] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:38:51.305] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:38:51.308] [DEBUG] default - 模块twoImage处理用时: 7 毫秒!
+[2019-12-11T22:38:51.308] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:38:51.308] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:38:51.310] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:38:51.310] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:38:51.310] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:38:51.315] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:38:51.318] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T22:38:51.318] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:38:51.332] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:38:51.340] [DEBUG] default - 模块recommend处理用时: 22 毫秒!
+[2019-12-11T22:38:51.340] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:38:51.351] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:38:51.355] [DEBUG] default - 模块navBar2处理用时: 15 毫秒!
+[2019-12-11T22:38:51.355] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:38:51.395] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:38:51.404] [DEBUG] default - 模块expandableImageBox处理用时: 49 毫秒!
+[2019-12-11T22:38:51.404] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:38:51.404] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:38:51.438] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:38:51.444] [DEBUG] default - 模块expandableImageBox处理用时: 40 毫秒!
+[2019-12-11T22:38:51.444] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:38:51.444] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:38:51.478] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:38:51.482] [DEBUG] default - 模块expandableImageBox处理用时: 38 毫秒!
+[2019-12-11T22:38:51.483] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:38:51.483] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:38:51.511] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:38:51.515] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T22:38:51.516] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:38:51.516] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:38:51.542] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:38:51.547] [DEBUG] default - 模块expandableImageBox处理用时: 32 毫秒!
+[2019-12-11T22:38:51.547] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:38:51.561] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:38:51.564] [DEBUG] default - 模块customer处理用时: 17 毫秒!
+[2019-12-11T22:38:51.569] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:38:51.573] [DEBUG] default - 页面home处理用时: 396 毫秒!
+[2019-12-11T22:38:51.573] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:38:51.573] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:38:51.573] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:38:51.573] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:38:51.573] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:38:51.573] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:38:51.593] [INFO] default - 处理字体: {}
+[2019-12-11T22:38:51.598] [INFO] default - 使用postcss处理完毕! 用时: 25 毫秒
+[2019-12-11T22:38:51.598] [INFO] default - 正在处理script!
+[2019-12-11T22:38:51.686] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:38:51.687] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:38:51.687] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:38:51.687] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:38:51.687] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:38:51.687] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:38:51.687] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:38:51.687] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:38:51.687] [DEBUG] default - 输出scriptData
+[2019-12-11T22:38:51.687] [DEBUG] default - 准备输出html!
+[2019-12-11T22:38:51.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:38:51.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:38:51.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:38:51.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:38:51.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:38:51.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:38:51.689] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:38:51.690] [INFO] default - 编译结束!
+[2019-12-11T22:38:51.690] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:38:51.691] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:38:51.691] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:38:51.691] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:38:51.692] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:38:51.692] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:38:51.693] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:39:29.543] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:39:29.543] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:39:29.543] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:39:29.543] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:39:29.543] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:39:29.544] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:39:29.544] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:39:29.544] [INFO] default - 开始处理模块: home
+[2019-12-11T22:39:29.574] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:39:29.574] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:39:29.577] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:39:29.579] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T22:39:29.579] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:39:29.608] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:39:29.624] [DEBUG] default - 模块navBar处理用时: 45 毫秒!
+[2019-12-11T22:39:29.624] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:39:29.635] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:39:29.641] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T22:39:29.642] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:39:29.651] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:39:29.657] [DEBUG] default - 模块searchBar处理用时: 15 毫秒!
+[2019-12-11T22:39:29.657] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:39:29.660] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:39:29.662] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:39:29.662] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:39:29.665] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:39:29.668] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T22:39:29.668] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:39:29.668] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:39:29.670] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:39:29.671] [DEBUG] default - 模块titleMore处理用时: 3 毫秒!
+[2019-12-11T22:39:29.671] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:39:29.674] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:39:29.677] [DEBUG] default - 模块iconList处理用时: 6 毫秒!
+[2019-12-11T22:39:29.677] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:39:29.693] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:39:29.700] [DEBUG] default - 模块recommend处理用时: 23 毫秒!
+[2019-12-11T22:39:29.701] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:39:29.712] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:39:29.715] [DEBUG] default - 模块navBar2处理用时: 14 毫秒!
+[2019-12-11T22:39:29.715] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:39:29.754] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:39:29.766] [DEBUG] default - 模块expandableImageBox处理用时: 51 毫秒!
+[2019-12-11T22:39:29.767] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:39:29.767] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:39:29.802] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:39:29.810] [DEBUG] default - 模块expandableImageBox处理用时: 43 毫秒!
+[2019-12-11T22:39:29.810] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:39:29.810] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:39:29.842] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:39:29.849] [DEBUG] default - 模块expandableImageBox处理用时: 39 毫秒!
+[2019-12-11T22:39:29.850] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:39:29.850] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:39:29.876] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:39:29.880] [DEBUG] default - 模块expandableImageBox处理用时: 30 毫秒!
+[2019-12-11T22:39:29.880] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:39:29.880] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:39:29.909] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:39:29.913] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T22:39:29.913] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:39:29.926] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:39:29.929] [DEBUG] default - 模块customer处理用时: 16 毫秒!
+[2019-12-11T22:39:29.934] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:39:29.938] [DEBUG] default - 页面home处理用时: 394 毫秒!
+[2019-12-11T22:39:29.938] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:39:29.939] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:39:29.939] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:39:29.939] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:39:29.939] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:39:29.939] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:39:29.957] [INFO] default - 处理字体: {}
+[2019-12-11T22:39:29.963] [INFO] default - 使用postcss处理完毕! 用时: 24 毫秒
+[2019-12-11T22:39:29.964] [INFO] default - 正在处理script!
+[2019-12-11T22:39:30.052] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:39:30.054] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:39:30.054] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:39:30.054] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:39:30.054] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:39:30.054] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:39:30.054] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:39:30.054] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:39:30.054] [DEBUG] default - 输出scriptData
+[2019-12-11T22:39:30.058] [DEBUG] default - 准备输出html!
+[2019-12-11T22:39:30.058] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:39:30.058] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:39:30.058] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:39:30.058] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:39:30.058] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:39:30.058] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:39:30.060] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:39:30.060] [INFO] default - 编译结束!
+[2019-12-11T22:39:30.061] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:39:30.062] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:39:30.062] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:39:30.062] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:39:30.062] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:39:30.062] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:39:30.063] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:40:06.832] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:40:06.832] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:40:06.832] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:40:06.832] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:40:06.832] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:40:06.833] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:40:06.833] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:40:06.833] [INFO] default - 开始处理模块: home
+[2019-12-11T22:40:06.865] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:40:06.865] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:40:06.868] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:40:06.870] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T22:40:06.870] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:40:06.896] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:40:06.911] [DEBUG] default - 模块navBar处理用时: 41 毫秒!
+[2019-12-11T22:40:06.911] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:40:06.923] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:40:06.928] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T22:40:06.928] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:40:06.939] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:40:06.945] [DEBUG] default - 模块searchBar处理用时: 17 毫秒!
+[2019-12-11T22:40:06.945] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:40:06.948] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:40:06.950] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:40:06.950] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:40:06.953] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:40:06.956] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T22:40:06.956] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:40:06.956] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:40:06.958] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:40:06.958] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:40:06.959] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:40:06.962] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:40:06.965] [DEBUG] default - 模块iconList处理用时: 7 毫秒!
+[2019-12-11T22:40:06.966] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:40:06.981] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:40:06.990] [DEBUG] default - 模块recommend处理用时: 25 毫秒!
+[2019-12-11T22:40:06.990] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:40:07.002] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:40:07.006] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T22:40:07.006] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:40:07.045] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:40:07.055] [DEBUG] default - 模块expandableImageBox处理用时: 49 毫秒!
+[2019-12-11T22:40:07.055] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:40:07.055] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:40:07.088] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:40:07.096] [DEBUG] default - 模块expandableImageBox处理用时: 41 毫秒!
+[2019-12-11T22:40:07.096] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:40:07.096] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:40:07.135] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:40:07.139] [DEBUG] default - 模块expandableImageBox处理用时: 43 毫秒!
+[2019-12-11T22:40:07.139] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:40:07.139] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:40:07.167] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:40:07.171] [DEBUG] default - 模块expandableImageBox处理用时: 32 毫秒!
+[2019-12-11T22:40:07.171] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:40:07.171] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:40:07.195] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:40:07.200] [DEBUG] default - 模块expandableImageBox处理用时: 29 毫秒!
+[2019-12-11T22:40:07.200] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:40:07.213] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:40:07.216] [DEBUG] default - 模块customer处理用时: 16 毫秒!
+[2019-12-11T22:40:07.222] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:40:07.224] [DEBUG] default - 页面home处理用时: 391 毫秒!
+[2019-12-11T22:40:07.225] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:40:07.225] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:40:07.225] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:40:07.225] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:40:07.225] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:40:07.225] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:40:07.241] [INFO] default - 处理字体: {}
+[2019-12-11T22:40:07.246] [INFO] default - 使用postcss处理完毕! 用时: 21 毫秒
+[2019-12-11T22:40:07.246] [INFO] default - 正在处理script!
+[2019-12-11T22:40:07.336] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:40:07.337] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:40:07.337] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:40:07.337] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:40:07.337] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:40:07.337] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:40:07.338] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:40:07.338] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:40:07.338] [DEBUG] default - 输出scriptData
+[2019-12-11T22:40:07.338] [DEBUG] default - 准备输出html!
+[2019-12-11T22:40:07.338] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:40:07.338] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:40:07.338] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:40:07.338] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:40:07.338] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:40:07.338] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:40:07.339] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:40:07.340] [INFO] default - 编译结束!
+[2019-12-11T22:40:07.340] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:40:07.341] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:40:07.341] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:40:07.341] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:40:07.341] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:40:07.342] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:40:07.342] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:41:14.285] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:41:14.285] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:41:14.285] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:41:14.285] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:41:14.285] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:41:14.286] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:41:14.286] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:41:14.286] [INFO] default - 开始处理模块: home
+[2019-12-11T22:41:14.315] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:41:14.315] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:41:14.317] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:41:14.319] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T22:41:14.320] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:41:14.347] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:41:14.362] [DEBUG] default - 模块navBar处理用时: 43 毫秒!
+[2019-12-11T22:41:14.362] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:41:14.373] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:41:14.381] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-12-11T22:41:14.381] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:41:14.391] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:41:14.396] [DEBUG] default - 模块searchBar处理用时: 15 毫秒!
+[2019-12-11T22:41:14.396] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:41:14.399] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:41:14.402] [DEBUG] default - 模块titleMore处理用时: 6 毫秒!
+[2019-12-11T22:41:14.402] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:41:14.405] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:41:14.409] [DEBUG] default - 模块twoImage处理用时: 7 毫秒!
+[2019-12-11T22:41:14.409] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:41:14.409] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:41:14.411] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:41:14.411] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:41:14.411] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:41:14.416] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:41:14.419] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T22:41:14.419] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:41:14.435] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:41:14.442] [DEBUG] default - 模块recommend处理用时: 23 毫秒!
+[2019-12-11T22:41:14.443] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:41:14.454] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:41:14.458] [DEBUG] default - 模块navBar2处理用时: 15 毫秒!
+[2019-12-11T22:41:14.458] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:41:14.491] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:41:14.501] [DEBUG] default - 模块expandableImageBox处理用时: 43 毫秒!
+[2019-12-11T22:41:14.502] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:41:14.502] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:41:14.539] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:41:14.545] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T22:41:14.545] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:41:14.545] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:41:14.583] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:41:14.588] [DEBUG] default - 模块expandableImageBox处理用时: 43 毫秒!
+[2019-12-11T22:41:14.588] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:41:14.588] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:41:14.621] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:41:14.627] [DEBUG] default - 模块expandableImageBox处理用时: 39 毫秒!
+[2019-12-11T22:41:14.627] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:41:14.627] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:41:14.652] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:41:14.657] [DEBUG] default - 模块expandableImageBox处理用时: 30 毫秒!
+[2019-12-11T22:41:14.657] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:41:14.668] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:41:14.674] [DEBUG] default - 模块customer处理用时: 17 毫秒!
+[2019-12-11T22:41:14.682] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:41:14.687] [DEBUG] default - 页面home处理用时: 401 毫秒!
+[2019-12-11T22:41:14.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:41:14.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:41:14.688] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:41:14.689] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:41:14.689] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:41:14.689] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:41:14.705] [INFO] default - 处理字体: {}
+[2019-12-11T22:41:14.709] [INFO] default - 使用postcss处理完毕! 用时: 20 毫秒
+[2019-12-11T22:41:14.709] [INFO] default - 正在处理script!
+[2019-12-11T22:41:14.806] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:41:14.807] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:41:14.808] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:41:14.808] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:41:14.808] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:41:14.808] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:41:14.808] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:41:14.808] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:41:14.808] [DEBUG] default - 输出scriptData
+[2019-12-11T22:41:14.808] [DEBUG] default - 准备输出html!
+[2019-12-11T22:41:14.808] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:41:14.808] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:41:14.808] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:41:14.808] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:41:14.809] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:41:14.809] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:41:14.810] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:41:14.811] [INFO] default - 编译结束!
+[2019-12-11T22:41:14.811] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:41:14.812] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:41:14.812] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:41:14.812] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:41:14.813] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:41:14.813] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:41:14.814] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:42:23.382] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:42:23.382] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:42:23.382] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:42:23.382] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:42:23.382] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:42:23.383] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:42:23.383] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:42:23.385] [INFO] default - 开始处理模块: home
+[2019-12-11T22:42:23.417] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:42:23.417] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:42:23.419] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:42:23.422] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T22:42:23.422] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:42:23.447] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:42:23.465] [DEBUG] default - 模块navBar处理用时: 43 毫秒!
+[2019-12-11T22:42:23.466] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:42:23.477] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:42:23.484] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-12-11T22:42:23.485] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:42:23.493] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:42:23.499] [DEBUG] default - 模块searchBar处理用时: 15 毫秒!
+[2019-12-11T22:42:23.499] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:42:23.502] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:42:23.504] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:42:23.504] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:42:23.507] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:42:23.510] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T22:42:23.510] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:42:23.510] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:42:23.512] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:42:23.512] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:42:23.513] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:42:23.517] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:42:23.520] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T22:42:23.520] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:42:23.536] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:42:23.544] [DEBUG] default - 模块recommend处理用时: 24 毫秒!
+[2019-12-11T22:42:23.544] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:42:23.556] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:42:23.560] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T22:42:23.560] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:42:23.596] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:42:23.607] [DEBUG] default - 模块expandableImageBox处理用时: 47 毫秒!
+[2019-12-11T22:42:23.607] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:42:23.607] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:42:23.640] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:23.647] [DEBUG] default - 模块expandableImageBox处理用时: 40 毫秒!
+[2019-12-11T22:42:23.647] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:42:23.647] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:42:23.684] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:23.689] [DEBUG] default - 模块expandableImageBox处理用时: 42 毫秒!
+[2019-12-11T22:42:23.689] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:42:23.689] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:42:23.716] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:23.719] [DEBUG] default - 模块expandableImageBox处理用时: 30 毫秒!
+[2019-12-11T22:42:23.719] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:42:23.719] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:42:23.743] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:23.748] [DEBUG] default - 模块expandableImageBox处理用时: 29 毫秒!
+[2019-12-11T22:42:23.748] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:42:23.760] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:42:23.764] [DEBUG] default - 模块customer处理用时: 16 毫秒!
+[2019-12-11T22:42:23.769] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:42:23.772] [DEBUG] default - 页面home处理用时: 389 毫秒!
+[2019-12-11T22:42:23.773] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:42:23.773] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:42:23.773] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:42:23.773] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:42:23.773] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:42:23.773] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:42:23.791] [INFO] default - 处理字体: {}
+[2019-12-11T22:42:23.797] [INFO] default - 使用postcss处理完毕! 用时: 24 毫秒
+[2019-12-11T22:42:23.797] [INFO] default - 正在处理script!
+[2019-12-11T22:42:23.883] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:42:23.884] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:42:23.884] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:42:23.885] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:42:23.885] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:42:23.885] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:42:23.885] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:42:23.885] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:42:23.885] [DEBUG] default - 输出scriptData
+[2019-12-11T22:42:23.889] [DEBUG] default - 准备输出html!
+[2019-12-11T22:42:23.889] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:42:23.889] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:42:23.889] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:42:23.889] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:42:23.889] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:42:23.889] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:42:23.891] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:42:23.891] [INFO] default - 编译结束!
+[2019-12-11T22:42:23.892] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:42:23.893] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:42:23.893] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:42:23.893] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:42:23.893] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:42:23.894] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:42:23.894] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:42:53.804] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:42:53.804] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:42:53.804] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:42:53.804] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:42:53.804] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:42:53.805] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:42:53.805] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:42:53.805] [INFO] default - 开始处理模块: home
+[2019-12-11T22:42:53.836] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:42:53.836] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:42:53.838] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:42:53.841] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T22:42:53.841] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:42:53.870] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:42:53.886] [DEBUG] default - 模块navBar处理用时: 45 毫秒!
+[2019-12-11T22:42:53.886] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:42:53.902] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:42:53.902] [DEBUG] default - 模块swiperBox处理用时: 16 毫秒!
+[2019-12-11T22:42:53.902] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:42:53.917] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:42:53.917] [DEBUG] default - 模块searchBar处理用时: 15 毫秒!
+[2019-12-11T22:42:53.917] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:42:53.933] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:42:53.933] [DEBUG] default - 模块titleMore处理用时: 16 毫秒!
+[2019-12-11T22:42:53.933] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:42:53.949] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:42:53.949] [DEBUG] default - 模块twoImage处理用时: 16 毫秒!
+[2019-12-11T22:42:53.949] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:42:53.949] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:42:53.966] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:42:53.966] [DEBUG] default - 模块titleMore处理用时: 17 毫秒!
+[2019-12-11T22:42:53.966] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:42:53.970] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:42:53.973] [DEBUG] default - 模块iconList处理用时: 7 毫秒!
+[2019-12-11T22:42:53.974] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:42:53.992] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:42:54.000] [DEBUG] default - 模块recommend处理用时: 27 毫秒!
+[2019-12-11T22:42:54.000] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:42:54.010] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:42:54.013] [DEBUG] default - 模块navBar2处理用时: 13 毫秒!
+[2019-12-11T22:42:54.013] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:42:54.050] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:42:54.066] [DEBUG] default - 模块expandableImageBox处理用时: 53 毫秒!
+[2019-12-11T22:42:54.066] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:42:54.066] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:42:54.107] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:54.114] [DEBUG] default - 模块expandableImageBox处理用时: 48 毫秒!
+[2019-12-11T22:42:54.114] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:42:54.114] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:42:54.148] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:54.152] [DEBUG] default - 模块expandableImageBox处理用时: 38 毫秒!
+[2019-12-11T22:42:54.153] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:42:54.153] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:42:54.179] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:54.184] [DEBUG] default - 模块expandableImageBox处理用时: 32 毫秒!
+[2019-12-11T22:42:54.184] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:42:54.184] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:42:54.208] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:42:54.215] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T22:42:54.215] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:42:54.222] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:42:54.228] [DEBUG] default - 模块customer处理用时: 13 毫秒!
+[2019-12-11T22:42:54.234] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:42:54.237] [DEBUG] default - 页面home处理用时: 432 毫秒!
+[2019-12-11T22:42:54.238] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:42:54.238] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:42:54.238] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:42:54.238] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:42:54.238] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:42:54.238] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:42:54.256] [INFO] default - 处理字体: {}
+[2019-12-11T22:42:54.259] [INFO] default - 使用postcss处理完毕! 用时: 21 毫秒
+[2019-12-11T22:42:54.259] [INFO] default - 正在处理script!
+[2019-12-11T22:42:54.334] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:42:54.334] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:42:54.334] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:42:54.334] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:42:54.334] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:42:54.334] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:42:54.334] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:42:54.334] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:42:54.334] [DEBUG] default - 输出scriptData
+[2019-12-11T22:42:54.334] [DEBUG] default - 准备输出html!
+[2019-12-11T22:42:54.334] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:42:54.334] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:42:54.334] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:42:54.334] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:42:54.334] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:42:54.334] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:42:54.334] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:42:54.334] [INFO] default - 编译结束!
+[2019-12-11T22:42:54.334] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:42:54.334] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:42:54.349] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:42:54.349] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:42:54.349] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:42:54.349] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:42:54.349] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:43:03.949] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:43:03.949] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:43:03.949] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:43:03.949] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:43:03.949] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:43:03.950] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:43:03.950] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:43:03.950] [INFO] default - 开始处理模块: home
+[2019-12-11T22:43:03.975] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:43:03.975] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:43:03.991] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:43:03.991] [DEBUG] default - 模块topBar处理用时: 16 毫秒!
+[2019-12-11T22:43:03.991] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:43:04.025] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:43:04.039] [DEBUG] default - 模块navBar处理用时: 48 毫秒!
+[2019-12-11T22:43:04.039] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:43:04.051] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:43:04.057] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-12-11T22:43:04.058] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:43:04.068] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:43:04.074] [DEBUG] default - 模块searchBar处理用时: 16 毫秒!
+[2019-12-11T22:43:04.074] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:43:04.076] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:43:04.079] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:43:04.079] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:43:04.082] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:43:04.085] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T22:43:04.085] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:43:04.085] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:43:04.087] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:43:04.088] [DEBUG] default - 模块titleMore处理用时: 3 毫秒!
+[2019-12-11T22:43:04.088] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:43:04.092] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:43:04.096] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T22:43:04.096] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:43:04.113] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:43:04.120] [DEBUG] default - 模块recommend处理用时: 24 毫秒!
+[2019-12-11T22:43:04.120] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:43:04.131] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:43:04.135] [DEBUG] default - 模块navBar2处理用时: 15 毫秒!
+[2019-12-11T22:43:04.135] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:43:04.169] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:43:04.183] [DEBUG] default - 模块expandableImageBox处理用时: 48 毫秒!
+[2019-12-11T22:43:04.184] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:43:04.184] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:43:04.220] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:04.225] [DEBUG] default - 模块expandableImageBox处理用时: 41 毫秒!
+[2019-12-11T22:43:04.225] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:43:04.225] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:43:04.265] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:04.269] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T22:43:04.269] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:43:04.269] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:43:04.296] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:04.301] [DEBUG] default - 模块expandableImageBox处理用时: 32 毫秒!
+[2019-12-11T22:43:04.301] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:43:04.301] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:43:04.327] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:04.332] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T22:43:04.332] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:43:04.345] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:43:04.350] [DEBUG] default - 模块customer处理用时: 18 毫秒!
+[2019-12-11T22:43:04.357] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:43:04.361] [DEBUG] default - 页面home处理用时: 411 毫秒!
+[2019-12-11T22:43:04.362] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:43:04.362] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:43:04.362] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:43:04.362] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:43:04.362] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:43:04.362] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:43:04.379] [INFO] default - 处理字体: {}
+[2019-12-11T22:43:04.383] [INFO] default - 使用postcss处理完毕! 用时: 21 毫秒
+[2019-12-11T22:43:04.383] [INFO] default - 正在处理script!
+[2019-12-11T22:43:04.473] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:43:04.473] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:43:04.473] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:43:04.473] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:43:04.473] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:43:04.473] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:04.473] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:43:04.473] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:04.473] [DEBUG] default - 输出scriptData
+[2019-12-11T22:43:04.473] [DEBUG] default - 准备输出html!
+[2019-12-11T22:43:04.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:43:04.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:43:04.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:43:04.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:43:04.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:43:04.473] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:43:04.473] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:43:04.473] [INFO] default - 编译结束!
+[2019-12-11T22:43:04.473] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:43:04.473] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:04.473] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:43:04.473] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:43:04.473] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:43:04.473] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:04.473] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:43:09.178] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.css
+[2019-12-11T22:43:09.178] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:43:09.178] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:43:09.178] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.css
+[2019-12-11T22:43:09.178] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:43:09.178] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:43:09.179] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:43:09.179] [INFO] default - 开始处理模块: home
+[2019-12-11T22:43:09.203] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:43:09.203] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:43:09.205] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:43:09.206] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T22:43:09.206] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:43:09.232] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:43:09.242] [DEBUG] default - 模块navBar处理用时: 36 毫秒!
+[2019-12-11T22:43:09.242] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:43:09.254] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:43:09.258] [DEBUG] default - 模块swiperBox处理用时: 16 毫秒!
+[2019-12-11T22:43:09.259] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:43:09.271] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:43:09.275] [DEBUG] default - 模块searchBar处理用时: 17 毫秒!
+[2019-12-11T22:43:09.275] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:43:09.278] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:43:09.279] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T22:43:09.279] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:43:09.282] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:43:09.285] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T22:43:09.286] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:43:09.286] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:43:09.288] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:43:09.288] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:43:09.288] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:43:09.291] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:43:09.294] [DEBUG] default - 模块iconList处理用时: 6 毫秒!
+[2019-12-11T22:43:09.294] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:43:09.309] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:43:09.316] [DEBUG] default - 模块recommend处理用时: 22 毫秒!
+[2019-12-11T22:43:09.316] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:43:09.326] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:43:09.329] [DEBUG] default - 模块navBar2处理用时: 13 毫秒!
+[2019-12-11T22:43:09.329] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:43:09.358] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:43:09.366] [DEBUG] default - 模块expandableImageBox处理用时: 37 毫秒!
+[2019-12-11T22:43:09.367] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:43:09.367] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:43:09.398] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:09.403] [DEBUG] default - 模块expandableImageBox处理用时: 36 毫秒!
+[2019-12-11T22:43:09.403] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:43:09.403] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:43:09.427] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:09.431] [DEBUG] default - 模块expandableImageBox处理用时: 28 毫秒!
+[2019-12-11T22:43:09.431] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:43:09.431] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:43:09.460] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:09.463] [DEBUG] default - 模块expandableImageBox处理用时: 32 毫秒!
+[2019-12-11T22:43:09.463] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:43:09.463] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:43:09.485] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:09.488] [DEBUG] default - 模块expandableImageBox处理用时: 25 毫秒!
+[2019-12-11T22:43:09.488] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:43:09.492] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:43:09.495] [DEBUG] default - 模块customer处理用时: 7 毫秒!
+[2019-12-11T22:43:09.498] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:43:09.500] [DEBUG] default - 页面home处理用时: 321 毫秒!
+[2019-12-11T22:43:09.501] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:43:09.501] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:43:09.501] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:43:09.501] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:43:09.501] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:43:09.501] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:43:09.511] [INFO] default - 开始处理附属css中的资源
+[2019-12-11T22:43:09.511] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-11T22:43:09.511] [INFO] default - 处理字体: {}
+[2019-12-11T22:43:09.513] [INFO] default - 使用postcss处理完毕! 用时: 12 毫秒
+[2019-12-11T22:43:09.514] [INFO] default - 正在处理script!
+[2019-12-11T22:43:09.559] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:43:09.560] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:43:09.560] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:43:09.560] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:43:09.560] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:43:09.560] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:09.560] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:43:09.560] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:09.560] [DEBUG] default - 输出scriptData
+[2019-12-11T22:43:09.560] [DEBUG] default - 准备输出html!
+[2019-12-11T22:43:09.560] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:43:09.560] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:43:09.560] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:43:09.560] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:43:09.560] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:43:09.560] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:43:09.562] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:43:09.562] [INFO] default - 编译结束!
+[2019-12-11T22:43:09.563] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:43:09.564] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.css
+[2019-12-11T22:43:09.564] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:09.564] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:43:09.564] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:43:09.564] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:43:09.564] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:09.564] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\main.css
+[2019-12-11T22:43:09.566] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:43:23.333] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:43:23.333] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:43:23.333] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:43:23.333] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\customer.owo
+[2019-12-11T22:43:23.333] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:43:23.333] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:43:23.333] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:43:23.334] [INFO] default - 开始处理模块: home
+[2019-12-11T22:43:23.373] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:43:23.373] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:43:23.389] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:43:23.389] [DEBUG] default - 模块topBar处理用时: 16 毫秒!
+[2019-12-11T22:43:23.389] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:43:23.420] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:43:23.441] [DEBUG] default - 模块navBar处理用时: 52 毫秒!
+[2019-12-11T22:43:23.442] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:43:23.458] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:43:23.464] [DEBUG] default - 模块swiperBox处理用时: 23 毫秒!
+[2019-12-11T22:43:23.465] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:43:23.476] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:43:23.483] [DEBUG] default - 模块searchBar处理用时: 18 毫秒!
+[2019-12-11T22:43:23.483] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:43:23.486] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:43:23.488] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:43:23.489] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:43:23.492] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:43:23.496] [DEBUG] default - 模块twoImage处理用时: 8 毫秒!
+[2019-12-11T22:43:23.498] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:43:23.498] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:43:23.500] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:43:23.501] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T22:43:23.501] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:43:23.504] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:43:23.508] [DEBUG] default - 模块iconList处理用时: 6 毫秒!
+[2019-12-11T22:43:23.508] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:43:23.525] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:43:23.533] [DEBUG] default - 模块recommend处理用时: 25 毫秒!
+[2019-12-11T22:43:23.533] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:43:23.545] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:43:23.548] [DEBUG] default - 模块navBar2处理用时: 15 毫秒!
+[2019-12-11T22:43:23.549] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:43:23.596] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:43:23.606] [DEBUG] default - 模块expandableImageBox处理用时: 58 毫秒!
+[2019-12-11T22:43:23.606] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:43:23.606] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:43:23.642] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:23.650] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T22:43:23.650] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:43:23.650] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:43:23.682] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:23.686] [DEBUG] default - 模块expandableImageBox处理用时: 36 毫秒!
+[2019-12-11T22:43:23.686] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:43:23.686] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:43:23.713] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:23.717] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T22:43:23.717] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:43:23.717] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:43:23.743] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:23.748] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T22:43:23.748] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:43:23.763] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:43:23.768] [DEBUG] default - 模块customer处理用时: 20 毫秒!
+[2019-12-11T22:43:23.774] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:43:23.779] [DEBUG] default - 页面home处理用时: 445 毫秒!
+[2019-12-11T22:43:23.779] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:43:23.779] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:43:23.780] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:43:23.780] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:43:23.780] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:43:23.780] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:43:23.799] [INFO] default - 处理字体: {}
+[2019-12-11T22:43:23.802] [INFO] default - 使用postcss处理完毕! 用时: 22 毫秒
+[2019-12-11T22:43:23.802] [INFO] default - 正在处理script!
+[2019-12-11T22:43:23.893] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:43:23.894] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:43:23.894] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:43:23.894] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:43:23.894] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:43:23.894] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:23.894] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:43:23.894] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:23.894] [DEBUG] default - 输出scriptData
+[2019-12-11T22:43:23.895] [DEBUG] default - 准备输出html!
+[2019-12-11T22:43:23.895] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:43:23.895] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:43:23.895] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:43:23.895] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:43:23.895] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:43:23.895] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:43:23.896] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:43:23.896] [INFO] default - 编译结束!
+[2019-12-11T22:43:23.897] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:43:23.897] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:23.898] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:43:23.898] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:43:23.898] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:43:23.898] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:23.899] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T22:43:29.354] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.css
+[2019-12-11T22:43:29.354] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T22:43:29.354] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T22:43:29.354] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.css
+[2019-12-11T22:43:29.354] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T22:43:29.354] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T22:43:29.354] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T22:43:29.355] [INFO] default - 开始处理模块: home
+[2019-12-11T22:43:29.375] [INFO] default - 开始处理模块: topBar
+[2019-12-11T22:43:29.375] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T22:43:29.377] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T22:43:29.378] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T22:43:29.378] [INFO] default - 开始处理模块: navBar
+[2019-12-11T22:43:29.398] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T22:43:29.411] [DEBUG] default - 模块navBar处理用时: 33 毫秒!
+[2019-12-11T22:43:29.411] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T22:43:29.423] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T22:43:29.428] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T22:43:29.428] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T22:43:29.436] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T22:43:29.441] [DEBUG] default - 模块searchBar处理用时: 13 毫秒!
+[2019-12-11T22:43:29.441] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T22:43:29.444] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T22:43:29.445] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T22:43:29.445] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T22:43:29.448] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T22:43:29.450] [DEBUG] default - 模块twoImage处理用时: 5 毫秒!
+[2019-12-11T22:43:29.451] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T22:43:29.451] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T22:43:29.453] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T22:43:29.453] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T22:43:29.453] [INFO] default - 开始处理模块: iconList
+[2019-12-11T22:43:29.455] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T22:43:29.458] [DEBUG] default - 模块iconList处理用时: 5 毫秒!
+[2019-12-11T22:43:29.458] [INFO] default - 开始处理模块: recommend
+[2019-12-11T22:43:29.470] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T22:43:29.477] [DEBUG] default - 模块recommend处理用时: 19 毫秒!
+[2019-12-11T22:43:29.477] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T22:43:29.486] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T22:43:29.489] [DEBUG] default - 模块navBar2处理用时: 12 毫秒!
+[2019-12-11T22:43:29.489] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T22:43:29.519] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T22:43:29.526] [DEBUG] default - 模块expandableImageBox处理用时: 37 毫秒!
+[2019-12-11T22:43:29.527] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T22:43:29.527] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T22:43:29.552] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:29.557] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T22:43:29.557] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T22:43:29.557] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T22:43:29.583] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:29.587] [DEBUG] default - 模块expandableImageBox处理用时: 30 毫秒!
+[2019-12-11T22:43:29.587] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T22:43:29.587] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T22:43:29.611] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:29.615] [DEBUG] default - 模块expandableImageBox处理用时: 28 毫秒!
+[2019-12-11T22:43:29.616] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T22:43:29.616] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T22:43:29.637] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T22:43:29.641] [DEBUG] default - 模块expandableImageBox处理用时: 26 毫秒!
+[2019-12-11T22:43:29.641] [INFO] default - 开始处理模块: customer
+[2019-12-11T22:43:29.646] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T22:43:29.649] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-11T22:43:29.652] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T22:43:29.655] [DEBUG] default - 页面home处理用时: 300 毫秒!
+[2019-12-11T22:43:29.655] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T22:43:29.655] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T22:43:29.655] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T22:43:29.655] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T22:43:29.655] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T22:43:29.656] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T22:43:29.667] [INFO] default - 开始处理附属css中的资源
+[2019-12-11T22:43:29.667] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-11T22:43:29.667] [INFO] default - 处理字体: {}
+[2019-12-11T22:43:29.673] [INFO] default - 使用postcss处理完毕! 用时: 17 毫秒
+[2019-12-11T22:43:29.674] [INFO] default - 正在处理script!
+[2019-12-11T22:43:29.709] [INFO] default - 工程中只有一个页面!
+[2019-12-11T22:43:29.709] [INFO] default - js中的资源处理完毕!
+[2019-12-11T22:43:29.709] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T22:43:29.709] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T22:43:29.709] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T22:43:29.709] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:29.709] [DEBUG] default - 处理脚本: main
+[2019-12-11T22:43:29.709] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:29.709] [DEBUG] default - 输出scriptData
+[2019-12-11T22:43:29.709] [DEBUG] default - 准备输出html!
+[2019-12-11T22:43:29.709] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T22:43:29.709] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T22:43:29.709] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T22:43:29.709] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T22:43:29.709] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T22:43:29.709] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T22:43:29.709] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T22:43:29.709] [INFO] default - 编译结束!
+[2019-12-11T22:43:29.709] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T22:43:29.709] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T22:43:29.709] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.css
+[2019-12-11T22:43:29.709] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T22:43:29.709] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T22:43:29.709] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T22:43:29.709] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T22:43:29.709] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\main.css
+[2019-12-11T22:43:29.709] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:35:49.101] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:35:49.101] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:35:49.101] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:35:49.101] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:35:49.101] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:35:49.102] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:35:49.102] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:35:49.102] [INFO] default - 开始处理模块: home
+[2019-12-11T23:35:49.131] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:35:49.131] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:35:49.133] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:35:49.135] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T23:35:49.135] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:35:49.162] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:35:49.176] [DEBUG] default - 模块navBar处理用时: 41 毫秒!
+[2019-12-11T23:35:49.176] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:35:49.189] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:35:49.195] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-12-11T23:35:49.195] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:35:49.206] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:35:49.211] [DEBUG] default - 模块searchBar处理用时: 16 毫秒!
+[2019-12-11T23:35:49.211] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:35:49.214] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:35:49.216] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T23:35:49.216] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:35:49.220] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:35:49.222] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T23:35:49.223] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:35:49.223] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:35:49.225] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:35:49.226] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T23:35:49.226] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:35:49.229] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:35:49.232] [DEBUG] default - 模块iconList处理用时: 6 毫秒!
+[2019-12-11T23:35:49.232] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:35:49.248] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:35:49.257] [DEBUG] default - 模块recommend处理用时: 25 毫秒!
+[2019-12-11T23:35:49.259] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:35:49.272] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:35:49.276] [DEBUG] default - 模块navBar2处理用时: 18 毫秒!
+[2019-12-11T23:35:49.276] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:35:49.308] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:35:49.319] [DEBUG] default - 模块expandableImageBox处理用时: 43 毫秒!
+[2019-12-11T23:35:49.319] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:35:49.319] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:35:49.357] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:35:49.366] [DEBUG] default - 模块expandableImageBox处理用时: 47 毫秒!
+[2019-12-11T23:35:49.366] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:35:49.366] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:35:49.402] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:35:49.406] [DEBUG] default - 模块expandableImageBox处理用时: 40 毫秒!
+[2019-12-11T23:35:49.406] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:35:49.406] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:35:49.433] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:35:49.437] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T23:35:49.438] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:35:49.438] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:35:49.464] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:35:49.468] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T23:35:49.468] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:35:49.474] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:35:49.479] [DEBUG] default - 模块customer处理用时: 11 毫秒!
+[2019-12-11T23:35:49.484] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:35:49.487] [DEBUG] default - 页面home处理用时: 385 毫秒!
+[2019-12-11T23:35:49.487] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:35:49.487] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:35:49.488] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:35:49.488] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:35:49.488] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:35:49.488] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:35:49.508] [INFO] default - 处理字体: {}
+[2019-12-11T23:35:49.513] [INFO] default - 使用postcss处理完毕! 用时: 25 毫秒
+[2019-12-11T23:35:49.513] [INFO] default - 正在处理script!
+[2019-12-11T23:35:49.606] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:35:49.607] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:35:49.608] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:35:49.608] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:35:49.608] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:35:49.608] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:35:49.608] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:35:49.608] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:35:49.608] [DEBUG] default - 输出scriptData
+[2019-12-11T23:35:49.608] [DEBUG] default - 准备输出html!
+[2019-12-11T23:35:49.608] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:35:49.608] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:35:49.608] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:35:49.608] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:35:49.608] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:35:49.608] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:35:49.609] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:35:49.610] [INFO] default - 编译结束!
+[2019-12-11T23:35:49.610] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:35:49.611] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:35:49.611] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:35:49.611] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:35:49.612] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:35:49.612] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:35:49.613] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:40:12.327] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:40:12.327] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:40:12.327] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:40:12.327] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:40:12.327] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:40:12.328] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:40:12.328] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:40:12.328] [INFO] default - 开始处理模块: home
+[2019-12-11T23:40:12.360] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:40:12.360] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:40:12.362] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:40:12.364] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T23:40:12.364] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:40:12.392] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:40:12.409] [DEBUG] default - 模块navBar处理用时: 45 毫秒!
+[2019-12-11T23:40:12.409] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:40:12.421] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:40:12.427] [DEBUG] default - 模块swiperBox处理用时: 18 毫秒!
+[2019-12-11T23:40:12.427] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:40:12.437] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:40:12.444] [DEBUG] default - 模块searchBar处理用时: 17 毫秒!
+[2019-12-11T23:40:12.444] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:40:12.446] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:40:12.448] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T23:40:12.448] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:40:12.452] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:40:12.455] [DEBUG] default - 模块twoImage处理用时: 7 毫秒!
+[2019-12-11T23:40:12.455] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:40:12.455] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:40:12.458] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:40:12.458] [DEBUG] default - 模块titleMore处理用时: 3 毫秒!
+[2019-12-11T23:40:12.458] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:40:12.462] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:40:12.466] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T23:40:12.466] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:40:12.482] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:40:12.489] [DEBUG] default - 模块recommend处理用时: 23 毫秒!
+[2019-12-11T23:40:12.489] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:40:12.501] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:40:12.505] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T23:40:12.505] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:40:12.543] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:40:12.558] [DEBUG] default - 模块expandableImageBox处理用时: 53 毫秒!
+[2019-12-11T23:40:12.558] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:40:12.558] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:40:12.593] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:40:12.599] [DEBUG] default - 模块expandableImageBox处理用时: 41 毫秒!
+[2019-12-11T23:40:12.599] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:40:12.599] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:40:12.633] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:40:12.638] [DEBUG] default - 模块expandableImageBox处理用时: 39 毫秒!
+[2019-12-11T23:40:12.638] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:40:12.638] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:40:12.665] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:40:12.670] [DEBUG] default - 模块expandableImageBox处理用时: 32 毫秒!
+[2019-12-11T23:40:12.671] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:40:12.671] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:40:12.698] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:40:12.703] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T23:40:12.703] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:40:12.708] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:40:12.711] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-11T23:40:12.716] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:40:12.719] [DEBUG] default - 页面home处理用时: 391 毫秒!
+[2019-12-11T23:40:12.720] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:40:12.720] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:40:12.720] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:40:12.720] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:40:12.720] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:40:12.720] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:40:12.734] [INFO] default - 处理字体: {}
+[2019-12-11T23:40:12.738] [INFO] default - 使用postcss处理完毕! 用时: 18 毫秒
+[2019-12-11T23:40:12.738] [INFO] default - 正在处理script!
+[2019-12-11T23:40:12.828] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:40:12.829] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:40:12.832] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:40:12.832] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:40:12.832] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:40:12.832] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:40:12.832] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:40:12.832] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:40:12.832] [DEBUG] default - 输出scriptData
+[2019-12-11T23:40:12.833] [DEBUG] default - 准备输出html!
+[2019-12-11T23:40:12.833] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:40:12.833] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:40:12.833] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:40:12.837] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:40:12.839] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:40:12.839] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:40:12.841] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:40:12.841] [INFO] default - 编译结束!
+[2019-12-11T23:40:12.842] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:40:12.843] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:40:12.843] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:40:12.843] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:40:12.844] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:40:12.844] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:40:12.846] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:41:51.319] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\page\home.owo
+[2019-12-11T23:41:51.319] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:41:51.319] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:41:51.319] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\page\home.owo
+[2019-12-11T23:41:51.319] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:41:51.320] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:41:51.320] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:41:51.320] [INFO] default - 开始处理模块: home
+[2019-12-11T23:41:51.357] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:41:51.357] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:41:51.359] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:41:51.361] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T23:41:51.361] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:41:51.389] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:41:51.403] [DEBUG] default - 模块navBar处理用时: 42 毫秒!
+[2019-12-11T23:41:51.403] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:41:51.416] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:41:51.422] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-12-11T23:41:51.422] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:41:51.433] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:41:51.439] [DEBUG] default - 模块searchBar处理用时: 17 毫秒!
+[2019-12-11T23:41:51.439] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:41:51.443] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:41:51.445] [DEBUG] default - 模块titleMore处理用时: 6 毫秒!
+[2019-12-11T23:41:51.445] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:41:51.448] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:41:51.450] [DEBUG] default - 模块twoImage处理用时: 5 毫秒!
+[2019-12-11T23:41:51.450] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:41:51.450] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:41:51.453] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:41:51.454] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T23:41:51.454] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:41:51.457] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:41:51.460] [DEBUG] default - 模块iconList处理用时: 6 毫秒!
+[2019-12-11T23:41:51.460] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:41:51.476] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:41:51.484] [DEBUG] default - 模块recommend处理用时: 24 毫秒!
+[2019-12-11T23:41:51.484] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:41:51.494] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:41:51.498] [DEBUG] default - 模块navBar2处理用时: 14 毫秒!
+[2019-12-11T23:41:51.498] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:41:51.531] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:41:51.542] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T23:41:51.542] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:41:51.542] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:41:51.581] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:41:51.590] [DEBUG] default - 模块expandableImageBox处理用时: 48 毫秒!
+[2019-12-11T23:41:51.590] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:41:51.590] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:41:51.622] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:41:51.628] [DEBUG] default - 模块expandableImageBox处理用时: 38 毫秒!
+[2019-12-11T23:41:51.628] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:41:51.628] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:41:51.660] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:41:51.664] [DEBUG] default - 模块expandableImageBox处理用时: 36 毫秒!
+[2019-12-11T23:41:51.664] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:41:51.664] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:41:51.690] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:41:51.694] [DEBUG] default - 模块expandableImageBox处理用时: 30 毫秒!
+[2019-12-11T23:41:51.694] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:41:51.703] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:41:51.706] [DEBUG] default - 模块customer处理用时: 12 毫秒!
+[2019-12-11T23:41:51.706] [INFO] default - 开始处理模块: copyright
+[2019-12-11T23:41:51.722] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-11T23:41:51.725] [DEBUG] default - 模块copyright处理用时: 19 毫秒!
+[2019-12-11T23:41:51.731] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:41:51.735] [DEBUG] default - 页面home处理用时: 415 毫秒!
+[2019-12-11T23:41:51.736] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:41:51.736] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:41:51.736] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:41:51.736] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:41:51.736] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:41:51.736] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:41:51.755] [INFO] default - 处理字体: {}
+[2019-12-11T23:41:51.759] [INFO] default - 使用postcss处理完毕! 用时: 23 毫秒
+[2019-12-11T23:41:51.759] [INFO] default - 正在处理script!
+[2019-12-11T23:41:51.848] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:41:51.849] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:41:51.849] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:41:51.849] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:41:51.850] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:41:51.850] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:41:51.850] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:41:51.850] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:41:51.850] [DEBUG] default - 输出scriptData
+[2019-12-11T23:41:51.850] [DEBUG] default - 准备输出html!
+[2019-12-11T23:41:51.850] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:41:51.850] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:41:51.850] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:41:51.850] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:41:51.850] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:41:51.850] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:41:51.851] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:41:51.852] [INFO] default - 编译结束!
+[2019-12-11T23:41:51.852] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:41:51.853] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:41:51.853] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:41:51.853] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:41:51.853] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:41:51.853] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:41:51.854] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:42:03.905] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\page\home.owo
+[2019-12-11T23:42:03.905] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:42:03.905] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:42:03.905] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\page\home.owo
+[2019-12-11T23:42:03.905] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:42:03.905] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:42:03.906] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:42:03.906] [INFO] default - 开始处理模块: home
+[2019-12-11T23:42:03.936] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:42:03.937] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:42:03.939] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:42:03.940] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T23:42:03.940] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:42:03.965] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:42:03.974] [DEBUG] default - 模块navBar处理用时: 34 毫秒!
+[2019-12-11T23:42:03.974] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:42:03.986] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:42:03.991] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T23:42:03.991] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:42:03.999] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:42:04.004] [DEBUG] default - 模块searchBar处理用时: 13 毫秒!
+[2019-12-11T23:42:04.004] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:42:04.006] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:42:04.008] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T23:42:04.008] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:42:04.010] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:42:04.014] [DEBUG] default - 模块twoImage处理用时: 5 毫秒!
+[2019-12-11T23:42:04.014] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:42:04.014] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:42:04.016] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:42:04.017] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T23:42:04.017] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:42:04.021] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:42:04.024] [DEBUG] default - 模块iconList处理用时: 7 毫秒!
+[2019-12-11T23:42:04.024] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:42:04.037] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:42:04.043] [DEBUG] default - 模块recommend处理用时: 19 毫秒!
+[2019-12-11T23:42:04.044] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:42:04.053] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:42:04.057] [DEBUG] default - 模块navBar2处理用时: 13 毫秒!
+[2019-12-11T23:42:04.057] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:42:04.090] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:42:04.097] [DEBUG] default - 模块expandableImageBox处理用时: 40 毫秒!
+[2019-12-11T23:42:04.097] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:42:04.097] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:42:04.128] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:42:04.132] [DEBUG] default - 模块expandableImageBox处理用时: 35 毫秒!
+[2019-12-11T23:42:04.132] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:42:04.132] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:42:04.163] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:42:04.167] [DEBUG] default - 模块expandableImageBox处理用时: 35 毫秒!
+[2019-12-11T23:42:04.167] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:42:04.167] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:42:04.199] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:42:04.203] [DEBUG] default - 模块expandableImageBox处理用时: 36 毫秒!
+[2019-12-11T23:42:04.203] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:42:04.203] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:42:04.226] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:42:04.229] [DEBUG] default - 模块expandableImageBox处理用时: 26 毫秒!
+[2019-12-11T23:42:04.229] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:42:04.234] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:42:04.237] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-11T23:42:04.237] [INFO] default - 开始处理模块: copyright
+[2019-12-11T23:42:04.243] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-11T23:42:04.245] [DEBUG] default - 模块copyright处理用时: 8 毫秒!
+[2019-12-11T23:42:04.248] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:42:04.250] [DEBUG] default - 页面home处理用时: 344 毫秒!
+[2019-12-11T23:42:04.251] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:42:04.251] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:42:04.251] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:42:04.251] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:42:04.251] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:42:04.251] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:42:04.267] [INFO] default - 处理字体: {}
+[2019-12-11T23:42:04.270] [INFO] default - 使用postcss处理完毕! 用时: 19 毫秒
+[2019-12-11T23:42:04.270] [INFO] default - 正在处理script!
+[2019-12-11T23:42:04.310] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:42:04.311] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:42:04.311] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:42:04.311] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:42:04.311] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:42:04.311] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:42:04.311] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:42:04.311] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:42:04.311] [DEBUG] default - 输出scriptData
+[2019-12-11T23:42:04.311] [DEBUG] default - 准备输出html!
+[2019-12-11T23:42:04.311] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:42:04.311] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:42:04.311] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:42:04.311] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:42:04.311] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:42:04.311] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:42:04.313] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:42:04.313] [INFO] default - 编译结束!
+[2019-12-11T23:42:04.313] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:42:04.316] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:42:04.316] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:42:04.317] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:42:04.320] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:42:04.335] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:42:04.340] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:43:06.787] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\page\home.owo
+[2019-12-11T23:43:06.787] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:43:06.787] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:43:06.787] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\page\home.owo
+[2019-12-11T23:43:06.787] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:43:06.787] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:43:06.787] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:43:06.788] [INFO] default - 开始处理模块: home
+[2019-12-11T23:43:06.826] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:43:06.826] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:43:06.829] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:43:06.831] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T23:43:06.831] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:43:06.860] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:43:06.875] [DEBUG] default - 模块navBar处理用时: 44 毫秒!
+[2019-12-11T23:43:06.875] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:43:06.886] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:43:06.892] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T23:43:06.892] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:43:06.903] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:43:06.909] [DEBUG] default - 模块searchBar处理用时: 17 毫秒!
+[2019-12-11T23:43:06.909] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:43:06.912] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:43:06.914] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T23:43:06.914] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:43:06.918] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:43:06.920] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T23:43:06.920] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:43:06.920] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:43:06.922] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:43:06.922] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T23:43:06.922] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:43:06.927] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:43:06.930] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T23:43:06.930] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:43:06.948] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:43:06.955] [DEBUG] default - 模块recommend处理用时: 25 毫秒!
+[2019-12-11T23:43:06.956] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:43:06.967] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:43:06.971] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T23:43:06.972] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:43:07.006] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:43:07.016] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T23:43:07.016] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:43:07.016] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:43:07.053] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:07.060] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T23:43:07.060] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:43:07.060] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:43:07.094] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:07.098] [DEBUG] default - 模块expandableImageBox处理用时: 38 毫秒!
+[2019-12-11T23:43:07.098] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:43:07.098] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:43:07.127] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:07.132] [DEBUG] default - 模块expandableImageBox处理用时: 34 毫秒!
+[2019-12-11T23:43:07.133] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:43:07.133] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:43:07.160] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:07.165] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T23:43:07.165] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:43:07.170] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:43:07.174] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-11T23:43:07.174] [INFO] default - 开始处理模块: copyright
+[2019-12-11T23:43:07.181] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-11T23:43:07.182] [DEBUG] default - 模块copyright处理用时: 8 毫秒!
+[2019-12-11T23:43:07.187] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:43:07.190] [DEBUG] default - 页面home处理用时: 402 毫秒!
+[2019-12-11T23:43:07.191] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:43:07.191] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:43:07.191] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:43:07.191] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:43:07.191] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:43:07.191] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:43:07.211] [INFO] default - 处理字体: {}
+[2019-12-11T23:43:07.215] [INFO] default - 使用postcss处理完毕! 用时: 24 毫秒
+[2019-12-11T23:43:07.216] [INFO] default - 正在处理script!
+[2019-12-11T23:43:07.306] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:43:07.307] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:43:07.308] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:43:07.308] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:43:07.308] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:43:07.308] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:43:07.308] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:43:07.308] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:43:07.308] [DEBUG] default - 输出scriptData
+[2019-12-11T23:43:07.308] [DEBUG] default - 准备输出html!
+[2019-12-11T23:43:07.308] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:43:07.308] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:43:07.308] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:43:07.308] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:43:07.308] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:43:07.308] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:43:07.310] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:43:07.310] [INFO] default - 编译结束!
+[2019-12-11T23:43:07.311] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:43:07.311] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:43:07.312] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:43:07.312] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:43:07.312] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:43:07.312] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:43:07.313] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:43:58.159] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:43:58.159] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:43:58.159] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:43:58.159] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:43:58.159] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:43:58.160] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:43:58.160] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:43:58.160] [INFO] default - 开始处理模块: home
+[2019-12-11T23:43:58.192] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:43:58.192] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:43:58.194] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:43:58.196] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-11T23:43:58.196] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:43:58.223] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:43:58.239] [DEBUG] default - 模块navBar处理用时: 43 毫秒!
+[2019-12-11T23:43:58.239] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:43:58.251] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:43:58.256] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T23:43:58.256] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:43:58.266] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:43:58.272] [DEBUG] default - 模块searchBar处理用时: 16 毫秒!
+[2019-12-11T23:43:58.272] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:43:58.275] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:43:58.277] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T23:43:58.277] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:43:58.280] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:43:58.283] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T23:43:58.283] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:43:58.283] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:43:58.285] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:43:58.285] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T23:43:58.285] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:43:58.289] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:43:58.292] [DEBUG] default - 模块iconList处理用时: 7 毫秒!
+[2019-12-11T23:43:58.292] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:43:58.308] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:43:58.316] [DEBUG] default - 模块recommend处理用时: 24 毫秒!
+[2019-12-11T23:43:58.317] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:43:58.330] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:43:58.333] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T23:43:58.333] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:43:58.374] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:43:58.384] [DEBUG] default - 模块expandableImageBox处理用时: 51 毫秒!
+[2019-12-11T23:43:58.384] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:43:58.384] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:43:58.418] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:58.424] [DEBUG] default - 模块expandableImageBox处理用时: 40 毫秒!
+[2019-12-11T23:43:58.424] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:43:58.424] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:43:58.458] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:58.462] [DEBUG] default - 模块expandableImageBox处理用时: 38 毫秒!
+[2019-12-11T23:43:58.463] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:43:58.463] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:43:58.490] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:58.493] [DEBUG] default - 模块expandableImageBox处理用时: 30 毫秒!
+[2019-12-11T23:43:58.493] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:43:58.493] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:43:58.519] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:43:58.524] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T23:43:58.524] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:43:58.529] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:43:58.532] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-11T23:43:58.532] [INFO] default - 开始处理模块: copyright
+[2019-12-11T23:43:58.549] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-11T23:43:58.552] [DEBUG] default - 模块copyright处理用时: 20 毫秒!
+[2019-12-11T23:43:58.559] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:43:58.564] [DEBUG] default - 页面home处理用时: 404 毫秒!
+[2019-12-11T23:43:58.564] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:43:58.564] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:43:58.564] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:43:58.565] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:43:58.565] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:43:58.565] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:43:58.581] [INFO] default - 处理字体: {}
+[2019-12-11T23:43:58.586] [INFO] default - 使用postcss处理完毕! 用时: 21 毫秒
+[2019-12-11T23:43:58.586] [INFO] default - 正在处理script!
+[2019-12-11T23:43:58.668] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:43:58.669] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:43:58.669] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:43:58.669] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:43:58.669] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:43:58.669] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:43:58.669] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:43:58.669] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:43:58.669] [DEBUG] default - 输出scriptData
+[2019-12-11T23:43:58.670] [DEBUG] default - 准备输出html!
+[2019-12-11T23:43:58.670] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:43:58.670] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:43:58.670] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:43:58.670] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:43:58.670] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:43:58.670] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:43:58.671] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:43:58.671] [INFO] default - 编译结束!
+[2019-12-11T23:43:58.672] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:43:58.673] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:43:58.673] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:43:58.673] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:43:58.673] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:43:58.673] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:43:58.674] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:44:27.319] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:44:27.319] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:44:27.319] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:44:27.319] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:44:27.319] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:44:27.320] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:44:27.320] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:44:27.320] [INFO] default - 开始处理模块: home
+[2019-12-11T23:44:27.350] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:44:27.351] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:44:27.353] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:44:27.355] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T23:44:27.355] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:44:27.383] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:44:27.398] [DEBUG] default - 模块navBar处理用时: 43 毫秒!
+[2019-12-11T23:44:27.399] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:44:27.411] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:44:27.417] [DEBUG] default - 模块swiperBox处理用时: 19 毫秒!
+[2019-12-11T23:44:27.417] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:44:27.427] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:44:27.433] [DEBUG] default - 模块searchBar处理用时: 16 毫秒!
+[2019-12-11T23:44:27.434] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:44:27.437] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:44:27.439] [DEBUG] default - 模块titleMore处理用时: 5 毫秒!
+[2019-12-11T23:44:27.439] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:44:27.442] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:44:27.445] [DEBUG] default - 模块twoImage处理用时: 6 毫秒!
+[2019-12-11T23:44:27.445] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:44:27.445] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:44:27.447] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:44:27.447] [DEBUG] default - 模块titleMore处理用时: 2 毫秒!
+[2019-12-11T23:44:27.447] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:44:27.452] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:44:27.455] [DEBUG] default - 模块iconList处理用时: 8 毫秒!
+[2019-12-11T23:44:27.456] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:44:27.472] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:44:27.480] [DEBUG] default - 模块recommend处理用时: 24 毫秒!
+[2019-12-11T23:44:27.480] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:44:27.492] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:44:27.495] [DEBUG] default - 模块navBar2处理用时: 15 毫秒!
+[2019-12-11T23:44:27.496] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:44:27.533] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:44:27.541] [DEBUG] default - 模块expandableImageBox处理用时: 45 毫秒!
+[2019-12-11T23:44:27.541] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:44:27.541] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:44:27.583] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:27.590] [DEBUG] default - 模块expandableImageBox处理用时: 49 毫秒!
+[2019-12-11T23:44:27.590] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:44:27.590] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:44:27.623] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:27.627] [DEBUG] default - 模块expandableImageBox处理用时: 37 毫秒!
+[2019-12-11T23:44:27.627] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:44:27.627] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:44:27.656] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:27.660] [DEBUG] default - 模块expandableImageBox处理用时: 33 毫秒!
+[2019-12-11T23:44:27.660] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:44:27.660] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:44:27.684] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:27.689] [DEBUG] default - 模块expandableImageBox处理用时: 29 毫秒!
+[2019-12-11T23:44:27.689] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:44:27.694] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:44:27.697] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-11T23:44:27.698] [INFO] default - 开始处理模块: copyright
+[2019-12-11T23:44:27.716] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-11T23:44:27.719] [DEBUG] default - 模块copyright处理用时: 21 毫秒!
+[2019-12-11T23:44:27.724] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:44:27.729] [DEBUG] default - 页面home处理用时: 409 毫秒!
+[2019-12-11T23:44:27.730] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:44:27.730] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:44:27.730] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:44:27.730] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:44:27.730] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:44:27.730] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:44:27.750] [INFO] default - 处理字体: {}
+[2019-12-11T23:44:27.754] [INFO] default - 使用postcss处理完毕! 用时: 24 毫秒
+[2019-12-11T23:44:27.754] [INFO] default - 正在处理script!
+[2019-12-11T23:44:27.851] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:44:27.853] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:44:27.853] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:44:27.853] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:44:27.853] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:44:27.853] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:44:27.853] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:44:27.853] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:44:27.853] [DEBUG] default - 输出scriptData
+[2019-12-11T23:44:27.854] [DEBUG] default - 准备输出html!
+[2019-12-11T23:44:27.854] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:44:27.854] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:44:27.854] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:44:27.854] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:44:27.854] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:44:27.854] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:44:27.855] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:44:27.856] [INFO] default - 编译结束!
+[2019-12-11T23:44:27.856] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:44:27.857] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:44:27.857] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:44:27.857] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:44:27.857] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:44:27.857] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:44:27.858] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js
+[2019-12-11T23:44:40.887] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:44:40.887] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-11T23:44:40.887] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\首页
+[2019-12-11T23:44:40.887] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\首页\src\module\copyright.owo
+[2019-12-11T23:44:40.887] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-11T23:44:40.887] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-11T23:44:40.888] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-11T23:44:40.888] [INFO] default - 开始处理模块: home
+[2019-12-11T23:44:40.920] [INFO] default - 开始处理模块: topBar
+[2019-12-11T23:44:40.920] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\people-picture\首页\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-11T23:44:40.923] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-11T23:44:40.925] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-11T23:44:40.925] [INFO] default - 开始处理模块: navBar
+[2019-12-11T23:44:40.951] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-11T23:44:40.965] [DEBUG] default - 模块navBar处理用时: 40 毫秒!
+[2019-12-11T23:44:40.965] [INFO] default - 开始处理模块: swiperBox
+[2019-12-11T23:44:40.977] [DEBUG] default - 缓存模板: swiperBox./src/module/swiperBox.owo
+[2019-12-11T23:44:40.982] [DEBUG] default - 模块swiperBox处理用时: 17 毫秒!
+[2019-12-11T23:44:40.983] [INFO] default - 开始处理模块: searchBar
+[2019-12-11T23:44:40.993] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-11T23:44:40.998] [DEBUG] default - 模块searchBar处理用时: 15 毫秒!
+[2019-12-11T23:44:41.000] [INFO] default - 开始处理模块: titleMore
+[2019-12-11T23:44:41.002] [DEBUG] default - 缓存模板: titleMore./src/module/titleMore.owo
+[2019-12-11T23:44:41.004] [DEBUG] default - 模块titleMore处理用时: 6 毫秒!
+[2019-12-11T23:44:41.004] [INFO] default - 开始处理模块: twoImage
+[2019-12-11T23:44:41.010] [DEBUG] default - 缓存模板: twoImage./src/module/twoImage.owo
+[2019-12-11T23:44:41.013] [DEBUG] default - 模块twoImage处理用时: 9 毫秒!
+[2019-12-11T23:44:41.013] [DEBUG] default - 模块 titleMore 因名称重复被重命名为 titleMore-1
+[2019-12-11T23:44:41.013] [INFO] default - 开始处理模块: titleMore-1
+[2019-12-11T23:44:41.016] [DEBUG] default - 智能跳过打包titleMore./src/module/titleMore.owo的重复样式!
+[2019-12-11T23:44:41.017] [DEBUG] default - 模块titleMore处理用时: 4 毫秒!
+[2019-12-11T23:44:41.017] [INFO] default - 开始处理模块: iconList
+[2019-12-11T23:44:41.020] [DEBUG] default - 缓存模板: iconList./src/module/iconList.owo
+[2019-12-11T23:44:41.023] [DEBUG] default - 模块iconList处理用时: 6 毫秒!
+[2019-12-11T23:44:41.024] [INFO] default - 开始处理模块: recommend
+[2019-12-11T23:44:41.040] [DEBUG] default - 缓存模板: recommend./src/module/recommend.owo
+[2019-12-11T23:44:41.047] [DEBUG] default - 模块recommend处理用时: 24 毫秒!
+[2019-12-11T23:44:41.047] [INFO] default - 开始处理模块: navBar2
+[2019-12-11T23:44:41.058] [DEBUG] default - 缓存模板: navBar2./src/module/navBar2.owo
+[2019-12-11T23:44:41.063] [DEBUG] default - 模块navBar2处理用时: 16 毫秒!
+[2019-12-11T23:44:41.063] [INFO] default - 开始处理模块: expandableImageBox
+[2019-12-11T23:44:41.096] [DEBUG] default - 缓存模板: expandableImageBox./src/module/expandableImageBox.owo
+[2019-12-11T23:44:41.105] [DEBUG] default - 模块expandableImageBox处理用时: 42 毫秒!
+[2019-12-11T23:44:41.106] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-1
+[2019-12-11T23:44:41.106] [INFO] default - 开始处理模块: expandableImageBox-1
+[2019-12-11T23:44:41.139] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:41.148] [DEBUG] default - 模块expandableImageBox处理用时: 43 毫秒!
+[2019-12-11T23:44:41.148] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-2
+[2019-12-11T23:44:41.148] [INFO] default - 开始处理模块: expandableImageBox-2
+[2019-12-11T23:44:41.186] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:41.192] [DEBUG] default - 模块expandableImageBox处理用时: 44 毫秒!
+[2019-12-11T23:44:41.192] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-3
+[2019-12-11T23:44:41.192] [INFO] default - 开始处理模块: expandableImageBox-3
+[2019-12-11T23:44:41.217] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:41.223] [DEBUG] default - 模块expandableImageBox处理用时: 31 毫秒!
+[2019-12-11T23:44:41.223] [DEBUG] default - 模块 expandableImageBox 因名称重复被重命名为 expandableImageBox-4
+[2019-12-11T23:44:41.223] [INFO] default - 开始处理模块: expandableImageBox-4
+[2019-12-11T23:44:41.248] [DEBUG] default - 智能跳过打包expandableImageBox./src/module/expandableImageBox.owo的重复样式!
+[2019-12-11T23:44:41.257] [DEBUG] default - 模块expandableImageBox处理用时: 34 毫秒!
+[2019-12-11T23:44:41.257] [INFO] default - 开始处理模块: customer
+[2019-12-11T23:44:41.263] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-11T23:44:41.269] [DEBUG] default - 模块customer处理用时: 12 毫秒!
+[2019-12-11T23:44:41.269] [INFO] default - 开始处理模块: copyright
+[2019-12-11T23:44:41.286] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-11T23:44:41.289] [DEBUG] default - 模块copyright处理用时: 19 毫秒!
+[2019-12-11T23:44:41.294] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-11T23:44:41.298] [DEBUG] default - 页面home处理用时: 410 毫秒!
+[2019-12-11T23:44:41.299] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/triangle.png
+[2019-12-11T23:44:41.299] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/search.png
+[2019-12-11T23:44:41.299] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/list-icon.png
+[2019-12-11T23:44:41.299] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/message.png
+[2019-12-11T23:44:41.299] [DEBUG] default - css中的资源处理完毕!
+[2019-12-11T23:44:41.299] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-11T23:44:41.318] [INFO] default - 处理字体: {}
+[2019-12-11T23:44:41.330] [INFO] default - 使用postcss处理完毕! 用时: 31 毫秒
+[2019-12-11T23:44:41.330] [INFO] default - 正在处理script!
+[2019-12-11T23:44:41.408] [INFO] default - 工程中只有一个页面!
+[2019-12-11T23:44:41.409] [INFO] default - js中的资源处理完毕!
+[2019-12-11T23:44:41.410] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-11T23:44:41.410] [DEBUG] default - 外部脚本数量: 2
+[2019-12-11T23:44:41.410] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-11T23:44:41.410] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:44:41.410] [DEBUG] default - 处理脚本: main
+[2019-12-11T23:44:41.410] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:44:41.410] [DEBUG] default - 输出scriptData
+[2019-12-11T23:44:41.410] [DEBUG] default - 准备输出html!
+[2019-12-11T23:44:41.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/logo.png
+[2019-12-11T23:44:41.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/people-picture-logo.png
+[2019-12-11T23:44:41.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/top.png
+[2019-12-11T23:44:41.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/bottom.png
+[2019-12-11T23:44:41.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/recommend-title.png
+[2019-12-11T23:44:41.410] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/首页/src/resource/customer.png
+[2019-12-11T23:44:41.411] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-11T23:44:41.412] [INFO] default - 编译结束!
+[2019-12-11T23:44:41.412] [INFO] default - 发送页面需要刷新命令!
+[2019-12-11T23:44:41.412] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\main.js
+[2019-12-11T23:44:41.412] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\css\owo.main.css
+[2019-12-11T23:44:41.413] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-11T23:44:41.413] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\main.js
+[2019-12-11T23:44:41.413] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\首页\src\resource\swiper.4.5.0.min.js
+[2019-12-11T23:44:41.414] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\首页\dist\static\js\swiper.4.5.0.min.js

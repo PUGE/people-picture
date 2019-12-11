@@ -1,0 +1,77 @@
+<template lang="pug">
+.search-bar-box
+  .keyword
+    a(href="#") 关键词1
+    a(href="#") 关键词2
+    a(href="#") 关键词3
+    a(href="#") 关键词4
+  .search-bar
+    select
+      option 关键词检索
+      option 选项1
+      option 选项2
+    input(type="text" placeholder="请输入关键词进行检索")
+    input.search(type="button" value="")
+</template>
+
+
+<style lang="less">
+  .search-bar-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 700px;
+    height: 90px;
+    z-index: 3;
+  }
+  .keyword {
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    a {
+      padding-left: 10px;
+    }
+  }
+  .search-bar {
+    display: flex;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    select {
+      border: none;
+      color: #484848;
+      width: 130px;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      outline: medium;
+      text-align: center;
+      text-align-last: center;
+    }
+    input[type="text"] {
+      border: none;
+      padding-left: 25px;
+      font-size: 18px;
+      outline: medium;
+      width: 485px;
+    }
+  }
+  .search-bar:hover {
+    box-shadow: 1px 1px 7px #7b6d6d;
+  }
+  .search {
+    border: none;
+    background-color: #d62c1f;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-image: url('@|search.png|');
+    background-repeat: no-repeat;
+    background-position: center 14px;
+  }
+</style>

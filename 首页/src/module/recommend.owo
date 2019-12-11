@@ -9,11 +9,11 @@
       .swiper-slide
         a(href="#")
           img(src="http://vip-public.people.com.cn/photo/2019/11/29/1f1c703fd1cc45478399e57a587fbc7fKIIq_l.jpg")
-          p 盐城黄海湿地申遗成功2
+          p 人民日报头版头条关注辽宁经济:蓄势待发海天阔
       .swiper-slide
         a(href="#")
           img(src="http://vip-public.people.com.cn/photo/2019/11/29/042b8e311d054c0c876238c67bd62119blVK_l.jpg")
-          p 盐城黄海湿地申遗成功3
+          p 服务国家治理大局 凝聚高端智库智慧 领会核心精神内涵 权威解读中国密码
     .swiper-pagination
     //- 左侧信息遮蔽罩
     .info-box
@@ -21,7 +21,7 @@
     img.top(src="@|top.png|" o-hover="grow" :tap="prev")
     img.bottom(src="@|bottom.png|" o-hover="grow" :tap="next")
   //- 图片介绍文字
-  .text-info 降雨致江西新余大面积受灾受困群众紧急转移
+  .text-info
   img.recommend-image(src="@|recommend-title.png|")
 </template>
 
@@ -146,7 +146,7 @@ module.exports = {
   z-index: 10;
   padding: 0 20px;
   height: 200px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 38px;
 }
 </style>

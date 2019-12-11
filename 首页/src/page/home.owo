@@ -3,7 +3,9 @@
   plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page")
   .nav-box
     plug(_name="navBar" _logo="@|logo.png|" _src="./src/module/navBar.owo")
-  plug(_name="swiperBox" _src="./src/module/swiperBox.owo")
+  .top-box
+    plug(_name="swiperBox" _src="./src/module/swiperBox.owo")
+    plug(_name="searchBar" _src="./src/module/searchBar.owo")
   //- 新闻卡片
   .news-card.w1200
     .left.fl
@@ -14,6 +16,16 @@
       plug(_name="iconList" _src="./src/module/iconList.owo")
   //- 编辑推荐
   plug.w1200(_name="recommend" _src="./src/module/recommend.owo")
+  //- 第二个导航栏
+  plug(_name="navBar2" _src="./src/module/navBar2.owo")
+  .gray
+    .w1200
+      plug.switch-show-box.switch-show-item-1(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
+      plug.switch-show-box.switch-show-item-2(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
+      plug.switch-show-box.switch-show-item-3(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
+      plug.switch-show-box.switch-show-item-4(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
+      plug.switch-show-box.switch-show-item-5(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
+  .copyright
 </template>
 
 <script>
@@ -52,5 +64,11 @@
 }
 .two-image {
   margin-top: 10px;
+}
+.top-box {
+  position: relative;
+}
+.gray {
+  padding-top: 50px;
 }
 </style>

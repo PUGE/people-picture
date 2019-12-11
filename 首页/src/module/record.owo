@@ -1,0 +1,10 @@
+<template lang="pug">
+.record
+  img(src="")
+  
+</template>
+
+
+<style lang="less">
+
+</style>

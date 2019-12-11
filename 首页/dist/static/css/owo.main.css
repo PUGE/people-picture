@@ -231,6 +231,73 @@ li {
   background: #e22f19;
   opacity: 1;
 }
+.search-bar-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 700px;
+  height: 90px;
+  z-index: 3;
+}
+
+.search-bar-box .keyword {
+  line-height: 30px;
+  color: white;
+  font-size: 14px;
+}
+
+.search-bar-box .keyword a {
+  padding-left: 10px;
+}
+
+.search-bar-box .search-bar {
+  display: -webkit-box;
+  display: flex;
+  height: 60px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-bar-box .search-bar select {
+  border: none;
+  color: #484848;
+  width: 130px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: medium;
+  text-align: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
+}
+
+.search-bar-box .search-bar input[type="text"] {
+  border: none;
+  padding-left: 25px;
+  font-size: 18px;
+  outline: medium;
+  width: 485px;
+}
+
+.search-bar-box .search-bar:hover {
+  box-shadow: 1px 1px 7px #7b6d6d;
+}
+
+.search-bar-box .search {
+  border: none;
+  background-color: #d62c1f;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-image: url('../resource/search.png');
+  background-repeat: no-repeat;
+  background-position: center 14px;
+}
 .title-more {
   position: relative;
 }
@@ -403,8 +470,78 @@ li {
   z-index: 10;
   padding: 0 20px;
   height: 200px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 38px;
+}
+.nav-bar-red {
+  background-color: #dc2e22;
+  height: 80px;
+  line-height: 80px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  font-size: 22px;
+  color: white;
+  margin-top: 60px;
+}
+
+.nav-bar-red li {
+  width: 100px;
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-bar-red .active span {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+}
+.expandable-image-box li {
+  width: 380px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.expandable-image-box li p {
+  text-align: center;
+  color: #484848;
+  font-size: 14px;
+}
+
+.expandable-image-box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.expandable-image-box ul li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.expandable-image-box img {
+  width: 380px;
+  height: 300px;
+}
+
+.expandable-image-box ul {
+  height: 1107px;
+  overflow: hidden;
+}
+
+.expandable-image-box .more-button-bar {
+  width: 100px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 35px;
+  color: #484848;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .title-bar {
   margin-bottom: 73px;
@@ -438,5 +575,13 @@ li {
 
 .two-image {
   margin-top: 10px;
+}
+
+.top-box {
+  position: relative;
+}
+
+.gray {
+  padding-top: 50px;
 }
 

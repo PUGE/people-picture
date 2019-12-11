@@ -28,16 +28,35 @@
     .menu-item
       .icon &#xe606;
       p 全部公告
-    .menu-item
+    .menu-item(:tap="switchUserMenu")
       .icon &#xe619;
       p 个人中心
-  
+  //- 个人中心浮动条
+  .user-menu
+    ul
+      li.user
+        a(href="#") 小白萝卜头
+      li
+        a(href="#") 收藏夹
+      li
+        a(href="#") 个人中心
+      li
+        a(href="#") 退出
+    .top
 </template>
 
 <script>
   module.exports = {
-    created: function () {
-
+    data: {
+      userMenuIsShow: false
+    },
+    switchUserMenu: function () {
+      this.data.userMenuIsShow = !this.data.userMenuIsShow
+      if (this.data.userMenuIsShow) {
+        owo.query('.user-menu')[0].style.display = 'block'
+      } else {
+        owo.query('.user-menu')[0].style.display = 'none'
+      }
     }
   }
 </script>
@@ -47,6 +66,7 @@
 .nav-bar {
   display: flex;
   padding-top: 10px;
+  position: relative;
   justify-content: space-between;
 }
 .nav, .menu {
@@ -70,6 +90,10 @@
     line-height: 18px;
     font-size: 12px;
   }
+  p, .icon {
+    user-select: none;
+    pointer-events: none;
+  }
 }
 .nav-item:last-child a {
   border-right: none;
@@ -88,8 +112,6 @@
   a {
     display: block;
     width: 100%;
-    // margin: 0 10px;
-    // padding-right: 20px;
     height: 30px;
     line-height: 30px;
     padding: 0 15px;
@@ -101,6 +123,44 @@
     background-image: url('@|triangle.png|');
     background-repeat: no-repeat;
     background-position: center bottom;
+  }
+}
+.top:before,.top:after{
+  position: absolute;
+  content: '';
+  border-top: 10px transparent dashed;
+  border-left: 10px transparent dashed;
+  border-right: 10px transparent dashed;
+}
+.top:after{
+  top: 1px; /*覆盖并错开1px*/
+  border-bottom: 10px #e1021d solid;
+}
+.top {
+  position: absolute;
+  top: -21px;
+  left: 41px;
+  margin: auto;
+}
+.user-menu {
+  position: absolute;
+  background-color: #e1021d;
+  color: white;
+  right: -17px;
+  top: 82px;
+  width: 100px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 5px;
+  display: none;
+  a {
+    display: block;
+    margin: 0 7px;
+    user-select: none;
+    pointer-events: none;
+  }
+  .user a {
+    border-bottom: 1px solid #cb0110;
   }
 }
 </style>

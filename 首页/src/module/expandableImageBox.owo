@@ -1,6 +1,6 @@
 <template lang="pug">
 .expandable-image-box
-  ul#expandableBox.clear
+  ul.clear
     li
       a(href="#")
         img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
@@ -73,10 +73,10 @@
     expandable: function () {
       this.data.isExpand = !this.data.isExpand
       if (this.data.isExpand) {
-        owo.query('#expandableBox')[0].style.height = 'auto'
+        this.$el.getElementsByTagName('ul')[0].style.height = 'auto'
         this.$event.target.innerText = '收起更多精彩'
       } else {
-        owo.query('#expandableBox')[0].style.height = '1107px'
+        this.$el.getElementsByTagName('ul')[0].style.height = '1107px'
         this.$event.target.innerText = '展开更多精彩'
       }
     }

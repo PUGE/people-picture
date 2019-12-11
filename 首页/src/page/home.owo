@@ -25,6 +25,8 @@
       plug.switch-show-box.switch-show-item-3(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
       plug.switch-show-box.switch-show-item-4(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
       plug.switch-show-box.switch-show-item-5(_name="expandableImageBox" _src="./src/module/expandableImageBox.owo")
+  //- 客服
+  plug(_name="customer" _src="./src/module/customer.owo")
   .copyright
 </template>
 
@@ -70,5 +72,8 @@
 }
 .gray {
   padding-top: 50px;
+}
+.expandable-image-box {
+  display: none;
 }
 </style>

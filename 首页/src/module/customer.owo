@@ -1,0 +1,58 @@
+<template lang="pug">
+.customer
+  img(src="@|customer.png|")
+  .message-box
+    .message
+      .item.item-1
+      .item.item-2
+      p 客服在线时间 8点~17点
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.customer {
+  position: fixed;
+  bottom: 20%;
+  right: 3%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.message-box {
+  background-image: url('@|message.png|');
+  width: 294px;
+  height: 190px;
+  position: absolute;
+  left: -171px;
+  top: -154px;
+  .message {
+    height: 147px;
+    margin: 0 20px;
+    margin-top: 20px;
+    .item {
+      height: 45px;
+      width: 100%;
+      margin: 10px 0;
+    }
+    .item-1 {
+      background-color: #f22122;
+    }
+    .item-2 {
+      background-color: #fa851e;
+    }
+    p {
+      text-align: center;
+      color: #414040;
+      font-size: 14px;
+    }
+  }
+}
+</style>

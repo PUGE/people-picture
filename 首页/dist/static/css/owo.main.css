@@ -92,6 +92,7 @@ li {
   display: -webkit-box;
   display: flex;
   padding-top: 10px;
+  position: relative;
   -webkit-box-pack: justify;
           justify-content: space-between;
 }
@@ -124,6 +125,15 @@ li {
   text-align: center;
   line-height: 18px;
   font-size: 12px;
+}
+
+.nav-bar .menu-item p,
+.nav-bar .menu-item .icon {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
 }
 
 .nav-bar .nav-item:last-child a {
@@ -162,6 +172,55 @@ li {
   background-image: url('../resource/triangle.png');
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.nav-bar .top:before,
+.nav-bar .top:after {
+  position: absolute;
+  content: '';
+  border-top: 10px transparent dashed;
+  border-left: 10px transparent dashed;
+  border-right: 10px transparent dashed;
+}
+
+.nav-bar .top:after {
+  top: 1px;
+  /*覆盖并错开1px*/
+  border-bottom: 10px #e1021d solid;
+}
+
+.nav-bar .top {
+  position: absolute;
+  top: -21px;
+  left: 41px;
+  margin: auto;
+}
+
+.nav-bar .user-menu {
+  position: absolute;
+  background-color: #e1021d;
+  color: white;
+  right: -17px;
+  top: 82px;
+  width: 100px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 5px;
+  display: none;
+}
+
+.nav-bar .user-menu a {
+  display: block;
+  margin: 0 7px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.nav-bar .user-menu .user a {
+  border-bottom: 1px solid #cb0110;
 }
 .swiper-box {
   width: 100%;
@@ -543,6 +602,48 @@ li {
       -ms-user-select: none;
           user-select: none;
 }
+.customer {
+  position: fixed;
+  bottom: 20%;
+  right: 3%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.customer .message-box {
+  background-image: url('../resource/message.png');
+  width: 294px;
+  height: 190px;
+  position: absolute;
+  left: -171px;
+  top: -154px;
+}
+
+.customer .message-box .message {
+  height: 147px;
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.customer .message-box .message .item {
+  height: 45px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.customer .message-box .message .item-1 {
+  background-color: #f22122;
+}
+
+.customer .message-box .message .item-2 {
+  background-color: #fa851e;
+}
+
+.customer .message-box .message p {
+  text-align: center;
+  color: #414040;
+  font-size: 14px;
+}
 .title-bar {
   margin-bottom: 73px;
 }
@@ -583,5 +684,9 @@ li {
 
 .gray {
   padding-top: 50px;
+}
+
+.expandable-image-box {
+  display: none;
 }
 

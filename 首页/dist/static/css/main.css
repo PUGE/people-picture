@@ -90,3 +90,11 @@ a {
 .gray {
   background-color: #eeeeee;
 }
+
+.message-box {
+  display: none;
+}
+
+.customer:hover .message-box {
+  display: block;
+}

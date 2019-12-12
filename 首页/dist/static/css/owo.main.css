@@ -166,6 +166,11 @@ li {
   border-right: 1px solid #ccc;
 }
 
+.nav-bar .nav a:hover {
+  text-decoration: none;
+  color: #e64e1f;
+}
+
 .nav-bar .nav .active {
   color: #e1001d;
   font-weight: bold;
@@ -221,6 +226,10 @@ li {
 
 .nav-bar .user-menu .user a {
   border-bottom: 1px solid #cb0110;
+}
+
+.nav-bar .user-menu:hover {
+  color: #e64e1f;
 }
 .swiper-box {
   width: 100%;
@@ -328,11 +337,17 @@ li {
   font-size: 14px;
   margin: 0;
   padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   cursor: pointer;
   outline: medium;
   text-align: center;
   -moz-text-align-last: center;
        text-align-last: center;
+  background-image: url('../resource/drop-down.png');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .search-bar-box .search-bar input[type="text"] {
@@ -479,7 +494,7 @@ li {
   display: block;
   border-radius: 0;
   width: 25px;
-  height: 8px;
+  height: 2px;
   right: 0;
   margin: 10px 0;
   margin-left: 25px;
@@ -532,6 +547,14 @@ li {
   font-size: 24px;
   line-height: 38px;
 }
+
+.recommend .more {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 17%;
+  z-index: 9;
+}
 .nav-bar-red {
   background-color: #dc2e22;
   height: 80px;
@@ -547,26 +570,72 @@ li {
 
 .nav-bar-red li {
   width: 100px;
-  margin: 0 20px;
+  margin: 0 15px;
   text-align: center;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .nav-bar-red .active span {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid white;
   padding-bottom: 8px;
+}/* Sweep To Left */
+.owo-hover-sweep-to-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
+.owo-hover-sweep-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.owo-hover-sweep-to-left:hover, .owo-hover-sweep-to-left:focus, .owo-hover-sweep-to-left:active {
+  color: white;
+}
+.owo-hover-sweep-to-left:hover:before, .owo-hover-sweep-to-left:focus:before, .owo-hover-sweep-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 .expandable-image-box li {
   width: 380px;
   float: left;
   margin-right: 30px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .expandable-image-box li p {
   text-align: center;
   color: #484848;
   font-size: 14px;
+  margin-top: 7px;
 }
 
 .expandable-image-box a {
@@ -579,13 +648,24 @@ li {
   margin-right: 0;
 }
 
-.expandable-image-box img {
-  width: 380px;
+.expandable-image-box .image-box {
+  width: auto;
   height: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.expandable-image-box .image-box img {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
 }
 
 .expandable-image-box ul {
-  height: 1107px;
+  height: 1104px;
   overflow: hidden;
 }
 
@@ -611,12 +691,13 @@ li {
 }
 
 .customer .message-box {
-  background-image: url('../resource/message.png');
   width: 294px;
   height: 190px;
   position: absolute;
   left: -171px;
-  top: -154px;
+  top: -170px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #676666;
 }
 
 .customer .message-box .message {
@@ -629,6 +710,10 @@ li {
   height: 45px;
   width: 100%;
   margin: 10px 0;
+  color: white;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
 }
 
 .customer .message-box .message .item-1 {
@@ -643,6 +728,12 @@ li {
   text-align: center;
   color: #414040;
   font-size: 14px;
+}
+
+.customer .arrow {
+  position: absolute;
+  bottom: -19px;
+  right: 6%;
 }
 .copyright {
   color: #585858;

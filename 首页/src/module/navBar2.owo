@@ -60,12 +60,13 @@ ul.nav-bar-red
 }
 li {
   width: 100px;
-  margin: 0 20px;
+  margin: 0 15px;
   text-align: center;
   cursor: pointer;
+  font-weight: bold;
 }
 .active span {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid white;
   padding-bottom: 8px;
 }
 </style>

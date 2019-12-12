@@ -23,6 +23,8 @@
   //- 图片介绍文字
   .text-info
   img.recommend-image(src="@|recommend-title.png|")
+  a.more(href="#")
+    img(src="@|more.png|")
 </template>
 
 <script>
@@ -102,7 +104,7 @@ module.exports = {
   display: block;
   border-radius: 0;
   width: 25px;
-  height: 8px;
+  height: 2px;
   right: 0;
   margin: 10px 0;
   margin-left: 25px;
@@ -148,5 +150,12 @@ module.exports = {
   height: 200px;
   font-size: 24px;
   line-height: 38px;
+}
+.more {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 17%;
+  z-index: 9;
 }
 </style>

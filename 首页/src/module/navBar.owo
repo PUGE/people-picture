@@ -117,6 +117,10 @@
     padding: 0 15px;
     border-right: 1px solid #ccc;
   }
+  a:hover {
+    text-decoration: none;
+    color: #e64e1f;
+  }
   .active {
     color: #e1001d;
     font-weight: bold;
@@ -162,5 +166,8 @@
   .user a {
     border-bottom: 1px solid #cb0110;
   }
+}
+.user-menu:hover {
+  color: #e64e1f;
 }
 </style>

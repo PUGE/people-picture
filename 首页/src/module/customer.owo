@@ -2,9 +2,10 @@
 .customer
   img(src="@|customer.png|")
   .message-box
+    img.arrow(src="@|message.png|")
     .message
-      .item.item-1
-      .item.item-2
+      .item.item-1.icon &#xe72c;
+      .item.item-2.icon &#xe72c;
       p 客服在线时间 8点~17点
 </template>
 
@@ -27,12 +28,13 @@
 }
 
 .message-box {
-  background-image: url('@|message.png|');
   width: 294px;
   height: 190px;
   position: absolute;
   left: -171px;
-  top: -154px;
+  top: -170px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #676666;
   .message {
     height: 147px;
     margin: 0 20px;
@@ -41,6 +43,10 @@
       height: 45px;
       width: 100%;
       margin: 10px 0;
+      color: white;
+      font-size: 20px;
+      line-height: 45px;
+      text-align: center;
     }
     .item-1 {
       background-color: #f22122;
@@ -54,5 +60,10 @@
       font-size: 14px;
     }
   }
+}
+.arrow {
+  position: absolute;
+  bottom: -19px;
+  right: 6%;
 }
 </style>

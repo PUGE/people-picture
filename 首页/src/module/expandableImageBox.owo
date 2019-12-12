@@ -3,66 +3,80 @@
   ul.clear
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://vip-public.people.com.cn/photo/2019/12/11/815a636b8528496c80a8bb91efa0ba9bCYvj_s.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://vip-public.people.com.cn/photo/2019/12/10/5c0b8ff9707e43f8b719544bb09ce89aHSnc_s.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://vip-public.people.com.cn/photo/2019/12/9/67a54e03bc414287933c680913d7d3fd7nUe_s.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://vip-public.people.com.cn/photo/2019/12/9/345aa3b3c2ab40f49f86cd897b0c3d2cVXfa_s.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://vip-public.people.com.cn/photo/2019/12/9/9854ef2cc5b04b5cb90947e7ad7f4c4cgLMs_s.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg" width="380" height="300")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
   .more-button-bar
-    .more-button(:tap="expandable") 展开更多精彩
+    .more-button(:tap="expandable" o-hover="sweep-to-left") 展开更多精彩
 </template>
 
 <script>
@@ -76,7 +90,7 @@
         this.$el.getElementsByTagName('ul')[0].style.height = 'auto'
         this.$event.target.innerText = '收起更多精彩'
       } else {
-        this.$el.getElementsByTagName('ul')[0].style.height = '1107px'
+        this.$el.getElementsByTagName('ul')[0].style.height = '1104px'
         this.$event.target.innerText = '展开更多精彩'
       }
     }
@@ -90,10 +104,12 @@ li {
   float: left;
   margin-right: 30px;
   margin-bottom: 20px;
+  overflow: hidden;
   p {
     text-align: center;
     color: #484848;
     font-size: 14px;
+    margin-top: 7px;
   }
 }
 a {
@@ -104,12 +120,20 @@ a {
 ul li:nth-child(3n+3) {
   margin-right: 0;
 }
-img {
-  width: 380px;
+.image-box {
+  width: auto;
   height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 ul {
-  height: 1107px;
+  height: 1104px;
   overflow: hidden;
 }
 .more-button-bar {

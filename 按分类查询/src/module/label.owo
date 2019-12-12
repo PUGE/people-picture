@@ -1,0 +1,18 @@
+<template lang="pug">
+.label {{prop._text}}
+</template>
+
+
+<style lang="less">
+.label {
+  background-color: white;
+  line-height: 50px;
+  padding: 0 20px;
+  margin: 20px 0;
+  color: #3c3c3c;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  box-shadow: 2px 2px 6px #ccc5c5;
+  user-select: none;
+}
+</style>

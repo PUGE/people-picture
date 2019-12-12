@@ -1,0 +1,34 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page")
+  .nav-box
+    plug(_name="navBar" _src="./src/module/navBar.owo")
+
+  //- 客服
+  plug(_name="customer" _src="./src/module/customer.owo")
+  //- 底部版权信息
+  plug(_name="copyright" _src="./src/module/copyright.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.title-bar {
+  margin-bottom: 73px;
+}
+.nav-box {
+  box-shadow: 0px 0px 6px #9c94bd;
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  top: 45px;
+}
+</style>

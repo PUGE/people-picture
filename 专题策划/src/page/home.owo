@@ -6,6 +6,25 @@
   plug(_name="searchBar2" _src="./src/module/searchBar2.owo")
   .w1200
     h1 浙江建德：竹编技能赛一赛 民间篾匠亮绝活
+    .switch-box
+      plug(_name="switch" _src="./src/module/switch.owo")
+  .gray.card-box.card-box-1
+    .w1200.clear
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+  .gray.card-box.card-box-2
+    .w1200.clear
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+  plug(_name="pageBar" _src="./src/module/pageBar.owo")
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息
@@ -15,7 +34,19 @@
 <script>
   module.exports = {
     created: function () {
-
+      
+    },
+    broadcast: {
+      activeItem: function (showMore) {
+        console.log(showMore)
+        if (showMore) {
+          this.$el.getElementsByClassName('card-box-1')[0].style.display = 'none'
+          this.$el.getElementsByClassName('card-box-2')[0].style.display = 'block'
+        } else {
+          this.$el.getElementsByClassName('card-box-1')[0].style.display = 'block'
+          this.$el.getElementsByClassName('card-box-2')[0].style.display = 'none'
+        }
+      }
     }
   }
 </script>
@@ -31,5 +62,29 @@
 h1 {
   font-size: 40px;
   line-height: 60px;
+}
+.switch-box {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.card-box {
+  padding: 40px 0;
+  margin-top: 10px;
+}
+.one-picture-card:nth-child(3n) {
+  margin-right: 0;
+}
+.one-picture-card {
+  margin-right: 45px;
+  margin-bottom: 30px;
+  float: left;
+}
+.one-picture-card:hover {
+  box-shadow: 2px 2px 5px #c1b9b9;
+}
+.card-box-2 {
+  display: none;
 }
 </style>

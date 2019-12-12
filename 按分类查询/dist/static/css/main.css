@@ -100,3 +100,8 @@ a {
 .customer:hover .message-box {
   display: block;
 }
+
+.copyright {
+  background-color: white;
+  padding-top: 20px;
+}

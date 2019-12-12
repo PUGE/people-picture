@@ -20,15 +20,10 @@
 
 
 <style lang="less">
-.title-bar {
-  margin-bottom: 73px;
-}
 .nav-box {
   box-shadow: 0px 0px 6px #9c94bd;
   z-index: 9;
-  position: absolute;
   width: 100%;
   background-color: white;
-  top: 45px;
 }
 </style>

@@ -1,0 +1,1280 @@
+[2019-12-12T16:05:40.147] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:05:40.151] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:05:40.151] [INFO] default - 首次启动!
+[2019-12-12T16:05:40.151] [INFO] default - 生成版本号: zf9cdgu8kj
+[2019-12-12T16:05:40.161] [INFO] default - 清理资源文件夹: D:\work\人民图片\按分类查询\dist\static
+[2019-12-12T16:05:40.161] [INFO] default - 文件夹不存在: D:\work\人民图片\按分类查询\dist\static
+[2019-12-12T16:05:40.161] [INFO] default - 创建文件夹: D:\work\人民图片\按分类查询\dist\static
+[2019-12-12T16:05:40.161] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:05:40.162] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:05:40.162] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:05:40.163] [INFO] default - 开始处理模块: home
+[2019-12-12T16:05:41.332] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:05:41.332] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:05:41.349] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:05:41.375] [DEBUG] default - 模块topBar处理用时: 44 毫秒!
+[2019-12-12T16:05:41.375] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:05:41.429] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:05:41.615] [DEBUG] default - 模块navBar处理用时: 240 毫秒!
+[2019-12-12T16:05:41.615] [INFO] default - 开始处理模块: label
+[2019-12-12T16:05:41.619] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:05:41.621] [DEBUG] default - 模块label处理用时: 6 毫秒!
+[2019-12-12T16:05:41.621] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:05:41.629] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:05:41.633] [DEBUG] default - 模块customer处理用时: 12 毫秒!
+[2019-12-12T16:05:41.633] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:05:41.663] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:05:41.671] [DEBUG] default - 模块copyright处理用时: 38 毫秒!
+[2019-12-12T16:05:41.673] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:05:41.674] [DEBUG] default - 页面home处理用时: 1512 毫秒!
+[2019-12-12T16:05:41.675] [INFO] default - 文件夹不存在: D:/work/人民图片/按分类查询/dist/static/resource
+[2019-12-12T16:05:41.676] [INFO] default - 创建文件夹: D:/work/人民图片/按分类查询/dist/static/resource
+[2019-12-12T16:05:41.677] [DEBUG] default - 处理资源:  [ 'D:/work/人民图片/按分类查询/src/resource/triangle.png' ]
+[2019-12-12T16:05:41.677] [DEBUG] default - 资源目录:  D:/work/人民图片/按分类查询/dist/static/resource
+[2019-12-12T16:05:41.679] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:05:43.264] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:05:43.307] [INFO] default - 文件夹不存在: D:\work\人民图片\按分类查询\dist\static\css
+[2019-12-12T16:05:43.308] [INFO] default - 创建文件夹: D:\work\人民图片\按分类查询\dist\static\css
+[2019-12-12T16:05:43.308] [INFO] default - 开始处理附属css中的资源
+[2019-12-12T16:05:43.308] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-12T16:05:43.308] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.css
+[2019-12-12T16:05:43.308] [INFO] default - 附属css中的资源不需要处理!
+[2019-12-12T16:05:43.308] [INFO] default - 处理字体: {}
+[2019-12-12T16:05:44.568] [INFO] default - 使用postcss处理完毕! 用时: 1303 毫秒
+[2019-12-12T16:05:44.568] [INFO] default - 正在处理script!
+[2019-12-12T16:05:47.260] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:05:47.262] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:05:47.262] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:05:47.262] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:05:47.262] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:05:47.262] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:05:47.262] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:05:47.262] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:05:47.263] [DEBUG] default - 输出scriptData
+[2019-12-12T16:05:47.263] [DEBUG] default - 准备输出html!
+[2019-12-12T16:05:47.264] [DEBUG] default - 处理资源:  [ 'D:/work/人民图片/按分类查询/src/resource/logo.png',
+  'D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png',
+  'D:/work/人民图片/按分类查询/src/resource/customer.png',
+  'D:/work/人民图片/按分类查询/src/resource/message.png' ]
+[2019-12-12T16:05:47.264] [DEBUG] default - 资源目录:  D:/work/人民图片/按分类查询/dist/static/resource
+[2019-12-12T16:05:47.265] [INFO] default - 文件夹不存在: D:\work\人民图片\按分类查询\dist\static\js
+[2019-12-12T16:05:47.265] [INFO] default - 创建文件夹: D:\work\人民图片\按分类查询\dist\static\js
+[2019-12-12T16:05:47.266] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:05:47.266] [INFO] default - 编译结束!
+[2019-12-12T16:05:47.267] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:05:47.282] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:05:47.282] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:05:47.282] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:05:47.554] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:05:47.554] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.css
+[2019-12-12T16:05:47.565] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.css
+[2019-12-12T16:05:47.566] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\main.css
+[2019-12-12T16:05:47.567] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\swiper.4.5.0.min.css
+[2019-12-12T16:05:47.578] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:05:47.578] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:06:36.060] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\label.owo
+[2019-12-12T16:06:36.060] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:06:36.060] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:06:36.060] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\label.owo
+[2019-12-12T16:06:36.061] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:06:36.061] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:06:36.061] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:06:36.062] [INFO] default - 开始处理模块: home
+[2019-12-12T16:06:36.086] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:06:36.086] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:06:36.094] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:06:36.097] [DEBUG] default - 模块topBar处理用时: 11 毫秒!
+[2019-12-12T16:06:36.098] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:06:36.141] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:06:36.157] [DEBUG] default - 模块navBar处理用时: 59 毫秒!
+[2019-12-12T16:06:36.157] [INFO] default - 开始处理模块: label
+[2019-12-12T16:06:36.161] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:06:36.162] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:06:36.163] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:06:36.170] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:06:36.174] [DEBUG] default - 模块customer处理用时: 11 毫秒!
+[2019-12-12T16:06:36.174] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:06:36.200] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:06:36.207] [DEBUG] default - 模块copyright处理用时: 33 毫秒!
+[2019-12-12T16:06:36.208] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:06:36.210] [DEBUG] default - 页面home处理用时: 147 毫秒!
+[2019-12-12T16:06:36.210] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:06:36.210] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:06:36.210] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:06:36.218] [INFO] default - 处理字体: {}
+[2019-12-12T16:06:36.220] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-12T16:06:36.220] [INFO] default - 正在处理script!
+[2019-12-12T16:06:36.236] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:06:36.237] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:06:36.237] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:06:36.237] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:06:36.237] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:06:36.237] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:06:36.238] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:06:36.238] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:06:36.238] [DEBUG] default - 输出scriptData
+[2019-12-12T16:06:36.238] [DEBUG] default - 准备输出html!
+[2019-12-12T16:06:36.238] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:06:36.238] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:06:36.238] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:06:36.238] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:06:36.239] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:06:36.240] [INFO] default - 编译结束!
+[2019-12-12T16:06:36.240] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:06:36.241] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:06:36.241] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:06:36.241] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:06:36.242] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:06:36.243] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:06:36.245] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:10:30.981] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:10:30.981] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:10:30.981] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:10:30.981] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:10:30.981] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:10:30.982] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:10:30.982] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:10:30.982] [INFO] default - 开始处理模块: home
+[2019-12-12T16:10:30.990] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:10:30.990] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:10:30.995] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:10:30.996] [DEBUG] default - 模块topBar处理用时: 6 毫秒!
+[2019-12-12T16:10:30.996] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:10:31.017] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:10:31.036] [DEBUG] default - 模块navBar处理用时: 40 毫秒!
+[2019-12-12T16:10:31.036] [INFO] default - 开始处理模块: label
+[2019-12-12T16:10:31.041] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:10:31.043] [DEBUG] default - 模块label处理用时: 7 毫秒!
+[2019-12-12T16:10:31.043] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:10:31.049] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:10:31.055] [DEBUG] default - 模块customer处理用时: 12 毫秒!
+[2019-12-12T16:10:31.055] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:10:31.079] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:10:31.085] [DEBUG] default - 模块copyright处理用时: 30 毫秒!
+[2019-12-12T16:10:31.086] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:10:31.087] [DEBUG] default - 页面home处理用时: 105 毫秒!
+[2019-12-12T16:10:31.088] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:10:31.088] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:10:31.088] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:10:31.095] [INFO] default - 处理字体: {}
+[2019-12-12T16:10:31.096] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-12T16:10:31.096] [INFO] default - 正在处理script!
+[2019-12-12T16:10:31.110] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:10:31.111] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:10:31.111] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:10:31.111] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:10:31.111] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:10:31.111] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:10:31.111] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:10:31.111] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:10:31.111] [DEBUG] default - 输出scriptData
+[2019-12-12T16:10:31.111] [DEBUG] default - 准备输出html!
+[2019-12-12T16:10:31.112] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:10:31.112] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:10:31.112] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:10:31.112] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:10:31.113] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:10:31.113] [INFO] default - 编译结束!
+[2019-12-12T16:10:31.114] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:10:31.128] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:10:31.128] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:10:31.129] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:10:31.130] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:10:31.184] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:10:31.206] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:10:54.845] [INFO] default - file change: D:\work\人民图片\按分类查询\src\page\home.owo
+[2019-12-12T16:10:54.845] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:10:54.845] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:10:54.845] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\page\home.owo
+[2019-12-12T16:10:54.845] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:10:54.846] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:10:54.846] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:10:54.846] [INFO] default - 开始处理模块: home
+[2019-12-12T16:10:54.855] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:10:54.856] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:10:54.859] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:10:54.860] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-12T16:10:54.860] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:10:54.880] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:10:54.893] [DEBUG] default - 模块navBar处理用时: 33 毫秒!
+[2019-12-12T16:10:54.893] [INFO] default - 开始处理模块: label
+[2019-12-12T16:10:54.896] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:10:54.898] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:10:54.898] [INFO] default - 开始处理模块: card
+[2019-12-12T16:10:54.928] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:10:54.937] [DEBUG] default - 模块card处理用时: 39 毫秒!
+[2019-12-12T16:10:54.937] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:10:54.941] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:10:54.945] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-12T16:10:54.946] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:10:54.967] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:10:54.972] [DEBUG] default - 模块copyright处理用时: 27 毫秒!
+[2019-12-12T16:10:54.975] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:10:54.975] [DEBUG] default - 页面home处理用时: 129 毫秒!
+[2019-12-12T16:10:54.976] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:10:54.976] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:10:54.976] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:10:54.980] [INFO] default - 处理字体: {}
+[2019-12-12T16:10:54.982] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-12-12T16:10:54.982] [INFO] default - 正在处理script!
+[2019-12-12T16:10:55.000] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:10:55.001] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:10:55.001] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:10:55.001] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:10:55.001] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:10:55.001] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:10:55.001] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:10:55.001] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:10:55.001] [DEBUG] default - 输出scriptData
+[2019-12-12T16:10:55.001] [DEBUG] default - 准备输出html!
+[2019-12-12T16:10:55.001] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:10:55.002] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:10:55.002] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:10:55.002] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:10:55.003] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:10:55.003] [INFO] default - 编译结束!
+[2019-12-12T16:10:55.004] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:10:55.006] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:10:55.006] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:10:55.006] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:10:55.007] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:10:55.007] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:10:55.008] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:17:55.549] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:17:55.549] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:17:55.549] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:17:55.549] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:17:55.549] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:17:55.550] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:17:55.550] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:17:55.550] [INFO] default - 开始处理模块: home
+[2019-12-12T16:17:55.559] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:17:55.559] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:17:55.561] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:17:55.562] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:17:55.563] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:17:55.585] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:17:55.597] [DEBUG] default - 模块navBar处理用时: 34 毫秒!
+[2019-12-12T16:17:55.597] [INFO] default - 开始处理模块: label
+[2019-12-12T16:17:55.601] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:17:55.604] [DEBUG] default - 模块label处理用时: 7 毫秒!
+[2019-12-12T16:17:55.604] [INFO] default - 开始处理模块: card
+[2019-12-12T16:17:55.628] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:17:55.636] [DEBUG] default - 模块card处理用时: 32 毫秒!
+[2019-12-12T16:17:55.636] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:17:55.640] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:17:55.644] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-12T16:17:55.644] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:17:55.659] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:17:55.663] [DEBUG] default - 模块copyright处理用时: 19 毫秒!
+[2019-12-12T16:17:55.666] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:17:55.667] [DEBUG] default - 页面home处理用时: 117 毫秒!
+[2019-12-12T16:17:55.667] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:17:55.667] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:17:55.667] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:17:55.674] [INFO] default - 处理字体: {}
+[2019-12-12T16:17:55.675] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-12T16:17:55.675] [INFO] default - 正在处理script!
+[2019-12-12T16:17:55.689] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:17:55.690] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:17:55.690] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:17:55.690] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:17:55.690] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:17:55.690] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:17:55.690] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:17:55.691] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:17:55.691] [DEBUG] default - 输出scriptData
+[2019-12-12T16:17:55.691] [DEBUG] default - 准备输出html!
+[2019-12-12T16:17:55.691] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:17:55.691] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:17:55.691] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:17:55.691] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:17:55.692] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:17:55.692] [INFO] default - 编译结束!
+[2019-12-12T16:17:55.693] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:17:55.712] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:17:55.712] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:17:55.729] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:17:55.731] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:17:55.732] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:17:55.733] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:19:31.413] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:19:31.413] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:19:31.413] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:19:31.413] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:19:31.413] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:19:31.413] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:19:31.413] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:19:31.414] [INFO] default - 开始处理模块: home
+[2019-12-12T16:19:31.421] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:19:31.422] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:19:31.424] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:19:31.425] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:19:31.425] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:19:31.444] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:19:31.458] [DEBUG] default - 模块navBar处理用时: 33 毫秒!
+[2019-12-12T16:19:31.458] [INFO] default - 开始处理模块: label
+[2019-12-12T16:19:31.461] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:19:31.463] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:19:31.463] [INFO] default - 开始处理模块: card
+[2019-12-12T16:19:31.488] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:19:31.494] [DEBUG] default - 模块card处理用时: 31 毫秒!
+[2019-12-12T16:19:31.494] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:19:31.499] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:19:31.503] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:19:31.504] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:19:31.522] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:19:31.527] [DEBUG] default - 模块copyright处理用时: 24 毫秒!
+[2019-12-12T16:19:31.528] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:19:31.529] [DEBUG] default - 页面home处理用时: 115 毫秒!
+[2019-12-12T16:19:31.530] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:19:31.530] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:19:31.530] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:19:31.536] [INFO] default - 处理字体: {}
+[2019-12-12T16:19:31.538] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-12T16:19:31.538] [INFO] default - 正在处理script!
+[2019-12-12T16:19:31.552] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:19:31.553] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:19:31.553] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:19:31.553] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:19:31.553] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:19:31.553] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:19:31.553] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:19:31.553] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:19:31.553] [DEBUG] default - 输出scriptData
+[2019-12-12T16:19:31.554] [DEBUG] default - 准备输出html!
+[2019-12-12T16:19:31.554] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:19:31.554] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:19:31.554] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:19:31.554] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:19:31.555] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:19:31.555] [INFO] default - 编译结束!
+[2019-12-12T16:19:31.556] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:19:31.557] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:19:31.557] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:19:31.557] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:19:31.560] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:19:31.561] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:19:31.572] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:21:28.478] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:21:28.478] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:21:28.478] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:21:28.478] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:21:28.478] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:21:28.478] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:21:28.478] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:21:28.478] [INFO] default - 开始处理模块: home
+[2019-12-12T16:21:28.486] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:21:28.486] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:21:28.488] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:21:28.490] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:21:28.490] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:21:28.509] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:21:28.522] [DEBUG] default - 模块navBar处理用时: 32 毫秒!
+[2019-12-12T16:21:28.522] [INFO] default - 开始处理模块: label
+[2019-12-12T16:21:28.526] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:21:28.527] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:21:28.528] [INFO] default - 开始处理模块: card
+[2019-12-12T16:21:28.547] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:21:28.552] [DEBUG] default - 模块card处理用时: 24 毫秒!
+[2019-12-12T16:21:28.552] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:21:28.560] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:21:28.563] [DEBUG] default - 模块customer处理用时: 11 毫秒!
+[2019-12-12T16:21:28.563] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:21:28.579] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:21:28.585] [DEBUG] default - 模块copyright处理用时: 22 毫秒!
+[2019-12-12T16:21:28.586] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:21:28.587] [DEBUG] default - 页面home处理用时: 109 毫秒!
+[2019-12-12T16:21:28.588] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:21:28.588] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:21:28.588] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:21:28.595] [INFO] default - 处理字体: {}
+[2019-12-12T16:21:28.597] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-12-12T16:21:28.597] [INFO] default - 正在处理script!
+[2019-12-12T16:21:28.611] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:21:28.612] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:21:28.612] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:21:28.612] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:21:28.612] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:21:28.612] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:21:28.612] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:21:28.612] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:21:28.612] [DEBUG] default - 输出scriptData
+[2019-12-12T16:21:28.612] [DEBUG] default - 准备输出html!
+[2019-12-12T16:21:28.613] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:21:28.613] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:21:28.613] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:21:28.613] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:21:28.614] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:21:28.614] [INFO] default - 编译结束!
+[2019-12-12T16:21:28.616] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:21:28.632] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:21:28.632] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:21:28.632] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:21:28.641] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:21:28.689] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:21:28.691] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:22:15.091] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:22:15.091] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:22:15.091] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:22:15.091] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:22:15.091] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:22:15.092] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:22:15.092] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:22:15.092] [INFO] default - 开始处理模块: home
+[2019-12-12T16:22:15.100] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:22:15.100] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:22:15.102] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:22:15.103] [DEBUG] default - 模块topBar处理用时: 3 毫秒!
+[2019-12-12T16:22:15.103] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:22:15.123] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:22:15.135] [DEBUG] default - 模块navBar处理用时: 32 毫秒!
+[2019-12-12T16:22:15.136] [INFO] default - 开始处理模块: label
+[2019-12-12T16:22:15.138] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:22:15.140] [DEBUG] default - 模块label处理用时: 4 毫秒!
+[2019-12-12T16:22:15.140] [INFO] default - 开始处理模块: card
+[2019-12-12T16:22:15.162] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:22:15.169] [DEBUG] default - 模块card处理用时: 29 毫秒!
+[2019-12-12T16:22:15.169] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:22:15.174] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:22:15.178] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:22:15.178] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:22:15.197] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:22:15.202] [DEBUG] default - 模块copyright处理用时: 24 毫秒!
+[2019-12-12T16:22:15.202] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:22:15.203] [DEBUG] default - 页面home处理用时: 111 毫秒!
+[2019-12-12T16:22:15.204] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:22:15.204] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:22:15.204] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:22:15.208] [INFO] default - 处理字体: {}
+[2019-12-12T16:22:15.210] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-12-12T16:22:15.211] [INFO] default - 正在处理script!
+[2019-12-12T16:22:15.225] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:22:15.226] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:22:15.226] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:22:15.226] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:22:15.226] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:22:15.226] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:22:15.226] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:22:15.226] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:22:15.226] [DEBUG] default - 输出scriptData
+[2019-12-12T16:22:15.226] [DEBUG] default - 准备输出html!
+[2019-12-12T16:22:15.226] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:22:15.226] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:22:15.226] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:22:15.227] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:22:15.228] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:22:15.228] [INFO] default - 编译结束!
+[2019-12-12T16:22:15.229] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:22:15.229] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:22:15.229] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:22:15.229] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:22:15.230] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:22:15.231] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:22:15.232] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:22:43.382] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:22:43.382] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:22:43.382] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:22:43.382] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:22:43.382] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:22:43.382] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:22:43.382] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:22:43.382] [INFO] default - 开始处理模块: home
+[2019-12-12T16:22:43.391] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:22:43.392] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:22:43.394] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:22:43.396] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-12T16:22:43.396] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:22:43.415] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:22:43.426] [DEBUG] default - 模块navBar处理用时: 30 毫秒!
+[2019-12-12T16:22:43.426] [INFO] default - 开始处理模块: label
+[2019-12-12T16:22:43.430] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:22:43.433] [DEBUG] default - 模块label处理用时: 7 毫秒!
+[2019-12-12T16:22:43.433] [INFO] default - 开始处理模块: card
+[2019-12-12T16:22:43.461] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:22:43.466] [DEBUG] default - 模块card处理用时: 33 毫秒!
+[2019-12-12T16:22:43.466] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:22:43.471] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:22:43.474] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-12T16:22:43.474] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:22:43.487] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:22:43.491] [DEBUG] default - 模块copyright处理用时: 17 毫秒!
+[2019-12-12T16:22:43.492] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:22:43.492] [DEBUG] default - 页面home处理用时: 110 毫秒!
+[2019-12-12T16:22:43.493] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:22:43.493] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:22:43.493] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:22:43.499] [INFO] default - 处理字体: {}
+[2019-12-12T16:22:43.501] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-12T16:22:43.501] [INFO] default - 正在处理script!
+[2019-12-12T16:22:43.517] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:22:43.518] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:22:43.518] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:22:43.518] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:22:43.518] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:22:43.518] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:22:43.518] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:22:43.518] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:22:43.518] [DEBUG] default - 输出scriptData
+[2019-12-12T16:22:43.518] [DEBUG] default - 准备输出html!
+[2019-12-12T16:22:43.518] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:22:43.518] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:22:43.519] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:22:43.519] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:22:43.520] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:22:43.520] [INFO] default - 编译结束!
+[2019-12-12T16:22:43.521] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:22:43.536] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:22:43.539] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:22:43.541] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:22:43.543] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:22:43.563] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:22:43.580] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:30:27.406] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:30:27.406] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:30:27.406] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:30:27.406] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:30:27.406] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:30:27.406] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:30:27.406] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:30:27.407] [INFO] default - 开始处理模块: home
+[2019-12-12T16:30:27.415] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:30:27.415] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:30:27.417] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:30:27.418] [DEBUG] default - 模块topBar处理用时: 3 毫秒!
+[2019-12-12T16:30:27.418] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:30:27.434] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:30:27.444] [DEBUG] default - 模块navBar处理用时: 26 毫秒!
+[2019-12-12T16:30:27.444] [INFO] default - 开始处理模块: label
+[2019-12-12T16:30:27.447] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:30:27.449] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:30:27.449] [INFO] default - 开始处理模块: card
+[2019-12-12T16:30:27.479] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:30:27.486] [DEBUG] default - 模块card处理用时: 37 毫秒!
+[2019-12-12T16:30:27.486] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:30:27.493] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:30:27.495] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:30:27.495] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:30:27.514] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:30:27.519] [DEBUG] default - 模块copyright处理用时: 24 毫秒!
+[2019-12-12T16:30:27.520] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:30:27.521] [DEBUG] default - 页面home处理用时: 114 毫秒!
+[2019-12-12T16:30:27.521] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:30:27.521] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:30:27.521] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:30:27.530] [INFO] default - 处理字体: {}
+[2019-12-12T16:30:27.533] [INFO] default - 使用postcss处理完毕! 用时: 12 毫秒
+[2019-12-12T16:30:27.533] [INFO] default - 正在处理script!
+[2019-12-12T16:30:27.546] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:30:27.547] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:30:27.547] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:30:27.547] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:30:27.547] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:30:27.547] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:30:27.547] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:30:27.547] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:30:27.547] [DEBUG] default - 输出scriptData
+[2019-12-12T16:30:27.547] [DEBUG] default - 准备输出html!
+[2019-12-12T16:30:27.547] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:30:27.547] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:30:27.547] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:30:27.547] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:30:27.548] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:30:27.549] [INFO] default - 编译结束!
+[2019-12-12T16:30:27.550] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:30:27.550] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:30:27.550] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:30:27.550] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:30:27.552] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:30:27.553] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:30:27.553] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:31:01.951] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:31:01.951] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:31:01.951] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:31:01.951] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:31:01.951] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:31:01.951] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:31:01.951] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:31:01.951] [INFO] default - 开始处理模块: home
+[2019-12-12T16:31:01.958] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:31:01.959] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:31:01.961] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:31:01.962] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:31:01.962] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:31:01.980] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:31:01.990] [DEBUG] default - 模块navBar处理用时: 28 毫秒!
+[2019-12-12T16:31:01.990] [INFO] default - 开始处理模块: label
+[2019-12-12T16:31:01.994] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:31:01.995] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:31:01.995] [INFO] default - 开始处理模块: card
+[2019-12-12T16:31:02.022] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:31:02.027] [DEBUG] default - 模块card处理用时: 32 毫秒!
+[2019-12-12T16:31:02.027] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:31:02.033] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:31:02.036] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:31:02.036] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:31:02.049] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:31:02.053] [DEBUG] default - 模块copyright处理用时: 17 毫秒!
+[2019-12-12T16:31:02.054] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:31:02.056] [DEBUG] default - 页面home处理用时: 105 毫秒!
+[2019-12-12T16:31:02.056] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:31:02.056] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:31:02.056] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:31:02.061] [INFO] default - 处理字体: {}
+[2019-12-12T16:31:02.062] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-12-12T16:31:02.062] [INFO] default - 正在处理script!
+[2019-12-12T16:31:02.075] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:31:02.076] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:31:02.076] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:31:02.076] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:31:02.076] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:31:02.076] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:31:02.076] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:31:02.076] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:31:02.076] [DEBUG] default - 输出scriptData
+[2019-12-12T16:31:02.076] [DEBUG] default - 准备输出html!
+[2019-12-12T16:31:02.076] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:31:02.076] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:31:02.076] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:31:02.076] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:31:02.077] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:31:02.078] [INFO] default - 编译结束!
+[2019-12-12T16:31:02.079] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:31:02.093] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:31:02.093] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:31:02.097] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:31:02.108] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:31:02.139] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:31:02.140] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:31:28.117] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:31:28.117] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:31:28.117] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:31:28.117] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:31:28.117] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:31:28.117] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:31:28.117] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:31:28.117] [INFO] default - 开始处理模块: home
+[2019-12-12T16:31:28.125] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:31:28.125] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:31:28.127] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:31:28.128] [DEBUG] default - 模块topBar处理用时: 3 毫秒!
+[2019-12-12T16:31:28.128] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:31:28.149] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:31:28.160] [DEBUG] default - 模块navBar处理用时: 32 毫秒!
+[2019-12-12T16:31:28.160] [INFO] default - 开始处理模块: label
+[2019-12-12T16:31:28.162] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:31:28.165] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:31:28.165] [INFO] default - 开始处理模块: card
+[2019-12-12T16:31:28.192] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:31:28.197] [DEBUG] default - 模块card处理用时: 32 毫秒!
+[2019-12-12T16:31:28.197] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:31:28.203] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:31:28.205] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-12T16:31:28.206] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:31:28.221] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:31:28.225] [DEBUG] default - 模块copyright处理用时: 20 毫秒!
+[2019-12-12T16:31:28.226] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:31:28.227] [DEBUG] default - 页面home处理用时: 110 毫秒!
+[2019-12-12T16:31:28.227] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:31:28.227] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:31:28.227] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:31:28.233] [INFO] default - 处理字体: {}
+[2019-12-12T16:31:28.237] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-12-12T16:31:28.237] [INFO] default - 正在处理script!
+[2019-12-12T16:31:28.251] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:31:28.251] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:31:28.252] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:31:28.252] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:31:28.252] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:31:28.252] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:31:28.252] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:31:28.252] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:31:28.252] [DEBUG] default - 输出scriptData
+[2019-12-12T16:31:28.252] [DEBUG] default - 准备输出html!
+[2019-12-12T16:31:28.252] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:31:28.252] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:31:28.252] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:31:28.252] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:31:28.253] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:31:28.254] [INFO] default - 编译结束!
+[2019-12-12T16:31:28.254] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:31:28.255] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:31:28.255] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:31:28.255] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:31:28.256] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:31:28.257] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:31:28.257] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:32:11.162] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:32:11.162] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:32:11.162] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:32:11.162] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:32:11.162] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:32:11.162] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:32:11.162] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:32:11.162] [INFO] default - 开始处理模块: home
+[2019-12-12T16:32:11.168] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:32:11.168] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:32:11.171] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:32:11.171] [DEBUG] default - 模块topBar处理用时: 3 毫秒!
+[2019-12-12T16:32:11.172] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:32:11.188] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:32:11.198] [DEBUG] default - 模块navBar处理用时: 27 毫秒!
+[2019-12-12T16:32:11.199] [INFO] default - 开始处理模块: label
+[2019-12-12T16:32:11.202] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:32:11.203] [DEBUG] default - 模块label处理用时: 4 毫秒!
+[2019-12-12T16:32:11.203] [INFO] default - 开始处理模块: card
+[2019-12-12T16:32:11.232] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:32:11.238] [DEBUG] default - 模块card处理用时: 35 毫秒!
+[2019-12-12T16:32:11.238] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:32:11.244] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:32:11.247] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:32:11.247] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:32:11.259] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:32:11.263] [DEBUG] default - 模块copyright处理用时: 16 毫秒!
+[2019-12-12T16:32:11.265] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:32:11.266] [DEBUG] default - 页面home处理用时: 104 毫秒!
+[2019-12-12T16:32:11.266] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:32:11.266] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:32:11.266] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:32:11.272] [INFO] default - 处理字体: {}
+[2019-12-12T16:32:11.274] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-12T16:32:11.274] [INFO] default - 正在处理script!
+[2019-12-12T16:32:11.285] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:32:11.285] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:32:11.285] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:32:11.285] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:32:11.285] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:32:11.285] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:32:11.285] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:32:11.285] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:32:11.286] [DEBUG] default - 输出scriptData
+[2019-12-12T16:32:11.286] [DEBUG] default - 准备输出html!
+[2019-12-12T16:32:11.286] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:32:11.286] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:32:11.286] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:32:11.286] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:32:11.287] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:32:11.287] [INFO] default - 编译结束!
+[2019-12-12T16:32:11.288] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:32:11.302] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:32:11.302] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:32:11.303] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:32:11.320] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:32:11.396] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:32:11.404] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:33:04.351] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:33:04.351] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:33:04.351] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:33:04.351] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:33:04.351] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:33:04.352] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:33:04.352] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:33:04.352] [INFO] default - 开始处理模块: home
+[2019-12-12T16:33:04.367] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:33:04.367] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:33:04.371] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:33:04.373] [DEBUG] default - 模块topBar处理用时: 6 毫秒!
+[2019-12-12T16:33:04.373] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:33:04.397] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:33:04.408] [DEBUG] default - 模块navBar处理用时: 35 毫秒!
+[2019-12-12T16:33:04.409] [INFO] default - 开始处理模块: label
+[2019-12-12T16:33:04.413] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:33:04.414] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:33:04.415] [INFO] default - 开始处理模块: card
+[2019-12-12T16:33:04.454] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:33:04.463] [DEBUG] default - 模块card处理用时: 49 毫秒!
+[2019-12-12T16:33:04.463] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:33:04.472] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:33:04.476] [DEBUG] default - 模块customer处理用时: 13 毫秒!
+[2019-12-12T16:33:04.476] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:33:04.493] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:33:04.499] [DEBUG] default - 模块copyright处理用时: 23 毫秒!
+[2019-12-12T16:33:04.500] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:33:04.502] [DEBUG] default - 页面home处理用时: 150 毫秒!
+[2019-12-12T16:33:04.502] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:33:04.502] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:33:04.502] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:33:04.509] [INFO] default - 处理字体: {}
+[2019-12-12T16:33:04.512] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-12T16:33:04.512] [INFO] default - 正在处理script!
+[2019-12-12T16:33:04.527] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:33:04.528] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:33:04.528] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:33:04.528] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:33:04.528] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:33:04.528] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:04.528] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:33:04.528] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:04.528] [DEBUG] default - 输出scriptData
+[2019-12-12T16:33:04.528] [DEBUG] default - 准备输出html!
+[2019-12-12T16:33:04.529] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:33:04.529] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:33:04.529] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:33:04.529] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:33:04.530] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:33:04.530] [INFO] default - 编译结束!
+[2019-12-12T16:33:04.538] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:33:04.538] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:33:04.539] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:33:04.539] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:04.540] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:33:04.540] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:04.541] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:33:24.115] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:33:24.115] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:33:24.115] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:33:24.115] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:33:24.115] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:33:24.115] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:33:24.115] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:33:24.115] [INFO] default - 开始处理模块: home
+[2019-12-12T16:33:24.123] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:33:24.124] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:33:24.126] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:33:24.127] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:33:24.128] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:33:24.149] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:33:24.161] [DEBUG] default - 模块navBar处理用时: 33 毫秒!
+[2019-12-12T16:33:24.161] [INFO] default - 开始处理模块: label
+[2019-12-12T16:33:24.165] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:33:24.167] [DEBUG] default - 模块label处理用时: 6 毫秒!
+[2019-12-12T16:33:24.167] [INFO] default - 开始处理模块: card
+[2019-12-12T16:33:24.198] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:33:24.207] [DEBUG] default - 模块card处理用时: 40 毫秒!
+[2019-12-12T16:33:24.207] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:33:24.213] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:33:24.215] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-12T16:33:24.215] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:33:24.233] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:33:24.238] [DEBUG] default - 模块copyright处理用时: 23 毫秒!
+[2019-12-12T16:33:24.239] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:33:24.241] [DEBUG] default - 页面home处理用时: 126 毫秒!
+[2019-12-12T16:33:24.241] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:33:24.241] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:33:24.241] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:33:24.246] [INFO] default - 处理字体: {}
+[2019-12-12T16:33:24.248] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-12-12T16:33:24.248] [INFO] default - 正在处理script!
+[2019-12-12T16:33:24.260] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:33:24.271] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:33:24.271] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:33:24.271] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:33:24.271] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:33:24.271] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:24.271] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:33:24.271] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:24.271] [DEBUG] default - 输出scriptData
+[2019-12-12T16:33:24.271] [DEBUG] default - 准备输出html!
+[2019-12-12T16:33:24.271] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:33:24.271] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:33:24.271] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:33:24.271] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:33:24.272] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:33:24.273] [INFO] default - 编译结束!
+[2019-12-12T16:33:24.274] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:33:24.274] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:33:24.275] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:33:24.275] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:24.283] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:33:24.316] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:24.328] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:33:36.680] [INFO] default - file change: D:\work\人民图片\按分类查询\src\page\home.owo
+[2019-12-12T16:33:36.680] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:33:36.680] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:33:36.680] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\page\home.owo
+[2019-12-12T16:33:36.680] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:33:36.681] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:33:36.681] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:33:36.681] [INFO] default - 开始处理模块: home
+[2019-12-12T16:33:36.696] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:33:36.696] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:33:36.699] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:33:36.700] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:33:36.701] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:33:36.723] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:33:36.738] [DEBUG] default - 模块navBar处理用时: 38 毫秒!
+[2019-12-12T16:33:36.738] [INFO] default - 开始处理模块: label
+[2019-12-12T16:33:36.741] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:33:36.743] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:33:36.743] [INFO] default - 开始处理模块: card
+[2019-12-12T16:33:36.778] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:33:36.785] [DEBUG] default - 模块card处理用时: 42 毫秒!
+[2019-12-12T16:33:36.785] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-12-12T16:33:36.785] [INFO] default - 开始处理模块: card-1
+[2019-12-12T16:33:36.785] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-12-12T16:33:36.791] [DEBUG] default - 模块card处理用时: 6 毫秒!
+[2019-12-12T16:33:36.791] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-12-12T16:33:36.791] [INFO] default - 开始处理模块: card-2
+[2019-12-12T16:33:36.791] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-12-12T16:33:36.797] [DEBUG] default - 模块card处理用时: 6 毫秒!
+[2019-12-12T16:33:36.798] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:33:36.804] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:33:36.807] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:33:36.807] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:33:36.825] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:33:36.829] [DEBUG] default - 模块copyright处理用时: 22 毫秒!
+[2019-12-12T16:33:36.831] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:33:36.832] [DEBUG] default - 页面home处理用时: 151 毫秒!
+[2019-12-12T16:33:36.833] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:33:36.833] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:33:36.833] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:33:36.839] [INFO] default - 处理字体: {}
+[2019-12-12T16:33:36.840] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-12-12T16:33:36.840] [INFO] default - 正在处理script!
+[2019-12-12T16:33:36.853] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:33:36.854] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:33:36.854] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:33:36.854] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:33:36.854] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:33:36.854] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:36.854] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:33:36.854] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:36.855] [DEBUG] default - 输出scriptData
+[2019-12-12T16:33:36.855] [DEBUG] default - 准备输出html!
+[2019-12-12T16:33:36.855] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:33:36.855] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:33:36.855] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:33:36.855] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:33:36.856] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:33:36.856] [INFO] default - 编译结束!
+[2019-12-12T16:33:36.857] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:33:36.859] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:33:36.859] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:36.860] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:33:36.860] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:33:36.861] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:36.862] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:33:50.614] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:33:50.614] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:33:50.614] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:33:50.614] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:33:50.614] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:33:50.614] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:33:50.614] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:33:50.614] [INFO] default - 开始处理模块: home
+[2019-12-12T16:33:50.623] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:33:50.623] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:33:50.628] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:33:50.628] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-12T16:33:50.629] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:33:50.651] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:33:50.661] [DEBUG] default - 模块navBar处理用时: 33 毫秒!
+[2019-12-12T16:33:50.661] [INFO] default - 开始处理模块: label
+[2019-12-12T16:33:50.664] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:33:50.666] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:33:50.666] [INFO] default - 开始处理模块: card
+[2019-12-12T16:33:50.693] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:33:50.702] [DEBUG] default - 模块card处理用时: 36 毫秒!
+[2019-12-12T16:33:50.702] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-12-12T16:33:50.702] [INFO] default - 开始处理模块: card-1
+[2019-12-12T16:33:50.702] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-12-12T16:33:50.706] [DEBUG] default - 模块card处理用时: 4 毫秒!
+[2019-12-12T16:33:50.706] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-12-12T16:33:50.706] [INFO] default - 开始处理模块: card-2
+[2019-12-12T16:33:50.706] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-12-12T16:33:50.712] [DEBUG] default - 模块card处理用时: 6 毫秒!
+[2019-12-12T16:33:50.712] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:33:50.718] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:33:50.721] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-12T16:33:50.721] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:33:50.740] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:33:50.744] [DEBUG] default - 模块copyright处理用时: 23 毫秒!
+[2019-12-12T16:33:50.747] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:33:50.748] [DEBUG] default - 页面home处理用时: 134 毫秒!
+[2019-12-12T16:33:50.749] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:33:50.749] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:33:50.749] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:33:50.758] [INFO] default - 处理字体: {}
+[2019-12-12T16:33:50.759] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-12T16:33:50.759] [INFO] default - 正在处理script!
+[2019-12-12T16:33:50.777] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:33:50.785] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:33:50.785] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:33:50.785] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:33:50.785] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:33:50.785] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:50.785] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:33:50.785] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:50.785] [DEBUG] default - 输出scriptData
+[2019-12-12T16:33:50.786] [DEBUG] default - 准备输出html!
+[2019-12-12T16:33:50.786] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:33:50.786] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:33:50.786] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:33:50.786] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:33:50.787] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:33:50.788] [INFO] default - 编译结束!
+[2019-12-12T16:33:50.788] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:33:50.805] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:33:50.805] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:33:50.806] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:33:50.818] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:33:50.874] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:33:50.898] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:34:03.091] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:34:03.091] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:34:03.091] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:34:03.091] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:34:03.091] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:34:03.091] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:34:03.091] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:34:03.091] [INFO] default - 开始处理模块: home
+[2019-12-12T16:34:03.107] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:34:03.107] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:34:03.110] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:34:03.111] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-12T16:34:03.112] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:34:03.135] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:34:03.149] [DEBUG] default - 模块navBar处理用时: 37 毫秒!
+[2019-12-12T16:34:03.149] [INFO] default - 开始处理模块: label
+[2019-12-12T16:34:03.154] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:34:03.156] [DEBUG] default - 模块label处理用时: 7 毫秒!
+[2019-12-12T16:34:03.156] [INFO] default - 开始处理模块: card
+[2019-12-12T16:34:03.184] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:34:03.191] [DEBUG] default - 模块card处理用时: 35 毫秒!
+[2019-12-12T16:34:03.191] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-12-12T16:34:03.191] [INFO] default - 开始处理模块: card-1
+[2019-12-12T16:34:03.191] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-12-12T16:34:03.196] [DEBUG] default - 模块card处理用时: 5 毫秒!
+[2019-12-12T16:34:03.196] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-12-12T16:34:03.196] [INFO] default - 开始处理模块: card-2
+[2019-12-12T16:34:03.196] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-12-12T16:34:03.201] [DEBUG] default - 模块card处理用时: 5 毫秒!
+[2019-12-12T16:34:03.201] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:34:03.208] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:34:03.211] [DEBUG] default - 模块customer处理用时: 10 毫秒!
+[2019-12-12T16:34:03.212] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:34:03.234] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:34:03.241] [DEBUG] default - 模块copyright处理用时: 29 毫秒!
+[2019-12-12T16:34:03.244] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:34:03.245] [DEBUG] default - 页面home处理用时: 154 毫秒!
+[2019-12-12T16:34:03.245] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:34:03.245] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:34:03.245] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:34:03.254] [INFO] default - 处理字体: {}
+[2019-12-12T16:34:03.255] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-12T16:34:03.255] [INFO] default - 正在处理script!
+[2019-12-12T16:34:03.271] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:34:03.272] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:34:03.272] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:34:03.272] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:34:03.272] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:34:03.272] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:34:03.272] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:34:03.272] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:34:03.273] [DEBUG] default - 输出scriptData
+[2019-12-12T16:34:03.273] [DEBUG] default - 准备输出html!
+[2019-12-12T16:34:03.273] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:34:03.273] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:34:03.273] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:34:03.273] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:34:03.274] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:34:03.274] [INFO] default - 编译结束!
+[2019-12-12T16:34:03.276] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:34:03.276] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:34:03.276] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:34:03.277] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:34:03.277] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:34:03.278] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:34:03.278] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:34:12.238] [INFO] default - file change: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:34:12.238] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:34:12.238] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:34:12.238] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\module\card.owo
+[2019-12-12T16:34:12.238] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:34:12.238] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:34:12.238] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:34:12.238] [INFO] default - 开始处理模块: home
+[2019-12-12T16:34:12.248] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:34:12.249] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:34:12.251] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:34:12.252] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-12T16:34:12.252] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:34:12.283] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:34:12.298] [DEBUG] default - 模块navBar处理用时: 46 毫秒!
+[2019-12-12T16:34:12.298] [INFO] default - 开始处理模块: label
+[2019-12-12T16:34:12.302] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:34:12.304] [DEBUG] default - 模块label处理用时: 6 毫秒!
+[2019-12-12T16:34:12.304] [INFO] default - 开始处理模块: card
+[2019-12-12T16:34:12.328] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:34:12.333] [DEBUG] default - 模块card处理用时: 29 毫秒!
+[2019-12-12T16:34:12.334] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-12-12T16:34:12.334] [INFO] default - 开始处理模块: card-1
+[2019-12-12T16:34:12.334] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-12-12T16:34:12.337] [DEBUG] default - 模块card处理用时: 3 毫秒!
+[2019-12-12T16:34:12.337] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-12-12T16:34:12.337] [INFO] default - 开始处理模块: card-2
+[2019-12-12T16:34:12.337] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-12-12T16:34:12.342] [DEBUG] default - 模块card处理用时: 5 毫秒!
+[2019-12-12T16:34:12.342] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:34:12.347] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:34:12.352] [DEBUG] default - 模块customer处理用时: 10 毫秒!
+[2019-12-12T16:34:12.352] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:34:12.369] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:34:12.376] [DEBUG] default - 模块copyright处理用时: 24 毫秒!
+[2019-12-12T16:34:12.378] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:34:12.379] [DEBUG] default - 页面home处理用时: 141 毫秒!
+[2019-12-12T16:34:12.380] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:34:12.380] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:34:12.380] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:34:12.387] [INFO] default - 处理字体: {}
+[2019-12-12T16:34:12.388] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-12T16:34:12.388] [INFO] default - 正在处理script!
+[2019-12-12T16:34:12.404] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:34:12.405] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:34:12.405] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:34:12.405] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:34:12.405] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:34:12.405] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:34:12.405] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:34:12.405] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:34:12.405] [DEBUG] default - 输出scriptData
+[2019-12-12T16:34:12.405] [DEBUG] default - 准备输出html!
+[2019-12-12T16:34:12.405] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:34:12.405] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:34:12.405] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:34:12.405] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:34:12.406] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:34:12.407] [INFO] default - 编译结束!
+[2019-12-12T16:34:12.407] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:34:12.408] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:34:12.408] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:34:12.408] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:34:12.409] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:34:12.410] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:34:12.410] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:34:44.485] [INFO] default - file change: D:\work\人民图片\按分类查询\src\page\home.owo
+[2019-12-12T16:34:44.485] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:34:44.485] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:34:44.485] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\page\home.owo
+[2019-12-12T16:34:44.486] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:34:44.486] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:34:44.486] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:34:44.486] [INFO] default - 开始处理模块: home
+[2019-12-12T16:34:44.498] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:34:44.499] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:34:44.502] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:34:44.503] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-12T16:34:44.503] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:34:44.520] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:34:44.533] [DEBUG] default - 模块navBar处理用时: 30 毫秒!
+[2019-12-12T16:34:44.533] [INFO] default - 开始处理模块: label
+[2019-12-12T16:34:44.536] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:34:44.538] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:34:44.539] [INFO] default - 开始处理模块: card
+[2019-12-12T16:34:44.563] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:34:44.570] [DEBUG] default - 模块card处理用时: 32 毫秒!
+[2019-12-12T16:34:44.570] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-12-12T16:34:44.570] [INFO] default - 开始处理模块: card-1
+[2019-12-12T16:34:44.570] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-12-12T16:34:44.573] [DEBUG] default - 模块card处理用时: 3 毫秒!
+[2019-12-12T16:34:44.573] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-12-12T16:34:44.573] [INFO] default - 开始处理模块: card-2
+[2019-12-12T16:34:44.573] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-12-12T16:34:44.576] [DEBUG] default - 模块card处理用时: 3 毫秒!
+[2019-12-12T16:34:44.576] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:34:44.583] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:34:44.586] [DEBUG] default - 模块customer处理用时: 10 毫秒!
+[2019-12-12T16:34:44.586] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:34:44.603] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:34:44.607] [DEBUG] default - 模块copyright处理用时: 21 毫秒!
+[2019-12-12T16:34:44.609] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:34:44.610] [DEBUG] default - 页面home处理用时: 124 毫秒!
+[2019-12-12T16:34:44.610] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:34:44.610] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:34:44.610] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:34:44.615] [INFO] default - 处理字体: {}
+[2019-12-12T16:34:44.616] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-12-12T16:34:44.616] [INFO] default - 正在处理script!
+[2019-12-12T16:34:44.630] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:34:44.631] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:34:44.631] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:34:44.631] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:34:44.631] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:34:44.631] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:34:44.631] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:34:44.631] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:34:44.631] [DEBUG] default - 输出scriptData
+[2019-12-12T16:34:44.631] [DEBUG] default - 准备输出html!
+[2019-12-12T16:34:44.631] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:34:44.631] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:34:44.632] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:34:44.632] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:34:44.632] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:34:44.633] [INFO] default - 编译结束!
+[2019-12-12T16:34:44.634] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:34:44.639] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:34:44.639] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:34:44.639] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:34:44.646] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:34:44.672] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:34:44.673] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js
+[2019-12-12T16:35:53.286] [INFO] default - file change: D:\work\人民图片\按分类查询\src\main.css
+[2019-12-12T16:35:53.286] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-12T16:35:53.286] [INFO] default - 程序运行目录: D:\work\人民图片\按分类查询
+[2019-12-12T16:35:53.286] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\按分类查询\src\main.css
+[2019-12-12T16:35:53.286] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-12T16:35:53.287] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-12T16:35:53.287] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-12T16:35:53.287] [INFO] default - 开始处理模块: home
+[2019-12-12T16:35:53.311] [INFO] default - 开始处理模块: topBar
+[2019-12-12T16:35:53.311] [DEBUG] default - 使用文件缓存:D:\work\人民图片\按分类查询\owo_modules\fc53162a6282bce0734812bfaa4f41a5.owo
+[2019-12-12T16:35:53.313] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page
+[2019-12-12T16:35:53.315] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-12T16:35:53.315] [INFO] default - 开始处理模块: navBar
+[2019-12-12T16:35:53.339] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-12T16:35:53.354] [DEBUG] default - 模块navBar处理用时: 39 毫秒!
+[2019-12-12T16:35:53.354] [INFO] default - 开始处理模块: label
+[2019-12-12T16:35:53.358] [DEBUG] default - 缓存模板: label./src/module/label.owo
+[2019-12-12T16:35:53.359] [DEBUG] default - 模块label处理用时: 5 毫秒!
+[2019-12-12T16:35:53.359] [INFO] default - 开始处理模块: card
+[2019-12-12T16:35:53.385] [DEBUG] default - 缓存模板: card./src/module/card.owo
+[2019-12-12T16:35:53.392] [DEBUG] default - 模块card处理用时: 33 毫秒!
+[2019-12-12T16:35:53.392] [DEBUG] default - 模块 card 因名称重复被重命名为 card-1
+[2019-12-12T16:35:53.392] [INFO] default - 开始处理模块: card-1
+[2019-12-12T16:35:53.393] [DEBUG] default - 使用缓存返回模板: card-1
+[2019-12-12T16:35:53.397] [DEBUG] default - 模块card处理用时: 5 毫秒!
+[2019-12-12T16:35:53.397] [DEBUG] default - 模块 card 因名称重复被重命名为 card-2
+[2019-12-12T16:35:53.397] [INFO] default - 开始处理模块: card-2
+[2019-12-12T16:35:53.397] [DEBUG] default - 使用缓存返回模板: card-2
+[2019-12-12T16:35:53.399] [DEBUG] default - 模块card处理用时: 2 毫秒!
+[2019-12-12T16:35:53.399] [INFO] default - 开始处理模块: customer
+[2019-12-12T16:35:53.405] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-12T16:35:53.410] [DEBUG] default - 模块customer处理用时: 11 毫秒!
+[2019-12-12T16:35:53.410] [INFO] default - 开始处理模块: copyright
+[2019-12-12T16:35:53.427] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-12T16:35:53.433] [DEBUG] default - 模块copyright处理用时: 23 毫秒!
+[2019-12-12T16:35:53.435] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-12T16:35:53.436] [DEBUG] default - 页面home处理用时: 149 毫秒!
+[2019-12-12T16:35:53.437] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/triangle.png
+[2019-12-12T16:35:53.437] [DEBUG] default - css中的资源处理完毕!
+[2019-12-12T16:35:53.437] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-12T16:35:53.446] [INFO] default - 开始处理附属css中的资源
+[2019-12-12T16:35:53.447] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-12T16:35:53.447] [INFO] default - 处理字体: {}
+[2019-12-12T16:35:53.449] [INFO] default - 使用postcss处理完毕! 用时: 12 毫秒
+[2019-12-12T16:35:53.449] [INFO] default - 正在处理script!
+[2019-12-12T16:35:53.466] [INFO] default - 工程中只有一个页面!
+[2019-12-12T16:35:53.467] [INFO] default - js中的资源处理完毕!
+[2019-12-12T16:35:53.467] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-12T16:35:53.467] [DEBUG] default - 外部脚本数量: 2
+[2019-12-12T16:35:53.467] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-12T16:35:53.467] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:35:53.467] [DEBUG] default - 处理脚本: main
+[2019-12-12T16:35:53.467] [INFO] default - 读取文件: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:35:53.467] [DEBUG] default - 输出scriptData
+[2019-12-12T16:35:53.468] [DEBUG] default - 准备输出html!
+[2019-12-12T16:35:53.468] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/logo.png
+[2019-12-12T16:35:53.468] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/people-picture-logo.png
+[2019-12-12T16:35:53.468] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/customer.png
+[2019-12-12T16:35:53.468] [DEBUG] default - 忽略文件: D:/work/人民图片/按分类查询/src/resource/message.png
+[2019-12-12T16:35:53.469] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-12T16:35:53.469] [INFO] default - 编译结束!
+[2019-12-12T16:35:53.470] [INFO] default - 发送页面需要刷新命令!
+[2019-12-12T16:35:53.471] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.css
+[2019-12-12T16:35:53.471] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\owo.main.css
+[2019-12-12T16:35:53.471] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-12T16:35:53.471] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\main.js
+[2019-12-12T16:35:53.472] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\css\main.css
+[2019-12-12T16:35:53.472] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\main.js
+[2019-12-12T16:35:53.473] [INFO] default - 读取成功: D:\work\人民图片\按分类查询\src\resource\swiper.4.5.0.min.js
+[2019-12-12T16:35:53.474] [INFO] default - 写入文件: D:\work\人民图片\按分类查询\dist\static\js\swiper.4.5.0.min.js

@@ -1,0 +1,95 @@
+<template lang="pug">
+.card
+  .card-title 东北
+  .card-item
+    .left 项目1
+    .right
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 特别长的一个条目
+  .card-item
+    .left 项目2
+    .right
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 比较长条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 特别长的一个条目
+  .card-item
+    .left 项目3
+    .right
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 比较长条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 短条目
+      a(href="#") 特别长的一个条目
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.card-title {
+  background-color: #c4280c;
+  color: white;
+  padding: 0 20px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.card-item {
+  display: flex;
+  line-height: 45px;
+  font-size: 18px;
+  .left {
+    width: 140px;
+    padding: 0 20px;
+    border-bottom: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .right {
+    border: 2px solid #dddddd;
+    border-top: none;
+    padding: 8px 20px;
+    width: 990px;
+    line-height: 30px;
+    background-color: white;
+    a {
+      margin-right: 10px;
+    }
+    a:hover {
+      color: #e64e1f;
+      text-decoration: none;
+    }
+  }
+}
+</style>

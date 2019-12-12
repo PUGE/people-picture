@@ -10,7 +10,6 @@ body, html {
   overflow-x: hidden;
 }
 html {
-  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -21,6 +20,9 @@ body, html, .ox {
   min-height: 900px;
   position: relative;
 }
+body {
+  background-color: white;
+}
 h1, h2, h3, h4, h5, input {
   margin: 0;
   padding: 0;
@@ -28,9 +30,7 @@ h1, h2, h3, h4, h5, input {
 ul, li {
   list-style-type: none;
 }
-body {
-  background-color: #eeeeee;
-}
+
 a {
   cursor: pointer;
   text-decoration: none;

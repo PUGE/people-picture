@@ -328,6 +328,7 @@ li {
   background-color: white;
   border-radius: 8px;
   overflow: hidden;
+  opacity: 0.8;
 }
 
 .search-bar-box .search-bar select {
@@ -359,6 +360,7 @@ li {
 }
 
 .search-bar-box .search-bar:hover {
+  opacity: 1;
   box-shadow: 1px 1px 7px #7b6d6d;
 }
 

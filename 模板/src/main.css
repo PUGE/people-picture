@@ -10,7 +10,6 @@ body, html {
   overflow-x: hidden;
 }
 html {
-  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -20,6 +19,9 @@ body, html, .ox {
   margin: 0;
   min-height: 900px;
   position: relative;
+}
+body {
+  background-color: #eeeeee;
 }
 h1, h2, h3, h4, h5, input {
   margin: 0;
@@ -97,4 +99,9 @@ a {
 
 .customer:hover .message-box {
   display: block;
+}
+
+.copyright {
+  background-color: white;
+  padding-top: 20px;
 }

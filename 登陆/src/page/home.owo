@@ -1,0 +1,193 @@
+<template lang="pug">
+.home
+  img.bg-image(src="@|bg.jpg|")
+  .login-box
+    .left
+      img(src="@|logo.png|")
+    .right
+      .nav-bar
+        .nav-bar-item.active
+          span 登陆
+        .nav-bar-item
+          span 注册
+      //- 登录页
+      .input-box
+        .username-bar.input-bar
+          .icon &#xe607;
+          input(type="text" placeholder="会员名/邮箱/手机号")
+        .password-box.input-bar
+          .icon &#xe69f;
+          input(type="password")
+      .remember-bar
+        input(type="checkbox")
+        span 记住我
+      .verification
+      input.login-button(type="button" value="登陆")
+      .bottom-bar
+        .bottom-bar-item 临时浏览
+        .bottom-bar-item 找回密码
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  overflow: hidden;
+}
+.bg-image {
+  height: 100%;
+  width: auto;
+  margin: auto;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+}
+.login-box {
+  position: absolute;
+  width: 1000px;
+  height: 460px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  .left {
+    width: 640px;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  .right {
+    width: 260px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 50px;
+  }
+}
+.nav-bar {
+  display: flex;
+  font-size: 22px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  color: #969696;
+  height: 40px;
+  align-items: center;
+  .nav-bar-item {
+    width: 50%;
+    text-align: center;
+    span {
+      border-bottom: 2px solid #e2e2e2;
+      padding: 5px 20px;
+    }
+  }
+  .active span {
+    color: #484848;
+    border-color: #eb3e38;
+  }
+}
+.input-box {
+  margin-top: 30px;
+  .icon {
+    color: #e4342e;
+  }
+}
+.input-bar {
+  height: 40px;
+  margin-bottom: 25px;
+  display: flex;
+  .icon {
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 35px;
+  }
+  .text {
+    background-color: transparent !important;
+    border: none;
+    padding: 0 10px;
+    width: 210px;
+  }
+  input {
+    width: 195px;
+    padding: 0 10px;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    color: #333;
+    height: 33px;
+    margin-left: 5px;
+    font-size: 16px;
+  }
+}
+.password-box input {
+  margin-top: 2px;
+}
+.remember-bar {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  color: #969696;
+  font-size: 14px;
+  padding-left: 6px;
+  .checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+}
+.verification {
+  height: 40px;
+  margin: 20px 0;
+  background-color: bisque;
+}
+.login-button {
+  width: 100%;
+  cursor: pointer;
+  background-color: #de2e1e;
+  color: white;
+  height: 45px;
+  line-height: 45px;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px #e26e61;
+}
+.bottom-bar {
+  display: flex;
+  line-height: 40px;
+  color: #484848;
+  .bottom-bar-item {
+    width: 50%;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+  }
+  .bottom-bar-item:hover {
+    color: #d92d1a;
+  }
+}
+</style>

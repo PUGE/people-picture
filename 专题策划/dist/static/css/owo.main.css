@@ -757,6 +757,7 @@ h1 {
   -webkit-box-pack: end;
           justify-content: flex-end;
   height: 60px;
+  margin-top: -10px;
   -webkit-box-align: center;
           align-items: center;
 }

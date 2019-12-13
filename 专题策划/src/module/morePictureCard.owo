@@ -5,16 +5,6 @@
   .bottom-box
     p.text 湖北利川：一对返乡小夫妻 巧做脱贫大文章(13)
     p.time 2019-11-30 14:45:22
-  .menu-bar
-    .check-box
-      input.check-item(type="checkbox")
-    .menu-box
-      .buy.menu-box-item(:tap="switchShoppingCart" value="商品ID")
-        span.icon &#xe600;
-        span.text 加入购物车
-      .start.menu-box-item
-        span.icon &#xe605;
-        span 收藏
 </template>
 
 <script>
@@ -81,56 +71,5 @@ p {
 }
 .time {
   color: #666;
-}
-.menu-bar {
-  line-height: 40px;
-  display: flex;
-  justify-content: flex-end;
-  .menu-box {
-    display: flex;
-    padding-right: 10px;
-    align-items: center;
-  }
-  .menu-box-item.check {
-    background-color: steelblue;
-    color: white;
-  }
-  .menu-box-item {
-    border: 1px solid #ccc;
-    height: 22px;
-    line-height: 22px;
-    padding: 2px 4px;
-    padding-right: 8px;
-    font-size: 12px;
-    margin: 4px;
-    border-radius: 2px;
-    color: #666;
-    display: flex;
-    span {
-      user-select: none;
-      pointer-events: none;
-    }
-  }
-  .menu-box-item:hover {
-    border-color: #009fe9;
-  }
-  .icon {
-    width: 22px;
-    text-align: center;
-    font-size: 14px;
-  }
-  span {
-    display: block;
-  }
-}
-.check-box {
-  display: none;
-}
-.check-item {
-  width: 26px;
-  height: 26px;
-  margin: 7px;
-  display: block;
-  cursor: pointer;
 }
 </style>

@@ -7,7 +7,7 @@
     a(href="#") 4
     a(href="#") 5
     a(href="#") 6
-    a.more(href="#") ┅
+    a.more.icon(href="#") &#xe618;
     a.last(href="#") 99
     a.next(href="#") 下一页
   .turn
@@ -16,14 +16,6 @@
     span 页
   input.ok(type="button" value="确定")
 </template>
-
-<script>
-  module.exports = {
-    created: function () {
-
-    }
-  }
-</script>
 
 
 <style lang="less">
@@ -42,9 +34,13 @@
     text-align: center;
     line-height: 40px;
     border: 1px solid #ccc;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 3px;
     margin: 0 7px;
+    color: #666;
+  }
+  a:hover {
+    border: 1px solid #e1001d;
   }
   .active {
     background-color: #e1001d;
@@ -52,26 +48,47 @@
   }
   .next {
     width: 90px;
+    color: #333;
+  }
+  .next:hover {
+    background-color: #009fe9;
+    color: white;
+    border: 1px solid #009fe9;
   }
 }
 .turn {
   margin: 0 10px;
   font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
 }
 input[type="number"] {
   width: 40px;
-  height: 40px;
   padding: 0;
   border: 1px solid #ccc;
   border-radius: 3px;
-  margin: 0 5px;
+  text-align: center;
+  margin: 5px 10px;
+  height: 28px;
 }
 .ok {
   width: 60px;
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-size: 18px;
   cursor: pointer;
+  color: #333;
+  height: 30px;
+  font-size: 15px;
+  margin: 5px 0;
 }
+.ok:hover {
+  background-color: #009fe9;
+  color: white;
+}
+input[type='number']{-moz-appearance:textfield;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0;}
 </style>

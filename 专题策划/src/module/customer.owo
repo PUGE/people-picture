@@ -9,14 +9,6 @@
       p 客服在线时间 8点~17点
 </template>
 
-<script>
-  module.exports = {
-    created: function () {
-
-    }
-  }
-</script>
-
 
 <style lang="less">
 .customer {

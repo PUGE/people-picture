@@ -30,14 +30,16 @@
 .switch {
   border: 1px solid #ccc;
   display: flex;
-  width: 141px;
-  line-height: 30px;
+  width: 201px;
+  line-height: 40px;
   border-radius: 15px;
   overflow: hidden;
-  height: 30px;
+  height: 40px;
 }
 .switch-item {
-  width: 70px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 16px;
   text-align: center;
   user-select: none;
   cursor: pointer;

@@ -7,23 +7,34 @@
   .w1200
     h1 浙江建德：竹编技能赛一赛 民间篾匠亮绝活
     .switch-box
+      plug(_name="cardBoxNav" _src="./src/module/cardBoxNav.owo")
       plug(_name="switch" _src="./src/module/switch.owo")
-  .gray.card-box.card-box-1
-    .w1200.clear
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-  .gray.card-box.card-box-2
-    .w1200.clear
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
-      plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+  .gray.card-content
+    .w1200
+      .tool-bar
+        .tool-bar-item.multiple-selection(:tap="multipleSelection")
+          span.icon &#xe630;
+          span 批量操作
+        .buy.tool-bar-item
+          span.icon &#xe600;
+          span 加入购物车
+        .stars.tool-bar-item
+          span.icon &#xe605;
+          span 收藏
+      .card-box.card-box-1.active-card-box.clear
+        plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+        plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+        plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+        plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+        plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+        plug(_name="onePictureCard" _src="./src/module/onePictureCard.owo")
+      .card-box.card-box-2.clear
+        plug(_name="morePictureCard" _src="./src/module/morePictureCard.owo")
+        plug(_name="morePictureCard" _src="./src/module/morePictureCard.owo")
+        plug(_name="morePictureCard" _src="./src/module/morePictureCard.owo")
+        plug(_name="morePictureCard" _src="./src/module/morePictureCard.owo")
+        plug(_name="morePictureCard" _src="./src/module/morePictureCard.owo")
+        plug(_name="morePictureCard" _src="./src/module/morePictureCard.owo")
   plug(_name="pageBar" _src="./src/module/pageBar.owo")
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
@@ -33,19 +44,46 @@
 
 <script>
   module.exports = {
+    data: {
+      shoppingCartList: null,
+      isMultipleSelection: false
+    },
     created: function () {
-      
+      this.data.shoppingCartList = new Set()
     },
     broadcast: {
       activeItem: function (showMore) {
-        console.log(showMore)
+        // console.log(showMore)
         if (showMore) {
-          this.$el.getElementsByClassName('card-box-1')[0].style.display = 'none'
-          this.$el.getElementsByClassName('card-box-2')[0].style.display = 'block'
+          this.$el.getElementsByClassName('card-box-2')[0].classList.add('active-card-box')
+          this.$el.getElementsByClassName('card-box-1')[0].classList.remove('active-card-box')
+          this.$el.getElementsByClassName('tool-bar')[0].style.display = 'none'
         } else {
-          this.$el.getElementsByClassName('card-box-1')[0].style.display = 'block'
-          this.$el.getElementsByClassName('card-box-2')[0].style.display = 'none'
+          this.$el.getElementsByClassName('tool-bar')[0].style.display = 'flex'
+          this.$el.getElementsByClassName('card-box-1')[0].classList.add('active-card-box')
+          this.$el.getElementsByClassName('card-box-2')[0].classList.remove('active-card-box')
         }
+      },
+      addShoppingCart: function (e) {
+        console.log('添加购物车!')
+        this.data.shoppingCartList.add(e)
+        console.log(Array.from(this.data.shoppingCartList))
+      },
+      removeShoppingCart: function (e) {
+        console.log('删除购物车!')
+        this.data.shoppingCartList.delete(e)
+        console.log(Array.from(this.data.shoppingCartList))
+      },
+    },
+    // 批量操作
+    multipleSelection: function () {
+      this.data.isMultipleSelection = !this.data.isMultipleSelection
+      if (this.data.isMultipleSelection) {
+        owo.query('.card-content')[0].classList.add('multiple')
+        this.$target.classList.add('active')
+      } else {
+        owo.query('.card-content')[0].classList.remove('multiple')
+        this.$target.classList.remove('active')
       }
     }
   }
@@ -64,15 +102,15 @@ h1 {
   line-height: 60px;
 }
 .switch-box {
-  height: 40px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .card-box {
-  padding: 40px 0;
-  margin-top: 10px;
+  padding: 10px 0;
+  display: none;
 }
+
 .one-picture-card:nth-child(3n) {
   margin-right: 0;
 }
@@ -86,5 +124,66 @@ h1 {
 }
 .card-box-2 {
   display: none;
+}
+.active-card-box {
+  display: block;
+}
+.tool-bar {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  align-items: center;
+  .tool-bar-item {
+    border: 1px solid #ccc;
+    height: 32px;
+    line-height: 32px;
+    padding: 2px 4px;
+    padding-right: 8px;
+    font-size: 14px;
+    margin: 4px;
+    border-radius: 2px;
+    color: #666;
+    display: flex;
+    cursor: pointer;
+    span {
+      display: block;
+      user-select: none;
+      pointer-events: none;
+    }
+    .icon {
+      width: 32px;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+  .tool-bar-item:hover {
+    background-color: #cab9de;
+    color: white;
+    border-color: #cab9de;
+  }
+  .tool-bar-item.active {
+    background-color: #009fe9;
+    color: white;
+    border: 1px solid #009fe9;
+  }
+  .buy, .stars {
+    display: none;
+  }
+}
+.multiple {
+  .buy, .stars {
+    display: flex;
+  }
+  .one-picture-card {
+    .check-box {
+      display: block;
+    }
+    .menu-box {
+      display: none;
+    }
+  }
+}
+.card-content {
+  padding-top: 30px;
 }
 </style>

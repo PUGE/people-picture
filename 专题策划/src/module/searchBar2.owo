@@ -67,4 +67,8 @@
     color: #484848;
     font-size: 14px;
   }
+  a:hover {
+    color: #e1001d;
+    text-decoration: underline;
+  }
 </style>

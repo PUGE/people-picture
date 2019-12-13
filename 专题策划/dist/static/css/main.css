@@ -69,12 +69,12 @@ a {
 
 @font-face {
   font-family: 'iconfont';  /* project id 1531972 */
-  src: url('//at.alicdn.com/t/font_1531972_wppdevgydkj.eot');
-  src: url('//at.alicdn.com/t/font_1531972_wppdevgydkj.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1531972_wppdevgydkj.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1531972_wppdevgydkj.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1531972_wppdevgydkj.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1531972_wppdevgydkj.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1531972_yv9tc703gp.eot');
+  src: url('//at.alicdn.com/t/font_1531972_yv9tc703gp.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.svg#iconfont') format('svg');
 }
 
 .icon {

@@ -1,4 +1,4 @@
-// Fri Dec 13 2019 17:42:41 GMT+0800 (GMT+08:00)
+// Sat Dec 14 2019 22:37:35 GMT+0800 (中国标准时间)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -231,6 +231,25 @@ _owo.showPage = function() {
 // 执行页面加载完毕方法
 _owo.ready(_owo.showPage)
 
+_owo._event_tap = function (tempDom, callBack) {
+  // 变量
+  var startTime = 0
+  var isMove = false
+  tempDom.addEventListener('touchstart', function() {
+    startTime = Date.now();
+  })
+  tempDom.addEventListener('touchmove', function() {
+    isMove = true
+  })
+  tempDom.addEventListener('touchend', function(e) {
+    if (Date.now() - startTime < 300 && !isMove) {
+      callBack(e)
+    }
+    // 清零
+    startTime = 0;
+    isMove = false
+  })
+}
 
 
 

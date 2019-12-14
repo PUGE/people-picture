@@ -6,33 +6,71 @@
       img(src="@|logo.png|")
     .right
       .nav-bar
-        .nav-bar-item.active
+        .nav-bar-item.login-nav-button.active(:tap="showLoginPanel")
           span 登陆
-        .nav-bar-item
+        .nav-bar-item.register-nav-button(:tap="showRegisterPanel")
           span 注册
-      //- 登录页
-      .input-box
-        .username-bar.input-bar
-          .icon &#xe607;
-          input(type="text" placeholder="会员名/邮箱/手机号")
-        .password-box.input-bar
-          .icon &#xe69f;
-          input(type="password")
-      .remember-bar
-        input(type="checkbox")
-        span 记住我
-      .verification
-      input.login-button(type="button" value="登陆")
-      .bottom-bar
-        .bottom-bar-item 临时浏览
-        .bottom-bar-item 找回密码
+      .login-panel
+        //- 登录页
+        .input-box
+          .username-bar.input-bar
+            .icon &#xe65e;
+            input(type="text" placeholder="会员名/邮箱/手机号")
+          .password-box.input-bar
+            .icon &#xe601;
+            input(type="password" placeholder="密码")
+        .remember-bar
+          input(type="checkbox")
+          span 记住我
+        .verification
+        input.login-button(type="button" value="登陆")
+        .bottom-bar
+          .bottom-bar-item(:tap="showTemporaryPanel") 临时浏览
+          .bottom-bar-item 找回密码
+      .register-panel
+        .register-box-item(o-hover="grow")
+          .icon &#xe606;
+          span 公司用图注册
+        .register-box-item(o-hover="grow")
+          .icon &#xe606;
+          span 自媒体用图注册
+        .register-box-item(o-hover="grow")
+          .icon &#xe606;
+          span 摄影师用图注册
+        .register-bottom-bar
+          a(href="#") 了解公司用图和自媒体用途区别
+      //- 临时浏览账号
+      .temporary.no-show
+        h2 扫码获取临时浏览账号
+        img(src="@|qr.png|")
+        .temporary-bottom-bar(:tap="hideTemporaryPanel") 返回账号密码登录
 </template>
 
 <script>
   module.exports = {
     created: function () {
-
-    }
+      
+    },
+    showLoginPanel: function () {
+      this.$target.classList.add('active')
+      owo.query('.register-nav-button')[0].classList.remove('active')
+      owo.query('.register-panel')[0].style.display = 'none'
+      owo.query('.login-panel')[0].style.display = 'block'
+    },
+    showRegisterPanel: function () {
+      this.$target.classList.add('active')
+      owo.query('.login-nav-button')[0].classList.remove('active')
+      owo.query('.login-panel')[0].style.display = 'none'
+      owo.query('.register-panel')[0].style.display = 'block'
+    },
+    showTemporaryPanel: function () {
+      owo.query('.login-panel')[0].style.display = 'none'
+      owo.query('.temporary')[0].style.display = 'block'
+    },
+    hideTemporaryPanel: function () {
+      owo.query('.temporary')[0].style.display = 'none'
+      owo.query('.login-panel')[0].style.display = 'block'
+    },
   }
 </script>
 
@@ -88,10 +126,13 @@
   align-items: center;
   .nav-bar-item {
     width: 50%;
+    cursor: pointer;
     text-align: center;
     span {
       border-bottom: 2px solid #e2e2e2;
       padding: 5px 20px;
+      user-select: none;
+      pointer-events: none;
     }
   }
   .active span {
@@ -114,7 +155,7 @@
     line-height: 40px;
     width: 40px;
     text-align: center;
-    font-size: 35px;
+    font-size: 26px;
   }
   .text {
     background-color: transparent !important;
@@ -135,9 +176,6 @@
     margin-left: 5px;
     font-size: 16px;
   }
-}
-.password-box input {
-  margin-top: 2px;
 }
 .remember-bar {
   display: flex;
@@ -188,6 +226,55 @@
   }
   .bottom-bar-item:hover {
     color: #d92d1a;
+  }
+}
+.register-panel {
+  display: none;
+  padding-top: 20px;
+  .register-box-item {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f32e2e;
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    display: block;
+    box-shadow: 1px 1px 3px #c2b1b1;
+    span {
+      display: inline-block;
+      width: 180px;
+      text-align: center;
+    }
+  }
+  .register-box-item:nth-child(2n) {
+    background-color: #ffe44c;
+  }
+  .register-bottom-bar {
+    text-align: center;
+    color: #666;
+  }
+}
+.no-show {
+  display: none;
+}
+.temporary {
+  h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: #484848;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
+  }
+  .temporary-bottom-bar {
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
   }
 }
 </style>

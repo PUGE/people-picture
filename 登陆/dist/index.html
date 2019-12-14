@@ -30,7 +30,7 @@
   <body>
     <!-- 页面区域 -->
     <!-- 页面[home]-->
-    <div class="home owo" template="home"><img class="bg-image" src="./static/resource/bg.jpg"><div class="login-box"><div class="left"><img src="./static/resource/logo.png"></div><div class="right"><div class="nav-bar"><div class="nav-bar-item active"><span>登陆</span></div><div class="nav-bar-item"><span>注册</span></div></div><div class="input-box"><div class="username-bar input-bar"><div class="icon"></div><input type="text" placeholder="会员名/邮箱/手机号"></div><div class="password-box input-bar"><div class="icon"></div><input type="password"></div></div><div class="remember-bar"><input type="checkbox"><span>记住我</span></div><div class="verification"></div><input class="login-button" type="button" value="登陆"><div class="bottom-bar"><div class="bottom-bar-item">临时浏览</div><div class="bottom-bar-item">找回密码</div></div></div></div></div>
+    <div class="home owo" template="home"><img class="bg-image" src="./static/resource/bg.jpg"><div class="login-box"><div class="left"><img src="./static/resource/logo.png"></div><div class="right"><div class="nav-bar"><div class="nav-bar-item login-nav-button active" :tap="showLoginPanel"><span>登陆</span></div><div class="nav-bar-item register-nav-button" :tap="showRegisterPanel"><span>注册</span></div></div><div class="login-panel"><div class="input-box"><div class="username-bar input-bar"><div class="icon"></div><input type="text" placeholder="会员名/邮箱/手机号"></div><div class="password-box input-bar"><div class="icon"></div><input type="password" placeholder="密码"></div></div><div class="remember-bar"><input type="checkbox"><span>记住我</span></div><div class="verification"></div><input class="login-button" type="button" value="登陆"><div class="bottom-bar"><div class="bottom-bar-item" :tap="showTemporaryPanel">临时浏览</div><div class="bottom-bar-item">找回密码</div></div></div><div class="register-panel"><div class="register-box-item owo-hover-grow"><div class="icon"></div><span>公司用图注册</span></div><div class="register-box-item owo-hover-grow"><div class="icon"></div><span>自媒体用图注册</span></div><div class="register-box-item owo-hover-grow"><div class="icon"></div><span>摄影师用图注册</span></div><div class="register-bottom-bar"><a href="#">了解公司用图和自媒体用途区别</a></div></div><div class="temporary no-show"><h2>扫码获取临时浏览账号</h2><img src="./static/resource/qr.png"><div class="temporary-bottom-bar" :tap="hideTemporaryPanel">返回账号密码登录</div></div></div></div></div>
     <!-- 框架script代码 --><!-- 框架script文件 -->
 <script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>
 <script>/*
@@ -41,7 +41,27 @@
 owo.phoneEnter = "null";
 owo.script = {
   "home": {
-    "created": function created() {}
+    "created": function created() {},
+    "showLoginPanel": function showLoginPanel() {
+      this.$target.classList.add('active');
+      owo.query('.register-nav-button')[0].classList.remove('active');
+      owo.query('.register-panel')[0].style.display = 'none';
+      owo.query('.login-panel')[0].style.display = 'block';
+    },
+    "showRegisterPanel": function showRegisterPanel() {
+      this.$target.classList.add('active');
+      owo.query('.login-nav-button')[0].classList.remove('active');
+      owo.query('.login-panel')[0].style.display = 'none';
+      owo.query('.register-panel')[0].style.display = 'block';
+    },
+    "showTemporaryPanel": function showTemporaryPanel() {
+      owo.query('.login-panel')[0].style.display = 'none';
+      owo.query('.temporary')[0].style.display = 'block';
+    },
+    "hideTemporaryPanel": function hideTemporaryPanel() {
+      owo.query('.temporary')[0].style.display = 'none';
+      owo.query('.login-panel')[0].style.display = 'block';
+    }
   }
 };</script>
   </body>

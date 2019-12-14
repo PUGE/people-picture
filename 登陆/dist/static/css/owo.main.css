@@ -53,6 +53,24 @@ ul {
 li {
   list-style: none;
 }
+.owo-hover-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.owo-hover-grow:hover, .owo-hover-grow:focus, .owo-hover-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 .home {
   overflow: hidden;
@@ -115,12 +133,18 @@ li {
 
 .nav-bar .nav-bar-item {
   width: 50%;
+  cursor: pointer;
   text-align: center;
 }
 
 .nav-bar .nav-bar-item span {
   border-bottom: 2px solid #e2e2e2;
   padding: 5px 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
 }
 
 .nav-bar .active span {
@@ -148,7 +172,7 @@ li {
   line-height: 40px;
   width: 40px;
   text-align: center;
-  font-size: 35px;
+  font-size: 26px;
 }
 
 .input-bar .text {
@@ -170,10 +194,6 @@ li {
   height: 33px;
   margin-left: 5px;
   font-size: 16px;
-}
-
-.password-box input {
-  margin-top: 2px;
 }
 
 .remember-bar {
@@ -239,5 +259,61 @@ li {
 
 .bottom-bar .bottom-bar-item:hover {
   color: #d92d1a;
+}
+
+.register-panel {
+  display: none;
+  padding-top: 20px;
+}
+
+.register-panel .register-box-item {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #f32e2e;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+  display: block;
+  box-shadow: 1px 1px 3px #c2b1b1;
+}
+
+.register-panel .register-box-item span {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+}
+
+.register-panel .register-box-item:nth-child(2n) {
+  background-color: #ffe44c;
+}
+
+.register-panel .register-bottom-bar {
+  text-align: center;
+  color: #666;
+}
+
+.no-show {
+  display: none;
+}
+
+.temporary h2 {
+  line-height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  color: #484848;
+}
+
+.temporary img {
+  display: block;
+  margin: 20px auto;
+}
+
+.temporary .temporary-bottom-bar {
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  line-height: 40px;
 }
 

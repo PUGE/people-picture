@@ -231,6 +231,86 @@ li {
 .nav-bar .user-menu:hover {
   color: #e64e1f;
 }
+.nav-bar-phone {
+  height: 45px;
+}
+
+.nav-bar-phone .logo {
+  height: 38px;
+  width: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.nav-bar-phone .menu {
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+  line-height: 45px;
+  color: #757575;
+  text-align: center;
+}
+
+.nav-bar-phone .nav-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar-phone .nav-box .nav {
+  width: 60%;
+  height: 100%;
+  left: -60vw;
+  position: absolute;
+  -webkit-transition: left 0.6s;
+  transition: left 0.6s;
+  background-color: white;
+}
+
+.nav-bar-phone .logo-bar {
+  height: 50px;
+  padding-left: 5px;
+}
+
+.nav-bar-phone .nav-item,
+.nav-bar-phone .menu-item {
+  height: 45px;
+  line-height: 45px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 18px;
+}
+
+.nav-bar-phone .nav-item a,
+.nav-bar-phone .menu-item a {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.nav-bar-phone .nav-item .icon,
+.nav-bar-phone .menu-item .icon {
+  width: 40px;
+  text-align: center;
+  font-size: 22px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.nav-bar-phone .line {
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
 .swiper-box {
   width: 100%;
   height: 480px;
@@ -646,7 +726,7 @@ li {
   height: 100%;
 }
 
-.expandable-image-box ul li:nth-child(3n+3) {
+.expandable-image-box ul li:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -683,6 +763,10 @@ li {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.expandable-image-box .more-button-bar .more-button {
+  display: block;
 }
 .customer {
   position: fixed;

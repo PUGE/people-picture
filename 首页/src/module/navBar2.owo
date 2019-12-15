@@ -1,5 +1,5 @@
 <template lang="pug">
-ul.nav-bar-red
+ul.nav-bar-red.clear
   li(for="switch-show-item-1")
     span 最新
   li(for="switch-show-item-2")

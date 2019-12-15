@@ -780,3 +780,787 @@
 [2019-12-15T18:02:00.821] [INFO] default - 发送页面需要刷新命令!
 [2019-12-15T18:02:00.821] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
 [2019-12-15T18:02:00.822] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:03:28.916] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:03:28.916] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:03:28.916] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:03:28.916] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:03:28.916] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:03:28.916] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:03:28.916] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:03:28.916] [INFO] default - 开始处理模块: home
+[2019-12-15T18:03:28.935] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:03:28.960] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:03:28.969] [DEBUG] default - 模块registerPanel处理用时: 34 毫秒!
+[2019-12-15T18:03:28.971] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:03:28.983] [DEBUG] default - 页面home处理用时: 67 毫秒!
+[2019-12-15T18:03:28.983] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:03:28.983] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:03:28.990] [INFO] default - 处理字体: {}
+[2019-12-15T18:03:28.991] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-15T18:03:28.991] [INFO] default - 正在处理script!
+[2019-12-15T18:03:29.005] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:03:29.006] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:03:29.006] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:03:29.006] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:03:29.006] [DEBUG] default - 输出scriptData
+[2019-12-15T18:03:29.007] [DEBUG] default - 准备输出html!
+[2019-12-15T18:03:29.007] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:03:29.007] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:03:29.007] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:03:29.008] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:03:29.008] [INFO] default - 编译结束!
+[2019-12-15T18:03:29.009] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:03:29.010] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:03:29.011] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:03:52.092] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:03:52.092] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:03:52.092] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:03:52.092] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:03:52.092] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:03:52.092] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:03:52.092] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:03:52.092] [INFO] default - 开始处理模块: home
+[2019-12-15T18:03:52.107] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:03:52.138] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:03:52.147] [DEBUG] default - 模块registerPanel处理用时: 40 毫秒!
+[2019-12-15T18:03:52.148] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:03:52.159] [DEBUG] default - 页面home处理用时: 67 毫秒!
+[2019-12-15T18:03:52.160] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:03:52.160] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:03:52.164] [INFO] default - 处理字体: {}
+[2019-12-15T18:03:52.165] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
+[2019-12-15T18:03:52.165] [INFO] default - 正在处理script!
+[2019-12-15T18:03:52.177] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:03:52.178] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:03:52.178] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:03:52.178] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:03:52.178] [DEBUG] default - 输出scriptData
+[2019-12-15T18:03:52.178] [DEBUG] default - 准备输出html!
+[2019-12-15T18:03:52.179] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:03:52.179] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:03:52.179] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:03:52.179] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:03:52.180] [INFO] default - 编译结束!
+[2019-12-15T18:03:52.181] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:03:52.184] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:03:52.184] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:04:00.032] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:04:00.032] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:04:00.032] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:04:00.033] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:04:00.033] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:04:00.034] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:04:00.034] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:04:00.034] [INFO] default - 开始处理模块: home
+[2019-12-15T18:04:00.051] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:04:00.081] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:04:00.093] [DEBUG] default - 模块registerPanel处理用时: 42 毫秒!
+[2019-12-15T18:04:00.094] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:04:00.105] [DEBUG] default - 页面home处理用时: 71 毫秒!
+[2019-12-15T18:04:00.106] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:04:00.106] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:04:00.112] [INFO] default - 处理字体: {}
+[2019-12-15T18:04:00.113] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-12-15T18:04:00.113] [INFO] default - 正在处理script!
+[2019-12-15T18:04:00.127] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:04:00.127] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:04:00.127] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:04:00.127] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:04:00.127] [DEBUG] default - 输出scriptData
+[2019-12-15T18:04:00.128] [DEBUG] default - 准备输出html!
+[2019-12-15T18:04:00.128] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:04:00.128] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:04:00.128] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:04:00.129] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:04:00.129] [INFO] default - 编译结束!
+[2019-12-15T18:04:00.129] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:04:00.130] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:04:00.130] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:04:47.578] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:04:47.578] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:04:47.578] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:04:47.578] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:04:47.578] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:04:47.578] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:04:47.578] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:04:47.578] [INFO] default - 开始处理模块: home
+[2019-12-15T18:04:47.608] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:04:47.644] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:04:47.656] [DEBUG] default - 模块registerPanel处理用时: 48 毫秒!
+[2019-12-15T18:04:47.657] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:04:47.669] [DEBUG] default - 页面home处理用时: 91 毫秒!
+[2019-12-15T18:04:47.669] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:04:47.669] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:04:47.679] [INFO] default - 处理字体: {}
+[2019-12-15T18:04:47.680] [INFO] default - 使用postcss处理完毕! 用时: 11 毫秒
+[2019-12-15T18:04:47.680] [INFO] default - 正在处理script!
+[2019-12-15T18:04:47.705] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:04:47.706] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:04:47.706] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:04:47.706] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:04:47.706] [DEBUG] default - 输出scriptData
+[2019-12-15T18:04:47.706] [DEBUG] default - 准备输出html!
+[2019-12-15T18:04:47.707] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:04:47.707] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:04:47.707] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:04:47.707] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:04:47.708] [INFO] default - 编译结束!
+[2019-12-15T18:04:47.708] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:04:47.709] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:04:47.709] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:05:18.919] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:05:18.919] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:05:18.919] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:05:18.919] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:05:18.919] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:05:18.919] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:05:18.919] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:05:18.919] [INFO] default - 开始处理模块: home
+[2019-12-15T18:05:18.940] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:05:18.975] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:05:18.986] [DEBUG] default - 模块registerPanel处理用时: 47 毫秒!
+[2019-12-15T18:05:18.987] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:05:18.999] [DEBUG] default - 页面home处理用时: 80 毫秒!
+[2019-12-15T18:05:18.999] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:05:18.999] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:05:19.007] [INFO] default - 处理字体: {}
+[2019-12-15T18:05:19.008] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-12-15T18:05:19.008] [INFO] default - 正在处理script!
+[2019-12-15T18:05:19.030] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:05:19.030] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:05:19.030] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:05:19.030] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:05:19.030] [DEBUG] default - 输出scriptData
+[2019-12-15T18:05:19.031] [DEBUG] default - 准备输出html!
+[2019-12-15T18:05:19.031] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:05:19.031] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:05:19.031] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:05:19.032] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:05:19.032] [INFO] default - 编译结束!
+[2019-12-15T18:05:19.034] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:05:19.034] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:05:19.034] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:06:50.438] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:06:50.438] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:06:50.438] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:06:50.438] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:06:50.438] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:06:50.438] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:06:50.438] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:06:50.438] [INFO] default - 开始处理模块: home
+[2019-12-15T18:06:50.459] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:06:50.489] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:06:50.500] [DEBUG] default - 模块registerPanel处理用时: 41 毫秒!
+[2019-12-15T18:06:50.501] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:06:50.512] [DEBUG] default - 页面home处理用时: 74 毫秒!
+[2019-12-15T18:06:50.512] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:06:50.512] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:06:50.519] [INFO] default - 处理字体: {}
+[2019-12-15T18:06:50.520] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-15T18:06:50.520] [INFO] default - 正在处理script!
+[2019-12-15T18:06:50.541] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:06:50.541] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:06:50.541] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:06:50.541] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:06:50.541] [DEBUG] default - 输出scriptData
+[2019-12-15T18:06:50.542] [DEBUG] default - 准备输出html!
+[2019-12-15T18:06:50.542] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:06:50.542] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:06:50.542] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:06:50.543] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:06:50.543] [INFO] default - 编译结束!
+[2019-12-15T18:06:50.544] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:06:50.548] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:06:50.548] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:07:46.920] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:07:46.920] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:07:46.920] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:07:46.920] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:07:46.920] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:07:46.920] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:07:46.920] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:07:46.920] [INFO] default - 开始处理模块: home
+[2019-12-15T18:07:46.948] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:07:46.987] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:07:47.001] [DEBUG] default - 模块registerPanel处理用时: 53 毫秒!
+[2019-12-15T18:07:47.002] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:07:47.016] [DEBUG] default - 页面home处理用时: 96 毫秒!
+[2019-12-15T18:07:47.017] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:07:47.017] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:07:47.026] [INFO] default - 处理字体: {}
+[2019-12-15T18:07:47.027] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:07:47.027] [INFO] default - 正在处理script!
+[2019-12-15T18:07:47.047] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:07:47.048] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:07:47.048] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:07:47.048] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:07:47.048] [DEBUG] default - 输出scriptData
+[2019-12-15T18:07:47.048] [DEBUG] default - 准备输出html!
+[2019-12-15T18:07:47.048] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:07:47.048] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:07:47.048] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:07:47.049] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:07:47.050] [INFO] default - 编译结束!
+[2019-12-15T18:07:47.050] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:07:47.051] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:07:47.051] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:09:01.367] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:09:01.367] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:09:01.367] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:09:01.367] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:09:01.367] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:09:01.367] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:09:01.367] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:09:01.367] [INFO] default - 开始处理模块: home
+[2019-12-15T18:09:01.390] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:09:01.425] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:09:01.437] [DEBUG] default - 模块registerPanel处理用时: 47 毫秒!
+[2019-12-15T18:09:01.439] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:09:01.451] [DEBUG] default - 页面home处理用时: 84 毫秒!
+[2019-12-15T18:09:01.451] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:09:01.452] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:09:01.461] [INFO] default - 处理字体: {}
+[2019-12-15T18:09:01.462] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:09:01.462] [INFO] default - 正在处理script!
+[2019-12-15T18:09:01.482] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:09:01.483] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:09:01.483] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:09:01.483] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:09:01.483] [DEBUG] default - 输出scriptData
+[2019-12-15T18:09:01.484] [DEBUG] default - 准备输出html!
+[2019-12-15T18:09:01.484] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:09:01.484] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:09:01.484] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:09:01.485] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:09:01.485] [INFO] default - 编译结束!
+[2019-12-15T18:09:01.486] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:09:01.488] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:09:01.488] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:09:52.913] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:09:52.913] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:09:52.913] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:09:52.913] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:09:52.913] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:09:52.913] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:09:52.913] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:09:52.913] [INFO] default - 开始处理模块: home
+[2019-12-15T18:09:52.936] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:09:52.980] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:09:52.994] [DEBUG] default - 模块registerPanel处理用时: 58 毫秒!
+[2019-12-15T18:09:52.995] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:09:53.009] [DEBUG] default - 页面home处理用时: 96 毫秒!
+[2019-12-15T18:09:53.010] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:09:53.010] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:09:53.019] [INFO] default - 处理字体: {}
+[2019-12-15T18:09:53.020] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:09:53.020] [INFO] default - 正在处理script!
+[2019-12-15T18:09:53.045] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:09:53.046] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:09:53.046] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:09:53.046] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:09:53.046] [DEBUG] default - 输出scriptData
+[2019-12-15T18:09:53.046] [DEBUG] default - 准备输出html!
+[2019-12-15T18:09:53.047] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:09:53.047] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:09:53.047] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:09:53.047] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:09:53.048] [INFO] default - 编译结束!
+[2019-12-15T18:09:53.048] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:09:53.049] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:09:53.049] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:10:46.661] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:10:46.661] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:10:46.661] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:10:46.661] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:10:46.661] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:10:46.661] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:10:46.661] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:10:46.661] [INFO] default - 开始处理模块: home
+[2019-12-15T18:10:46.682] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:10:46.727] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:10:46.739] [DEBUG] default - 模块registerPanel处理用时: 57 毫秒!
+[2019-12-15T18:10:46.742] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:10:46.755] [DEBUG] default - 页面home处理用时: 94 毫秒!
+[2019-12-15T18:10:46.755] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:10:46.755] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:10:46.762] [INFO] default - 处理字体: {}
+[2019-12-15T18:10:46.764] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-15T18:10:46.764] [INFO] default - 正在处理script!
+[2019-12-15T18:10:46.785] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:10:46.786] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:10:46.786] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:10:46.786] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:10:46.786] [DEBUG] default - 输出scriptData
+[2019-12-15T18:10:46.786] [DEBUG] default - 准备输出html!
+[2019-12-15T18:10:46.786] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:10:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:10:46.787] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:10:46.787] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:10:46.788] [INFO] default - 编译结束!
+[2019-12-15T18:10:46.788] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:10:46.790] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:10:46.790] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:12:46.889] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:12:46.889] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:12:46.889] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:12:46.889] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:12:46.889] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:12:46.889] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:12:46.889] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:12:46.889] [INFO] default - 开始处理模块: home
+[2019-12-15T18:12:46.915] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:12:46.954] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:12:46.968] [DEBUG] default - 模块registerPanel处理用时: 53 毫秒!
+[2019-12-15T18:12:46.969] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:12:46.983] [DEBUG] default - 页面home处理用时: 94 毫秒!
+[2019-12-15T18:12:46.983] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:12:46.983] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:12:46.992] [INFO] default - 开始处理附属css中的资源
+[2019-12-15T18:12:46.992] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-15T18:12:46.992] [INFO] default - 处理字体: {}
+[2019-12-15T18:12:46.993] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:12:46.994] [INFO] default - 正在处理script!
+[2019-12-15T18:12:47.016] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:12:47.016] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:12:47.016] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:12:47.016] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:12:47.016] [DEBUG] default - 输出scriptData
+[2019-12-15T18:12:47.017] [DEBUG] default - 准备输出html!
+[2019-12-15T18:12:47.017] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:12:47.017] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:12:47.017] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:12:47.018] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:12:47.019] [INFO] default - 编译结束!
+[2019-12-15T18:12:47.019] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:12:47.020] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:12:47.020] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:12:47.020] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:12:47.020] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\main.css
+[2019-12-15T18:13:26.231] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:13:26.231] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:13:26.231] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:13:26.231] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:13:26.231] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:13:26.231] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:13:26.231] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:13:26.231] [INFO] default - 开始处理模块: home
+[2019-12-15T18:13:26.250] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:13:26.282] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:13:26.295] [DEBUG] default - 模块registerPanel处理用时: 45 毫秒!
+[2019-12-15T18:13:26.296] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:13:26.309] [DEBUG] default - 页面home处理用时: 78 毫秒!
+[2019-12-15T18:13:26.309] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:13:26.310] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:13:26.318] [INFO] default - 开始处理附属css中的资源
+[2019-12-15T18:13:26.318] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-15T18:13:26.319] [INFO] default - 处理字体: {}
+[2019-12-15T18:13:26.320] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:13:26.320] [INFO] default - 正在处理script!
+[2019-12-15T18:13:26.341] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:13:26.341] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:13:26.341] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:13:26.341] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:13:26.341] [DEBUG] default - 输出scriptData
+[2019-12-15T18:13:26.342] [DEBUG] default - 准备输出html!
+[2019-12-15T18:13:26.342] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:13:26.342] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:13:26.342] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:13:26.343] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:13:26.343] [INFO] default - 编译结束!
+[2019-12-15T18:13:26.344] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:13:26.346] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:13:26.347] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:13:26.347] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:13:26.352] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\main.css
+[2019-12-15T18:14:00.162] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:14:00.162] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:14:00.162] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:14:00.162] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:14:00.162] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:14:00.162] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:14:00.162] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:14:00.162] [INFO] default - 开始处理模块: home
+[2019-12-15T18:14:00.185] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:14:00.223] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:14:00.238] [DEBUG] default - 模块registerPanel处理用时: 53 毫秒!
+[2019-12-15T18:14:00.239] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:14:00.253] [DEBUG] default - 页面home处理用时: 91 毫秒!
+[2019-12-15T18:14:00.254] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:14:00.254] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:14:00.264] [INFO] default - 开始处理附属css中的资源
+[2019-12-15T18:14:00.264] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-15T18:14:00.264] [INFO] default - 处理字体: {}
+[2019-12-15T18:14:00.265] [INFO] default - 使用postcss处理完毕! 用时: 11 毫秒
+[2019-12-15T18:14:00.265] [INFO] default - 正在处理script!
+[2019-12-15T18:14:00.289] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:14:00.290] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:14:00.290] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:14:00.290] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:14:00.290] [DEBUG] default - 输出scriptData
+[2019-12-15T18:14:00.290] [DEBUG] default - 准备输出html!
+[2019-12-15T18:14:00.291] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:14:00.291] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:14:00.291] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:14:00.292] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:14:00.292] [INFO] default - 编译结束!
+[2019-12-15T18:14:00.292] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:14:00.293] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:14:00.293] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:14:00.293] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:14:00.294] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\main.css
+[2019-12-15T18:14:56.157] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:14:56.157] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:14:56.157] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:14:56.157] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:14:56.157] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:14:56.157] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:14:56.157] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:14:56.157] [INFO] default - 开始处理模块: home
+[2019-12-15T18:14:56.175] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:14:56.204] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:14:56.215] [DEBUG] default - 模块registerPanel处理用时: 40 毫秒!
+[2019-12-15T18:14:56.217] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:14:56.229] [DEBUG] default - 页面home处理用时: 72 毫秒!
+[2019-12-15T18:14:56.230] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:14:56.230] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:14:56.240] [INFO] default - 开始处理附属css中的资源
+[2019-12-15T18:14:56.240] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-15T18:14:56.240] [INFO] default - 处理字体: {}
+[2019-12-15T18:14:56.241] [INFO] default - 使用postcss处理完毕! 用时: 11 毫秒
+[2019-12-15T18:14:56.241] [INFO] default - 正在处理script!
+[2019-12-15T18:14:56.267] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:14:56.268] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:14:56.268] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:14:56.268] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:14:56.268] [DEBUG] default - 输出scriptData
+[2019-12-15T18:14:56.269] [DEBUG] default - 准备输出html!
+[2019-12-15T18:14:56.269] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:14:56.269] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:14:56.269] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:14:56.270] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:14:56.270] [INFO] default - 编译结束!
+[2019-12-15T18:14:56.271] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:14:56.272] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:14:56.273] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:14:56.273] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\people-picture\登陆\src\main.css
+[2019-12-15T18:14:56.276] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\main.css
+[2019-12-15T18:16:42.400] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:16:42.400] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:16:42.400] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:16:42.400] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:16:42.400] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:16:42.400] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:16:42.400] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:16:42.400] [INFO] default - 开始处理模块: home
+[2019-12-15T18:16:42.424] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:16:42.466] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:16:42.481] [DEBUG] default - 模块registerPanel处理用时: 58 毫秒!
+[2019-12-15T18:16:42.482] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:16:42.494] [DEBUG] default - 页面home处理用时: 94 毫秒!
+[2019-12-15T18:16:42.495] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:16:42.495] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:16:42.504] [INFO] default - 处理字体: {}
+[2019-12-15T18:16:42.505] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:16:42.506] [INFO] default - 正在处理script!
+[2019-12-15T18:16:42.522] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:16:42.523] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:16:42.523] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:16:42.523] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:16:42.523] [DEBUG] default - 输出scriptData
+[2019-12-15T18:16:42.524] [DEBUG] default - 准备输出html!
+[2019-12-15T18:16:42.524] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:16:42.524] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:16:42.524] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:16:42.525] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:16:42.525] [INFO] default - 编译结束!
+[2019-12-15T18:16:42.525] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:16:42.526] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:16:42.526] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:17:41.809] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:17:41.809] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:17:41.809] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:17:41.809] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:17:41.809] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:17:41.809] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:17:41.809] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:17:41.809] [INFO] default - 开始处理模块: home
+[2019-12-15T18:17:41.834] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:17:41.872] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:17:41.883] [DEBUG] default - 模块registerPanel处理用时: 49 毫秒!
+[2019-12-15T18:17:41.884] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:17:41.895] [DEBUG] default - 页面home处理用时: 86 毫秒!
+[2019-12-15T18:17:41.896] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:17:41.896] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:17:41.904] [INFO] default - 处理字体: {}
+[2019-12-15T18:17:41.905] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-12-15T18:17:41.905] [INFO] default - 正在处理script!
+[2019-12-15T18:17:41.922] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:17:41.923] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:17:41.923] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:17:41.923] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:17:41.923] [DEBUG] default - 输出scriptData
+[2019-12-15T18:17:41.923] [DEBUG] default - 准备输出html!
+[2019-12-15T18:17:41.923] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:17:41.923] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:17:41.924] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:17:41.924] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:17:41.925] [INFO] default - 编译结束!
+[2019-12-15T18:17:41.926] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:17:41.927] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:17:41.927] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:20:30.320] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:20:30.320] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:20:30.320] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:20:30.320] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:20:30.320] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:20:30.320] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:20:30.320] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:20:30.320] [INFO] default - 开始处理模块: home
+[2019-12-15T18:20:30.343] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:20:30.387] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:20:30.401] [DEBUG] default - 模块registerPanel处理用时: 58 毫秒!
+[2019-12-15T18:20:30.402] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:20:30.414] [DEBUG] default - 页面home处理用时: 94 毫秒!
+[2019-12-15T18:20:30.415] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:20:30.415] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:20:30.424] [INFO] default - 处理字体: {}
+[2019-12-15T18:20:30.425] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:20:30.425] [INFO] default - 正在处理script!
+[2019-12-15T18:20:30.446] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:20:30.446] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:20:30.446] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:20:30.446] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:20:30.446] [DEBUG] default - 输出scriptData
+[2019-12-15T18:20:30.447] [DEBUG] default - 准备输出html!
+[2019-12-15T18:20:30.447] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:20:30.447] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:20:30.447] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:20:30.448] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:20:30.448] [INFO] default - 编译结束!
+[2019-12-15T18:20:30.449] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:20:30.450] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:20:30.450] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:21:20.846] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:21:20.846] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:21:20.846] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:21:20.846] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:21:20.846] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:21:20.846] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:21:20.846] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:21:20.846] [INFO] default - 开始处理模块: home
+[2019-12-15T18:21:20.864] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:21:20.910] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:21:20.922] [DEBUG] default - 模块registerPanel处理用时: 58 毫秒!
+[2019-12-15T18:21:20.923] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:21:20.933] [DEBUG] default - 页面home处理用时: 87 毫秒!
+[2019-12-15T18:21:20.934] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:21:20.934] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:21:20.942] [INFO] default - 处理字体: {}
+[2019-12-15T18:21:20.943] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-12-15T18:21:20.943] [INFO] default - 正在处理script!
+[2019-12-15T18:21:20.967] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:21:20.967] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:21:20.967] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:21:20.967] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:21:20.967] [DEBUG] default - 输出scriptData
+[2019-12-15T18:21:20.968] [DEBUG] default - 准备输出html!
+[2019-12-15T18:21:20.968] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:21:20.968] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:21:20.968] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:21:20.969] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:21:20.969] [INFO] default - 编译结束!
+[2019-12-15T18:21:20.970] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:21:20.973] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:21:20.973] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:23:00.088] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:23:00.088] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:23:00.088] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:23:00.088] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:23:00.088] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:23:00.088] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:23:00.088] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:23:00.088] [INFO] default - 开始处理模块: home
+[2019-12-15T18:23:00.109] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:23:00.158] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:23:00.175] [DEBUG] default - 模块registerPanel处理用时: 66 毫秒!
+[2019-12-15T18:23:00.176] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:23:00.191] [DEBUG] default - 页面home处理用时: 103 毫秒!
+[2019-12-15T18:23:00.192] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:23:00.192] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:23:00.201] [INFO] default - 处理字体: {}
+[2019-12-15T18:23:00.202] [INFO] default - 使用postcss处理完毕! 用时: 10 毫秒
+[2019-12-15T18:23:00.202] [INFO] default - 正在处理script!
+[2019-12-15T18:23:00.223] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:23:00.223] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:23:00.223] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:23:00.223] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:23:00.223] [DEBUG] default - 输出scriptData
+[2019-12-15T18:23:00.224] [DEBUG] default - 准备输出html!
+[2019-12-15T18:23:00.224] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:23:00.224] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:23:00.224] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:23:00.225] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:23:00.225] [INFO] default - 编译结束!
+[2019-12-15T18:23:00.226] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:23:00.226] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:23:00.227] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:23:26.833] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:23:26.833] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:23:26.833] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:23:26.833] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:23:26.833] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:23:26.833] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:23:26.833] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:23:26.833] [INFO] default - 开始处理模块: home
+[2019-12-15T18:23:26.853] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:23:26.893] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:23:26.905] [DEBUG] default - 模块registerPanel处理用时: 52 毫秒!
+[2019-12-15T18:23:26.905] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:23:26.917] [DEBUG] default - 页面home处理用时: 84 毫秒!
+[2019-12-15T18:23:26.917] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:23:26.917] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:23:26.927] [INFO] default - 处理字体: {}
+[2019-12-15T18:23:26.928] [INFO] default - 使用postcss处理完毕! 用时: 11 毫秒
+[2019-12-15T18:23:26.928] [INFO] default - 正在处理script!
+[2019-12-15T18:23:26.944] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:23:26.944] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:23:26.944] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:23:26.944] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:23:26.944] [DEBUG] default - 输出scriptData
+[2019-12-15T18:23:26.945] [DEBUG] default - 准备输出html!
+[2019-12-15T18:23:26.945] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:23:26.945] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:23:26.945] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:23:26.946] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:23:26.946] [INFO] default - 编译结束!
+[2019-12-15T18:23:26.947] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:23:26.948] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:23:26.948] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:23:48.044] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:23:48.044] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:23:48.044] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:23:48.044] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:23:48.044] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:23:48.044] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:23:48.044] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:23:48.044] [INFO] default - 开始处理模块: home
+[2019-12-15T18:23:48.066] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:23:48.107] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:23:48.121] [DEBUG] default - 模块registerPanel处理用时: 55 毫秒!
+[2019-12-15T18:23:48.122] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:23:48.134] [DEBUG] default - 页面home处理用时: 90 毫秒!
+[2019-12-15T18:23:48.134] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:23:48.134] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:23:48.144] [INFO] default - 处理字体: {}
+[2019-12-15T18:23:48.145] [INFO] default - 使用postcss处理完毕! 用时: 11 毫秒
+[2019-12-15T18:23:48.145] [INFO] default - 正在处理script!
+[2019-12-15T18:23:48.165] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:23:48.165] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:23:48.165] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:23:48.165] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:23:48.165] [DEBUG] default - 输出scriptData
+[2019-12-15T18:23:48.166] [DEBUG] default - 准备输出html!
+[2019-12-15T18:23:48.166] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:23:48.166] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:23:48.166] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:23:48.167] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:23:48.167] [INFO] default - 编译结束!
+[2019-12-15T18:23:48.168] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:23:48.169] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:23:48.169] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:24:18.256] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:24:18.256] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:24:18.256] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:24:18.256] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:24:18.256] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:24:18.256] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:24:18.256] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:24:18.256] [INFO] default - 开始处理模块: home
+[2019-12-15T18:24:18.278] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:24:18.314] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:24:18.326] [DEBUG] default - 模块registerPanel处理用时: 48 毫秒!
+[2019-12-15T18:24:18.327] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:24:18.340] [DEBUG] default - 页面home处理用时: 84 毫秒!
+[2019-12-15T18:24:18.341] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:24:18.341] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:24:18.349] [INFO] default - 处理字体: {}
+[2019-12-15T18:24:18.349] [INFO] default - 使用postcss处理完毕! 用时: 8 毫秒
+[2019-12-15T18:24:18.350] [INFO] default - 正在处理script!
+[2019-12-15T18:24:18.371] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:24:18.371] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:24:18.372] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:24:18.372] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:24:18.372] [DEBUG] default - 输出scriptData
+[2019-12-15T18:24:18.372] [DEBUG] default - 准备输出html!
+[2019-12-15T18:24:18.372] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:24:18.372] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:24:18.372] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:24:18.373] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:24:18.373] [INFO] default - 编译结束!
+[2019-12-15T18:24:18.374] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:24:18.376] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:24:18.376] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:24:45.346] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:24:45.346] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:24:45.346] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:24:45.346] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:24:45.346] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:24:45.346] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:24:45.346] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:24:45.347] [INFO] default - 开始处理模块: home
+[2019-12-15T18:24:45.369] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:24:45.415] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:24:45.427] [DEBUG] default - 模块registerPanel处理用时: 58 毫秒!
+[2019-12-15T18:24:45.428] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:24:45.440] [DEBUG] default - 页面home处理用时: 93 毫秒!
+[2019-12-15T18:24:45.441] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:24:45.441] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:24:45.449] [INFO] default - 处理字体: {}
+[2019-12-15T18:24:45.450] [INFO] default - 使用postcss处理完毕! 用时: 9 毫秒
+[2019-12-15T18:24:45.450] [INFO] default - 正在处理script!
+[2019-12-15T18:24:45.469] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:24:45.469] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:24:45.470] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:24:45.470] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:24:45.470] [DEBUG] default - 输出scriptData
+[2019-12-15T18:24:45.470] [DEBUG] default - 准备输出html!
+[2019-12-15T18:24:45.470] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:24:45.470] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:24:45.470] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:24:45.471] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:24:45.471] [INFO] default - 编译结束!
+[2019-12-15T18:24:45.472] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:24:45.473] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:24:45.473] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-15T18:28:03.517] [INFO] default - file change: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:28:03.517] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-15T18:28:03.517] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\people-picture\登陆
+[2019-12-15T18:28:03.517] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\people-picture\登陆\src\module\registerPanel.owo
+[2019-12-15T18:28:03.517] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
+[2019-12-15T18:28:03.517] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-15T18:28:03.517] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-15T18:28:03.517] [INFO] default - 开始处理模块: home
+[2019-12-15T18:28:03.540] [INFO] default - 开始处理模块: registerPanel
+[2019-12-15T18:28:03.576] [DEBUG] default - 缓存模板: registerPanel./src/module/registerPanel.owo
+[2019-12-15T18:28:03.591] [DEBUG] default - 模块registerPanel处理用时: 51 毫秒!
+[2019-12-15T18:28:03.592] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-15T18:28:03.603] [DEBUG] default - 页面home处理用时: 86 毫秒!
+[2019-12-15T18:28:03.604] [DEBUG] default - css中的资源处理完毕!
+[2019-12-15T18:28:03.604] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-15T18:28:03.615] [INFO] default - 处理字体: {}
+[2019-12-15T18:28:03.616] [INFO] default - 使用postcss处理完毕! 用时: 12 毫秒
+[2019-12-15T18:28:03.616] [INFO] default - 正在处理script!
+[2019-12-15T18:28:03.634] [INFO] default - 工程中只有一个页面!
+[2019-12-15T18:28:03.635] [INFO] default - js中的资源处理完毕!
+[2019-12-15T18:28:03.635] [DEBUG] default - 处理引用脚本: []
+[2019-12-15T18:28:03.635] [DEBUG] default - 外部脚本数量: 0
+[2019-12-15T18:28:03.635] [DEBUG] default - 输出scriptData
+[2019-12-15T18:28:03.636] [DEBUG] default - 准备输出html!
+[2019-12-15T18:28:03.636] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/bg.jpg
+[2019-12-15T18:28:03.636] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/logo.png
+[2019-12-15T18:28:03.636] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/people-picture/登陆/src/resource/qr.png
+[2019-12-15T18:28:03.637] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-15T18:28:03.637] [INFO] default - 编译结束!
+[2019-12-15T18:28:03.637] [INFO] default - 发送页面需要刷新命令!
+[2019-12-15T18:28:03.639] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\people-picture\登陆\dist\static\css\owo.main.css
+[2019-12-15T18:28:03.640] [INFO] default - 主要逻辑文件写出成功!

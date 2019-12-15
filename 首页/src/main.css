@@ -4,7 +4,6 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
   font: normal 12px/180% "SimSun";
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
@@ -18,7 +17,6 @@ html {
 body, html, .ox {
   padding: 0;
   margin: 0;
-  min-height: 900px;
   position: relative;
 }
 body {
@@ -70,12 +68,12 @@ a {
 
 @font-face {
   font-family: 'iconfont';  /* project id 1531972 */
-  src: url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.eot');
-  src: url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1531972_oghj91og56b.eot');
+  src: url('//at.alicdn.com/t/font_1531972_oghj91og56b.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1531972_oghj91og56b.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1531972_oghj91og56b.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1531972_oghj91og56b.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1531972_oghj91og56b.svg#iconfont') format('svg');
 }
 
 .icon {
@@ -105,4 +103,240 @@ a {
 .copyright {
   background-color: white;
   padding-top: 20px;
+}
+
+/* 手机适配 */
+.phone {
+}
+.phone .w1200 {
+  width: 100%;
+}
+.pc .no-pc, .phone .no-phone {
+  display: none;
+}
+.phone .title-bar {
+  display: none;
+}
+.phone .nav-box {
+  top: 0;
+  box-shadow: 0px 0px 2px #9c94bd;
+}
+.phone .nav-bar {
+  padding-top: 0;
+}
+
+.phone .swiper-box {
+  height: 56vw;
+}
+
+.phone .swiper-box .swiper-slide p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.phone .search-bar-box {
+  width: 80vw;
+  height: 18vw;
+  top: -9vw;
+}
+
+.phone .search-bar-box .keyword {
+  font-size: 12px;
+  line-height: 6vw;
+}
+.phone .search-bar-box .search-bar {
+  height: 12vw;
+}
+
+.phone .search-bar-box .search-bar select {
+  font-size: 12px;
+  width: 30%;
+  text-align: left;
+  background-color: transparent;
+}
+
+.phone .search-bar-box .search {
+  width: 12vw;
+  height: 12vw;
+  line-height: 12vw;
+  background-position: center 3vw;
+  background-size: 7vw;
+}
+
+.phone .search-bar-box .search-bar input[type="text"] {
+  padding-left: 2vw;
+  width: calc(100% - 38vw);
+  font-size: 12px;
+}
+
+.phone .swiper-box .swiper-pagination.swiper-pagination-bullets {
+  display: none;
+}
+
+.phone .phone-box {
+  margin-top: 45px;
+  height: calc(100vh - 45px);
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.phone .news-card.w1200 {
+  margin-top: 0px;
+}
+
+.phone .title-more h1 {
+  font-size: 22px;
+  padding: 0 2vw;
+}
+
+.phone .two-image {
+  width: 100vw;
+  margin-top: 0;
+}
+
+.phone .two-image .two-image-item {
+  width: 96vw;
+  height: auto;
+  padding: 0;
+  margin: 2vw 2vw;
+  background-color: white;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px #ccc;
+}
+
+.phone .two-image .two-image-item a, .phone .two-image .two-image-item img {
+  display: block;
+  width: 96vw;
+  margin: 0 auto;
+}
+
+.phone .news-card .left {
+  width: 100%;
+  margin: 0;
+}
+
+.phone .icon-list {
+  width: 96vw;
+  margin: 3vw auto;
+  padding: 2vw 0;
+  background-color: white;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px #ccc;
+}
+
+.phone .news-card .right {
+  width: 100vw;
+}
+
+.phone .icon-list li {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 3vw;
+}
+
+.phone .title-more a {
+  right: 2vw;
+  font-size: 14px;
+}
+
+.phone .recommend {
+  height: 66vw;
+}
+
+.phone .recommend .text-info {
+  margin: 0;
+  font-size: 12px;
+  height: auto;
+  line-height: 20px;
+  padding: 5px 2%;
+  bottom: 0;
+  width: 96%;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  top: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.phone .recommend .recommend-image {
+  width: 15vw;
+  left: 6vw;
+}
+
+.phone .recommend .info-box {
+  display: none;
+}
+
+.phone .recommend .control {
+  display: none;
+}
+
+.phone .recommend .more {
+  display: none;
+}
+
+.phone .nav-bar-red {
+  margin: 0;
+  display: block;
+  height: auto;
+  padding: 2vw 0;
+  background-color: transparent;
+}
+
+.phone .nav-bar-red li {
+  float: left;
+  height: 28px;
+  background-color: burlywood;
+  line-height: 28px;
+  font-size: 18px;
+  width: auto;
+  padding: 0 3vw;
+  margin: 1vw 2vw;
+}
+.phone .two-image p {
+  line-height: 40px;
+  font-size: 14px;
+  height: 40px;
+}
+
+.phone .gray {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.phone .expandable-image-box li {
+  width: 96vw;
+  display: block;
+  margin: 0 2vw;
+  margin-bottom: 2vw;
+  height: auto;
+  position: relative;
+  background-color: white;
+  box-shadow: 1px 1px 4px #ccc;
+  border-radius: 4px;
+}
+
+.phone .expandable-image-box .image-box img, .phone .expandable-image-box .image-box {
+  max-width: 96vw;
+  height: auto;
+  display: block;
+}
+
+.phone .expandable-image-box .more-button-bar {
+  margin-top: 2vw;
+}
+
+.phone .copyright .top {
+  display: none;
+}
+
+.phone .expandable-image-box li p {
+  padding-top: 7px;
+  background-color: white;
+  margin: 0;
+  padding-bottom: 1vw;
 }

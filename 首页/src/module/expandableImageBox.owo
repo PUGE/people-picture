@@ -9,7 +9,7 @@
     li
       a(href="#")
         .image-box
-          img(src="http://vip-public.people.com.cn/photo/2019/12/10/5c0b8ff9707e43f8b719544bb09ce89aHSnc_s.jpg")
+          img(src="http://www.people.com.cn/mediafile/pic/BIG/20191215/57/13951453462408760201.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
@@ -73,7 +73,7 @@
     li
       a(href="#")
         .image-box
-          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
+          img(src="http://www.people.com.cn/mediafile/pic/BIG/20191215/57/13951453462408760201.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
   .more-button-bar
     .more-button(:tap="expandable" o-hover="sweep-to-left") 展开更多精彩
@@ -145,5 +145,8 @@ ul {
   margin: 0 auto;
   cursor: pointer;
   user-select: none;
+  .more-button {
+    display: block;
+  }
 }
 </style>

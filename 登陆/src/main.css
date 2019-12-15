@@ -104,3 +104,22 @@ a {
   background-color: white;
   padding-top: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #d7e5e8;
+  -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: #ff9a4a;
+  -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: #d7e5e8;
+  -webkit-border-radius: 6px;
+}

@@ -1,0 +1,169 @@
+<template lang="pug">
+.register-panel
+  .register-home(o-show="this.data.register === 'home'")
+    .register-box-item(o-hover="grow" :tap="owo.tool.change(this, 'register', 'company')")
+      .icon &#xe606;
+      span 公司用图注册
+    .register-box-item(o-hover="grow")
+      .icon &#xe606;
+      span 自媒体用图注册
+    .register-box-item(o-hover="grow")
+      .icon &#xe606;
+      span 摄影师用图注册
+    .register-bottom-bar
+      a(href="#") 了解公司用图和自媒体用途区别
+  .register-company.register-item(o-show="this.data.register === 'company'")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="用户名")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="password" placeholder="密码")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="password" placeholder="重复密码")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="联系人")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="邮箱")
+    .register-item-input-bar
+      p * 为了方便您确认信息、寻找密码、获取消息，请务必选用真实稳定、长期有效的邮箱。
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="出版物或机构名称")
+    .register-item-input-bar.m10
+      .important ·
+      select
+        option(disabled="disabled" selected="selected") 出版物或者机构性质
+        option 出版物1
+    .register-item-input-bar
+      p * (宣传部门的新注册用户请务必将本项选择为“宣传”)
+    .register-item-input-bar.m10
+      .important ·
+      select
+        option(disabled="disabled" selected="selected") 图片用途
+        option 图片用途1
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="图片负责人职务")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="手机号码")
+    .register-item-input-bar.m10
+      .important ·
+      input(type="text" placeholder="座机电话")
+    .upload-box
+    .verification
+    //- 用户协议
+    .remember-bar
+      input(type="checkbox")
+      a(href="#") 阅读并同意《用户协议》
+    input.send-button(type="button" value="提交")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      register: 'home'
+    }
+  }
+</script>
+
+
+<style lang="less">
+.register-panel {
+  display: none;
+  padding-top: 20px;
+  height: 360px;
+}
+.register-box-item {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #f32e2e;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+  display: block;
+  box-shadow: 1px 1px 3px #c2b1b1;
+  span {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+  }
+}
+.register-box-item:nth-child(2n) {
+  background-color: #ffe44c;
+}
+.register-bottom-bar {
+  text-align: center;
+  color: #666;
+}
+.m10 {
+  margin-top: 10px;
+}
+.register-item-input-bar {
+  display: flex;
+  position: relative;
+  .important {
+    position: absolute;
+    color: #ff7b7b;
+    font-size: 20px;
+    left: 0px;
+    top: 7px;
+  }
+  input, select {
+    border: 2px solid #dadada;
+    height: 30px;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    padding: 0 5px;
+    color: #757575;
+    margin-left: 20px;
+  }
+  p {
+    color: #8e8e8e;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+}
+.register-item {
+  height: 360px;
+  overflow: auto;
+  margin: 0 -10px;
+  padding-right: 10px;
+}
+.upload-box {
+  height: 60px;
+  background-color: darkorange;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.verification {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.remember-bar {
+  margin-left: 20px;
+}
+.send-button {
+  background-color: #e1001d;
+  color: white;
+  border: none;
+  display: block;
+  width: calc(100% - 20px);
+  height: 40px;
+  line-height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+</style>

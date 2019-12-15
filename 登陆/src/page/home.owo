@@ -27,18 +27,7 @@
         .bottom-bar
           .bottom-bar-item(:tap="showTemporaryPanel") 临时浏览
           .bottom-bar-item 找回密码
-      .register-panel
-        .register-box-item(o-hover="grow")
-          .icon &#xe606;
-          span 公司用图注册
-        .register-box-item(o-hover="grow")
-          .icon &#xe606;
-          span 自媒体用图注册
-        .register-box-item(o-hover="grow")
-          .icon &#xe606;
-          span 摄影师用图注册
-        .register-bottom-bar
-          a(href="#") 了解公司用图和自媒体用途区别
+      plug(_name="registerPanel" _src="./src/module/registerPanel.owo")
       //- 临时浏览账号
       .temporary.no-show
         h2 扫码获取临时浏览账号
@@ -226,34 +215,6 @@
   }
   .bottom-bar-item:hover {
     color: #d92d1a;
-  }
-}
-.register-panel {
-  display: none;
-  padding-top: 20px;
-  .register-box-item {
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    font-size: 20px;
-    background-color: #f32e2e;
-    color: white;
-    margin: 20px 0;
-    cursor: pointer;
-    display: block;
-    box-shadow: 1px 1px 3px #c2b1b1;
-    span {
-      display: inline-block;
-      width: 180px;
-      text-align: center;
-    }
-  }
-  .register-box-item:nth-child(2n) {
-    background-color: #ffe44c;
-  }
-  .register-bottom-bar {
-    text-align: center;
-    color: #666;
   }
 }
 .no-show {

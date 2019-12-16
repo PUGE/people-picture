@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "less": "^3.9.0",
+    "pug": "^2.0.3"
+  },
+  "name": "ozzx-example",
+  "version": "1.0.0",
+  "main": "ozzx.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozzx/example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozzx/example/issues"
+  },
+  "homepage": "https://github.com/ozzx/example#readme",
+  "description": ""
+}

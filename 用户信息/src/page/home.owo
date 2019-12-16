@@ -1,0 +1,57 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page")
+  .nav-box
+    plug(_name="navBar" _src="./src/module/navBar.owo")
+  plug(_name="searchBar" _src="https://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page")
+  .w1200
+    .info-card-box
+      ul.left-bar
+        li 个人信息
+        li 收藏夹
+        li 购物车
+        li 购物记录
+        li 下载记录
+        li 个人图库
+        li 图片交流
+        li 系统公告
+        li 修改密码
+  //- 客服
+  plug(_name="customer" _src="./src/module/customer.owo")
+  //- 底部版权信息
+  plug(_name="copyright" _src="./src/module/copyright.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.nav-box {
+  box-shadow: 0px 0px 6px #9c94bd;
+  z-index: 9;
+  width: 100%;
+  background-color: white;
+}
+.left-bar {
+  background-color: #e02f19;
+  color: white;
+  width: 175px;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  line-height: 45px;
+  font-size: 18px;
+  padding-top: 10px;
+  li {
+    cursor: pointer;
+    background-color: white;
+    color: #484848;
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+</style>

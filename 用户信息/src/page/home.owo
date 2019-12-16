@@ -10,7 +10,7 @@
         ul
           li.active(:tap="activeItem('personal-information')")
             span 个人信息
-          li
+          li(:tap="activeItem('shopping-page')")
             span 收藏夹
           li
             span 购物车
@@ -29,6 +29,7 @@
       .right-bar
         .panel
           plug.right-bar-item(_name="personalInformation" _src="./src/module/personalInformation.owo")
+          plug.right-bar-item(_name="shoppingPage" _src="./src/module/shoppingPage.owo")
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息
@@ -45,6 +46,11 @@
         element.style.display = 'none'
       })
       setTimeout(() => {
+        const activeDom = document.getElementsByClassName(className)[0]
+        if (activeDom) {
+          activeDom.style.display = 'block'
+        }
+        
         this.$target.classList.add('active')
       }, 0)
       
@@ -115,5 +121,12 @@
     height: 100%;
     background-color: white;
   }
+}
+.right-bar-item {
+  display: none;
+  padding-bottom: 20px;
+}
+.personal-information {
+  display: block;
 }
 </style>

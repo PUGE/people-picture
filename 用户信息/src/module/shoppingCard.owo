@@ -1,0 +1,142 @@
+<template lang="pug">
+.shopping-card
+  .img-box
+    img(src="http://vip-public.people.com.cn/photo/2019/11/30/26446396934f4774b80d6c579c25ae32euFe_s.jpg")
+    .text 湖北利川：一对返乡小夫妻 巧做脱贫大文章(13)
+  .bottom-box
+    p.id ID:8465022
+    p.time 上传时间：2019-06-10 10:02:02
+    p.size 尺寸：666 x 1000 (167 K)
+  .menu-bar
+    .check-box
+      input.check-item(type="checkbox")
+    .menu-box
+      .buy.menu-box-item(:tap="switchShoppingCart" value="商品ID")
+        span.icon &#xe600;
+        span.text 加入购物车
+      .start.menu-box-item
+        span.icon &#xe605;
+        span 收藏
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      shoppingCart: false,
+      start: false
+    },
+    switchShoppingCart: function () {
+      console.log(this)
+      this.data.shoppingCart = !this.data.shoppingCart
+      if (!this.$target.getAttribute("value")) return
+      if (this.data.shoppingCart) {
+        this.$target.classList.add('check')
+        this.$target.getElementsByClassName('text').innerText = '移除购物车'
+        owo.tool.emit('addShoppingCart', this.$target.getAttribute("value"))
+      } else {
+        this.$target.classList.remove('check')
+        this.$target.getElementsByClassName('text').innerText = '添加购物车'
+        owo.tool.emit('removeShoppingCart', this.$target.getAttribute("value"))
+      }
+    }
+  }
+</script>
+
+
+<style lang="less">
+.shopping-card {
+  width: 370px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 0px 3px #ccc;
+  padding-bottom: 5px;
+}
+.img-box {
+  width: 370px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  img {
+    height: 100%;
+    width: auto;
+  }
+  .text {
+    font-family: "Microsoft YaHei";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    bottom: 0;
+  }
+}
+.bottom-box {
+  padding: 8px 10px;
+  
+}
+p {
+  line-height: 23px;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  font-family: "Microsoft YaHei";
+}
+.menu-bar {
+  line-height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  .menu-box {
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .menu-box-item.check {
+    background-color: steelblue;
+    color: white;
+  }
+  .menu-box-item {
+    border: 1px solid #ccc;
+    height: 22px;
+    line-height: 22px;
+    padding: 2px 4px;
+    padding-right: 8px;
+    font-size: 12px;
+    margin: 4px;
+    border-radius: 2px;
+    color: #666;
+    display: flex;
+    span {
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+  .menu-box-item:hover {
+    border-color: #009fe9;
+  }
+  .icon {
+    width: 22px;
+    text-align: center;
+    font-size: 14px;
+  }
+  span {
+    display: block;
+  }
+}
+.check-box {
+  display: none;
+}
+.check-item {
+  width: 26px;
+  height: 26px;
+  margin: 7px;
+  display: block;
+  cursor: pointer;
+}
+</style>

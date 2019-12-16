@@ -343,6 +343,297 @@ li {
   height: 70px;
   overflow: hidden;
 }
+.shopping-card {
+  width: 370px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 0px 3px #ccc;
+  padding-bottom: 5px;
+}
+
+.shopping-card .img-box {
+  width: 370px;
+  height: 250px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.shopping-card .img-box img {
+  height: 100%;
+  width: auto;
+}
+
+.shopping-card .img-box .text {
+  font-family: "Microsoft YaHei";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  bottom: 0;
+}
+
+.shopping-card .bottom-box {
+  padding: 8px 10px;
+}
+
+.shopping-card p {
+  line-height: 23px;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  font-family: "Microsoft YaHei";
+}
+
+.shopping-card .menu-bar {
+  line-height: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.shopping-card .menu-bar .menu-box {
+  display: -webkit-box;
+  display: flex;
+  padding-right: 10px;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.shopping-card .menu-bar .menu-box-item.check {
+  background-color: steelblue;
+  color: white;
+}
+
+.shopping-card .menu-bar .menu-box-item {
+  border: 1px solid #ccc;
+  height: 22px;
+  line-height: 22px;
+  padding: 2px 4px;
+  padding-right: 8px;
+  font-size: 12px;
+  margin: 4px;
+  border-radius: 2px;
+  color: #666;
+  display: -webkit-box;
+  display: flex;
+}
+
+.shopping-card .menu-bar .menu-box-item span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.shopping-card .menu-bar .menu-box-item:hover {
+  border-color: #009fe9;
+}
+
+.shopping-card .menu-bar .icon {
+  width: 22px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.shopping-card .menu-bar span {
+  display: block;
+}
+
+.shopping-card .check-box {
+  display: none;
+}
+
+.shopping-card .check-item {
+  width: 26px;
+  height: 26px;
+  margin: 7px;
+  display: block;
+  cursor: pointer;
+}
+.page-bar {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.page-bar .page-list {
+  display: -webkit-box;
+  display: flex;
+}
+
+.page-bar .page-list a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  border-radius: 3px;
+  margin: 0 7px;
+  color: #666;
+}
+
+.page-bar .page-list a:hover {
+  text-decoration: none;
+  border: 1px solid #e1001d;
+}
+
+.page-bar .page-list .active {
+  background-color: #e1001d;
+  color: white;
+}
+
+.page-bar .page-list .next {
+  width: 90px;
+  color: #333;
+}
+
+.page-bar .page-list .next:hover {
+  background-color: #009fe9;
+  color: white;
+  border: 1px solid #009fe9;
+}
+
+.page-bar .turn {
+  margin: 0 10px;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.page-bar input[type="number"] {
+  width: 40px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+  margin: 5px 10px;
+  height: 28px;
+}
+
+.page-bar .ok {
+  width: 60px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #333;
+  height: 30px;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.page-bar .ok:hover {
+  background-color: #009fe9;
+  color: white;
+}
+
+.page-bar input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.page-bar input[type=number]::-webkit-inner-spin-button,
+.page-bar input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.shopping-page .tool-bar {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  height: 60px;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.shopping-page .tool-bar .tool-bar-item {
+  border: 1px solid #ccc;
+  height: 32px;
+  line-height: 32px;
+  padding: 2px 4px;
+  padding-right: 8px;
+  font-size: 14px;
+  margin: 4px;
+  border-radius: 2px;
+  color: #666;
+  display: -webkit-box;
+  display: flex;
+  cursor: pointer;
+}
+
+.shopping-page .tool-bar .tool-bar-item span {
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.shopping-page .tool-bar .tool-bar-item .icon {
+  width: 32px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.shopping-page .tool-bar .tool-bar-item:hover {
+  background-color: #cab9de;
+  color: white;
+  border-color: #cab9de;
+}
+
+.shopping-page .tool-bar .tool-bar-item.active {
+  background-color: #009fe9;
+  color: white;
+  border: 1px solid #009fe9;
+}
+
+.shopping-page .tool-bar .buy,
+.shopping-page .tool-bar .stars {
+  display: none;
+}
+
+.shopping-page .multiple .buy,
+.shopping-page .multiple .stars {
+  display: -webkit-box;
+  display: flex;
+}
+
+.shopping-page .multiple .shopping-card .check-box {
+  display: block;
+}
+
+.shopping-page .multiple .shopping-card .menu-box {
+  display: none;
+}
+
+.shopping-page .shopping-card {
+  float: left;
+  margin: 10px 65px;
+  box-shadow: 0px 0px 5px #dcc6c6;
+  overflow: hidden;
+}
 .customer {
   position: fixed;
   bottom: 20%;
@@ -508,5 +799,14 @@ li {
   width: 100%;
   height: 100%;
   background-color: white;
+}
+
+.right-bar-item {
+  display: none;
+  padding-bottom: 20px;
+}
+
+.personal-information {
+  display: block;
 }
 

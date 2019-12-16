@@ -1,0 +1,104 @@
+<template lang="pug">
+.shopping-page
+  .card-content
+    .tool-bar
+      .tool-bar-item.multiple-selection(:tap="multipleSelection")
+        span.icon &#xe630;
+        span 批量操作
+      .buy.tool-bar-item
+        span.icon &#xe600;
+        span 加入购物车
+      .stars.tool-bar-item
+        span.icon &#xe605;
+        span 收藏
+    .card-box.clear
+      plug(_name="shoppingCart" _src="./src/module/shoppingCard.owo")
+      plug(_name="shoppingCart" _src="./src/module/shoppingCard.owo")
+      plug(_name="shoppingCart" _src="./src/module/shoppingCard.owo")
+      plug(_name="shoppingCart" _src="./src/module/shoppingCard.owo")
+  plug(_name="turnPage" _src="https://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      isMultipleSelection: false
+    },
+    // 批量操作
+    multipleSelection: function () {
+      this.data.isMultipleSelection = !this.data.isMultipleSelection
+      if (this.data.isMultipleSelection) {
+        owo.query('.card-content')[0].classList.add('multiple')
+        this.$target.classList.add('active')
+      } else {
+        owo.query('.card-content')[0].classList.remove('multiple')
+        this.$target.classList.remove('active')
+      }
+    }
+  }
+</script>
+
+
+<style lang="less">
+.tool-bar {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  align-items: center;
+  .tool-bar-item {
+    border: 1px solid #ccc;
+    height: 32px;
+    line-height: 32px;
+    padding: 2px 4px;
+    padding-right: 8px;
+    font-size: 14px;
+    margin: 4px;
+    border-radius: 2px;
+    color: #666;
+    display: flex;
+    cursor: pointer;
+    span {
+      display: block;
+      user-select: none;
+      pointer-events: none;
+    }
+    .icon {
+      width: 32px;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+  .tool-bar-item:hover {
+    background-color: #cab9de;
+    color: white;
+    border-color: #cab9de;
+  }
+  .tool-bar-item.active {
+    background-color: #009fe9;
+    color: white;
+    border: 1px solid #009fe9;
+  }
+  .buy, .stars {
+    display: none;
+  }
+}
+.multiple {
+  .buy, .stars {
+    display: flex;
+  }
+  .shopping-card {
+    .check-box {
+      display: block;
+    }
+    .menu-box {
+      display: none;
+    }
+  }
+}
+.shopping-card {
+  float: left;
+  margin: 10px 65px;
+  box-shadow: 0px 0px 5px #dcc6c6;
+  overflow: hidden;
+}
+</style>

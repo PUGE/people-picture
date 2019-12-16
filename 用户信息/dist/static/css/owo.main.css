@@ -305,6 +305,44 @@ li {
   color: #e1001d;
   text-decoration: underline;
 }
+.personal-information .title {
+  line-height: 60px;
+  text-align: center;
+  color: #484848;
+  font-size: 16px;
+  border-bottom: 1px solid #f1f1f1;
+  display: -webkit-box;
+  display: flex;
+  background-color: #fafafa;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.personal-information .title .icon {
+  width: 60px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.personal-information .item {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 0 10px;
+  line-height: 70px;
+  display: -webkit-box;
+  display: flex;
+  font-size: 18px;
+}
+
+.personal-information .item .label {
+  width: 180px;
+  padding-left: 70px;
+}
+
+.personal-information .item .text {
+  width: 730px;
+  height: 70px;
+  overflow: hidden;
+}
 .customer {
   position: fixed;
   bottom: 20%;
@@ -406,20 +444,69 @@ li {
 }
 
 .left-bar {
-  background-color: #e02f19;
   color: white;
   width: 175px;
   text-align: center;
-  border-radius: 5px 5px 0 0;
   line-height: 45px;
   font-size: 18px;
+}
+
+.left-bar ul {
+  background-color: #e02f19;
   padding-top: 10px;
+  border-radius: 5px 5px 0 0;
 }
 
 .left-bar li {
+  height: 45px;
   cursor: pointer;
   background-color: white;
   color: #484848;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
   border-bottom: 1px solid #f0f0f0;
+}
+
+.left-bar li span {
+  display: block;
+  height: 36px;
+  padding: 3px 0;
+  border-left: 2px solid transparent;
+  width: calc(100% - 2px);
+  box-sizing: border-box;
+  line-height: 33px;
+  margin-left: 2px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.left-bar li.active span {
+  color: #ce2c2b;
+  font-weight: bold;
+  border-left: 2px solid #e02f19;
+}
+
+.info-card-box {
+  display: -webkit-box;
+  display: flex;
+}
+
+.right-bar {
+  width: 1000px;
+  padding-top: 10px;
+  background-color: #e02f19;
+  margin-left: 25px;
+  border-radius: 5px 5px 0 0;
+}
+
+.right-bar .panel {
+  width: 100%;
+  height: 100%;
+  background-color: white;
 }
 

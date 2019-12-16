@@ -6,16 +6,29 @@
   plug(_name="searchBar" _src="https://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page")
   .w1200
     .info-card-box
-      ul.left-bar
-        li 个人信息
-        li 收藏夹
-        li 购物车
-        li 购物记录
-        li 下载记录
-        li 个人图库
-        li 图片交流
-        li 系统公告
-        li 修改密码
+      .left-bar
+        ul
+          li.active(:tap="activeItem('personal-information')")
+            span 个人信息
+          li
+            span 收藏夹
+          li
+            span 购物车
+          li
+            span 购物记录
+          li
+            span 下载记录
+          li
+            span 个人图库
+          li
+            span 图片交流
+          li
+            span 系统公告
+          li
+            span 修改密码
+      .right-bar
+        .panel
+          plug.right-bar-item(_name="personalInformation" _src="./src/module/personalInformation.owo")
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息
@@ -24,8 +37,18 @@
 
 <script>
   module.exports = {
-    created: function () {
-
+    activeItem: function (className) {
+      owo.query('.left-bar li').forEach(element => {
+        element.classList.remove('active')
+      })
+      owo.query('.right-bar-item').forEach(element => {
+        element.style.display = 'none'
+      })
+      setTimeout(() => {
+        this.$target.classList.add('active')
+      }, 0)
+      
+      console.log(this.$target)
     }
   }
 </script>
@@ -39,19 +62,58 @@
   background-color: white;
 }
 .left-bar {
-  background-color: #e02f19;
   color: white;
   width: 175px;
   text-align: center;
-  border-radius: 5px 5px 0 0;
   line-height: 45px;
   font-size: 18px;
-  padding-top: 10px;
+  ul {
+    background-color: #e02f19;
+    padding-top: 10px;
+    border-radius: 5px 5px 0 0;
+  }
   li {
+    height: 45px;
     cursor: pointer;
     background-color: white;
     color: #484848;
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #f0f0f0;
+    span {
+      display: block;
+      height: 36px;
+      padding: 3px 0;
+      border-left: 2px solid transparent;
+      width: calc(100% - 2px);
+      box-sizing: border-box;
+      line-height: 33px;
+      margin-left: 2px;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+  li.active span {
+    color: #ce2c2b;
+    font-weight: bold;
+    border-left: 2px solid #e02f19;
+  }
+}
+
+.info-card-box {
+  display: flex;
+}
+
+.right-bar {
+  width: 1000px;
+  padding-top: 10px;
+  background-color: #e02f19;
+  margin-left: 25px;
+  border-radius: 5px 5px 0 0;
+  .panel {
+    width: 100%;
+    height: 100%;
+    background-color: white;
   }
 }
 </style>

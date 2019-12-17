@@ -5,7 +5,8 @@ body, html, .owo {
   width: 100%;
   user-select: text;
   min-width: 1200px;
-  font: normal 12px/180% "SimSun";
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
   width: 100%;
@@ -122,4 +123,9 @@ a {
   width: 5px;
   background-color: #d7e5e8;
   -webkit-border-radius: 6px;
+}
+
+.login-box .expand {
+  width: 400px;
+  height: 640px;
 }

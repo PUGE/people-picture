@@ -42,21 +42,27 @@
     },
     showLoginPanel: function () {
       this.$target.classList.add('active')
+      owo.query('.right')[0].classList.remove('expand')
       owo.query('.register-nav-button')[0].classList.remove('active')
       owo.query('.register-panel')[0].style.display = 'none'
       owo.query('.login-panel')[0].style.display = 'block'
     },
     showRegisterPanel: function () {
       this.$target.classList.add('active')
+      owo.tool.change(this.template.registerPanel, 'register', 'home')
+      owo.query('.right')[0].classList.remove('expand')
       owo.query('.login-nav-button')[0].classList.remove('active')
       owo.query('.login-panel')[0].style.display = 'none'
       owo.query('.register-panel')[0].style.display = 'block'
+
     },
     showTemporaryPanel: function () {
+      owo.query('.right')[0].classList.remove('expand')
       owo.query('.login-panel')[0].style.display = 'none'
       owo.query('.temporary')[0].style.display = 'block'
     },
     hideTemporaryPanel: function () {
+      owo.query('.right')[0].classList.remove('expand')
       owo.query('.temporary')[0].style.display = 'none'
       owo.query('.login-panel')[0].style.display = 'block'
     },
@@ -79,7 +85,7 @@
 .login-box {
   position: absolute;
   width: 1000px;
-  height: 460px;
+  height: 700px;
   left: 0;
   right: 0;
   top: 0;
@@ -103,6 +109,13 @@
     background-color: white;
     border-radius: 5px;
     padding: 30px 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 405px;
+    margin: auto;
+    transition: width 1s, height 1s;
   }
 }
 .nav-bar {

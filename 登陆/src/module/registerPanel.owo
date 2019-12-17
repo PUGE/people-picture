@@ -1,7 +1,7 @@
 <template lang="pug">
 .register-panel
   .register-home(o-show="this.data.register === 'home'")
-    .register-box-item(o-hover="grow" :tap="owo.tool.change(this, 'register', 'company')")
+    .register-box-item(o-hover="grow" :tap="register")
       .icon &#xe606;
       span 公司用图注册
     .register-box-item(o-hover="grow")
@@ -67,6 +67,10 @@
   module.exports = {
     data: {
       register: 'home'
+    },
+    register: function () {
+      owo.query('.right')[0].classList.add('expand')
+      owo.tool.change(this, 'register', 'company')
     }
   }
 </script>
@@ -76,7 +80,7 @@
 .register-panel {
   display: none;
   padding-top: 20px;
-  height: 360px;
+  height: calc(100% - 60px);
 }
 .register-box-item {
   height: 45px;
@@ -134,7 +138,7 @@
   }
 }
 .register-item {
-  height: 360px;
+  height: 100%;
   overflow: auto;
   margin: 0 -10px;
   padding-right: 10px;

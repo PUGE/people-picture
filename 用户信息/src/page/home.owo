@@ -14,8 +14,10 @@
             span 收藏夹
           li
             span 购物车
-          li
+          li(:tap="activeItem('purchase-history-page')")
             span 购物记录
+          li
+            span 销售记录
           li
             span 下载记录
           li
@@ -30,6 +32,7 @@
         .panel
           plug.right-bar-item(_name="personalInformation" _src="./src/module/personalInformation.owo")
           plug.right-bar-item(_name="shoppingPage" _src="./src/module/shoppingPage.owo")
+          plug.right-bar-item(_name="purchaseHistoryPage" _src="./src/module/purchaseHistoryPage.owo")
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息

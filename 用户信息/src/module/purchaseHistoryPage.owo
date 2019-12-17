@@ -1,0 +1,185 @@
+<template lang="pug">
+.purchase-history-page
+  plug(_name="searchBar" _src="./src/module/searchBar.owo")
+  .table
+    .title
+      .title-item 订单号
+      .title-item 总金额
+      .title-item 支付方式
+      .title-item 购买时间
+      .title-item 操作
+    .body
+      .body-bar
+        .body-bar-item 9999
+        .body-bar-item ￥100
+        .body-bar-item 支付宝
+        .body-bar-item 2019-12-22 12:22
+        .body-bar-item.cancel 订单已取消
+      .body-bar
+        .body-bar-item 3333
+        .body-bar-item ￥300
+        .body-bar-item 微信
+        .body-bar-item 订单将在11:22关闭
+        .body-bar-item.two-button-box
+          a.button(o-hover="shadow") 确认支付
+          a.button(o-hover="shadow") 取消订单
+      .body-bar
+        .body-bar-item 9999
+        .body-bar-item ￥100
+        .body-bar-item 支付宝
+        .body-bar-item 2019-12-22 12:22
+        .body-bar-item.cancel 订单已取消
+      .body-bar
+        .body-bar-item 9999
+        .body-bar-item ￥100
+        .body-bar-item 支付宝
+        .body-bar-item 2019-12-22 12:22
+        .body-bar-item.details
+          .text 详情
+          .pop
+            .pop-title-bar
+              .pop-title-item 图片ID
+              .pop-title-item.pop-image 图片
+              .pop-title-item 作者
+              .pop-title-item 尺寸
+              .pop-title-item 价格
+              .pop-title-item 操作
+            .pop-body-bar
+              .pop-body-item 3234
+              .pop-body-item.pop-image
+                img(src="http://www.people.com.cn/NMediaFile/2019/1217/MAIN201912170912233696811587431.jpg")
+              .pop-body-item 赵四
+              .pop-body-item 3000 x 2000 px /300 dpi / 3 MB
+              .pop-body-item ￥100
+              .pop-body-item
+                .button 下载
+            .pop-body-bar
+              .pop-body-item 3235
+              .pop-body-item.pop-image
+                img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912161131584867791812851.jpg")
+              .pop-body-item 赵四
+              .pop-body-item 3000 x 2000 px /300 dpi / 3 MB
+              .pop-body-item ￥100
+              .pop-body-item
+                .button 下载
+  plug(_name="turnPage" _src="https://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.title {
+  display: flex;
+  height: 50px;
+  background-color: #e02f19;
+  align-items: center;
+  font-weight: bold;
+  .title-item {
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ebb4bc;
+    height: 30px;
+    line-height: 30px;
+  }
+  .title-item:last-child {
+    border-right: none;
+  }
+}
+.body {
+  color: #333;
+}
+table {
+  font-family: "Microsoft YaHei";
+}
+.body-bar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+  .body-bar-item {
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    border-right: 1px solid #f1f0f0;
+    .button {
+      display: block;
+      height: 30px;
+      background-color: #e02f19;
+      width: 70px;
+      font-size: 12px;
+      color: white;
+      cursor: pointer;
+      border-radius: 3px;
+      line-height: 30px;
+    }
+  }
+  .two-button-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+.cancel {
+  color: #666;
+  user-select: none;
+}
+.details {
+  cursor: pointer;
+}
+.details:hover {
+  .pop {
+    display: block;
+  }
+}
+.pop {
+  display: none;
+  position: absolute;
+  width: 600px;
+  background-color: white;
+  bottom: 30px;
+  right: 100px;
+  box-shadow: 0px 0px 4px #737070;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 12px;
+  .pop-title-bar {
+    display: flex;
+    background-color: mistyrose;
+  }
+  .pop-body-bar {
+    display: flex;
+    height: 90px;
+    border-bottom: 1px solid #f7e7e7;
+  }
+  .pop-title-item, .pop-body-item {
+    width: 14%;
+  }
+  .pop-body-item {
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pop-image {
+    width: 30%;
+    img {
+      height: 80px;
+      width: auto;
+    }
+  }
+}
+</style>

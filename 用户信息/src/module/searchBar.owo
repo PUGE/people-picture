@@ -1,0 +1,50 @@
+<template lang="pug">
+.panel-search-bar
+  input(type="date" value="2020-01-01")
+  input(type="date" value="2020-01-01")
+  select
+    option(value="支付方式") 支付方式
+    option(value="其它") 其它
+  select
+    option(value="订单状态") 订单状态
+    option(value="其它") 其它
+  input(type="text" placeholder="订单号")
+  input(type="text" placeholder="图片ID")
+  .search-button.icon &#xe613;
+</template>
+
+<script>
+  module.exports = {
+    data: {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.panel-search-bar {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+input, select {
+  border: 1px solid #ccc;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-right: none;
+  font-size: 14px;
+  color: #757575;
+  font-weight: bold;
+}
+.search-button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #d62c1f;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+</style>

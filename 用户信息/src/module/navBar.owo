@@ -1,5 +1,5 @@
 <template lang="pug">
-.nav-bar.w1200
+.nav-bar.w1200(font="FZLTHJW.TTF")
   .logo
     img(src="@|people-picture-logo.png|")
   .nav
@@ -104,7 +104,6 @@
 .nav {
   font-size: 18px;
   color: #484848;
-  font-family: "Microsoft YaHei";
   .nav-item {
     text-align: center;
     height: 100%;

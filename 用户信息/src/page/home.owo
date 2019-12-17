@@ -7,7 +7,7 @@
   .w1200
     .info-card-box
       .left-bar
-        ul
+        ul(font="FZLTHJW.TTF")
           li.active(:tap="activeItem('personal-information')")
             span 个人信息
           li(:tap="activeItem('shopping-page')")
@@ -26,6 +26,8 @@
             span 图片交流
           li(:tap="activeItem('notice-page')")
             span 系统公告
+          li(:tap="activeItem('announcement-details')")
+            span 公告详情
           li(:tap="activeItem('password-page')")
             span 修改密码
       .right-bar
@@ -37,6 +39,7 @@
           plug.right-bar-item(_name="downloadPage" _src="./src/module/downloadPage.owo")
           plug.right-bar-item(_name="exchangePage" _src="./src/module/exchangePage.owo")
           plug.right-bar-item(_name="noticePage" _src="./src/module/noticePage.owo")
+          plug.right-bar-item(_name="announcementDetails" _src="./src/module/announcementDetails.owo")
           plug.right-bar-item(_name="passwordPage" _src="./src/module/passwordPage.owo")
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
@@ -70,7 +73,7 @@
 
 <style lang="less">
 .nav-box {
-  box-shadow: 0px 0px 6px #9c94bd;
+  box-shadow: 0px 0px 6px #dcdbe0;
   z-index: 9;
   width: 100%;
   background-color: white;
@@ -85,6 +88,7 @@
     background-color: #e02f19;
     padding-top: 10px;
     border-radius: 5px 5px 0 0;
+    box-shadow: 1px 1px 3px #e6e3e3;
   }
   li {
     height: 45px;
@@ -123,6 +127,7 @@
   padding-top: 10px;
   background-color: #e02f19;
   margin-left: 25px;
+  box-shadow: 1px 1px 3px #e6e3e3;
   border-radius: 5px 5px 0 0;
   .panel {
     width: 100%;

@@ -66,6 +66,7 @@ a {
   color: inherit;
 }
 
+
 @font-face {
   font-family: 'iconfont';  /* project id 1531972 */
   src: url('../resource/iconfont.eot');
@@ -282,24 +283,39 @@ a {
   margin: 0;
   display: block;
   height: auto;
-  padding: 2vw 0;
-  background-color: transparent;
+  padding: 2vw 5vw;
 }
 
 .phone .nav-bar-red li {
   float: left;
   height: 28px;
-  background-color: burlywood;
   line-height: 28px;
-  font-size: 18px;
-  width: auto;
-  padding: 0 3vw;
-  margin: 1vw 2vw;
+  font-size: 14px;
+  width: 65px;
+  padding: 0 4px;
+  margin: 5px 5px;
 }
 .phone .two-image p {
   line-height: 40px;
   font-size: 14px;
   height: 40px;
+}
+.phone .nav-bar-red .left-button {
+  height: 53px;
+  right: auto;
+  left: 0;
+  line-height: 53px;
+  width: 5vw;
+  text-align: center;
+}
+
+.phone .right-button {
+  height: 53px;
+  right: 0;
+  left: auto;
+  line-height: 53px;
+  width: 5vw;
+  text-align: center;
 }
 
 .phone .gray {

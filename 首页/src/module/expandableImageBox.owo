@@ -58,7 +58,8 @@
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")
-        img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
+        .image-box
+          img(src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg")
         p 甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02
     li
       a(href="#")

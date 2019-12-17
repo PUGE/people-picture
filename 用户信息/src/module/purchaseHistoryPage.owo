@@ -94,11 +94,12 @@
     border-right: none;
   }
 }
+
+.table {
+  font-family: "Microsoft YaHei";
+}
 .body {
   color: #333;
-}
-table {
-  font-family: "Microsoft YaHei";
 }
 .body-bar {
   display: flex;

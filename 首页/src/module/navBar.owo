@@ -28,35 +28,27 @@
     .menu-item
       .icon &#xe606;
       p 全部公告
-    .menu-item(:tap="switchUserMenu")
+    .menu-item
       .icon &#xe619;
       p 个人中心
-  //- 个人中心浮动条
-  .user-menu
-    ul
-      li.user
-        a(href="#") 小白萝卜头
-      li
-        a(href="#") 收藏夹
-      li
-        a(href="#") 个人中心
-      li
-        a(href="#") 退出
-    .top
+      //- 个人中心浮动条
+      .user-menu.hide-item
+        ul
+          li.user
+            a(href="#") 小白萝卜头
+          li
+            a(href="#") 收藏夹
+          li
+            a(href="#") 个人中心
+          li
+            a(href="#") 退出
+        .top
 </template>
 
 <script>
   module.exports = {
     data: {
       userMenuIsShow: false
-    },
-    switchUserMenu: function () {
-      this.data.userMenuIsShow = !this.data.userMenuIsShow
-      if (this.data.userMenuIsShow) {
-        owo.query('.user-menu')[0].style.display = 'block'
-      } else {
-        owo.query('.user-menu')[0].style.display = 'none'
-      }
     }
   }
 </script>
@@ -79,6 +71,7 @@
   width: 60px;
   height: 50px;
   cursor: pointer;
+  position: relative;
   .icon {
     width: 100%;
     text-align: center;
@@ -97,6 +90,9 @@
 }
 .menu-item:hover {
   color: #e64e1f;
+  .hide-item {
+    display: block;
+  }
 }
 .nav-item:last-child a {
   border-right: none;
@@ -154,12 +150,11 @@
   background-color: #e1021d;
   color: white;
   right: -17px;
-  top: 82px;
+  top: 58px;
   width: 100px;
   text-align: center;
   line-height: 28px;
   border-radius: 5px;
-  display: none;
   a {
     display: block;
     margin: 0 7px;
@@ -170,7 +165,7 @@
     border-bottom: 1px solid #cb0110;
   }
 }
-.user-menu:hover {
-  color: #e64e1f;
+.hide-item {
+  display: none;
 }
 </style>

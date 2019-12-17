@@ -1,24 +1,18 @@
 <template lang="pug">
-.panel-search-bar
-  input(type="date" value="2020-01-01")
-  input(type="date" value="2020-01-01")
+.panel-search-bar-2
   select
-    option(value="支付方式") 支付方式
+    option(value="支付方式") 时间段
     option(value="其它") 其它
-  select
-    option(value="订单状态") 订单状态
-    option(value="其它") 其它
-  input(type="text" placeholder="订单号")
-  input(type="text" placeholder="图片ID")
+  input(type="text" placeholder="请输入图片ID进行检索")
   .search-button.icon &#xe613;
 </template>
 
 
 <style lang="less">
-.panel-search-bar {
+.panel-search-bar-2 {
   display: flex;
   padding: 10px;
-  justify-content: center;
+  justify-content: flex-end;
 }
 input, select {
   border: 1px solid #ccc;

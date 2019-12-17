@@ -1,0 +1,92 @@
+<template lang="pug">
+.notice-page
+  ul
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+    li
+      .icon &#xe62a;
+      .text
+        a(href="#") 系统公告： 人民图片目前在京城目前在京城目前在京城目前在京城目前在京城
+      .time 2019.10.20
+  //- 销售的表格
+  plug(_name="turnPage" _src="https://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page")
+</template>
+
+
+<style lang="less">
+.notice-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+li {
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 10px;
+  border-bottom: 1px solid #efe7e7;
+  .icon {
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: cadetblue;
+  }
+  .time {
+    width: 100px;
+    text-align: center;
+    color: #666;
+  }
+  .text {
+    width: 835px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+  }
+}
+</style>

@@ -22,7 +22,7 @@
   <meta name="x5-page-mode" content="app" />
 
   <!-- 页面主样式文件 -->
-  <link charset="utf-8" rel="stylesheet" href="./static/css/owo.main.uwpssf134wo.css">
+  <link charset="utf-8" rel="stylesheet" href="./static/css/owo.main.e7vc7g202u.css">
 
   <!-- 附属css文件 -->
   <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
@@ -84,32 +84,33 @@
               <div class="icon"></div>
               <p>全部公告</p>
             </div>
-            <div class="menu-item" :tap="switchUserMenu">
+            <div class="menu-item">
               <div class="icon"></div>
               <p>个人中心</p>
+              <div class="user-menu hide-item">
+                <ul>
+                  <li class="user">
+                    <a href="#">小白萝卜头</a>
+                  </li>
+                  <li>
+                    <a href="#">收藏夹</a>
+                  </li>
+                  <li>
+                    <a href="#">个人中心</a>
+                  </li>
+                  <li>
+                    <a href="#">退出</a>
+                  </li>
+                </ul>
+                <div class="top"></div>
+              </div>
             </div>
-          </div>
-          <div class="user-menu">
-            <ul>
-              <li class="user">
-                <a href="#">小白萝卜头</a>
-              </li>
-              <li>
-                <a href="#">收藏夹</a>
-              </li>
-              <li>
-                <a href="#">个人中心</a>
-              </li>
-              <li>
-                <a href="#">退出</a>
-              </li>
-            </ul>
-            <div class="top"></div>
           </div>
         </div>
         <div class="nav-bar-phone w1200 no-pc" template="navBarPhone">
           <img class="logo" src="./static/resource/phone-logo.jpg">
-          <div class="menu icon" :tap="showMenuBar"></div>
+          <div class="menu icon" :tap="showMenuBar"></div>
+          <div class="user icon" :tap="showMenuBar2"></div>
           <div class="nav-box" :tap="hideMenuBar">
             <div class="nav">
               <div class="logo-bar">
@@ -180,6 +181,29 @@
                 <a href="#">
                   <div class="icon"></div>
                   <p>个人中心</p>
+                </a>
+              </div>
+            </div>
+            <div class="nav-2">
+              <div class="logo-bar">
+                <img src="./static/resource/phone-logo.jpg">
+              </div>
+              <div class="nav-item">
+                <a href="#">
+                  <div class="icon"></div>
+                  <span>收藏夹</span>
+                </a>
+              </div>
+              <div class="nav-item">
+                <a href="#">
+                  <div class="icon"></div>
+                  <span>个人中心</span>
+                </a>
+              </div>
+              <div class="nav-item">
+                <a href="#">
+                  <div class="icon"></div>
+                  <span>退出</span>
                 </a>
               </div>
             </div>
@@ -312,32 +336,38 @@
           <img src="./static/resource/more.png">
         </a>
       </div>
-      <ul class="nav-bar-red clear" template="navBar2">
-        <li for="switch-show-item-1">
-          <span>最新</span>
-        </li>
-        <li for="switch-show-item-2">
-          <span>社会生活</span>
-        </li>
-        <li for="switch-show-item-3">
-          <span>政法军警</span>
-        </li>
-        <li for="switch-show-item-4">
-          <span>经济交通</span>
-        </li>
-        <li for="switch-show-item-5">
-          <span>科教卫生</span>
-        </li>
-        <li for="switch-show-item-6">
-          <span>文体娱乐</span>
-        </li>
-        <li for="switch-show-item-7">
-          <span>城乡生态</span>
-        </li>
-        <li for="switch-show-item-8">
-          <span>风景名胜</span>
-        </li>
-      </ul>
+      <div class="nav-bar-red" template="navBar2">
+        <div class="w1200">
+          <ul class="clear">
+            <li for="switch-show-item-1">
+              <span>最新</span>
+            </li>
+            <li for="switch-show-item-2">
+              <span>社会生活</span>
+            </li>
+            <li for="switch-show-item-3">
+              <span>政法军警</span>
+            </li>
+            <li for="switch-show-item-4">
+              <span>经济交通</span>
+            </li>
+            <li for="switch-show-item-5">
+              <span>科教卫生</span>
+            </li>
+            <li for="switch-show-item-6">
+              <span>文体娱乐</span>
+            </li>
+            <li for="switch-show-item-7">
+              <span>城乡生态</span>
+            </li>
+            <li for="switch-show-item-8">
+              <span>风景名胜</span>
+            </li>
+          </ul>
+        </div>
+        <div class="left-button button icon" :tap="back"></div>
+        <div class="right-button button icon" :tap="next"></div>
+      </div>
       <div class="gray">
         <div class="w1200">
           <div class="expandable-image-box switch-show-box switch-show-item-1" template="expandableImageBox">
@@ -432,7 +462,9 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  <div class="image-box">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  </div>
                   <p>甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02</p>
                 </a>
               </li>
@@ -557,7 +589,9 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  <div class="image-box">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  </div>
                   <p>甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02</p>
                 </a>
               </li>
@@ -682,7 +716,9 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  <div class="image-box">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  </div>
                   <p>甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02</p>
                 </a>
               </li>
@@ -807,7 +843,9 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  <div class="image-box">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  </div>
                   <p>甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02</p>
                 </a>
               </li>
@@ -932,7 +970,9 @@
               </li>
               <li>
                 <a href="#">
-                  <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  <div class="image-box">
+                    <img src="http://www.people.com.cn/NMediaFile/2019/1211/MAIN201912110922504154841130528.jpg">
+                  </div>
                   <p>甘肃高台：盛夏雨后黑河湿地风光旖旎美如画<br>2019-06-10 10:02:02</p>
                 </a>
               </li>
@@ -1033,7 +1073,7 @@
   <script src="./static/js/swiper.4.5.0.min.js" type="text/javascript" charset="UTF-8"></script>
   <script src="./static/js/main.js" type="text/javascript" charset="UTF-8"></script><!-- 框架script代码 -->
   <!-- 框架script文件 -->
-  <script src="./static/js/owo.main.uwpssf134wo.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/owo.main.e7vc7g202u.js" type="text/javascript" charset="UTF-8"></script>
   <script>
     /*
   存储每个页面的函数
@@ -1048,15 +1088,6 @@
           "navBar": {
             "data": {
               "userMenuIsShow": false
-            },
-            "switchUserMenu": function switchUserMenu() {
-              this.data.userMenuIsShow = !this.data.userMenuIsShow;
-
-              if (this.data.userMenuIsShow) {
-                owo.query('.user-menu')[0].style.display = 'block';
-              } else {
-                owo.query('.user-menu')[0].style.display = 'none';
-              }
             },
             "prop": {
               "class": "no-phone"
@@ -1074,9 +1105,16 @@
             },
             "hideMenuBar": function hideMenuBar(params) {
               owo.query('.nav-bar-phone .nav-box .nav')[0].style.left = '-60vw';
+              owo.query('.nav-bar-phone .nav-box .nav-2')[0].style.left = '-60vw';
               setTimeout(function() {
                 owo.query('.nav-bar-phone .nav-box')[0].style.display = 'none';
               }, 600);
+            },
+            "showMenuBar2": function showMenuBar2() {
+              owo.query('.nav-bar-phone .nav-box')[0].style.display = 'block';
+              setTimeout(function() {
+                owo.query('.nav-bar-phone .nav-box .nav-2')[0].style.left = '0';
+              }, 0);
             },
             "prop": {
               "class": "no-pc"
@@ -1146,25 +1184,59 @@
               var switchBox = owo.query('.switch-show-box');
 
               function clearActive() {
-                navList.forEach(function(element) {
-                  element.classList.remove('active');
-                });
+                for (var key in navList) {
+                  if (navList.hasOwnProperty(key)) {
+                    var element = navList[key];
+                    element.classList.remove('active');
+                  }
+                }
               }
 
-              navList.forEach(function(element) {
-                element.onclick = function(e) {
-                  clearActive(); // console.log(`.${this.getAttribute('for')}`)
+              for (var key in navList) {
+                if (navList.hasOwnProperty(key)) {
+                  var element = navList[key];
 
-                  switchBox.forEach(function(element) {
-                    element.style.display = 'none';
-                  });
-                  var forBox = owo.query("." + this.getAttribute('for'))[0];
-                  if (forBox) forBox.style.display = "block";
-                  this.classList.add('active');
-                };
-              });
+                  element.onclick = function(e) {
+                    clearActive(); // console.log(`.${this.getAttribute('for')}`)
+
+                    for (var _key in switchBox) {
+                      if (switchBox.hasOwnProperty(_key)) {
+                        var _element = switchBox[_key];
+                        _element.style.display = 'none';
+                      }
+                    }
+
+                    var forBox = owo.query("." + this.getAttribute('for'))[0];
+                    if (forBox) forBox.style.display = "block";
+                    this.classList.add('active');
+                  };
+                }
+              }
+
               switchBox[0].style.display = 'block';
-              navList[0].classList.add('active');
+              navList[0].classList.add('active'); // 计算导航栏长度
+
+              console.log(owo.query('.nav-bar-red ul li').length);
+              var liNumber = owo.query('.nav-bar-red ul li').length; // 判断是否为手机
+
+              if (scale < 1) {
+                owo.query('.nav-bar-red ul')[0].style.width = liNumber * 85 + 'px';
+              } else {
+                if (liNumber > 8) {
+                  owo.query('.nav-bar-red ul')[0].style.width = liNumber * 130 + 'px';
+                }
+              }
+
+              if (owo.query('.nav-bar-red .w1200')[0].offsetWidth >= owo.query('.nav-bar-red .w1200 ul')[0].offsetWidth) {
+                owo.query('.nav-bar-red .left-button')[0].style.display = 'none';
+                owo.query('.nav-bar-red .right-button')[0].style.display = 'none';
+              }
+            },
+            "back": function back() {
+              owo.query('.nav-bar-red .w1200')[0].scrollTo(owo.query('.nav-bar-red .w1200')[0].scrollLeft - 80, 0);
+            },
+            "next": function next() {
+              owo.query('.nav-bar-red .w1200')[0].scrollTo(owo.query('.nav-bar-red .w1200')[0].scrollLeft + 80, 0);
             }
           },
           "expandableImageBox": {

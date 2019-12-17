@@ -819,6 +819,398 @@ li {
   height: 80px;
   width: auto;
 }
+.panel-search-bar-2 {
+  display: -webkit-box;
+  display: flex;
+  padding: 10px;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.panel-search-bar-2 input,
+.panel-search-bar-2 select {
+  border: 1px solid #ccc;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-right: none;
+  font-size: 14px;
+  color: #757575;
+  font-weight: bold;
+}
+
+.panel-search-bar-2 .search-button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #d62c1f;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+.sale-page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.sale-page .title {
+  display: -webkit-box;
+  display: flex;
+  height: 50px;
+  background-color: #e02f19;
+  -webkit-box-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.sale-page .title .title-item {
+  width: 16.66%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #ebb4bc;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sale-page .title .title-item:last-child {
+  border-right: none;
+}
+
+.sale-page .table {
+  font-family: "Microsoft YaHei";
+}
+
+.sale-page .body {
+  color: #333;
+}
+
+.sale-page .body-bar {
+  display: -webkit-box;
+  display: flex;
+  min-height: 80px;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.sale-page .body-bar .body-bar-item {
+  width: 16.66%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  position: relative;
+  border-right: 1px solid #f1f0f0;
+}
+
+.sale-page .body-bar .body-bar-item .button {
+  display: block;
+  height: 30px;
+  background-color: #e02f19;
+  width: 70px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+.sale-page .body-bar .two-button-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sale-page a:hover {
+  text-decoration: none;
+}
+
+.sale-page .pop-image {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.sale-page .pop-image img {
+  width: 120px;
+  height: auto;
+}
+.download-page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.download-page .title {
+  display: -webkit-box;
+  display: flex;
+  height: 50px;
+  background-color: #e02f19;
+  -webkit-box-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.download-page .title .title-item {
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #ebb4bc;
+  height: 30px;
+  line-height: 30px;
+}
+
+.download-page .title .title-item:last-child {
+  border-right: none;
+}
+
+.download-page .table {
+  font-family: "Microsoft YaHei";
+}
+
+.download-page .body {
+  color: #333;
+}
+
+.download-page .body-bar {
+  display: -webkit-box;
+  display: flex;
+  min-height: 80px;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.download-page .body-bar .body-bar-item {
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  position: relative;
+  border-right: 1px solid #f1f0f0;
+}
+
+.download-page .body-bar .body-bar-item .button {
+  display: block;
+  height: 30px;
+  background-color: #e02f19;
+  width: 70px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+.download-page .body-bar .two-button-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.download-page a:hover {
+  text-decoration: none;
+}
+
+.download-page .pop-image {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.download-page .pop-image img {
+  width: 120px;
+  height: auto;
+}
+.exchange-page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.exchange-page .title {
+  display: -webkit-box;
+  display: flex;
+  height: 50px;
+  background-color: #e02f19;
+  -webkit-box-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.exchange-page .title .title-item {
+  width: 16.66%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #ebb4bc;
+  height: 30px;
+  line-height: 30px;
+}
+
+.exchange-page .title .title-item:last-child {
+  border-right: none;
+}
+
+.exchange-page .table {
+  font-family: "Microsoft YaHei";
+}
+
+.exchange-page .body {
+  color: #333;
+}
+
+.exchange-page .body-bar {
+  display: -webkit-box;
+  display: flex;
+  min-height: 80px;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.exchange-page .body-bar .body-bar-item {
+  width: 16.66%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  position: relative;
+  border-right: 1px solid #f1f0f0;
+}
+
+.exchange-page .body-bar .body-bar-item .button {
+  display: block;
+  height: 30px;
+  background-color: #e02f19;
+  width: 70px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+.exchange-page .body-bar .two-button-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.exchange-page a:hover {
+  text-decoration: none;
+}
+
+.exchange-page .pop-image {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.exchange-page .pop-image img {
+  width: 120px;
+  height: auto;
+}
+.notice-page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.notice-page li {
+  display: -webkit-box;
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 10px;
+  border-bottom: 1px solid #efe7e7;
+}
+
+.notice-page li .icon {
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  color: cadetblue;
+}
+
+.notice-page li .time {
+  width: 100px;
+  text-align: center;
+  color: #666;
+}
+
+.notice-page li .text {
+  width: 835px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #333;
+}
+.password-page input[type="text"],
+.password-page input[type="password"] {
+  width: 360px;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: none;
+  background-color: #ececec;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.password-page .password-box {
+  width: 360px;
+  height: 230px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.password-page input[type="button"] {
+  width: 210px;
+  background-color: #e02f19;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 40px;
+}
 .customer {
   position: fixed;
   bottom: 20%;
@@ -984,6 +1376,7 @@ li {
   width: 100%;
   height: 100%;
   background-color: white;
+  position: relative;
 }
 
 .right-bar-item {

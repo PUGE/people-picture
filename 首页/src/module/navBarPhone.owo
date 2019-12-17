@@ -1,8 +1,10 @@
 <template lang="pug">
 .nav-bar-phone.w1200
   img.logo(src="@|phone-logo.jpg|")
-  .menu.icon(:tap="showMenuBar") &#xe606;
+  .menu.icon(:tap="showMenuBar") &#xe63c;
+  .user.icon(:tap="showMenuBar2") &#xe619;
   .nav-box(:tap="hideMenuBar")
+    //- 点击菜单弹出的窗口
     .nav
       .logo-bar
         img(src="@|phone-logo.jpg|")
@@ -51,6 +53,21 @@
         a(href="#")
           .icon &#xe619;
           p 个人中心
+    .nav-2
+      .logo-bar
+        img(src="@|phone-logo.jpg|")
+      .nav-item
+        a(href="#")
+          .icon &#xe631;
+          span 收藏夹
+      .nav-item
+        a(href="#")
+          .icon &#xe611;
+          span 个人中心
+      .nav-item
+        a(href="#")
+          .icon &#xe61d;
+          span 退出
 </template>
 
 <script>
@@ -66,10 +83,17 @@
     },
     hideMenuBar: function (params) {
       owo.query('.nav-bar-phone .nav-box .nav')[0].style.left = '-60vw'
+      owo.query('.nav-bar-phone .nav-box .nav-2')[0].style.left = '-60vw'
       setTimeout(() => {
         owo.query('.nav-bar-phone .nav-box')[0].style.display = 'none'
       }, 600)
     },
+    showMenuBar2: function () {
+      owo.query('.nav-bar-phone .nav-box')[0].style.display = 'block'
+      setTimeout(() => {
+        owo.query('.nav-bar-phone .nav-box .nav-2')[0].style.left = '0'
+      }, 0)
+    }
   }
 </script>
 
@@ -91,7 +115,7 @@
 .menu {
   width: 45px;
   height: 45px;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 45px;
   color: #757575;
   text-align: center;
@@ -105,7 +129,7 @@
   z-index: 999;
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
-  .nav {
+  .nav, .nav-2 {
     width: 60%;
     height: 100%;
     left: -60vw;
@@ -139,5 +163,18 @@
   height: 1px;
   background-color: #ccc;
   margin: 0 10px;
+}
+.user {
+  font-size: 28px;
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #757575;
+}
+a:hover, a:active {
+  text-decoration: none;
 }
 </style>

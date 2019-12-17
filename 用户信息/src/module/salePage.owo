@@ -1,0 +1,114 @@
+<template lang="pug">
+.sale-page
+  plug(_name="searchBar2" _src="./src/module/searchBar2.owo")
+  //- 销售的表格
+  .table
+    .title
+      .title-item 销售时间
+      .title-item 图片ID
+      .title-item 图片
+      .title-item 尺寸
+      .title-item 稿费
+      .title-item 下载次数
+  .body
+    .body-bar
+      .body-bar-item 2019-12-12<br>23:22
+      .body-bar-item 9999
+      .body-bar-item.pop-image
+        img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912161131584867791812851.jpg")
+      .body-bar-item 2000x4000px/dpi
+      .body-bar-item.cancel ￥2000
+      .body-bar-item.cancel 22
+    .body-bar
+      .body-bar-item 2019-12-12<br>23:22
+      .body-bar-item 9999
+      .body-bar-item.pop-image
+        img(src="http://www.people.com.cn/NMediaFile/2019/1217/MAIN201912170853277991410640515.jpg")
+      .body-bar-item 2000x4000px/dpi
+      .body-bar-item.cancel ￥2000
+      .body-bar-item.cancel 22
+  plug(_name="turnPage" _src="https://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.sale-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title {
+  display: flex;
+  height: 50px;
+  background-color: #e02f19;
+  align-items: center;
+  font-weight: bold;
+  .title-item {
+    width: 16.66%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ebb4bc;
+    height: 30px;
+    line-height: 30px;
+  }
+  .title-item:last-child {
+    border-right: none;
+  }
+}
+.table {
+  font-family: "Microsoft YaHei";
+}
+.body {
+  color: #333;
+}
+.body-bar {
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+  .body-bar-item {
+    width: 16.66%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    border-right: 1px solid #f1f0f0;
+    .button {
+      display: block;
+      height: 30px;
+      background-color: #e02f19;
+      width: 70px;
+      font-size: 12px;
+      color: white;
+      cursor: pointer;
+      border-radius: 3px;
+      line-height: 30px;
+    }
+  }
+  .two-button-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+.pop-image {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 120px;
+    height: auto;
+  }
+}
+</style>

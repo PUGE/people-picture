@@ -57,9 +57,7 @@
     .upload-box
     .verification
     //- 用户协议
-    .remember-bar
-      input(type="checkbox")
-      a(href="#") 阅读并同意《用户协议》
+    plug.remember-bar(_name="checkBox" _src="./src/module/checkBox.owo" _text="阅读并同意《用户协议》" _id="read")
     input.send-button(type="button" value="提交")
 </template>
 
@@ -89,7 +87,7 @@
   font-size: 20px;
   background-color: #f32e2e;
   color: white;
-  margin: 20px 0;
+  margin: 30px 0;
   cursor: pointer;
   display: block;
   box-shadow: 1px 1px 3px #c2b1b1;
@@ -104,7 +102,7 @@
 }
 .register-bottom-bar {
   text-align: center;
-  color: #666;
+  color: #999;
 }
 .m10 {
   margin-top: 10px;
@@ -134,7 +132,7 @@
     line-height: 16px;
     font-size: 12px;
     margin-top: 8px;
-    margin-left: 8px;
+    margin-left: 20px;
   }
 }
 .register-item {
@@ -142,6 +140,7 @@
   overflow: auto;
   margin: 0 -10px;
   padding-right: 10px;
+  padding-bottom: 40px;
 }
 .upload-box {
   height: 60px;

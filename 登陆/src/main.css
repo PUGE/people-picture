@@ -128,6 +128,10 @@ a {
   height: 640px;
 }
 
+.pc .login-box .right {
+  transition: width 1s, height 1s;
+}
+
 .phone {
   background-color: #f7f7f7;
 }

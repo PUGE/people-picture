@@ -19,9 +19,7 @@
           .password-box.input-bar
             .icon &#xe601;
             input(type="password" placeholder="密码")
-        .remember-bar
-          input(type="checkbox")
-          span 记住我
+        plug(_name="checkBox" _src="./src/module/checkBox.owo" _text="记住我" _id="rem")
         .verification
         input.login-button(type="button" value="登陆")
         .bottom-bar
@@ -115,7 +113,6 @@
     bottom: 0;
     height: 405px;
     margin: auto;
-    transition: width 1s, height 1s;
   }
 }
 .nav-bar {
@@ -143,7 +140,7 @@
   }
 }
 .input-box {
-  margin-top: 30px;
+  margin-top: 40px;
   .icon {
     color: #e4342e;
   }
@@ -166,7 +163,7 @@
     width: 210px;
   }
   input {
-    width: 195px;
+    width: calc(100% - 70px);
     padding: 0 10px;
     -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
     outline: none;
@@ -199,7 +196,7 @@
   }
 }
 .verification {
-  height: 40px;
+  height: 50px;
   margin: 20px 0;
   background-color: bisque;
 }
@@ -213,7 +210,7 @@
   border: none;
   border-radius: 25px;
   font-size: 20px;
-  margin-top: 10px;
+  margin: 10px 0;
   box-shadow: 2px 2px 2px #e26e61;
 }
 .bottom-bar {
@@ -225,6 +222,7 @@
     text-align: center;
     user-select: none;
     cursor: pointer;
+    color: #999;
   }
   .bottom-bar-item:hover {
     color: #d92d1a;

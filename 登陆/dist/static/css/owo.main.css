@@ -53,7 +53,51 @@ ul {
 li {
   list-style: none;
 }
-.owo-hover-grow {
+
+.switch {
+  margin: 20px 20px 0 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  width: auto;
+}
+
+.switch .checkbox-input {
+  display: none;
+}
+
+.switch .checkbox {
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.switch .checkbox-input:checked + .checkbox {
+  background-color: #57ad68;
+}
+
+.switch .checkbox-input:checked + .checkbox:after {
+  content: "\2714";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 0 4px #57ad68;
+}
+
+.switch span {
+  margin-left: 4px;
+}.owo-hover-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -85,7 +129,7 @@ li {
   font-size: 20px;
   background-color: #f32e2e;
   color: white;
-  margin: 20px 0;
+  margin: 30px 0;
   cursor: pointer;
   display: block;
   box-shadow: 1px 1px 3px #c2b1b1;
@@ -103,7 +147,7 @@ li {
 
 .register-panel .register-bottom-bar {
   text-align: center;
-  color: #666;
+  color: #999;
 }
 
 .register-panel .m10 {
@@ -141,7 +185,7 @@ li {
   line-height: 16px;
   font-size: 12px;
   margin-top: 8px;
-  margin-left: 8px;
+  margin-left: 20px;
 }
 
 .register-panel .register-item {
@@ -149,6 +193,7 @@ li {
   overflow: auto;
   margin: 0 -10px;
   padding-right: 10px;
+  padding-bottom: 40px;
 }
 
 .register-panel .upload-box {
@@ -232,8 +277,6 @@ li {
   bottom: 0;
   height: 405px;
   margin: auto;
-  -webkit-transition: width 1s, height 1s;
-  transition: width 1s, height 1s;
 }
 
 .nav-bar {
@@ -270,7 +313,7 @@ li {
 }
 
 .input-box {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .input-box .icon {
@@ -300,7 +343,7 @@ li {
 }
 
 .input-bar input {
-  width: 195px;
+  width: calc(100% - 70px);
   padding: 0 10px;
   -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
   outline: none;
@@ -338,7 +381,7 @@ li {
 }
 
 .verification {
-  height: 40px;
+  height: 50px;
   margin: 20px 0;
   background-color: bisque;
 }
@@ -353,7 +396,7 @@ li {
   border: none;
   border-radius: 25px;
   font-size: 20px;
-  margin-top: 10px;
+  margin: 10px 0;
   box-shadow: 2px 2px 2px #e26e61;
 }
 
@@ -372,6 +415,7 @@ li {
       -ms-user-select: none;
           user-select: none;
   cursor: pointer;
+  color: #999;
 }
 
 .bottom-bar .bottom-bar-item:hover {

@@ -1,0 +1,56 @@
+<template>
+<label class="switch">
+  <input class="checkbox-input" id="{{prop._id}}" type="checkbox" name="demo-checkbox1">
+  <label class="checkbox" for="{{prop._id}}"></label>
+  <span>{{prop._text}}</span>
+</label>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      
+    }
+  }
+</script>
+
+
+<style lang="less">
+.switch {
+  margin: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.checkbox-input {
+  display: none
+}
+.checkbox {
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  vertical-align:middle;
+  margin: 0 5px;
+}
+.checkbox-input:checked+.checkbox {
+  background-color: #57ad68;
+}
+.checkbox-input:checked+.checkbox:after {
+  content: "\2714";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 0 4px #57ad68;
+}
+span {
+  margin-left: 4px;
+}
+</style>

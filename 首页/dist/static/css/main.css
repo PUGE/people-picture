@@ -4,7 +4,8 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  font: normal 12px/180% "SimSun";
+  font-size: 12px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }

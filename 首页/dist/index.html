@@ -69,23 +69,23 @@
           </div>
           <div class="menu">
             <div class="menu-item">
-              <div class="icon"></div>
+              <div class="icon">&#xe643;</div>
               <p>作品发布</p>
             </div>
             <div class="menu-item">
-              <div class="icon"></div>
+              <div class="icon">&#xe603;</div>
               <p>作品购买</p>
             </div>
             <div class="menu-item">
-              <div class="icon"></div>
+              <div class="icon">&#xe634;</div>
               <p>联系我们</p>
             </div>
             <div class="menu-item">
-              <div class="icon"></div>
+              <div class="icon">&#xe606;</div>
               <p>全部公告</p>
             </div>
             <div class="menu-item">
-              <div class="icon"></div>
+              <div class="icon">&#xe619;</div>
               <p>个人中心</p>
               <div class="user-menu hide-item">
                 <ul>
@@ -109,77 +109,77 @@
         </div>
         <div class="nav-bar-phone w1200 no-pc" template="navBarPhone">
           <img class="logo" src="./static/resource/phone-logo.jpg">
-          <div class="menu icon" :tap="showMenuBar"></div>
-          <div class="user icon" :tap="showMenuBar2"></div>
-          <div class="nav-box" :tap="hideMenuBar">
+          <div o-tap="showMenuBar" class="menu icon">&#xe63c;</div>
+          <div class="user icon" o-tap="showMenuBar2">&#xe619;</div>
+          <div class="nav-box" o-tap="hideMenuBar">
             <div class="nav">
               <div class="logo-bar">
                 <img src="./static/resource/phone-logo.jpg">
               </div>
               <div class="nav-item active">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe604;</div>
                   <span>首页</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe602;</div>
                   <span>最新</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe9b3;</div>
                   <span>图片故事</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe690;</div>
                   <span>专题策划</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe616;</div>
                   <span>见报图片</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe608;</div>
                   <span>按分类查询</span>
                 </a>
               </div>
               <div class="line"></div>
               <div class="menu-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe643;</div>
                   <p>作品发布</p>
                 </a>
               </div>
               <div class="menu-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe603;</div>
                   <p>作品购买</p>
                 </a>
               </div>
               <div class="menu-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe634;</div>
                   <p>联系我们</p>
                 </a>
               </div>
               <div class="menu-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe606;</div>
                   <p>全部公告</p>
                 </a>
               </div>
               <div class="menu-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe619;</div>
                   <p>个人中心</p>
                 </a>
               </div>
@@ -190,19 +190,19 @@
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe631;</div>
                   <span>收藏夹</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe611;</div>
                   <span>个人中心</span>
                 </a>
               </div>
               <div class="nav-item">
                 <a href="#">
-                  <div class="icon"></div>
+                  <div class="icon">&#xe61d;</div>
                   <span>退出</span>
                 </a>
               </div>
@@ -327,8 +327,8 @@
           <div class="info-box"></div>
         </div>
         <div class="control">
-          <img class="top owo-hover-grow" src="./static/resource/top.png" :tap="prev">
-          <img class="bottom owo-hover-grow" src="./static/resource/bottom.png" :tap="next">
+          <img class="top owo-hover-grow" src="./static/resource/top.png" o-tap="prev">
+          <img class="bottom owo-hover-grow" src="./static/resource/bottom.png" o-tap="next">
         </div>
         <div class="text-info"></div>
         <img class="recommend-image" src="./static/resource/recommend-title.png">
@@ -365,8 +365,8 @@
             </li>
           </ul>
         </div>
-        <div class="left-button button icon" :tap="back"></div>
-        <div class="right-button button icon" :tap="next"></div>
+        <div class="left-button button icon" o-tap="back"></div>
+        <div class="right-button button icon" o-tap="next"></div>
       </div>
       <div class="gray">
         <div class="w1200">
@@ -494,7 +494,7 @@
               </li>
             </ul>
             <div class="more-button-bar">
-              <div class="more-button owo-hover-sweep-to-left" :tap="expandable">展开更多精彩</div>
+              <div class="more-button owo-hover-sweep-to-left" o-tap="expandable">展开更多精彩</div>
             </div>
           </div>
           <div class="expandable-image-box switch-show-box switch-show-item-2" template="expandableImageBox-1">
@@ -621,7 +621,7 @@
               </li>
             </ul>
             <div class="more-button-bar">
-              <div class="more-button owo-hover-sweep-to-left" :tap="expandable">展开更多精彩</div>
+              <div class="more-button owo-hover-sweep-to-left" o-tap="expandable">展开更多精彩</div>
             </div>
           </div>
           <div class="expandable-image-box switch-show-box switch-show-item-3" template="expandableImageBox-2">
@@ -748,7 +748,7 @@
               </li>
             </ul>
             <div class="more-button-bar">
-              <div class="more-button owo-hover-sweep-to-left" :tap="expandable">展开更多精彩</div>
+              <div class="more-button owo-hover-sweep-to-left" o-tap="expandable">展开更多精彩</div>
             </div>
           </div>
           <div class="expandable-image-box switch-show-box switch-show-item-4" template="expandableImageBox-3">
@@ -875,7 +875,7 @@
               </li>
             </ul>
             <div class="more-button-bar">
-              <div class="more-button owo-hover-sweep-to-left" :tap="expandable">展开更多精彩</div>
+              <div class="more-button owo-hover-sweep-to-left" o-tap="expandable">展开更多精彩</div>
             </div>
           </div>
           <div class="expandable-image-box switch-show-box switch-show-item-5" template="expandableImageBox-4">
@@ -1002,7 +1002,7 @@
               </li>
             </ul>
             <div class="more-button-bar">
-              <div class="more-button owo-hover-sweep-to-left" :tap="expandable">展开更多精彩</div>
+              <div class="more-button owo-hover-sweep-to-left" o-tap="expandable">展开更多精彩</div>
             </div>
           </div>
         </div>
@@ -1250,7 +1250,7 @@
                 this.$el.getElementsByTagName('ul')[0].style.height = 'auto';
                 this.$event.target.innerText = '收起更多精彩';
               } else {
-                this.$el.getElementsByTagName('ul')[0].style.height = '1104px';
+                this.$el.getElementsByTagName('ul')[0].style.height = '1080px';
                 this.$event.target.innerText = '展开更多精彩';
               }
             },
@@ -1269,7 +1269,7 @@
                 this.$el.getElementsByTagName('ul')[0].style.height = 'auto';
                 this.$event.target.innerText = '收起更多精彩';
               } else {
-                this.$el.getElementsByTagName('ul')[0].style.height = '1104px';
+                this.$el.getElementsByTagName('ul')[0].style.height = '1080px';
                 this.$event.target.innerText = '展开更多精彩';
               }
             },
@@ -1288,7 +1288,7 @@
                 this.$el.getElementsByTagName('ul')[0].style.height = 'auto';
                 this.$event.target.innerText = '收起更多精彩';
               } else {
-                this.$el.getElementsByTagName('ul')[0].style.height = '1104px';
+                this.$el.getElementsByTagName('ul')[0].style.height = '1080px';
                 this.$event.target.innerText = '展开更多精彩';
               }
             },
@@ -1307,7 +1307,7 @@
                 this.$el.getElementsByTagName('ul')[0].style.height = 'auto';
                 this.$event.target.innerText = '收起更多精彩';
               } else {
-                this.$el.getElementsByTagName('ul')[0].style.height = '1104px';
+                this.$el.getElementsByTagName('ul')[0].style.height = '1080px';
                 this.$event.target.innerText = '展开更多精彩';
               }
             },
@@ -1326,7 +1326,7 @@
                 this.$el.getElementsByTagName('ul')[0].style.height = 'auto';
                 this.$event.target.innerText = '收起更多精彩';
               } else {
-                this.$el.getElementsByTagName('ul')[0].style.height = '1104px';
+                this.$el.getElementsByTagName('ul')[0].style.height = '1080px';
                 this.$event.target.innerText = '展开更多精彩';
               }
             },

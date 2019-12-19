@@ -91,7 +91,7 @@
         this.$el.getElementsByTagName('ul')[0].style.height = 'auto'
         this.$event.target.innerText = '收起更多精彩'
       } else {
-        this.$el.getElementsByTagName('ul')[0].style.height = '1104px'
+        this.$el.getElementsByTagName('ul')[0].style.height = '1080px'
         this.$event.target.innerText = '展开更多精彩'
       }
     }
@@ -134,7 +134,7 @@ ul li:nth-child(3n) {
   }
 }
 ul {
-  height: 1104px;
+  height: 1080px;
   overflow: hidden;
 }
 .more-button-bar {

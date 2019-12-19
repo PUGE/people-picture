@@ -1,4 +1,4 @@
-// Wed Dec 18 2019 00:25:09 GMT+0800 (GMT+08:00)
+// Thu Dec 19 2019 23:19:31 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -89,10 +89,10 @@ _owo.handleEvent = function (tempDom, templateName, moudleScript) {
     for (var ind = 0; ind < tempDom.attributes.length; ind++) {
       var attribute = tempDom.attributes[ind]
       // 判断是否为owo的事件
-      // ie不支持startsWith
-      var eventFor = attribute.textContent || attribute.value
-      if (attribute.name[0] == ':') {
-        var eventName = attribute.name.slice(1)
+      if (new RegExp("^o-").test(attribute.name)) {
+        // ie不支持startsWith
+        var eventFor = attribute.textContent || attribute.value
+        var eventName = attribute.name.slice(2)
         switch (eventName) {
           case 'tap': {
             // 待优化 可合并
@@ -105,23 +105,23 @@ _owo.handleEvent = function (tempDom, templateName, moudleScript) {
             } else _owo.bindEvent('click', eventFor, tempDom, moudleScript)
             break
           }
+          case 'show': {
+            var eventFor = attribute.textContent || attribute.value
+            // 初步先简单处理吧
+            var temp = eventFor.replace(/ /g, '')
+            function tempRun (temp) {
+              return eval(temp)
+            }
+            if (tempRun.apply(moudleScript, [temp])) {
+              tempDom.style.display = ''
+            } else {
+              tempDom.style.display = 'none'
+            }
+            break
+          }
           default: {
             _owo.bindEvent(eventName, eventFor, tempDom, moudleScript)
           }
-        }
-      } else {
-        if (attribute.name === 'o-show') {
-          // 初步先简单处理吧
-          var temp = eventFor.replace(/ /g, '')
-          function tempRun (temp) {
-            return eval(temp)
-          }
-          if (tempRun.apply(moudleScript, [temp])) {
-            tempDom.style.display = ''
-          } else {
-            tempDom.style.display = 'none'
-          }
-          break
         }
       }
     }

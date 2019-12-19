@@ -17,7 +17,7 @@ module.exports = {
     },
     {
       name: 'viewport',
-      content: 'width=1200, user-scalable=no',
+      content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
     },
     {
       name: 'format-detection',
@@ -82,6 +82,11 @@ module.exports = {
     //   name: "jquery1.11.0",
     //   src: "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
     // },
+    {
+      name: "main",
+      src: "./src/main.js",
+      resource: true
+    },
   ],
   // 使用到的样式列表
   styleList: [

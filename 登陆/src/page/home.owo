@@ -6,9 +6,9 @@
       img(src="@|logo.png|")
     .right
       .nav-bar
-        .nav-bar-item.login-nav-button.active(:tap="showLoginPanel")
+        .nav-bar-item.login-nav-button.active(o-tap="showLoginPanel")
           span 登陆
-        .nav-bar-item.register-nav-button(:tap="showRegisterPanel")
+        .nav-bar-item.register-nav-button(o-tap="showRegisterPanel")
           span 注册
       .login-panel
         //- 登录页
@@ -25,14 +25,14 @@
         .verification
         input.login-button(type="button" value="登陆")
         .bottom-bar
-          .bottom-bar-item(:tap="showTemporaryPanel") 临时浏览
+          .bottom-bar-item(o-tap="showTemporaryPanel") 临时浏览
           .bottom-bar-item 找回密码
       plug(_name="registerPanel" _src="./src/module/registerPanel.owo")
       //- 临时浏览账号
       .temporary.no-show
         h2 扫码获取临时浏览账号
         img(src="@|qr.png|")
-        .temporary-bottom-bar(:tap="hideTemporaryPanel") 返回账号密码登录
+        .temporary-bottom-bar(o-tap="hideTemporaryPanel") 返回账号密码登录
 </template>
 
 <script>

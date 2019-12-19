@@ -1,7 +1,7 @@
 <template lang="pug">
 .register-panel
   .register-home(o-show="this.data.register === 'home'")
-    .register-box-item(o-hover="grow" :tap="register")
+    .register-box-item(o-hover="grow" o-tap="register")
       .icon &#xe606;
       span 公司用图注册
     .register-box-item(o-hover="grow")

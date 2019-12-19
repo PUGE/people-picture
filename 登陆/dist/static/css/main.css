@@ -4,7 +4,6 @@ body, html, .owo {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
   font-size: 14px;
   font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
@@ -17,10 +16,9 @@ html {
   background-position: center top;
   background-size: cover;
 }
-body, html, .ox {
+body, html, .owo {
   padding: 0;
   margin: 0;
-  min-height: 900px;
   position: relative;
 }
 h1, h2, h3, h4, h5, input {
@@ -128,4 +126,26 @@ a {
 .login-box .expand {
   width: 400px;
   height: 640px;
+}
+
+.phone {
+  background-color: #f7f7f7;
+}
+.phone .bg-image {
+  display: none;
+}
+
+.phone .login-box {
+  width: 100vw;
+  height: 100vh;
+}
+.phone .login-box .left {
+  display: none;
+}
+
+.phone .login-box .right {
+  width: 80vw;
+  margin: 0;
+  height: 80vh;
+  padding: 10vh 10vw;
 }

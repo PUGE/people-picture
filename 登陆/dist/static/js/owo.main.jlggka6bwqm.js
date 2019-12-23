@@ -1,4 +1,4 @@
-// Fri Dec 20 2019 00:18:52 GMT+0800 (中国标准时间)
+// Mon Dec 23 2019 13:59:06 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -84,7 +84,7 @@ _owo.bindEvent = function (eventName, eventFor, tempDom, moudleScript) {
 /* owo事件处理 */
 // 参数1: 当前正在处理的dom节点
 // 参数2: 当前正在处理的模块名称
-_owo.handleEvent = function (tempDom, templateName, moudleScript) {  
+_owo.handleEvent = function (tempDom, moudleScript) {  
   if (tempDom.attributes) {
     for (var ind = 0; ind < tempDom.attributes.length; ind++) {
       var attribute = tempDom.attributes[ind]
@@ -138,9 +138,9 @@ _owo.handleEvent = function (tempDom, templateName, moudleScript) {
       if (templateName) {
         // 如果即将遍历进入模块 设置即将进入的模块为当前模块
         // 获取模块的模块名
-        _owo.handleEvent(childrenDom, templateName, moudleScript.template[templateName])
+        _owo.handleEvent(childrenDom, moudleScript.template[templateName])
       } else {
-        _owo.handleEvent(childrenDom, templateName, moudleScript)
+        _owo.handleEvent(childrenDom, moudleScript)
       }
     }
   } else {
@@ -222,7 +222,7 @@ _owo.showPage = function() {
     owo.entry = entryDom.getAttribute('template')
     owo.activePage = owo.entry
     _owo.handlePage(window.owo.script[owo.activePage], entryDom)
-    _owo.handleEvent(entryDom, null, window.owo.script[owo.activePage])
+    _owo.handleEvent(entryDom, window.owo.script[owo.activePage])
   } else {
     console.error('找不到页面入口!')
   }
@@ -276,23 +276,6 @@ owo.tool.change = function (environment, key, value) {
 
 
 
-// 这是用于代码调试的自动刷新代码，他不应该出现在正式上线版本!
-if ("WebSocket" in window) {
-  // 打开一个 web socket
-  if (!window._owo.ws) window._owo.ws = new WebSocket("ws://" + window.location.host)
-  window._owo.ws.onmessage = function (evt) { 
-    if (evt.data == 'reload') {
-      location.reload()
-    }
-  }
-  window._owo.ws.onclose = function() { 
-    console.info('与服务器断开连接')
-  }
-} else {
-  console.error('浏览器不支持WebSocket')
-}
-
-
 
 
 
@@ -321,7 +304,7 @@ function switchPage (oldUrlParam, newUrlParam) {
   window.owo.activePage = newPage
   // 不可调换位置
   if (!window.owo.script[newPage]._isCreated) {
-    _owo.handleEvent(newDom, null, window.owo.script[newPage])
+    _owo.handleEvent(newDom, window.owo.script[newPage])
   }
   // 不可调换位置
   _owo.handlePage(window.owo.script[newPage], newDom)

@@ -8,27 +8,27 @@
     .info-card-box
       .left-bar
         ul(font="FZLTHJW.TTF")
-          li.active(:tap="activeItem('personal-information')")
+          li.active(o-tap="activeItem('personal-information')")
             span 个人信息
-          li(:tap="activeItem('shopping-page')")
+          li(o-tap="activeItem('shopping-page')")
             span 收藏夹
           li
             span 购物车
-          li(:tap="activeItem('purchase-history-page')")
+          li(o-tap="activeItem('purchase-history-page')")
             span 购物记录
-          li(:tap="activeItem('sale-page')")
+          li(o-tap="activeItem('sale-page')")
             span 销售记录
-          li(:tap="activeItem('download-page')")
+          li(o-tap="activeItem('download-page')")
             span 下载记录
-          li
+          li(o-tap="activeItem('personal-gallery')")
             span 个人图库
-          li(:tap="activeItem('exchange-page')")
+          li(o-tap="activeItem('exchange-page')")
             span 图片交流
-          li(:tap="activeItem('notice-page')")
+          li(o-tap="activeItem('notice-page')")
             span 系统公告
-          li(:tap="activeItem('announcement-details')")
+          li(o-tap="activeItem('announcement-details')")
             span 公告详情
-          li(:tap="activeItem('password-page')")
+          li(o-tap="activeItem('password-page')")
             span 修改密码
       .right-bar
         .panel
@@ -37,6 +37,7 @@
           plug.right-bar-item(_name="purchaseHistoryPage" _src="./src/module/purchaseHistoryPage.owo")
           plug.right-bar-item(_name="salePage" _src="./src/module/salePage.owo")
           plug.right-bar-item(_name="downloadPage" _src="./src/module/downloadPage.owo")
+          plug.right-bar-item(_name="personalGallery" _src="./src/module/personalGallery.owo")
           plug.right-bar-item(_name="exchangePage" _src="./src/module/exchangePage.owo")
           plug.right-bar-item(_name="noticePage" _src="./src/module/noticePage.owo")
           plug.right-bar-item(_name="announcementDetails" _src="./src/module/announcementDetails.owo")

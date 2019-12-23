@@ -1054,6 +1054,57 @@ li {
   width: 120px;
   height: auto;
 }
+.panel-search-bar-3 {
+  display: -webkit-box;
+  display: flex;
+  padding: 10px;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.panel-search-bar-3 span {
+  line-height: 40px;
+  margin: 0 10px;
+  color: #484848;
+}
+
+.panel-search-bar-3 input,
+.panel-search-bar-3 select {
+  border: 1px solid #ccc;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-right: none;
+  font-size: 14px;
+  color: #757575;
+  font-weight: bold;
+}
+
+.panel-search-bar-3 .search-button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #d62c1f;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+.personal-gallery .image-info-card-item {
+  float: left;
+  width: 31%;
+  overflow: hidden;
+  margin: 10px 1%;
+  height: 190px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.personal-gallery .image-info-card-item img {
+  width: 100%;
+}
 .exchange-page {
   display: -webkit-box;
   display: flex;
@@ -1210,6 +1261,28 @@ li {
 .announcement-details .back-button .text {
   width: 40px;
   font-size: 18px;
+}
+
+.announcement-details h1 {
+  font-size: 22px;
+  text-align: center;
+  color: #484848;
+  line-height: 40px;
+}
+
+.announcement-details h2 {
+  font-size: 16px;
+  color: #484848;
+  text-align: center;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.announcement-details p {
+  margin: 20px;
+  color: #484848;
+  line-height: 1.7;
+  font-size: 16px;
 }
 .password-page input[type="text"],
 .password-page input[type="password"] {

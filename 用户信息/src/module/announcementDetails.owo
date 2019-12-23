@@ -5,6 +5,11 @@
     .back-button
       .icon &#xe654;
       .text(font="FZLTHJW.TTF") 返回
+    h1 注册摄影师用户名和密码忘记了怎么办？
+    h2 2019.10.20
+    //- 装饰线
+    .line
+    p &emsp;&emsp;为提高人民图片网签约摄影师稿件通过率、媒体见报率，人民图片将于2019年7月开始，定期在上海举办免费的“人民图片签约摄影师培训班”。每期培训为期半天。每期10人，按收到报名回执顺序，人民图片工作人员电话通知、确认，最终名单将在人民图片网官方微信公众号发布。<br>报名方式：1、关注人民图片官方微信公众号；<br>&emsp;&emsp;&emsp;&emsp;&emsp;2、填写个人信息提交报名表；<br>搜索微信公众号：visioninpeople或者扫下方的二维码，开始报名。
 </template>
 
 
@@ -27,5 +32,24 @@
     width: 40px;
     font-size: 18px;
   }
+}
+h1 {
+  font-size: 22px;
+  text-align: center;
+  color: #484848;
+  line-height: 40px;
+}
+h2 {
+  font-size: 16px;
+  color: #484848;
+  text-align: center;
+  line-height: 20px;
+  font-weight: normal;
+}
+p {
+  margin: 20px;
+  color: #484848;
+  line-height: 1.7;
+  font-size: 16px;
 }
 </style>

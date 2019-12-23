@@ -1,100 +1,226 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <title>{TAG_14226_TAG}</title>
-    <!-- 页面的元信息 -->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
-    <meta name="format-detection" content="telephone=no, email=no"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
-    <meta name="renderer" content="webkit"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="filetype" content="1"/>
-    <meta name="publishedtype" content="1"/>
-    <meta name="pagetype" content="2"/>
-    <meta name="screen-orientation" content="landscape"/>
-    <meta name="x5-orientation" content="landscape"/>
-    <meta name="full-screen" content="yes"/>
-    <meta name="x5-fullscreen" content="true"/>
-    <meta name="browsermode" content="application"/>
-    <meta name="x5-page-mode" content="app"/>
-    
-      <!-- 页面主样式文件 -->
-      <link charset="utf-8"  rel="stylesheet" href="./static/css/owo.main.css">
-      
-    <!-- 附属css文件 -->
-    <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
-      
-  </head>
-  <body>
-    <!-- 页面区域 -->
-    <!-- 页面[home]-->
-    <div class="home owo" template="home"><img class="bg-image" src="./static/resource/bg.jpg"><div class="login-box"><div class="left"><img src="./static/resource/logo.png"></div><div class="right"><div class="nav-bar"><div class="nav-bar-item login-nav-button active" o-tap="showLoginPanel"><span>登陆</span></div><div class="nav-bar-item register-nav-button" o-tap="showRegisterPanel"><span>注册</span></div></div><div class="login-panel"><div class="input-box"><div class="username-bar input-bar"><div class="icon"></div><input type="text" placeholder="会员名/邮箱/手机号"></div><div class="password-box input-bar"><div class="icon"></div><input type="password" placeholder="密码"></div></div><label class="switch" template="checkBox">
-  <input class="checkbox-input" id="rem" type="checkbox" name="demo-checkbox1">
-  <label class="checkbox" for="rem"></label>
-  <span>记住我</span>
-</label><div class="verification"></div><input class="login-button" type="button" value="登陆"><div class="bottom-bar"><div class="bottom-bar-item" o-tap="showTemporaryPanel">临时浏览</div><div class="bottom-bar-item">找回密码</div></div></div><div class="register-panel" template="registerPanel"><div class="register-home" o-show="this.data.register === 'home'"><div class="register-box-item owo-hover-grow" o-tap="register"><div class="icon"></div><span>公司用图注册</span></div><div class="register-box-item owo-hover-grow"><div class="icon"></div><span>自媒体用图注册</span></div><div class="register-box-item owo-hover-grow"><div class="icon"></div><span>摄影师用图注册</span></div><div class="register-bottom-bar"><a href="#">了解公司用图和自媒体用途区别</a></div></div><div class="register-company register-item" o-show="this.data.register === 'company'"><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="用户名"></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="password" placeholder="密码"></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="password" placeholder="重复密码"></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="联系人"></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="邮箱"></div><div class="register-item-input-bar"><p>* 为了方便您确认信息、寻找密码、获取消息，请务必选用真实稳定、长期有效的邮箱。</p></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="出版物或机构名称"></div><div class="register-item-input-bar m10"><div class="important">·</div><select><option disabled="disabled" selected="selected">出版物或者机构性质</option><option>出版物1</option></select></div><div class="register-item-input-bar"><p>* (宣传部门的新注册用户请务必将本项选择为“宣传”)</p></div><div class="register-item-input-bar m10"><div class="important">·</div><select><option disabled="disabled" selected="selected">图片用途</option><option>图片用途1</option></select></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="图片负责人职务"></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="手机号码"></div><div class="register-item-input-bar m10"><div class="important">·</div><input type="text" placeholder="座机电话"></div><div class="upload-box"></div><div class="verification"></div><label class="switch remember-bar" template="checkBox-1">
-  <input class="checkbox-input" id="read" type="checkbox" name="demo-checkbox1">
-  <label class="checkbox" for="read"></label>
-  <span>阅读并同意《用户协议》</span>
-</label><input class="send-button" type="button" value="提交"></div></div><div class="temporary no-show"><h2>扫码获取临时浏览账号</h2><img src="./static/resource/qr.png"><div class="temporary-bottom-bar" o-tap="hideTemporaryPanel">返回账号密码登录</div></div></div></div></div>
-    
 
-    <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script><!-- 框架script代码 --><!-- 框架script文件 -->
-<script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>
-<script>/*
+<head>
+  <title>{TAG_14226_TAG}</title>
+  <!-- 页面的元信息 -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="filetype" content="1" />
+  <meta name="publishedtype" content="1" />
+  <meta name="pagetype" content="2" />
+  <meta name="screen-orientation" content="landscape" />
+  <meta name="x5-orientation" content="landscape" />
+  <meta name="full-screen" content="yes" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="browsermode" content="application" />
+  <meta name="x5-page-mode" content="app" />
+
+  <!-- 页面主样式文件 -->
+  <link charset="utf-8" rel="stylesheet" href="./static/css/owo.main.jlggka6bwqm.css">
+
+  <!-- 附属css文件 -->
+  <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
+
+</head>
+
+<body>
+  <!-- 页面区域 -->
+  <!-- 页面[home]-->
+  <div class="home owo" template="home">
+    <img class="bg-image" src="./static/resource/bg.jpg">
+    <div class="login-box">
+      <div class="left">
+        <img src="./static/resource/logo.png">
+      </div>
+      <div class="right">
+        <div class="nav-bar">
+          <div class="nav-bar-item login-nav-button active" o-tap="showLoginPanel">
+            <span>登陆</span>
+          </div>
+          <div class="nav-bar-item register-nav-button" o-tap="showRegisterPanel">
+            <span>注册</span>
+          </div>
+        </div>
+        <div class="login-panel">
+          <div class="input-box">
+            <div class="username-bar input-bar">
+              <div class="icon">&#xe65e;</div>
+              <input type="text" placeholder="会员名/邮箱/手机号">
+            </div>
+            <div class="password-box input-bar">
+              <div class="icon">&#xe601;</div>
+              <input type="password" placeholder="密码">
+            </div>
+          </div><label class="switch" template="checkBox">
+            <input class="checkbox-input" id="rem" type="checkbox" name="demo-checkbox1">
+            <label class="checkbox" for="rem"></label>
+            <span>记住我</span>
+          </label>
+          <div class="verification"></div>
+          <input class="login-button" type="button" value="登陆">
+          <div class="bottom-bar">
+            <div class="bottom-bar-item" o-tap="showTemporaryPanel">临时浏览</div>
+            <div class="bottom-bar-item">找回密码</div>
+          </div>
+        </div>
+        <div class="register-panel" template="registerPanel">
+          <div class="register-home" o-show="this.data.register === 'home'">
+            <div class="register-box-item owo-hover-grow" o-tap="register">
+              <div class="icon">&#xe606;</div>
+              <span>公司用图注册</span>
+            </div>
+            <div class="register-box-item owo-hover-grow">
+              <div class="icon">&#xe606;</div>
+              <span>自媒体用图注册</span>
+            </div>
+            <div class="register-box-item owo-hover-grow">
+              <div class="icon">&#xe606;</div>
+              <span>摄影师用图注册</span>
+            </div>
+            <div class="register-bottom-bar">
+              <a href="#">了解公司用图和自媒体用途区别</a>
+            </div>
+          </div>
+          <div class="register-company register-item" o-show="this.data.register === 'company'">
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="用户名">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="password" placeholder="密码">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="password" placeholder="重复密码">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="联系人">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="邮箱">
+            </div>
+            <div class="register-item-input-bar">
+              <p>* 为了方便您确认信息、寻找密码、获取消息，请务必选用真实稳定、长期有效的邮箱。</p>
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="出版物或机构名称">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <select>
+                <option disabled="disabled" selected="selected">出版物或者机构性质</option>
+                <option>出版物1</option>
+              </select>
+            </div>
+            <div class="register-item-input-bar">
+              <p>* (宣传部门的新注册用户请务必将本项选择为“宣传”)</p>
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <select>
+                <option disabled="disabled" selected="selected">图片用途</option>
+                <option>图片用途1</option>
+              </select>
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="图片负责人职务">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="手机号码">
+            </div>
+            <div class="register-item-input-bar m10">
+              <div class="important">·</div>
+              <input type="text" placeholder="座机电话">
+            </div>
+            <div class="upload-box"></div>
+            <div class="verification"></div><label class="switch remember-bar" template="checkBox-1">
+              <input class="checkbox-input" id="read" type="checkbox" name="demo-checkbox1">
+              <label class="checkbox" for="read"></label>
+              <span>阅读并同意《用户协议》</span>
+            </label>
+            <input class="send-button" type="button" value="提交">
+          </div>
+        </div>
+        <div class="temporary no-show">
+          <h2>扫码获取临时浏览账号</h2>
+          <img src="./static/resource/qr.png">
+          <div class="temporary-bottom-bar" o-tap="hideTemporaryPanel">返回账号密码登录</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./static/js/main.js" type="text/javascript" charset="UTF-8"></script><!-- 框架script代码 -->
+  <!-- 框架script文件 -->
+  <script src="./static/js/owo.main.jlggka6bwqm.js" type="text/javascript" charset="UTF-8"></script>
+  <script>
+    /*
   存储每个页面的函数
   键名：页面名称
   键值：方法列表
 */
-owo.phoneEnter = "null";
-owo.script = {
-  "home": {
-    "showLoginPanel": function showLoginPanel() {
-      this.$target.classList.add('active');
-      owo.query('.right')[0].classList.remove('expand');
-      owo.query('.register-nav-button')[0].classList.remove('active');
-      owo.query('.register-panel')[0].style.display = 'none';
-      owo.query('.login-panel')[0].style.display = 'block';
-    },
-    "showRegisterPanel": function showRegisterPanel() {
-      this.$target.classList.add('active');
-      owo.tool.change(this.template.registerPanel, 'register', 'home');
-      owo.query('.right')[0].classList.remove('expand');
-      owo.query('.login-nav-button')[0].classList.remove('active');
-      owo.query('.login-panel')[0].style.display = 'none';
-      owo.query('.register-panel')[0].style.display = 'block';
-    },
-    "showTemporaryPanel": function showTemporaryPanel() {
-      owo.query('.right')[0].classList.remove('expand');
-      owo.query('.login-panel')[0].style.display = 'none';
-      owo.query('.temporary')[0].style.display = 'block';
-    },
-    "hideTemporaryPanel": function hideTemporaryPanel() {
-      owo.query('.right')[0].classList.remove('expand');
-      owo.query('.temporary')[0].style.display = 'none';
-      owo.query('.login-panel')[0].style.display = 'block';
-    },
-    "template": {
-      "registerPanel": {
-        "data": {
-          "register": "home"
+    owo.phoneEnter = "null";
+    owo.script = {
+      "home": {
+        "showLoginPanel": function showLoginPanel() {
+          this.$target.classList.add('active');
+          owo.query('.right')[0].classList.remove('expand');
+          owo.query('.register-nav-button')[0].classList.remove('active');
+          owo.query('.register-panel')[0].style.display = 'none';
+          owo.query('.login-panel')[0].style.display = 'block';
         },
-        "register": function register() {
-          owo.query('.right')[0].classList.add('expand');
-          owo.tool.change(this, 'register', 'company');
+        "showRegisterPanel": function showRegisterPanel() {
+          this.$target.classList.add('active');
+          owo.tool.change(this.template.registerPanel, 'register', 'home');
+          owo.query('.right')[0].classList.remove('expand');
+          owo.query('.login-nav-button')[0].classList.remove('active');
+          owo.query('.login-panel')[0].style.display = 'none';
+          owo.query('.register-panel')[0].style.display = 'block';
+        },
+        "showTemporaryPanel": function showTemporaryPanel() {
+          owo.query('.right')[0].classList.remove('expand');
+          owo.query('.login-panel')[0].style.display = 'none';
+          owo.query('.temporary')[0].style.display = 'block';
+        },
+        "hideTemporaryPanel": function hideTemporaryPanel() {
+          owo.query('.right')[0].classList.remove('expand');
+          owo.query('.temporary')[0].style.display = 'none';
+          owo.query('.login-panel')[0].style.display = 'block';
         },
         "template": {
-          "checkBox-1": {
-            "prop": {
-              "class": "remember-bar"
+          "registerPanel": {
+            "data": {
+              "register": "home"
+            },
+            "register": function register() {
+              owo.query('.right')[0].classList.add('expand');
+              owo.tool.change(this, 'register', 'company');
+            },
+            "template": {
+              "checkBox-1": {
+                "prop": {
+                  "class": "remember-bar"
+                }
+              }
             }
           }
         }
       }
-    }
-  }
-};</script>
-  </body>
+    };
+  </script>
+</body>
+
 </html>

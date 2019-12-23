@@ -11,7 +11,7 @@
     .check-box
       input.check-item(type="checkbox")
     .menu-box
-      .buy.menu-box-item(:tap="switchShoppingCart" value="商品ID")
+      .buy.menu-box-item(o-tap="switchShoppingCart" value="商品ID")
         span.icon &#xe600;
         span.text 加入购物车
       .start.menu-box-item

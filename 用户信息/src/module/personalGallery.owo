@@ -1,0 +1,31 @@
+<template lang="pug">
+.personal-gallery
+  plug(_name="searchBar3" _src="./src/module/searchBar3.owo")
+  .image-info-card-box.clear
+    .image-info-card-item(:for="item in 9")
+      img(src="http://www.people.com.cn/NMediaFile/2019/1223/MAIN201912230818011995997146216.jpg")
+  plug(_name="turnPage" _src="https://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+    }
+  }
+</script>
+
+
+<style lang="less">
+  .image-info-card-item {
+    float: left;
+    width: 31%;
+    overflow: hidden;
+    margin: 10px 1%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+</style>

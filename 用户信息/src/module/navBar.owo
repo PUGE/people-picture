@@ -28,7 +28,7 @@
     .menu-item
       .icon &#xe606;
       p 全部公告
-    .menu-item(:tap="switchUserMenu")
+    .menu-item(o-tap="switchUserMenu")
       .icon &#xe619;
       p 个人中心
   //- 个人中心浮动条

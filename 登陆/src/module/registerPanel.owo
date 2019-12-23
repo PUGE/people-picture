@@ -78,7 +78,7 @@
 .register-panel {
   display: none;
   padding-top: 20px;
-  height: calc(100% - 60px);
+  height: calc(100% - 80px);
 }
 .register-box-item {
   height: 45px;

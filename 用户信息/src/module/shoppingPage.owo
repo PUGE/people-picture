@@ -2,7 +2,7 @@
 .shopping-page
   .card-content
     .tool-bar
-      .tool-bar-item.multiple-selection(:tap="multipleSelection")
+      .tool-bar-item.multiple-selection(o-tap="multipleSelection")
         span.icon &#xe630;
         span 批量操作
       .buy.tool-bar-item

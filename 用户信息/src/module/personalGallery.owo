@@ -2,8 +2,14 @@
 .personal-gallery
   plug(_name="searchBar3" _src="./src/module/searchBar3.owo")
   .image-info-card-box.clear
-    .image-info-card-item(:for="item in 9")
-      img(src="http://www.people.com.cn/NMediaFile/2019/1223/MAIN201912230818011995997146216.jpg")
+    .image-info-card-item(:for="item in 9" o-hover="grow")
+      a(href="")
+        img(src="http://www.people.com.cn/NMediaFile/2019/1223/MAIN201912230818011995997146216.jpg")
+        //- 通过情况
+        .adopt [整体通过]
+        .bottom-info-bar
+          p 组图标题组图标题组图标题组图标题组图标题...
+          p 2019-12-12 23:22 [30/30]
   plug(_name="turnPage" _src="https://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page")
 </template>
 
@@ -21,11 +27,49 @@
     width: 31%;
     overflow: hidden;
     margin: 10px 1%;
-    height: 190px;
+    height: 210px;
     display: flex;
     align-items: center;
+    position: relative;
+    justify-content: center;
     img {
+      height: 100%;
+      display: block;
+      position: absolute;
+      left: -50%;
+      right: -50%;
+      margin: 0 auto;
+    }
+    a {
+      display: block;
       width: 100%;
+      height: 100%;
+    }
+    .adopt {
+      z-index: 1;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      color: white;
+    }
+  }
+  .bottom-info-bar {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    color: white;
+    padding: 4px 0;
+    p {
+      display: block;
+      width: auto;
+      padding: 0 10px;
+      overflow: hidden;
+      height: 20px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 20px;
+      font-size: 14px;
     }
   }
 </style>

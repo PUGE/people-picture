@@ -1,4 +1,4 @@
-// Thu Dec 26 2019 09:41:16 GMT+0800 (GMT+08:00)
+// Wed Dec 25 2019 08:33:30 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -231,54 +231,6 @@ _owo.showPage = function() {
 // 执行页面加载完毕方法
 _owo.ready(_owo.showPage)
 
-_owo._event_tap = function (tempDom, callBack) {
-  // 变量
-  var startTime = 0
-  var isMove = false
-  tempDom.addEventListener('touchstart', function() {
-    startTime = Date.now();
-  })
-  tempDom.addEventListener('touchmove', function() {
-    isMove = true
-  })
-  tempDom.addEventListener('touchend', function(e) {
-    if (Date.now() - startTime < 300 && !isMove) {
-      callBack(e)
-    }
-    // 清零
-    startTime = 0;
-    isMove = false
-  })
-}
-
-// 事件推送方法
-owo.tool.emit = function (eventName) {
-  var argumentsList = []
-  for (var ind = 1; ind < arguments.length; ind++) {
-    argumentsList.push(arguments[ind])
-  }
-  for (var key in owo.script) {
-    if (owo.script.hasOwnProperty(key)) {
-      var page = owo.script[key];
-      if (page.broadcast && page.broadcast[eventName]) {
-        if (!page.$el) page.$el = document.querySelector('[template="' + key + '"]')
-        page.broadcast[eventName].apply(page, argumentsList)
-      }
-      // 判断是否有组件
-      if (page.template) {
-        for (var key in page.template) {
-          if (page.template.hasOwnProperty(key)) {
-            var template = page.template[key];
-            if (template.broadcast && template.broadcast[eventName]) {
-              if (!template.$el) template.$el = document.querySelector('[template="' + key + '"]')
-              template.broadcast[eventName].apply(template, argumentsList)
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
 
 

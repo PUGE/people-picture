@@ -1,0 +1,1526 @@
+[2019-12-26T09:24:33.352] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:24:33.354] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:24:33.354] [INFO] default - 首次启动!
+[2019-12-26T09:24:33.354] [INFO] default - 生成版本号: 53uz9h32spf
+[2019-12-26T09:24:33.372] [INFO] default - 清理资源文件夹: D:\work\人民图片\用户信息\dist\static
+[2019-12-26T09:24:33.373] [INFO] default - 文件夹不存在: D:\work\人民图片\用户信息\dist\static
+[2019-12-26T09:24:33.373] [INFO] default - 创建文件夹: D:\work\人民图片\用户信息\dist\static
+[2019-12-26T09:24:33.373] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:24:33.373] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:24:33.373] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:24:33.374] [INFO] default - 开始处理模块: home
+[2019-12-26T09:24:33.824] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:24:33.824] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:24:33.859] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:24:33.864] [DEBUG] default - 模块topBar处理用时: 41 毫秒!
+[2019-12-26T09:24:33.865] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:24:33.924] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:24:33.969] [DEBUG] default - 模块navBar处理用时: 104 毫秒!
+[2019-12-26T09:24:33.969] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:24:33.969] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:24:33.993] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:24:34.002] [DEBUG] default - 模块searchBar处理用时: 33 毫秒!
+[2019-12-26T09:24:34.003] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:24:34.028] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:24:34.034] [DEBUG] default - 模块personalInformation处理用时: 31 毫秒!
+[2019-12-26T09:24:34.034] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:24:34.077] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:24:34.108] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:24:34.115] [DEBUG] default - 模块shoppingCart处理用时: 38 毫秒!
+[2019-12-26T09:24:34.115] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:24:34.123] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:24:34.125] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:24:34.125] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:24:34.135] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:24:34.138] [DEBUG] default - 模块shoppingCart处理用时: 13 毫秒!
+[2019-12-26T09:24:34.138] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:24:34.147] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:24:34.149] [DEBUG] default - 模块shoppingCart处理用时: 11 毫秒!
+[2019-12-26T09:24:34.149] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.149] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:24:34.165] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:24:34.171] [DEBUG] default - 模块turnPage处理用时: 22 毫秒!
+[2019-12-26T09:24:34.172] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:24:34.183] [DEBUG] default - 模块shoppingPage处理用时: 149 毫秒!
+[2019-12-26T09:24:34.183] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:24:34.222] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:24:34.222] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:24:34.241] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:24:34.244] [DEBUG] default - 模块searchBar处理用时: 22 毫秒!
+[2019-12-26T09:24:34.269] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.269] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:24:34.270] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:24:34.271] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:24:34.288] [DEBUG] default - 模块purchaseHistoryPage处理用时: 105 毫秒!
+[2019-12-26T09:24:34.288] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:24:34.303] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:24:34.323] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:24:34.325] [DEBUG] default - 模块searchBar2处理用时: 22 毫秒!
+[2019-12-26T09:24:34.326] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.326] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:24:34.328] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:24:34.328] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:24:34.335] [DEBUG] default - 模块salePage处理用时: 47 毫秒!
+[2019-12-26T09:24:34.335] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:24:34.352] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:24:34.352] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:24:34.352] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:24:34.353] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.353] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:24:34.354] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:24:34.354] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:24:34.360] [DEBUG] default - 模块downloadPage处理用时: 25 毫秒!
+[2019-12-26T09:24:34.360] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:24:34.365] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:24:34.380] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:24:34.383] [DEBUG] default - 模块searchBar3处理用时: 18 毫秒!
+[2019-12-26T09:24:34.396] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.396] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:24:34.397] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:24:34.398] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:24:34.406] [DEBUG] default - 模块personalGallery处理用时: 46 毫秒!
+[2019-12-26T09:24:34.406] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:24:34.424] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:24:34.424] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:24:34.424] [DEBUG] default - 模块searchBar2处理用时: 0 毫秒!
+[2019-12-26T09:24:34.425] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.425] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:24:34.426] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:24:34.427] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:24:34.433] [DEBUG] default - 模块exchangePage处理用时: 27 毫秒!
+[2019-12-26T09:24:34.434] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:24:34.457] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:24:34.457] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:24:34.458] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:24:34.459] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:24:34.465] [DEBUG] default - 模块noticePage处理用时: 32 毫秒!
+[2019-12-26T09:24:34.465] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:24:34.484] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:24:34.487] [DEBUG] default - 模块announcementDetails处理用时: 22 毫秒!
+[2019-12-26T09:24:34.487] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:24:34.500] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:24:34.503] [DEBUG] default - 模块passwordPage处理用时: 16 毫秒!
+[2019-12-26T09:24:34.503] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:24:34.522] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:24:34.528] [DEBUG] default - 模块customer处理用时: 25 毫秒!
+[2019-12-26T09:24:34.528] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:24:34.559] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:24:34.563] [DEBUG] default - 模块copyright处理用时: 35 毫秒!
+[2019-12-26T09:24:34.570] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:24:34.573] [DEBUG] default - 页面home处理用时: 1199 毫秒!
+[2019-12-26T09:24:34.575] [INFO] default - 文件夹不存在: D:/work/人民图片/用户信息/dist/static/resource
+[2019-12-26T09:24:34.575] [INFO] default - 创建文件夹: D:/work/人民图片/用户信息/dist/static/resource
+[2019-12-26T09:24:34.576] [DEBUG] default - 处理资源:  [ 'D:/work/人民图片/用户信息/src/resource/triangle.png' ]
+[2019-12-26T09:24:34.577] [DEBUG] default - 资源目录:  D:/work/人民图片/用户信息/dist/static/resource
+[2019-12-26T09:24:34.578] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:24:35.131] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:24:35.196] [INFO] default - 文件夹不存在: D:\work\人民图片\用户信息\dist\static\css
+[2019-12-26T09:24:35.196] [INFO] default - 创建文件夹: D:\work\人民图片\用户信息\dist\static\css
+[2019-12-26T09:24:35.196] [INFO] default - 开始处理附属css中的资源
+[2019-12-26T09:24:35.197] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-26T09:24:35.197] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.css
+[2019-12-26T09:24:35.197] [INFO] default - 附属css中的资源不需要处理!
+[2019-12-26T09:24:35.197] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:24:35.344] [INFO] default - 使用postcss处理完毕! 用时: 213 毫秒
+[2019-12-26T09:24:35.344] [INFO] default - 正在处理script!
+[2019-12-26T09:24:35.938] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:24:35.939] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:24:35.939] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:24:35.940] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:24:35.940] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:24:35.940] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:24:35.940] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:24:35.940] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:24:35.940] [DEBUG] default - 输出scriptData
+[2019-12-26T09:24:35.941] [DEBUG] default - 准备输出html!
+[2019-12-26T09:24:35.942] [DEBUG] default - 处理资源:  [ 'D:/work/人民图片/用户信息/src/resource/logo.png',
+  'D:/work/人民图片/用户信息/src/resource/people-picture-logo.png',
+  'D:/work/人民图片/用户信息/src/resource/customer.png',
+  'D:/work/人民图片/用户信息/src/resource/message.png' ]
+[2019-12-26T09:24:35.942] [DEBUG] default - 资源目录:  D:/work/人民图片/用户信息/dist/static/resource
+[2019-12-26T09:24:35.943] [INFO] default - 文件夹不存在: D:\work\人民图片\用户信息\dist\static\js
+[2019-12-26T09:24:35.943] [INFO] default - 创建文件夹: D:\work\人民图片\用户信息\dist\static\js
+[2019-12-26T09:24:35.944] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:24:35.944] [INFO] default - 编译结束!
+[2019-12-26T09:24:35.945] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:24:35.964] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:24:35.965] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.css
+[2019-12-26T09:24:35.965] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:24:35.965] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:24:36.014] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.css
+[2019-12-26T09:24:36.059] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\main.css
+[2019-12-26T09:24:36.060] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:24:36.113] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\swiper.4.5.0.min.css
+[2019-12-26T09:24:36.131] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:24:36.132] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:28:29.084] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:28:29.084] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:28:29.084] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:28:29.084] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:28:29.084] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:28:29.085] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:28:29.085] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:28:29.085] [INFO] default - 开始处理模块: home
+[2019-12-26T09:28:29.115] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:28:29.115] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:28:29.118] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:28:29.119] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-26T09:28:29.119] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:28:29.139] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:28:29.152] [DEBUG] default - 模块navBar处理用时: 33 毫秒!
+[2019-12-26T09:28:29.152] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:28:29.152] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:28:29.158] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:28:29.163] [DEBUG] default - 模块searchBar处理用时: 11 毫秒!
+[2019-12-26T09:28:29.164] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:28:29.184] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:28:29.190] [DEBUG] default - 模块personalInformation处理用时: 27 毫秒!
+[2019-12-26T09:28:29.190] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:28:29.199] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:28:29.207] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:28:29.214] [DEBUG] default - 模块shoppingCart处理用时: 15 毫秒!
+[2019-12-26T09:28:29.214] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:28:29.222] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:28:29.224] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:28:29.224] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:28:29.232] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:28:29.235] [DEBUG] default - 模块shoppingCart处理用时: 11 毫秒!
+[2019-12-26T09:28:29.235] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:28:29.243] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:28:29.244] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:28:29.245] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.245] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:28:29.257] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:28:29.262] [DEBUG] default - 模块turnPage处理用时: 18 毫秒!
+[2019-12-26T09:28:29.263] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:28:29.277] [DEBUG] default - 模块shoppingPage处理用时: 87 毫秒!
+[2019-12-26T09:28:29.277] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:28:29.297] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:28:29.297] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:28:29.307] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:28:29.310] [DEBUG] default - 模块searchBar处理用时: 13 毫秒!
+[2019-12-26T09:28:29.312] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.312] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:28:29.313] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:28:29.314] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:28:29.326] [DEBUG] default - 模块purchaseHistoryPage处理用时: 49 毫秒!
+[2019-12-26T09:28:29.326] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:28:29.339] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:28:29.346] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:28:29.349] [DEBUG] default - 模块searchBar2处理用时: 10 毫秒!
+[2019-12-26T09:28:29.350] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.350] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:28:29.351] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:28:29.351] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:28:29.359] [DEBUG] default - 模块salePage处理用时: 33 毫秒!
+[2019-12-26T09:28:29.360] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:28:29.368] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:28:29.368] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:28:29.368] [DEBUG] default - 模块searchBar2处理用时: 0 毫秒!
+[2019-12-26T09:28:29.369] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.369] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:28:29.370] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:28:29.371] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:28:29.379] [DEBUG] default - 模块downloadPage处理用时: 20 毫秒!
+[2019-12-26T09:28:29.379] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:28:29.386] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:28:29.393] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:28:29.397] [DEBUG] default - 模块searchBar3处理用时: 11 毫秒!
+[2019-12-26T09:28:29.406] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.406] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:28:29.409] [DEBUG] default - 模块turnPage处理用时: 3 毫秒!
+[2019-12-26T09:28:29.409] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:28:29.429] [DEBUG] default - 模块personalGallery处理用时: 50 毫秒!
+[2019-12-26T09:28:29.429] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:28:29.446] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:28:29.450] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:28:29.452] [DEBUG] default - 模块searchBar2处理用时: 6 毫秒!
+[2019-12-26T09:28:29.455] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.455] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:28:29.456] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:28:29.457] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:28:29.463] [DEBUG] default - 模块exchangePage处理用时: 34 毫秒!
+[2019-12-26T09:28:29.463] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:28:29.480] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:28:29.480] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:28:29.481] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:28:29.482] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:28:29.489] [DEBUG] default - 模块noticePage处理用时: 26 毫秒!
+[2019-12-26T09:28:29.489] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:28:29.494] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:28:29.496] [DEBUG] default - 模块announcementDetails处理用时: 7 毫秒!
+[2019-12-26T09:28:29.496] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:28:29.501] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:28:29.504] [DEBUG] default - 模块passwordPage处理用时: 8 毫秒!
+[2019-12-26T09:28:29.504] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:28:29.509] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:28:29.512] [DEBUG] default - 模块customer处理用时: 8 毫秒!
+[2019-12-26T09:28:29.512] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:28:29.525] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:28:29.528] [DEBUG] default - 模块copyright处理用时: 16 毫秒!
+[2019-12-26T09:28:29.535] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:28:29.539] [DEBUG] default - 页面home处理用时: 454 毫秒!
+[2019-12-26T09:28:29.540] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:28:29.540] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:28:29.540] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:28:29.568] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:28:29.575] [INFO] default - 使用postcss处理完毕! 用时: 35 毫秒
+[2019-12-26T09:28:29.575] [INFO] default - 正在处理script!
+[2019-12-26T09:28:29.622] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:28:29.623] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:28:29.623] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:28:29.623] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:28:29.623] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:28:29.624] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:28:29.624] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:28:29.624] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:28:29.624] [DEBUG] default - 输出scriptData
+[2019-12-26T09:28:29.624] [DEBUG] default - 准备输出html!
+[2019-12-26T09:28:29.625] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:28:29.625] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:28:29.625] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:28:29.625] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:28:29.626] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:28:29.627] [INFO] default - 编译结束!
+[2019-12-26T09:28:29.627] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:28:29.631] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:28:29.632] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:28:29.632] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:28:29.637] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:28:29.641] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:28:29.643] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:31:55.186] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:31:55.186] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:31:55.186] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:31:55.186] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:31:55.186] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:31:55.187] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:31:55.187] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:31:55.187] [INFO] default - 开始处理模块: home
+[2019-12-26T09:31:55.217] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:31:55.217] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:31:55.221] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:31:55.223] [DEBUG] default - 模块topBar处理用时: 6 毫秒!
+[2019-12-26T09:31:55.223] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:31:55.241] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:31:55.254] [DEBUG] default - 模块navBar处理用时: 31 毫秒!
+[2019-12-26T09:31:55.255] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:31:55.255] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:31:55.261] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:31:55.265] [DEBUG] default - 模块searchBar处理用时: 11 毫秒!
+[2019-12-26T09:31:55.266] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:31:55.284] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:31:55.288] [DEBUG] default - 模块personalInformation处理用时: 22 毫秒!
+[2019-12-26T09:31:55.288] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:31:55.298] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:31:55.307] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:31:55.312] [DEBUG] default - 模块shoppingCart处理用时: 14 毫秒!
+[2019-12-26T09:31:55.313] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:31:55.320] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:31:55.322] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:31:55.322] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:31:55.329] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:31:55.331] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:31:55.331] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:31:55.339] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:31:55.340] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:31:55.340] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.340] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:31:55.356] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:31:55.362] [DEBUG] default - 模块turnPage处理用时: 22 毫秒!
+[2019-12-26T09:31:55.364] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:31:55.373] [DEBUG] default - 模块shoppingPage处理用时: 85 毫秒!
+[2019-12-26T09:31:55.373] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:31:55.400] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:31:55.400] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:31:55.407] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:31:55.409] [DEBUG] default - 模块searchBar处理用时: 9 毫秒!
+[2019-12-26T09:31:55.411] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.411] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:31:55.412] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:31:55.413] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:31:55.426] [DEBUG] default - 模块purchaseHistoryPage处理用时: 53 毫秒!
+[2019-12-26T09:31:55.426] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:31:55.438] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:31:55.443] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:31:55.446] [DEBUG] default - 模块searchBar2处理用时: 8 毫秒!
+[2019-12-26T09:31:55.446] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.447] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:31:55.448] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:31:55.449] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:31:55.457] [DEBUG] default - 模块salePage处理用时: 31 毫秒!
+[2019-12-26T09:31:55.457] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:31:55.467] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:31:55.467] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:31:55.467] [DEBUG] default - 模块searchBar2处理用时: 0 毫秒!
+[2019-12-26T09:31:55.468] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.468] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:31:55.469] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:31:55.470] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:31:55.477] [DEBUG] default - 模块downloadPage处理用时: 20 毫秒!
+[2019-12-26T09:31:55.477] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:31:55.486] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:31:55.492] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:31:55.503] [DEBUG] default - 模块searchBar3处理用时: 17 毫秒!
+[2019-12-26T09:31:55.510] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.510] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:31:55.513] [DEBUG] default - 模块turnPage处理用时: 3 毫秒!
+[2019-12-26T09:31:55.514] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:31:55.545] [DEBUG] default - 模块personalGallery处理用时: 68 毫秒!
+[2019-12-26T09:31:55.545] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:31:55.554] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:31:55.554] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:31:55.556] [DEBUG] default - 模块searchBar2处理用时: 3 毫秒!
+[2019-12-26T09:31:55.557] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.557] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:31:55.558] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:31:55.558] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:31:55.564] [DEBUG] default - 模块exchangePage处理用时: 19 毫秒!
+[2019-12-26T09:31:55.565] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:31:55.579] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:31:55.580] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:31:55.581] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:31:55.581] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:31:55.586] [DEBUG] default - 模块noticePage处理用时: 22 毫秒!
+[2019-12-26T09:31:55.587] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:31:55.591] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:31:55.594] [DEBUG] default - 模块announcementDetails处理用时: 8 毫秒!
+[2019-12-26T09:31:55.594] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:31:55.603] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:31:55.606] [DEBUG] default - 模块passwordPage处理用时: 12 毫秒!
+[2019-12-26T09:31:55.606] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:31:55.610] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:31:55.615] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-26T09:31:55.615] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:31:55.628] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:31:55.633] [DEBUG] default - 模块copyright处理用时: 18 毫秒!
+[2019-12-26T09:31:55.637] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:31:55.641] [DEBUG] default - 页面home处理用时: 454 毫秒!
+[2019-12-26T09:31:55.642] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:31:55.642] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:31:55.642] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:31:55.672] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:31:55.682] [INFO] default - 使用postcss处理完毕! 用时: 39 毫秒
+[2019-12-26T09:31:55.682] [INFO] default - 正在处理script!
+[2019-12-26T09:31:55.722] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:31:55.722] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:31:55.723] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:31:55.723] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:31:55.723] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:31:55.723] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:31:55.723] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:31:55.723] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:31:55.723] [DEBUG] default - 输出scriptData
+[2019-12-26T09:31:55.724] [DEBUG] default - 准备输出html!
+[2019-12-26T09:31:55.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:31:55.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:31:55.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:31:55.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:31:55.725] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:31:55.726] [INFO] default - 编译结束!
+[2019-12-26T09:31:55.726] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:31:55.728] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:31:55.728] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:31:55.728] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:31:55.729] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:31:55.729] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:31:55.730] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:32:06.459] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:32:06.459] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:32:06.459] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:32:06.459] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:32:06.460] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:32:06.461] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:32:06.461] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:32:06.461] [INFO] default - 开始处理模块: home
+[2019-12-26T09:32:06.475] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:32:06.475] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:32:06.478] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:32:06.479] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-26T09:32:06.479] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:32:06.492] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:32:06.499] [DEBUG] default - 模块navBar处理用时: 20 毫秒!
+[2019-12-26T09:32:06.499] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:32:06.500] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:32:06.503] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:32:06.506] [DEBUG] default - 模块searchBar处理用时: 7 毫秒!
+[2019-12-26T09:32:06.507] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:32:06.520] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:32:06.523] [DEBUG] default - 模块personalInformation处理用时: 16 毫秒!
+[2019-12-26T09:32:06.524] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:32:06.531] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:06.536] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:32:06.543] [DEBUG] default - 模块shoppingCart处理用时: 12 毫秒!
+[2019-12-26T09:32:06.544] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:06.550] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:32:06.551] [DEBUG] default - 模块shoppingCart处理用时: 7 毫秒!
+[2019-12-26T09:32:06.552] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:06.556] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:32:06.557] [DEBUG] default - 模块shoppingCart处理用时: 5 毫秒!
+[2019-12-26T09:32:06.557] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:06.562] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:32:06.564] [DEBUG] default - 模块shoppingCart处理用时: 7 毫秒!
+[2019-12-26T09:32:06.564] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.564] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:32:06.575] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:32:06.581] [DEBUG] default - 模块turnPage处理用时: 17 毫秒!
+[2019-12-26T09:32:06.582] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:32:06.593] [DEBUG] default - 模块shoppingPage处理用时: 69 毫秒!
+[2019-12-26T09:32:06.594] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:32:06.607] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:32:06.607] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:32:06.612] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:32:06.614] [DEBUG] default - 模块searchBar处理用时: 7 毫秒!
+[2019-12-26T09:32:06.616] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.616] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:06.617] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:06.617] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:32:06.625] [DEBUG] default - 模块purchaseHistoryPage处理用时: 32 毫秒!
+[2019-12-26T09:32:06.625] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:32:06.636] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:32:06.639] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:32:06.640] [DEBUG] default - 模块searchBar2处理用时: 4 毫秒!
+[2019-12-26T09:32:06.641] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.641] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:06.642] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:06.642] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:32:06.648] [DEBUG] default - 模块salePage处理用时: 23 毫秒!
+[2019-12-26T09:32:06.648] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:32:06.655] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:32:06.655] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:32:06.657] [DEBUG] default - 模块searchBar2处理用时: 2 毫秒!
+[2019-12-26T09:32:06.657] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.657] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:06.658] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:06.658] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:32:06.663] [DEBUG] default - 模块downloadPage处理用时: 15 毫秒!
+[2019-12-26T09:32:06.663] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:32:06.668] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:32:06.672] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:32:06.674] [DEBUG] default - 模块searchBar3处理用时: 6 毫秒!
+[2019-12-26T09:32:06.678] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.678] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:06.679] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:06.679] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:32:06.689] [DEBUG] default - 模块personalGallery处理用时: 26 毫秒!
+[2019-12-26T09:32:06.690] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:32:06.696] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:32:06.696] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:32:06.697] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:32:06.698] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.698] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:06.699] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:06.699] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:32:06.705] [DEBUG] default - 模块exchangePage处理用时: 16 毫秒!
+[2019-12-26T09:32:06.705] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:32:06.719] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:06.719] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:06.720] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:06.720] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:32:06.725] [DEBUG] default - 模块noticePage处理用时: 20 毫秒!
+[2019-12-26T09:32:06.726] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:32:06.729] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:32:06.735] [DEBUG] default - 模块announcementDetails处理用时: 10 毫秒!
+[2019-12-26T09:32:06.735] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:32:06.739] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:32:06.741] [DEBUG] default - 模块passwordPage处理用时: 6 毫秒!
+[2019-12-26T09:32:06.741] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:32:06.745] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:32:06.747] [DEBUG] default - 模块customer处理用时: 6 毫秒!
+[2019-12-26T09:32:06.747] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:32:06.755] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:32:06.758] [DEBUG] default - 模块copyright处理用时: 11 毫秒!
+[2019-12-26T09:32:06.762] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:32:06.765] [DEBUG] default - 页面home处理用时: 304 毫秒!
+[2019-12-26T09:32:06.766] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:32:06.766] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:32:06.766] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:32:06.784] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:32:06.789] [INFO] default - 使用postcss处理完毕! 用时: 23 毫秒
+[2019-12-26T09:32:06.789] [INFO] default - 正在处理script!
+[2019-12-26T09:32:06.824] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:32:06.825] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:32:06.825] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:32:06.825] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:32:06.825] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:32:06.825] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:32:06.825] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:32:06.825] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:32:06.825] [DEBUG] default - 输出scriptData
+[2019-12-26T09:32:06.826] [DEBUG] default - 准备输出html!
+[2019-12-26T09:32:06.826] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:32:06.826] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:32:06.826] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:32:06.826] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:32:06.828] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:32:06.829] [INFO] default - 编译结束!
+[2019-12-26T09:32:06.829] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:32:06.845] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:32:06.848] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:32:06.848] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:32:06.849] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:32:06.873] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:32:06.879] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:32:32.154] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:32:32.154] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:32:32.154] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:32:32.154] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:32:32.154] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:32:32.154] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:32:32.155] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:32:32.155] [INFO] default - 开始处理模块: home
+[2019-12-26T09:32:32.184] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:32:32.184] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:32:32.188] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:32:32.191] [DEBUG] default - 模块topBar处理用时: 7 毫秒!
+[2019-12-26T09:32:32.191] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:32:32.210] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:32:32.220] [DEBUG] default - 模块navBar处理用时: 29 毫秒!
+[2019-12-26T09:32:32.220] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:32:32.220] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:32:32.227] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:32:32.231] [DEBUG] default - 模块searchBar处理用时: 11 毫秒!
+[2019-12-26T09:32:32.233] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:32:32.249] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:32:32.254] [DEBUG] default - 模块personalInformation处理用时: 21 毫秒!
+[2019-12-26T09:32:32.254] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:32:32.262] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:32.271] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:32:32.277] [DEBUG] default - 模块shoppingCart处理用时: 15 毫秒!
+[2019-12-26T09:32:32.277] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:32.284] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:32:32.286] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:32:32.287] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:32.293] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:32:32.295] [DEBUG] default - 模块shoppingCart处理用时: 8 毫秒!
+[2019-12-26T09:32:32.296] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:32:32.302] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:32:32.304] [DEBUG] default - 模块shoppingCart处理用时: 8 毫秒!
+[2019-12-26T09:32:32.304] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.304] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:32:32.317] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:32:32.322] [DEBUG] default - 模块turnPage处理用时: 18 毫秒!
+[2019-12-26T09:32:32.323] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:32:32.333] [DEBUG] default - 模块shoppingPage处理用时: 79 毫秒!
+[2019-12-26T09:32:32.333] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:32:32.356] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:32:32.356] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:32:32.361] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:32:32.364] [DEBUG] default - 模块searchBar处理用时: 8 毫秒!
+[2019-12-26T09:32:32.366] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.366] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:32.369] [DEBUG] default - 模块turnPage处理用时: 3 毫秒!
+[2019-12-26T09:32:32.370] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:32:32.388] [DEBUG] default - 模块purchaseHistoryPage处理用时: 54 毫秒!
+[2019-12-26T09:32:32.388] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:32:32.397] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:32:32.401] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:32:32.403] [DEBUG] default - 模块searchBar2处理用时: 6 毫秒!
+[2019-12-26T09:32:32.404] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.404] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:32.405] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:32:32.406] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:32:32.412] [DEBUG] default - 模块salePage处理用时: 24 毫秒!
+[2019-12-26T09:32:32.412] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:32:32.419] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:32:32.419] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:32:32.420] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:32:32.420] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.420] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:32.421] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:32.422] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:32:32.427] [DEBUG] default - 模块downloadPage处理用时: 15 毫秒!
+[2019-12-26T09:32:32.427] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:32:32.436] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:32:32.441] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:32:32.445] [DEBUG] default - 模块searchBar3处理用时: 9 毫秒!
+[2019-12-26T09:32:32.456] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.456] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:32.457] [DEBUG] default - 模块turnPage处理用时: 4 毫秒!
+[2019-12-26T09:32:32.458] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:32:32.469] [DEBUG] default - 模块personalGallery处理用时: 42 毫秒!
+[2019-12-26T09:32:32.469] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:32:32.490] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:32:32.490] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:32:32.491] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:32:32.492] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.492] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:32.497] [DEBUG] default - 模块turnPage处理用时: 5 毫秒!
+[2019-12-26T09:32:32.498] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:32:32.516] [DEBUG] default - 模块exchangePage处理用时: 46 毫秒!
+[2019-12-26T09:32:32.516] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:32:32.529] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:32:32.529] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:32:32.530] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:32:32.531] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:32:32.536] [DEBUG] default - 模块noticePage处理用时: 20 毫秒!
+[2019-12-26T09:32:32.536] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:32:32.542] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:32:32.545] [DEBUG] default - 模块announcementDetails处理用时: 9 毫秒!
+[2019-12-26T09:32:32.545] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:32:32.550] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:32:32.553] [DEBUG] default - 模块passwordPage处理用时: 8 毫秒!
+[2019-12-26T09:32:32.553] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:32:32.557] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:32:32.560] [DEBUG] default - 模块customer处理用时: 7 毫秒!
+[2019-12-26T09:32:32.560] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:32:32.573] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:32:32.578] [DEBUG] default - 模块copyright处理用时: 18 毫秒!
+[2019-12-26T09:32:32.581] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:32:32.584] [DEBUG] default - 页面home处理用时: 429 毫秒!
+[2019-12-26T09:32:32.585] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:32:32.585] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:32:32.585] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:32:32.614] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:32:32.620] [INFO] default - 使用postcss处理完毕! 用时: 35 毫秒
+[2019-12-26T09:32:32.621] [INFO] default - 正在处理script!
+[2019-12-26T09:32:32.663] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:32:32.663] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:32:32.664] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:32:32.664] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:32:32.664] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:32:32.664] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:32:32.664] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:32:32.664] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:32:32.664] [DEBUG] default - 输出scriptData
+[2019-12-26T09:32:32.665] [DEBUG] default - 准备输出html!
+[2019-12-26T09:32:32.665] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:32:32.665] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:32:32.665] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:32:32.665] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:32:32.666] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:32:32.667] [INFO] default - 编译结束!
+[2019-12-26T09:32:32.668] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:32:32.670] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:32:32.671] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:32:32.671] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:32:32.672] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:32:32.673] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:32:32.674] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:33:07.764] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:33:07.764] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:33:07.764] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:33:07.764] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:33:07.764] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:33:07.765] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:33:07.765] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:33:07.765] [INFO] default - 开始处理模块: home
+[2019-12-26T09:33:07.794] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:33:07.794] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:33:07.797] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:33:07.799] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-26T09:33:07.799] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:33:07.815] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:33:07.828] [DEBUG] default - 模块navBar处理用时: 29 毫秒!
+[2019-12-26T09:33:07.828] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:33:07.829] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:33:07.834] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:33:07.838] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:33:07.839] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:33:07.860] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:33:07.866] [DEBUG] default - 模块personalInformation处理用时: 26 毫秒!
+[2019-12-26T09:33:07.866] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:33:07.873] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:07.881] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:33:07.886] [DEBUG] default - 模块shoppingCart处理用时: 14 毫秒!
+[2019-12-26T09:33:07.887] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:07.894] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:33:07.895] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:33:07.895] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:07.902] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:33:07.903] [DEBUG] default - 模块shoppingCart处理用时: 8 毫秒!
+[2019-12-26T09:33:07.904] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:07.912] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:33:07.913] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:33:07.913] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:07.913] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:33:07.928] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:33:07.934] [DEBUG] default - 模块turnPage处理用时: 21 毫秒!
+[2019-12-26T09:33:07.935] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:33:07.948] [DEBUG] default - 模块shoppingPage处理用时: 82 毫秒!
+[2019-12-26T09:33:07.948] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:33:07.970] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:33:07.970] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:33:07.977] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:33:07.980] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:33:07.982] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:07.982] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:07.985] [DEBUG] default - 模块turnPage处理用时: 3 毫秒!
+[2019-12-26T09:33:07.986] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:33:07.996] [DEBUG] default - 模块purchaseHistoryPage处理用时: 48 毫秒!
+[2019-12-26T09:33:07.996] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:33:08.006] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:33:08.010] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:33:08.011] [DEBUG] default - 模块searchBar2处理用时: 5 毫秒!
+[2019-12-26T09:33:08.012] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:08.012] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:08.013] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:33:08.013] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:33:08.020] [DEBUG] default - 模块salePage处理用时: 24 毫秒!
+[2019-12-26T09:33:08.020] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:33:08.030] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:33:08.030] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:33:08.031] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:33:08.032] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:08.032] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:08.033] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:33:08.033] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:33:08.040] [DEBUG] default - 模块downloadPage处理用时: 20 毫秒!
+[2019-12-26T09:33:08.040] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:33:08.046] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:33:08.053] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:33:08.055] [DEBUG] default - 模块searchBar3处理用时: 9 毫秒!
+[2019-12-26T09:33:08.065] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:08.065] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:08.068] [DEBUG] default - 模块turnPage处理用时: 4 毫秒!
+[2019-12-26T09:33:08.069] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:33:08.079] [DEBUG] default - 模块personalGallery处理用时: 39 毫秒!
+[2019-12-26T09:33:08.079] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:33:08.090] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:33:08.090] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:33:08.091] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:33:08.092] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:08.092] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:08.094] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:33:08.095] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:33:08.118] [DEBUG] default - 模块exchangePage处理用时: 39 毫秒!
+[2019-12-26T09:33:08.119] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:33:08.134] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:08.134] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:08.135] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:33:08.136] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:33:08.141] [DEBUG] default - 模块noticePage处理用时: 22 毫秒!
+[2019-12-26T09:33:08.141] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:33:08.148] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:33:08.150] [DEBUG] default - 模块announcementDetails处理用时: 9 毫秒!
+[2019-12-26T09:33:08.151] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:33:08.157] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:33:08.160] [DEBUG] default - 模块passwordPage处理用时: 9 毫秒!
+[2019-12-26T09:33:08.161] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:33:08.165] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:33:08.170] [DEBUG] default - 模块customer处理用时: 10 毫秒!
+[2019-12-26T09:33:08.170] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:33:08.181] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:33:08.185] [DEBUG] default - 模块copyright处理用时: 15 毫秒!
+[2019-12-26T09:33:08.190] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:33:08.193] [DEBUG] default - 页面home处理用时: 428 毫秒!
+[2019-12-26T09:33:08.194] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:33:08.194] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:33:08.194] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:33:08.298] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:33:08.306] [INFO] default - 使用postcss处理完毕! 用时: 112 毫秒
+[2019-12-26T09:33:08.306] [INFO] default - 正在处理script!
+[2019-12-26T09:33:08.356] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:33:08.357] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:33:08.357] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:33:08.357] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:33:08.357] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:33:08.357] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:33:08.357] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:33:08.357] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:33:08.357] [DEBUG] default - 输出scriptData
+[2019-12-26T09:33:08.358] [DEBUG] default - 准备输出html!
+[2019-12-26T09:33:08.358] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:33:08.358] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:33:08.358] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:33:08.358] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:33:08.359] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:33:08.360] [INFO] default - 编译结束!
+[2019-12-26T09:33:08.360] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:33:08.362] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:33:08.362] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:33:08.362] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:33:08.363] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:33:08.364] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:33:08.375] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:33:38.244] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:33:38.244] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:33:38.244] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:33:38.244] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:33:38.244] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:33:38.245] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:33:38.245] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:33:38.245] [INFO] default - 开始处理模块: home
+[2019-12-26T09:33:38.282] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:33:38.282] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:33:38.286] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:33:38.287] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-26T09:33:38.287] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:33:38.306] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:33:38.318] [DEBUG] default - 模块navBar处理用时: 31 毫秒!
+[2019-12-26T09:33:38.319] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:33:38.319] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:33:38.324] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:33:38.329] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:33:38.330] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:33:38.348] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:33:38.353] [DEBUG] default - 模块personalInformation处理用时: 23 毫秒!
+[2019-12-26T09:33:38.353] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:33:38.362] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:38.370] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:33:38.378] [DEBUG] default - 模块shoppingCart处理用时: 16 毫秒!
+[2019-12-26T09:33:38.378] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:38.386] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:33:38.389] [DEBUG] default - 模块shoppingCart处理用时: 11 毫秒!
+[2019-12-26T09:33:38.389] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:38.396] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:33:38.399] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:33:38.399] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:33:38.406] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:33:38.407] [DEBUG] default - 模块shoppingCart处理用时: 8 毫秒!
+[2019-12-26T09:33:38.407] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.407] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:33:38.423] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:33:38.429] [DEBUG] default - 模块turnPage处理用时: 22 毫秒!
+[2019-12-26T09:33:38.430] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:33:38.441] [DEBUG] default - 模块shoppingPage处理用时: 88 毫秒!
+[2019-12-26T09:33:38.441] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:33:38.463] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:33:38.463] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:33:38.471] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:33:38.473] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:33:38.476] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.476] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:38.477] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:33:38.477] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:33:38.487] [DEBUG] default - 模块purchaseHistoryPage处理用时: 46 毫秒!
+[2019-12-26T09:33:38.487] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:33:38.498] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:33:38.502] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:33:38.505] [DEBUG] default - 模块searchBar2处理用时: 7 毫秒!
+[2019-12-26T09:33:38.506] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.506] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:38.507] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:33:38.507] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:33:38.513] [DEBUG] default - 模块salePage处理用时: 26 毫秒!
+[2019-12-26T09:33:38.513] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:33:38.521] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:33:38.521] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:33:38.522] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:33:38.522] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.522] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:38.523] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:33:38.524] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:33:38.533] [DEBUG] default - 模块downloadPage处理用时: 20 毫秒!
+[2019-12-26T09:33:38.533] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:33:38.539] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:33:38.547] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:33:38.550] [DEBUG] default - 模块searchBar3处理用时: 11 毫秒!
+[2019-12-26T09:33:38.557] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.558] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:38.559] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:33:38.560] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:33:38.578] [DEBUG] default - 模块personalGallery处理用时: 45 毫秒!
+[2019-12-26T09:33:38.578] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:33:38.589] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:33:38.589] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:33:38.591] [DEBUG] default - 模块searchBar2处理用时: 2 毫秒!
+[2019-12-26T09:33:38.591] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.591] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:38.593] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:33:38.594] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:33:38.652] [DEBUG] default - 模块exchangePage处理用时: 74 毫秒!
+[2019-12-26T09:33:38.652] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:33:38.668] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:33:38.668] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:33:38.669] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:33:38.669] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:33:38.674] [DEBUG] default - 模块noticePage处理用时: 22 毫秒!
+[2019-12-26T09:33:38.675] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:33:38.679] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:33:38.682] [DEBUG] default - 模块announcementDetails处理用时: 8 毫秒!
+[2019-12-26T09:33:38.682] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:33:38.715] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:33:38.721] [DEBUG] default - 模块passwordPage处理用时: 39 毫秒!
+[2019-12-26T09:33:38.721] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:33:38.726] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:33:38.731] [DEBUG] default - 模块customer处理用时: 10 毫秒!
+[2019-12-26T09:33:38.733] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:33:38.751] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:33:38.756] [DEBUG] default - 模块copyright处理用时: 24 毫秒!
+[2019-12-26T09:33:38.759] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:33:38.762] [DEBUG] default - 页面home处理用时: 517 毫秒!
+[2019-12-26T09:33:38.763] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:33:38.763] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:33:38.763] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:33:38.790] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:33:38.796] [INFO] default - 使用postcss处理完毕! 用时: 33 毫秒
+[2019-12-26T09:33:38.797] [INFO] default - 正在处理script!
+[2019-12-26T09:33:38.842] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:33:38.843] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:33:38.843] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:33:38.843] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:33:38.843] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:33:38.843] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:33:38.843] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:33:38.843] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:33:38.843] [DEBUG] default - 输出scriptData
+[2019-12-26T09:33:38.844] [DEBUG] default - 准备输出html!
+[2019-12-26T09:33:38.844] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:33:38.844] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:33:38.844] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:33:38.844] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:33:38.845] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:33:38.846] [INFO] default - 编译结束!
+[2019-12-26T09:33:38.847] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:33:38.849] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:33:38.849] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:33:38.854] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:33:38.859] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:33:38.862] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:33:38.864] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:35:14.573] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:35:14.573] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:35:14.573] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:35:14.573] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:35:14.573] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:35:14.574] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:35:14.574] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:35:14.574] [INFO] default - 开始处理模块: home
+[2019-12-26T09:35:14.604] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:35:14.604] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:35:14.606] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:35:14.608] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-26T09:35:14.608] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:35:14.627] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:35:14.637] [DEBUG] default - 模块navBar处理用时: 29 毫秒!
+[2019-12-26T09:35:14.637] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:35:14.637] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:35:14.643] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:35:14.647] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:35:14.648] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:35:14.667] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:35:14.672] [DEBUG] default - 模块personalInformation处理用时: 24 毫秒!
+[2019-12-26T09:35:14.672] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:35:14.680] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:14.689] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:35:14.695] [DEBUG] default - 模块shoppingCart处理用时: 15 毫秒!
+[2019-12-26T09:35:14.695] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:14.703] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:35:14.705] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:35:14.705] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:14.711] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:35:14.713] [DEBUG] default - 模块shoppingCart处理用时: 8 毫秒!
+[2019-12-26T09:35:14.713] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:14.722] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:35:14.725] [DEBUG] default - 模块shoppingCart处理用时: 12 毫秒!
+[2019-12-26T09:35:14.725] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.726] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:35:14.739] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:35:14.745] [DEBUG] default - 模块turnPage处理用时: 20 毫秒!
+[2019-12-26T09:35:14.746] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:35:14.757] [DEBUG] default - 模块shoppingPage处理用时: 85 毫秒!
+[2019-12-26T09:35:14.757] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:35:14.776] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:35:14.776] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:35:14.781] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:35:14.783] [DEBUG] default - 模块searchBar处理用时: 7 毫秒!
+[2019-12-26T09:35:14.785] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.785] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:14.786] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:14.787] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:35:14.797] [DEBUG] default - 模块purchaseHistoryPage处理用时: 40 毫秒!
+[2019-12-26T09:35:14.797] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:35:14.809] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:35:14.813] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:35:14.815] [DEBUG] default - 模块searchBar2处理用时: 6 毫秒!
+[2019-12-26T09:35:14.816] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.816] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:14.817] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:14.817] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:35:14.822] [DEBUG] default - 模块salePage处理用时: 25 毫秒!
+[2019-12-26T09:35:14.823] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:35:14.831] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:35:14.831] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:35:14.832] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:35:14.832] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.832] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:14.833] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:14.834] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:35:14.843] [DEBUG] default - 模块downloadPage处理用时: 21 毫秒!
+[2019-12-26T09:35:14.843] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:35:14.850] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:35:14.856] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:35:14.859] [DEBUG] default - 模块searchBar3处理用时: 9 毫秒!
+[2019-12-26T09:35:14.871] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.871] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:14.872] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:14.873] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:35:14.883] [DEBUG] default - 模块personalGallery处理用时: 40 毫秒!
+[2019-12-26T09:35:14.883] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:35:14.897] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:35:14.898] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:35:14.899] [DEBUG] default - 模块searchBar2处理用时: 2 毫秒!
+[2019-12-26T09:35:14.901] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.901] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:14.907] [DEBUG] default - 模块turnPage处理用时: 6 毫秒!
+[2019-12-26T09:35:14.912] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:35:14.918] [DEBUG] default - 模块exchangePage处理用时: 35 毫秒!
+[2019-12-26T09:35:14.918] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:35:14.932] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:14.932] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:14.933] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:14.934] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:35:14.938] [DEBUG] default - 模块noticePage处理用时: 20 毫秒!
+[2019-12-26T09:35:14.939] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:35:14.945] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:35:14.948] [DEBUG] default - 模块announcementDetails处理用时: 9 毫秒!
+[2019-12-26T09:35:14.948] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:35:14.953] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:35:14.956] [DEBUG] default - 模块passwordPage处理用时: 8 毫秒!
+[2019-12-26T09:35:14.956] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:35:14.960] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:35:14.965] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-26T09:35:14.966] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:35:14.978] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:35:14.981] [DEBUG] default - 模块copyright处理用时: 16 毫秒!
+[2019-12-26T09:35:14.985] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:35:14.988] [DEBUG] default - 页面home处理用时: 414 毫秒!
+[2019-12-26T09:35:14.989] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:35:14.989] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:35:14.989] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:35:15.016] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:35:15.022] [INFO] default - 使用postcss处理完毕! 用时: 33 毫秒
+[2019-12-26T09:35:15.022] [INFO] default - 正在处理script!
+[2019-12-26T09:35:15.063] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:35:15.064] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:35:15.064] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:35:15.064] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:35:15.064] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:35:15.064] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:35:15.064] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:35:15.064] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:35:15.064] [DEBUG] default - 输出scriptData
+[2019-12-26T09:35:15.065] [DEBUG] default - 准备输出html!
+[2019-12-26T09:35:15.065] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:35:15.065] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:35:15.065] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:35:15.065] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:35:15.066] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:35:15.067] [INFO] default - 编译结束!
+[2019-12-26T09:35:15.067] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:35:15.070] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:35:15.070] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:35:15.071] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:35:15.071] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:35:15.071] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:35:15.084] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:35:25.757] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:35:25.757] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:35:25.757] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:35:25.757] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:35:25.757] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:35:25.758] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:35:25.758] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:35:25.758] [INFO] default - 开始处理模块: home
+[2019-12-26T09:35:25.772] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:35:25.772] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:35:25.775] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:35:25.776] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
+[2019-12-26T09:35:25.776] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:35:25.786] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:35:25.794] [DEBUG] default - 模块navBar处理用时: 18 毫秒!
+[2019-12-26T09:35:25.794] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:35:25.794] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:35:25.799] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:35:25.802] [DEBUG] default - 模块searchBar处理用时: 8 毫秒!
+[2019-12-26T09:35:25.803] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:35:25.813] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:35:25.816] [DEBUG] default - 模块personalInformation处理用时: 13 毫秒!
+[2019-12-26T09:35:25.816] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:35:25.822] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:25.830] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:35:25.836] [DEBUG] default - 模块shoppingCart处理用时: 14 毫秒!
+[2019-12-26T09:35:25.836] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:25.844] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:35:25.845] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:35:25.845] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:25.850] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:35:25.851] [DEBUG] default - 模块shoppingCart处理用时: 6 毫秒!
+[2019-12-26T09:35:25.851] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:35:25.856] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:35:25.857] [DEBUG] default - 模块shoppingCart处理用时: 6 毫秒!
+[2019-12-26T09:35:25.857] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.857] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:35:25.869] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:35:25.874] [DEBUG] default - 模块turnPage处理用时: 17 毫秒!
+[2019-12-26T09:35:25.875] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:35:25.883] [DEBUG] default - 模块shoppingPage处理用时: 67 毫秒!
+[2019-12-26T09:35:25.883] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:35:25.899] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:35:25.899] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:35:25.903] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:35:25.905] [DEBUG] default - 模块searchBar处理用时: 6 毫秒!
+[2019-12-26T09:35:25.906] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.906] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:25.907] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:25.908] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:35:25.916] [DEBUG] default - 模块purchaseHistoryPage处理用时: 33 毫秒!
+[2019-12-26T09:35:25.916] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:35:25.922] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:35:25.924] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:35:25.926] [DEBUG] default - 模块searchBar2处理用时: 4 毫秒!
+[2019-12-26T09:35:25.927] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.927] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:25.927] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:25.928] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:35:25.936] [DEBUG] default - 模块salePage处理用时: 20 毫秒!
+[2019-12-26T09:35:25.937] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:35:25.942] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:35:25.942] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:35:25.942] [DEBUG] default - 模块searchBar2处理用时: 0 毫秒!
+[2019-12-26T09:35:25.943] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.943] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:25.943] [DEBUG] default - 模块turnPage处理用时: 0 毫秒!
+[2019-12-26T09:35:25.944] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:35:25.949] [DEBUG] default - 模块downloadPage处理用时: 13 毫秒!
+[2019-12-26T09:35:25.949] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:35:25.953] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:35:25.956] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:35:25.958] [DEBUG] default - 模块searchBar3处理用时: 5 毫秒!
+[2019-12-26T09:35:25.961] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.962] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:25.962] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:25.963] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:35:25.967] [DEBUG] default - 模块personalGallery处理用时: 18 毫秒!
+[2019-12-26T09:35:25.967] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:35:25.980] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:35:25.980] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:35:25.981] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:35:25.981] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.981] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:25.982] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:35:25.982] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:35:25.987] [DEBUG] default - 模块exchangePage处理用时: 20 毫秒!
+[2019-12-26T09:35:25.987] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:35:25.998] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:35:25.998] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:35:26.000] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:35:26.000] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:35:26.004] [DEBUG] default - 模块noticePage处理用时: 17 毫秒!
+[2019-12-26T09:35:26.004] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:35:26.008] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:35:26.010] [DEBUG] default - 模块announcementDetails处理用时: 6 毫秒!
+[2019-12-26T09:35:26.010] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:35:26.014] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:35:26.016] [DEBUG] default - 模块passwordPage处理用时: 6 毫秒!
+[2019-12-26T09:35:26.016] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:35:26.022] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:35:26.025] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-26T09:35:26.025] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:35:26.033] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:35:26.036] [DEBUG] default - 模块copyright处理用时: 11 毫秒!
+[2019-12-26T09:35:26.039] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:35:26.041] [DEBUG] default - 页面home处理用时: 283 毫秒!
+[2019-12-26T09:35:26.042] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:35:26.042] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:35:26.042] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:35:26.057] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:35:26.063] [INFO] default - 使用postcss处理完毕! 用时: 21 毫秒
+[2019-12-26T09:35:26.063] [INFO] default - 正在处理script!
+[2019-12-26T09:35:26.093] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:35:26.094] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:35:26.095] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:35:26.095] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:35:26.095] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:35:26.095] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:35:26.095] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:35:26.095] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:35:26.095] [DEBUG] default - 输出scriptData
+[2019-12-26T09:35:26.095] [DEBUG] default - 准备输出html!
+[2019-12-26T09:35:26.095] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:35:26.096] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:35:26.096] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:35:26.096] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:35:26.097] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:35:26.097] [INFO] default - 编译结束!
+[2019-12-26T09:35:26.098] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:35:26.118] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:35:26.128] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:35:26.128] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:35:26.130] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:35:26.132] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:35:26.135] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:39:33.229] [INFO] default - file change: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:39:33.230] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:39:33.230] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:39:33.230] [INFO] default - 刷新模式,变化目录: owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:39:33.230] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:39:33.230] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:39:33.230] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:39:33.230] [INFO] default - 开始处理模块: home
+[2019-12-26T09:39:33.260] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:39:33.260] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:39:33.263] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:39:33.264] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-26T09:39:33.264] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:39:33.281] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:39:33.292] [DEBUG] default - 模块navBar处理用时: 28 毫秒!
+[2019-12-26T09:39:33.292] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:39:33.292] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:39:33.298] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:39:33.302] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:39:33.302] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:39:33.321] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:39:33.325] [DEBUG] default - 模块personalInformation处理用时: 23 毫秒!
+[2019-12-26T09:39:33.326] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:39:33.333] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:39:33.340] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:39:33.347] [DEBUG] default - 模块shoppingCart处理用时: 14 毫秒!
+[2019-12-26T09:39:33.347] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:39:33.354] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:39:33.356] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:39:33.356] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:39:33.363] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:39:33.366] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:39:33.366] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:39:33.372] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:39:33.373] [DEBUG] default - 模块shoppingCart处理用时: 7 毫秒!
+[2019-12-26T09:39:33.373] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.373] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:39:33.392] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:39:33.400] [DEBUG] default - 模块turnPage处理用时: 27 毫秒!
+[2019-12-26T09:39:33.400] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:39:33.409] [DEBUG] default - 模块shoppingPage处理用时: 83 毫秒!
+[2019-12-26T09:39:33.409] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:39:33.427] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:39:33.427] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:39:33.433] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:39:33.436] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:39:33.438] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.439] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:39:33.441] [DEBUG] default - 模块turnPage处理用时: 3 毫秒!
+[2019-12-26T09:39:33.442] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:39:33.453] [DEBUG] default - 模块purchaseHistoryPage处理用时: 44 毫秒!
+[2019-12-26T09:39:33.453] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:39:33.462] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:39:33.466] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:39:33.469] [DEBUG] default - 模块searchBar2处理用时: 7 毫秒!
+[2019-12-26T09:39:33.470] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.470] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:39:33.471] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:39:33.471] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:39:33.477] [DEBUG] default - 模块salePage处理用时: 23 毫秒!
+[2019-12-26T09:39:33.477] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:39:33.483] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:39:33.483] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:39:33.484] [DEBUG] default - 模块searchBar2处理用时: 1 毫秒!
+[2019-12-26T09:39:33.484] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.484] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:39:33.485] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:39:33.485] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:39:33.493] [DEBUG] default - 模块downloadPage处理用时: 16 毫秒!
+[2019-12-26T09:39:33.493] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:39:33.503] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:39:33.510] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:39:33.513] [DEBUG] default - 模块searchBar3处理用时: 10 毫秒!
+[2019-12-26T09:39:33.520] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.520] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:39:33.522] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:39:33.523] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:39:33.542] [DEBUG] default - 模块personalGallery处理用时: 49 毫秒!
+[2019-12-26T09:39:33.542] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:39:33.553] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:39:33.553] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:39:33.555] [DEBUG] default - 模块searchBar2处理用时: 2 毫秒!
+[2019-12-26T09:39:33.559] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.559] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:39:33.563] [DEBUG] default - 模块turnPage处理用时: 4 毫秒!
+[2019-12-26T09:39:33.564] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:39:33.578] [DEBUG] default - 模块exchangePage处理用时: 36 毫秒!
+[2019-12-26T09:39:33.578] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:39:33.589] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:39:33.589] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:39:33.591] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:39:33.591] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:39:33.597] [DEBUG] default - 模块noticePage处理用时: 19 毫秒!
+[2019-12-26T09:39:33.597] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:39:33.602] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:39:33.605] [DEBUG] default - 模块announcementDetails处理用时: 8 毫秒!
+[2019-12-26T09:39:33.605] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:39:33.610] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:39:33.613] [DEBUG] default - 模块passwordPage处理用时: 8 毫秒!
+[2019-12-26T09:39:33.613] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:39:33.617] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:39:33.620] [DEBUG] default - 模块customer处理用时: 7 毫秒!
+[2019-12-26T09:39:33.620] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:39:33.634] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:39:33.637] [DEBUG] default - 模块copyright处理用时: 17 毫秒!
+[2019-12-26T09:39:33.640] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:39:33.643] [DEBUG] default - 页面home处理用时: 413 毫秒!
+[2019-12-26T09:39:33.644] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:39:33.644] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:39:33.644] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:39:33.673] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:39:33.679] [INFO] default - 使用postcss处理完毕! 用时: 35 毫秒
+[2019-12-26T09:39:33.679] [INFO] default - 正在处理script!
+[2019-12-26T09:39:33.722] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:39:33.723] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:39:33.723] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:39:33.723] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:39:33.723] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:39:33.723] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:39:33.723] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:39:33.723] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:39:33.723] [DEBUG] default - 输出scriptData
+[2019-12-26T09:39:33.724] [DEBUG] default - 准备输出html!
+[2019-12-26T09:39:33.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:39:33.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:39:33.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:39:33.724] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:39:33.726] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:39:33.726] [INFO] default - 编译结束!
+[2019-12-26T09:39:33.727] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:39:33.729] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:39:33.730] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:39:33.730] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:39:33.730] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:39:33.738] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:39:33.742] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js
+[2019-12-26T09:41:15.523] [INFO] default - file change: D:\work\人民图片\用户信息\src\module\noticePage.owo
+[2019-12-26T09:41:15.524] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:41:15.524] [INFO] default - 程序运行目录: D:\work\人民图片\用户信息
+[2019-12-26T09:41:15.524] [INFO] default - 刷新模式,变化目录: D:\work\人民图片\用户信息\src\module\noticePage.owo
+[2019-12-26T09:41:15.524] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:41:15.524] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:41:15.524] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:41:15.524] [INFO] default - 开始处理模块: home
+[2019-12-26T09:41:15.554] [INFO] default - 开始处理模块: topBar
+[2019-12-26T09:41:15.554] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\6448565feeaa72775da51cf5498c85a5.owo
+[2019-12-26T09:41:15.557] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page
+[2019-12-26T09:41:15.558] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
+[2019-12-26T09:41:15.558] [INFO] default - 开始处理模块: navBar
+[2019-12-26T09:41:15.574] [DEBUG] default - 缓存模板: navBar./src/module/navBar.owo
+[2019-12-26T09:41:15.588] [DEBUG] default - 模块navBar处理用时: 30 毫秒!
+[2019-12-26T09:41:15.588] [INFO] default - 开始处理模块: searchBar
+[2019-12-26T09:41:15.588] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\882bf7dcb1e828c3e5de1acd81e1ddf3.owo
+[2019-12-26T09:41:15.594] [DEBUG] default - 缓存模板: searchBarhttps://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page
+[2019-12-26T09:41:15.598] [DEBUG] default - 模块searchBar处理用时: 10 毫秒!
+[2019-12-26T09:41:15.599] [INFO] default - 开始处理模块: personalInformation
+[2019-12-26T09:41:15.619] [DEBUG] default - 缓存模板: personalInformation./src/module/personalInformation.owo
+[2019-12-26T09:41:15.624] [DEBUG] default - 模块personalInformation处理用时: 25 毫秒!
+[2019-12-26T09:41:15.624] [INFO] default - 开始处理模块: shoppingPage
+[2019-12-26T09:41:15.633] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:41:15.639] [DEBUG] default - 缓存模板: shoppingCart./src/module/shoppingCard.owo
+[2019-12-26T09:41:15.645] [DEBUG] default - 模块shoppingCart处理用时: 13 毫秒!
+[2019-12-26T09:41:15.646] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:41:15.652] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:41:15.654] [DEBUG] default - 模块shoppingCart处理用时: 9 毫秒!
+[2019-12-26T09:41:15.654] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:41:15.662] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:41:15.664] [DEBUG] default - 模块shoppingCart处理用时: 10 毫秒!
+[2019-12-26T09:41:15.664] [INFO] default - 开始处理模块: shoppingCart
+[2019-12-26T09:41:15.669] [DEBUG] default - 智能跳过打包shoppingCart./src/module/shoppingCard.owo的重复样式!
+[2019-12-26T09:41:15.670] [DEBUG] default - 模块shoppingCart处理用时: 6 毫秒!
+[2019-12-26T09:41:15.670] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.671] [DEBUG] default - 使用文件缓存:D:\work\人民图片\用户信息\owo_modules\4bdd2abdd3fd1d10f8590636c23bfec7.owo
+[2019-12-26T09:41:15.679] [DEBUG] default - 缓存模板: turnPagehttps://owo.ink/public/0308f7b62c6d2039d13021a72bb41683.page
+[2019-12-26T09:41:15.684] [DEBUG] default - 模块turnPage处理用时: 14 毫秒!
+[2019-12-26T09:41:15.685] [DEBUG] default - 缓存模板: shoppingPage./src/module/shoppingPage.owo
+[2019-12-26T09:41:15.693] [DEBUG] default - 模块shoppingPage处理用时: 69 毫秒!
+[2019-12-26T09:41:15.693] [INFO] default - 开始处理模块: purchaseHistoryPage
+[2019-12-26T09:41:15.712] [DEBUG] default - 模块 searchBar 因名称重复被重命名为 searchBar-1
+[2019-12-26T09:41:15.712] [INFO] default - 开始处理模块: searchBar-1
+[2019-12-26T09:41:15.718] [DEBUG] default - 缓存模板: searchBar./src/module/searchBar.owo
+[2019-12-26T09:41:15.721] [DEBUG] default - 模块searchBar处理用时: 9 毫秒!
+[2019-12-26T09:41:15.724] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.724] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:41:15.725] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:41:15.726] [DEBUG] default - 缓存模板: purchaseHistoryPage./src/module/purchaseHistoryPage.owo
+[2019-12-26T09:41:15.737] [DEBUG] default - 模块purchaseHistoryPage处理用时: 44 毫秒!
+[2019-12-26T09:41:15.737] [INFO] default - 开始处理模块: salePage
+[2019-12-26T09:41:15.750] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:41:15.755] [DEBUG] default - 缓存模板: searchBar2./src/module/searchBar2.owo
+[2019-12-26T09:41:15.759] [DEBUG] default - 模块searchBar2处理用时: 9 毫秒!
+[2019-12-26T09:41:15.760] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.760] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:41:15.761] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:41:15.761] [DEBUG] default - 缓存模板: salePage./src/module/salePage.owo
+[2019-12-26T09:41:15.767] [DEBUG] default - 模块salePage处理用时: 30 毫秒!
+[2019-12-26T09:41:15.767] [INFO] default - 开始处理模块: downloadPage
+[2019-12-26T09:41:15.776] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:41:15.776] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:41:15.776] [DEBUG] default - 模块searchBar2处理用时: 0 毫秒!
+[2019-12-26T09:41:15.777] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.777] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:41:15.778] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:41:15.778] [DEBUG] default - 缓存模板: downloadPage./src/module/downloadPage.owo
+[2019-12-26T09:41:15.787] [DEBUG] default - 模块downloadPage处理用时: 20 毫秒!
+[2019-12-26T09:41:15.787] [INFO] default - 开始处理模块: personalGallery
+[2019-12-26T09:41:15.793] [INFO] default - 开始处理模块: searchBar3
+[2019-12-26T09:41:15.799] [DEBUG] default - 缓存模板: searchBar3./src/module/searchBar3.owo
+[2019-12-26T09:41:15.802] [DEBUG] default - 模块searchBar3处理用时: 9 毫秒!
+[2019-12-26T09:41:15.808] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.808] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:41:15.810] [DEBUG] default - 模块turnPage处理用时: 2 毫秒!
+[2019-12-26T09:41:15.810] [DEBUG] default - 缓存模板: personalGallery./src/module/personalGallery.owo
+[2019-12-26T09:41:15.825] [DEBUG] default - 模块personalGallery处理用时: 38 毫秒!
+[2019-12-26T09:41:15.825] [INFO] default - 开始处理模块: exchangePage
+[2019-12-26T09:41:15.834] [INFO] default - 开始处理模块: searchBar2
+[2019-12-26T09:41:15.834] [DEBUG] default - 使用缓存返回模板: searchBar2
+[2019-12-26T09:41:15.834] [DEBUG] default - 模块searchBar2处理用时: 0 毫秒!
+[2019-12-26T09:41:15.835] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.835] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:41:15.836] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:41:15.837] [DEBUG] default - 缓存模板: exchangePage./src/module/exchangePage.owo
+[2019-12-26T09:41:15.845] [DEBUG] default - 模块exchangePage处理用时: 20 毫秒!
+[2019-12-26T09:41:15.846] [INFO] default - 开始处理模块: noticePage
+[2019-12-26T09:41:15.914] [INFO] default - 开始处理模块: turnPage
+[2019-12-26T09:41:15.914] [DEBUG] default - 使用缓存返回模板: turnPage
+[2019-12-26T09:41:15.915] [DEBUG] default - 模块turnPage处理用时: 1 毫秒!
+[2019-12-26T09:41:15.916] [DEBUG] default - 缓存模板: noticePage./src/module/noticePage.owo
+[2019-12-26T09:41:15.920] [DEBUG] default - 模块noticePage处理用时: 75 毫秒!
+[2019-12-26T09:41:15.920] [INFO] default - 开始处理模块: announcementDetails
+[2019-12-26T09:41:15.932] [DEBUG] default - 缓存模板: announcementDetails./src/module/announcementDetails.owo
+[2019-12-26T09:41:15.952] [DEBUG] default - 模块announcementDetails处理用时: 32 毫秒!
+[2019-12-26T09:41:15.952] [INFO] default - 开始处理模块: passwordPage
+[2019-12-26T09:41:15.959] [DEBUG] default - 缓存模板: passwordPage./src/module/passwordPage.owo
+[2019-12-26T09:41:15.963] [DEBUG] default - 模块passwordPage处理用时: 11 毫秒!
+[2019-12-26T09:41:15.963] [INFO] default - 开始处理模块: customer
+[2019-12-26T09:41:15.969] [DEBUG] default - 缓存模板: customer./src/module/customer.owo
+[2019-12-26T09:41:15.972] [DEBUG] default - 模块customer处理用时: 9 毫秒!
+[2019-12-26T09:41:15.972] [INFO] default - 开始处理模块: copyright
+[2019-12-26T09:41:15.989] [DEBUG] default - 缓存模板: copyright./src/module/copyright.owo
+[2019-12-26T09:41:15.992] [DEBUG] default - 模块copyright处理用时: 20 毫秒!
+[2019-12-26T09:41:15.996] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:41:15.998] [DEBUG] default - 页面home处理用时: 474 毫秒!
+[2019-12-26T09:41:15.999] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/triangle.png
+[2019-12-26T09:41:15.999] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:41:15.999] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:41:16.027] [INFO] default - 处理字体: { 'FZLTHJW.TTF':
+   '<div class="logo"><img src="@|people-picture-logo.png|"></div><div class="nav"><div class="nav-item active"><a href="#">首页</a></div><div class="nav-item"><a href="#">最新</a></div><div class="nav-item"><a href="#">图片故事</a></div><div class="nav-item"><a href="#">专题策划</a></div><div class="nav-item"><a href="#">见报图片</a></div><div class="nav-item"><a href="#">按分类查询</a></div></div><div class="menu"><div class="menu-item"><div class="icon"></div><p>作品发布</p></div><div class="menu-item"><div class="icon"></div><p>作品购买</p></div><div class="menu-item"><div class="icon"></div><p>联系我们</p></div><div class="menu-item"><div class="icon"></div><p>全部公告</p></div><div class="menu-item" o-tap="switchUserMenu"><div class="icon"></div><p>个人中心</p></div></div><div class="user-menu"><ul><li class="user"><a href="#">小白萝卜头</a></li><li><a href="#">收藏夹</a></li><li><a href="#">个人中心</a></li><li><a href="#">退出</a></li></ul><div class="top"></div></div><li class="active" o-tap="activeItem(\'personal-information\')"><span>个人信息</span></li><li o-tap="activeItem(\'shopping-page\')"><span>收藏夹</span></li><li><span>购物车</span></li><li o-tap="activeItem(\'purchase-history-page\')"><span>购物记录</span></li><li o-tap="activeItem(\'sale-page\')"><span>销售记录</span></li><li o-tap="activeItem(\'download-page\')"><span>下载记录</span></li><li o-tap="activeItem(\'personal-gallery\')"><span>个人图库</span></li><li o-tap="activeItem(\'exchange-page\')"><span>图片交流</span></li><li o-tap="activeItem(\'notice-page\')"><span>系统公告</span></li><li o-tap="activeItem(\'announcement-details\')"><span>公告详情</span></li><li o-tap="activeItem(\'password-page\')"><span>修改密码</span></li>若需修改基本信息，请联系编辑部或者给编辑留言用户名真实姓名邮箱手机号联系地址邮政编码固定电话工作单位银行卡号开户银行开户行地址银行账号姓名返回' }
+[2019-12-26T09:41:16.034] [INFO] default - 使用postcss处理完毕! 用时: 35 毫秒
+[2019-12-26T09:41:16.034] [INFO] default - 正在处理script!
+[2019-12-26T09:41:16.083] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:41:16.084] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:41:16.084] [DEBUG] default - 处理引用脚本: [{"name":"swiper.4.5.0.min","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:41:16.084] [DEBUG] default - 外部脚本数量: 2
+[2019-12-26T09:41:16.084] [DEBUG] default - 处理脚本: swiper.4.5.0.min
+[2019-12-26T09:41:16.084] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:41:16.084] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:41:16.084] [INFO] default - 读取文件: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:41:16.084] [DEBUG] default - 输出scriptData
+[2019-12-26T09:41:16.085] [DEBUG] default - 准备输出html!
+[2019-12-26T09:41:16.085] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/logo.png
+[2019-12-26T09:41:16.085] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/people-picture-logo.png
+[2019-12-26T09:41:16.085] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/customer.png
+[2019-12-26T09:41:16.085] [DEBUG] default - 忽略文件: D:/work/人民图片/用户信息/src/resource/message.png
+[2019-12-26T09:41:16.086] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:41:16.087] [INFO] default - 编译结束!
+[2019-12-26T09:41:16.087] [INFO] default - 发送页面需要刷新命令!
+[2019-12-26T09:41:16.090] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:41:16.090] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\main.js
+[2019-12-26T09:41:16.090] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\css\owo.main.css
+[2019-12-26T09:41:16.090] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\main.js
+[2019-12-26T09:41:16.097] [INFO] default - 读取成功: D:\work\人民图片\用户信息\src\resource\swiper.4.5.0.min.js
+[2019-12-26T09:41:16.102] [INFO] default - 写入文件: D:\work\人民图片\用户信息\dist\static\js\swiper.4.5.0.min.js

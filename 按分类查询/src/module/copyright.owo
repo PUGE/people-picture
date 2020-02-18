@@ -15,7 +15,7 @@
       br
       p 网站编辑部地址：北京市朝阳区金台西路2号人民网 邮编：100733
   .middle
-    p
+    p.info
       a(href="http://www.people.com.cn/GB/50142/104580/index.html") 人民日报社概况
       span |
       a(href="http://past.people.com.cn/GB/other7018/7019/index.html") 关于人民网
@@ -33,7 +33,7 @@
       a(href="http://past.people.com.cn/GB/other7018/7026/index.html") 联系我们
       span |
       a(href="http://english.peopledaily.com.cn/other/about.shtml") ENGLISH
-    p
+    p.beian
       a(href="http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000101300040") 京ICP证000006号
       span |
       a(href="http://www.people.com.cn/crfiles/wscbxk.html") 网上传播视听节目许可证（0104065）
@@ -52,38 +52,44 @@
 </script>
 
 
-<style lang="less">
+<style lang="less" original>
 .copyright {
   color: #585858;
-}
-.top {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-  .left {
-    img {
-      display: block;
-      margin: 0 auto;
+  .top {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    .left {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .right {
+      line-height: 26px;
+      margin-left: 60px;
+      color: #3a3a3a;
+      margin-top: 15px;
+      span {
+        margin: 0 6px;
+      }
     }
   }
-  .right {
-    line-height: 26px;
-    margin-left: 60px;
-    color: #3a3a3a;
-    margin-top: 15px;
+  .middle {
+    text-align: center;
+    padding-bottom: 40px;
     span {
       margin: 0 6px;
     }
+    p {
+      line-height: 28px;
+    }
   }
 }
-.middle {
-  text-align: center;
-  padding-bottom: 40px;
-  span {
-    margin: 0 6px;
-  }
-  p {
-    line-height: 28px;
+.phone .copyright {
+  font-size: 12px;
+  .top, .info, .beian {
+    display: none;
   }
 }
 </style>

@@ -4,8 +4,8 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
-  font: normal 12px/180% "SimSun";
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
@@ -69,12 +69,12 @@ a {
 
 @font-face {
   font-family: 'iconfont';  /* project id 1531972 */
-  src: url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.eot');
-  src: url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1531972_jfwph11hpc.eot');
+  src: url('//at.alicdn.com/t/font_1531972_jfwph11hpc.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.svg#iconfont') format('svg');
 }
 
 .icon {
@@ -97,11 +97,15 @@ a {
   display: none;
 }
 
-.customer:hover .message-box {
-  display: block;
-}
-
 .copyright {
   background-color: white;
   padding-top: 20px;
+}
+
+.phone .w1200 {
+  width: 100%;
+}
+
+.pc .no-pc, .phone .no-phone, .phone .title-bar {
+  display: none;
 }

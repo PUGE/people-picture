@@ -3,7 +3,7 @@
 </template>
 
 
-<style lang="less">
+<style lang="less" original>
 .label {
   background-color: white;
   line-height: 50px;
@@ -14,5 +14,12 @@
   font-family: "Microsoft YaHei";
   box-shadow: 1px 1px 3px #ccc5c5;
   user-select: none;
+}
+.phone .label {
+  width: 94%;
+  margin: 10px auto;
+  padding: 0 2vw;
+  font-size: 14px;
+  line-height: 30px;
 }
 </style>

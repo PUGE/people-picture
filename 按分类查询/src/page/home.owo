@@ -1,8 +1,7 @@
 <template lang="pug">
 .home
   plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page")
-  .nav-box
-    plug(_name="navBar" _src="./src/module/navBar.owo")
+  plug(_name="navBarPhone" _logo="@|logo.png|" _src="./src/module/navBarPhone.owo")
   .w1200
     plug(_name="label" _text="地址表" _src="./src/module/label.owo")
     plug(_name="card" _src="./src/module/card.owo")
@@ -24,7 +23,7 @@
 
 
 <style lang="less">
-.nav-box {
+.nav-box2 {
   box-shadow: 0px 0px 6px #9c94bd;
   z-index: 9;
   width: 100%;

@@ -55,40 +55,63 @@
 </script>
 
 
-<style lang="less">
-.card-title {
-  background-color: #c4280c;
-  color: white;
-  padding: 0 20px;
-  line-height: 40px;
-  font-size: 20px;
-}
-.card-item {
-  display: flex;
-  line-height: 45px;
-  font-size: 18px;
-  .left {
-    width: 140px;
+<style lang="less" original>
+.card {
+  .card-title {
+    background-color: #c4280c;
+    color: white;
     padding: 0 20px;
-    border-bottom: 2px solid #dddddd;
-    border-left: 2px solid #dddddd;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    line-height: 40px;
+    font-size: 20px;
   }
-  .right {
-    border: 2px solid #dddddd;
-    border-top: none;
-    padding: 8px 20px;
-    width: 990px;
-    line-height: 30px;
-    background-color: white;
-    a {
-      margin-right: 10px;
+  .card-item {
+    display: flex;
+    line-height: 45px;
+    font-size: 18px;
+    .left {
+      width: 140px;
+      padding: 0 20px;
+      border-bottom: 2px solid #dddddd;
+      border-left: 2px solid #dddddd;
+      display: flex;
+      justify-content: left;
+      align-items: center;
     }
-    a:hover {
-      color: #e64e1f;
-      text-decoration: none;
+    .right {
+      border: 2px solid #dddddd;
+      border-top: none;
+      padding: 8px 20px;
+      width: 990px;
+      line-height: 30px;
+      background-color: white;
+      a {
+        margin-right: 10px;
+      }
+      a:hover {
+        color: #e64e1f;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.phone .card {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  .card-title {
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 3vw;
+  }
+  .card-item {
+    font-size: 14px;
+    line-height: 1.7;
+    .left {
+      padding: 0 1vw;
+      min-width: 60px;
+    }
+    .right {
+      line-height: 20px;
     }
   }
 }

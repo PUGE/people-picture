@@ -12,7 +12,7 @@
 </template>
 
 
-<style lang="less">
+<style lang="less" original>
   .search-bar-box {
     margin: auto;
     width: 1200px;
@@ -21,54 +21,75 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .search-bar {
-    display: flex;
-    height: 50px;
-    background-color: white;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    select {
+    .search-bar {
+      display: flex;
+      height: 50px;
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      select {
+        border: none;
+        color: #484848;
+        width: 130px;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        appearance: none;
+        cursor: pointer;
+        outline: medium;
+        text-align: center;
+        text-align-last: center;
+        background-image: url('@|drop-down.png|');
+        background-repeat: no-repeat;
+        background-position: right center;
+      }
+      input[type="text"] {
+        border: none;
+        padding-left: 25px;
+        font-size: 14px;
+        outline: medium;
+        width: 485px;
+      }
+    }
+    .search {
       border: none;
-      color: #484848;
-      width: 130px;
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      appearance: none;
+      background-color: #d62c1f;
+      width: 50px;
+      height: 50px;
       cursor: pointer;
-      outline: medium;
-      text-align: center;
-      text-align-last: center;
-      background-image: url('@|drop-down.png|');
+      background-image: url('@|search.png|');
       background-repeat: no-repeat;
-      background-position: right center;
+      background-position: center 9px;
+    }
+    .notice {
+      color: #484848;
+      font-size: 14px;
+    }
+    a:hover {
+      color: #e1001d;
+      text-decoration: underline;
+    }
+  }
+  .phone .search-bar-box {
+    width: 98%;
+    height: 60px;
+    .notice {
+      display: none;
+    }
+    .search-bar {
+      height: 40px;
+    }
+    select {
+      width: 26vw;
+    }
+    .search {
+      width: 40px;
+      height: 40px;
+      background-size: 25px;
     }
     input[type="text"] {
-      border: none;
-      padding-left: 25px;
-      font-size: 14px;
-      outline: medium;
-      width: 485px;
+      width: calc(65vw - 40px);
     }
-  }
-  .search {
-    border: none;
-    background-color: #d62c1f;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    background-image: url('@|search.png|');
-    background-repeat: no-repeat;
-    background-position: center 9px;
-  }
-  .notice {
-    color: #484848;
-    font-size: 14px;
-  }
-  a:hover {
-    color: #e1001d;
-    text-decoration: underline;
   }
 </style>

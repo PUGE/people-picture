@@ -1,8 +1,7 @@
 <template lang="pug">
 .home
   plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/516cb52409b4542205afc260bbd6a0d5.page")
-  .nav-box
-    plug(_name="navBar" _src="./src/module/navBar.owo")
+  plug(_name="navBar" _src="./src/module/navBar.owo")
   plug(_name="searchBar" _src="https://owo.ink/public/8a51d57d400bee3d3e9d424b8b0ba33b.page")
   .w1200
     .info-card-box
@@ -45,7 +44,7 @@
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息
-  plug(_name="copyright" _src="./src/module/copyright.owo")
+  plug(_name="vip.people.copyright" _src="https://owo.ink/public/4b98ba0ba44baafc99417967f30483f5.page")
 </template>
 
 <script>
@@ -73,12 +72,6 @@
 
 
 <style lang="less">
-.nav-box {
-  box-shadow: 0px 0px 6px #dcdbe0;
-  z-index: 9;
-  width: 100%;
-  background-color: white;
-}
 .left-bar {
   color: white;
   width: 175px;

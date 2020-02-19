@@ -4,8 +4,8 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
-  font: normal 12px/180% "SimSun";
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
@@ -69,12 +69,12 @@ a {
 
 @font-face {
   font-family: 'iconfont';  /* project id 1531972 */
-  src: url('//at.alicdn.com/t/font_1531972_yv9tc703gp.eot');
-  src: url('//at.alicdn.com/t/font_1531972_yv9tc703gp.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1531972_yv9tc703gp.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1531972_jfwph11hpc.eot');
+  src: url('//at.alicdn.com/t/font_1531972_jfwph11hpc.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.svg#iconfont') format('svg');
 }
 
 .icon {
@@ -97,11 +97,51 @@ a {
   display: none;
 }
 
-.customer:hover .message-box {
-  display: block;
+.phone .w1200 {
+  width: 100%;
+}
+
+.pc .no-pc, .phone .no-phone, .phone .title-bar {
+  display: none;
 }
 
 .copyright {
   background-color: white;
   padding-top: 20px;
+}
+
+.phone h1 {
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.7;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.phone .card-box-nav a {
+  font-size: 16px;
+  width: 80px;
+}
+
+.phone .switch {
+  display: none;
+}
+
+.phone .card-content {
+  padding-top: 10px;
+}
+
+.phone .one-picture-card {
+  width: 96vw;
+  margin: 0 2vw;
+  margin-bottom: 10px;
+}
+
+.phone .one-picture-card .img-box {
+  width: 96vw;
+  height: 65vw;
+}
+
+.phone .card-box {
+  padding: 0;
 }

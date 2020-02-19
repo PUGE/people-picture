@@ -1,5 +1,5 @@
 /* 这个文件里写的是全局样式,在各个页面都生效 */
-body, html {
+body, html, .page {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -15,7 +15,7 @@ html {
   background-position: center top;
   background-size: cover;
 }
-body, html, .ox {
+body, html {
   padding: 0;
   margin: 0;
   min-height: 900px;

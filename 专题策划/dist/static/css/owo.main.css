@@ -1,4 +1,4 @@
-body, html, .owo, .page-box {
+body, html, .page, .page-box {
   padding: 0;
   margin: 0;
 }
@@ -22,14 +22,6 @@ body, html, .owo, .page-box {
   z-index: 99;
 }
 
-
-a {
-  color: #333;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-}
 img {
   border: none;
 }
@@ -89,16 +81,127 @@ li {
   text-decoration: none;
 }
 .nav-bar {
+  z-index: 9;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 6px #9c94bd;
+}
+
+.phone .nav-bar {
+  height: 45px;
+  overflow: hidden;
+  box-shadow: 0px 0px 6px #9c94bd;
+  width: 1200px;
+}
+
+.phone .nav-bar .logo {
+  height: 38px;
+  width: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.phone .nav-bar .menu-button {
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  line-height: 45px;
+  color: #757575;
+  text-align: center;
+}
+
+.phone .nav-bar .nav-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.phone .nav-bar .nav-box .nav,
+.phone .nav-bar .nav-box .nav-2 {
+  width: 60%;
+  height: 100%;
+  left: -60vw;
+  position: absolute;
+  -webkit-transition: left 0.6s;
+  transition: left 0.6s;
+  background-color: white;
+  top: 0;
+  overflow: hidden;
+}
+
+.phone .nav-bar .logo-bar {
+  height: 50px;
+  padding-left: 5px;
+}
+
+.phone .nav-bar .nav-item,
+.phone .nav-bar .menu-item {
+  height: 45px;
+  line-height: 45px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 18px;
+}
+
+.phone .nav-bar .nav-item a,
+.phone .nav-bar .menu-item a {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.phone .nav-bar .nav-item .icon,
+.phone .nav-bar .menu-item .icon {
+  width: 40px;
+  text-align: center;
+  font-size: 22px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.phone .nav-bar .line {
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.phone .nav-bar .user {
+  font-size: 28px;
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #757575;
+}
+
+.pc .nav-box {
   display: -webkit-box;
   display: flex;
   padding-top: 10px;
   position: relative;
+  width: 1200px;
+  margin: 0  auto;
   -webkit-box-pack: justify;
           justify-content: space-between;
 }
 
-.nav-bar .nav,
-.nav-bar .menu {
+.pc .nav-box .logo {
+  margin-top: -10px;
+}
+
+.pc .nav-box .nav,
+.pc .nav-box .menu {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -108,27 +211,27 @@ li {
   color: #484848;
 }
 
-.nav-bar .menu-item {
+.pc .nav-box .menu-item {
   width: 60px;
   height: 50px;
   cursor: pointer;
 }
 
-.nav-bar .menu-item .icon {
+.pc .nav-box .menu-item .icon {
   width: 100%;
   text-align: center;
   font-size: 24px;
   line-height: 30px;
 }
 
-.nav-bar .menu-item p {
+.pc .nav-box .menu-item p {
   text-align: center;
   line-height: 18px;
   font-size: 12px;
 }
 
-.nav-bar .menu-item p,
-.nav-bar .menu-item .icon {
+.pc .nav-box .menu-item p,
+.pc .nav-box .menu-item .icon {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -136,17 +239,25 @@ li {
   pointer-events: none;
 }
 
-.nav-bar .nav-item:last-child a {
+.pc .nav-box .menu-item:hover {
+  color: #e64e1f;
+}
+
+.pc .nav-box .menu-item:hover .hide-item {
+  display: block;
+}
+
+.pc .nav-box .nav-item:last-child a {
   border-right: none;
 }
 
-.nav-bar .nav {
+.pc .nav-box .nav {
   font-size: 18px;
   color: #484848;
   font-family: "Microsoft YaHei";
 }
 
-.nav-bar .nav .nav-item {
+.pc .nav-box .nav .nav-item {
   text-align: center;
   height: 100%;
   display: -webkit-box;
@@ -157,7 +268,11 @@ li {
           align-items: center;
 }
 
-.nav-bar .nav a {
+.pc .nav-box .nav .nav-item .icon {
+  display: none;
+}
+
+.pc .nav-box .nav .nav-item a {
   display: block;
   width: 100%;
   height: 30px;
@@ -166,12 +281,12 @@ li {
   border-right: 1px solid #ccc;
 }
 
-.nav-bar .nav a:hover {
+.pc .nav-box .nav .nav-item a:hover {
   text-decoration: none;
   color: #e64e1f;
 }
 
-.nav-bar .nav .active {
+.pc .nav-box .nav .nav-item .active {
   color: #e1001d;
   font-weight: bold;
   background-image: url('../resource/triangle.png');
@@ -179,8 +294,8 @@ li {
   background-position: center bottom;
 }
 
-.nav-bar .top:before,
-.nav-bar .top:after {
+.pc .nav-box .top:before,
+.pc .nav-box .top:after {
   position: absolute;
   content: '';
   border-top: 10px transparent dashed;
@@ -188,20 +303,20 @@ li {
   border-right: 10px transparent dashed;
 }
 
-.nav-bar .top:after {
+.pc .nav-box .top:after {
   top: 1px;
   /*覆盖并错开1px*/
   border-bottom: 10px #e1021d solid;
 }
 
-.nav-bar .top {
+.pc .nav-box .top {
   position: absolute;
   top: -21px;
   left: 41px;
   margin: auto;
 }
 
-.nav-bar .user-menu {
+.pc .nav-box .user-menu {
   position: absolute;
   background-color: #e1021d;
   color: white;
@@ -214,7 +329,7 @@ li {
   display: none;
 }
 
-.nav-bar .user-menu a {
+.pc .nav-box .user-menu a {
   display: block;
   margin: 0 7px;
   -webkit-user-select: none;
@@ -224,12 +339,17 @@ li {
   pointer-events: none;
 }
 
-.nav-bar .user-menu .user a {
+.pc .nav-box .user-menu .user a {
   border-bottom: 1px solid #cb0110;
 }
 
-.nav-bar .user-menu:hover {
+.pc .nav-box .user-menu:hover {
   color: #e64e1f;
+}
+
+.pc .nav-bar .no-pc,
+.phone .nav-bar .no-phone {
+  display: none;
 }
 .search-bar-box {
   margin: auto;
@@ -301,6 +421,33 @@ li {
 .search-bar-box a:hover {
   color: #e1001d;
   text-decoration: underline;
+}
+
+.phone .search-bar-box {
+  width: 98%;
+  height: 60px;
+}
+
+.phone .search-bar-box .notice {
+  display: none;
+}
+
+.phone .search-bar-box .search-bar {
+  height: 40px;
+}
+
+.phone .search-bar-box select {
+  width: 26vw;
+}
+
+.phone .search-bar-box .search {
+  width: 40px;
+  height: 40px;
+  background-size: 25px;
+}
+
+.phone .search-bar-box input[type="text"] {
+  width: calc(65vw - 40px);
 }
 .card-box-nav {
   height: 65px;
@@ -618,7 +765,7 @@ li {
   z-index: 99;
 }
 
-.customer .message-box {
+.message-box {
   width: 294px;
   height: 190px;
   position: absolute;
@@ -628,13 +775,13 @@ li {
   box-shadow: 1px 1px 5px #676666;
 }
 
-.customer .message-box .message {
+.message-box .message {
   height: 147px;
   margin: 0 20px;
   margin-top: 20px;
 }
 
-.customer .message-box .message .item {
+.message-box .message .item {
   height: 45px;
   width: 100%;
   margin: 10px 0;
@@ -644,27 +791,46 @@ li {
   text-align: center;
 }
 
-.customer .message-box .message .item-1 {
+.message-box .message .item-1 {
   background-color: #f22122;
 }
 
-.customer .message-box .message .item-2 {
+.message-box .message .item-2 {
   background-color: #fa851e;
 }
 
-.customer .message-box .message p {
+.message-box .message p {
   text-align: center;
   color: #414040;
   font-size: 14px;
 }
 
-.customer .arrow {
+.pc .customer:hover .message-box {
+  display: block;
+}
+
+.arrow {
   position: absolute;
   bottom: -19px;
   right: 6%;
 }
+
+.phone .customer {
+  bottom: 10px;
+}
+
+.phone .customer-icon {
+  width: 45px;
+  height: 45px;
+}
 .copyright {
   color: #585858;
+  font: normal 12px/180% "SimSun";
+}
+
+.copyright p {
+  margin: 0;
+  padding: 0;
 }
 
 .copyright .top {
@@ -703,13 +869,26 @@ li {
 .copyright .middle p {
   line-height: 28px;
 }
-.nav-box {
-  box-shadow: 0px 0px 6px #9c94bd;
-  z-index: 9;
-  width: 100%;
-  background-color: white;
+
+.copyright a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
 }
 
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+.phone .copyright {
+  font-size: 12px;
+}
+
+.phone .copyright .top,
+.phone .copyright .info,
+.phone .copyright .beian {
+  display: none;
+}
 h1 {
   font-size: 40px;
   line-height: 60px;

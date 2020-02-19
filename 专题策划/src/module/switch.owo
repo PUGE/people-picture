@@ -1,7 +1,7 @@
 <template lang="pug">
 .switch
-  .left.switch-item.active(:tap="activeItem(false)") 单张显示
-  .right.switch-item(:tap="activeItem(true)") 组图显示
+  .left.switch-item.active(o-tap="activeItem(false)") 单张显示
+  .right.switch-item(o-tap="activeItem(true)") 组图显示
 </template>
 
 <script>

@@ -1,8 +1,7 @@
 <template lang="pug">
 .home
   plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page")
-  .nav-box
-    plug(_name="navBar" _src="./src/module/navBar.owo")
+  plug(_name="navBar" _src="./src/module/navBar.owo")
   plug(_name="searchBar2" _src="./src/module/searchBar2.owo")
   .w1200
     h1 浙江建德：竹编技能赛一赛 民间篾匠亮绝活
@@ -12,7 +11,7 @@
   .gray.card-content
     .w1200
       .tool-bar
-        .tool-bar-item.multiple-selection(:tap="multipleSelection")
+        .tool-bar-item.multiple-selection(o-tap="multipleSelection")
           span.icon &#xe630;
           span 批量操作
         .buy.tool-bar-item
@@ -39,7 +38,7 @@
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息
-  plug(_name="copyright" _src="./src/module/copyright.owo")
+  plug(_name="vip.people.copyright" _src="https://owo.ink/public/4b98ba0ba44baafc99417967f30483f5.page")
 </template>
 
 <script>
@@ -91,12 +90,6 @@
 
 
 <style lang="less">
-.nav-box {
-  box-shadow: 0px 0px 6px #9c94bd;
-  z-index: 9;
-  width: 100%;
-  background-color: white;
-}
 h1 {
   font-size: 40px;
   line-height: 60px;

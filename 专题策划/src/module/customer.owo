@@ -1,6 +1,6 @@
 <template lang="pug">
-.customer
-  img(src="@|customer.png|")
+.customer(o-tap="")
+  img.customer-icon(src="@|customer.png|")
   .message-box
     img.arrow(src="@|message.png|")
     .message
@@ -9,8 +9,19 @@
       p 客服在线时间 8点~17点
 </template>
 
+<script>
+  module.exports = {
+    turn: function () {
+      // 判断是否为手机
+      if (screenInfo.isPhone) {
+        window.location.href = '#';
+      }
+    }
+  }
+</script>
 
-<style lang="less">
+
+<style lang="less" original>
 .customer {
   position: fixed;
   bottom: 20%;
@@ -53,9 +64,22 @@
     }
   }
 }
+.pc .customer:hover .message-box {
+  display: block;
+}
 .arrow {
   position: absolute;
   bottom: -19px;
   right: 6%;
+}
+// 手机样式
+.phone {
+  .customer {
+    bottom: 10px;
+  }
+  .customer-icon {
+    width: 45px;
+    height: 45px;
+  }
 }
 </style>

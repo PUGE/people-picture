@@ -69,12 +69,12 @@ a {
 
 @font-face {
   font-family: 'iconfont';  /* project id 1531972 */
-  src: url('//at.alicdn.com/t/font_1531972_jfwph11hpc.eot');
-  src: url('//at.alicdn.com/t/font_1531972_jfwph11hpc.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1531972_jfwph11hpc.svg#iconfont') format('svg');
+  src: url('../resource/iconfont.eot');
+  src: url('../resource/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../resource/iconfont.woff2') format('woff2'),
+  url('../resource/iconfont.woff') format('woff'),
+  url('../resource/iconfont.ttf') format('truetype'),
+  url('../resource/iconfont.svg#iconfont') format('svg');
 }
 
 .icon {

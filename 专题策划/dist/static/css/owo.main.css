@@ -669,7 +669,6 @@ li {
   -webkit-box-pack: center;
           justify-content: center;
   margin-top: 60px;
-  font-weight: bold;
 }
 
 .page-bar .page-list {
@@ -756,6 +755,22 @@ li {
 .page-bar input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.phone .page-bar .page-list a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.phone .page-bar .turn,
+.phone .page-bar .ok {
+  display: none;
+}
+
+.phone .page-bar .page-list .next {
+  width: 60px;
 }
 .customer {
   position: fixed;

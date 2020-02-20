@@ -148,3 +148,22 @@ a {
 .phone .card-box {
   padding: 0;
 }
+
+.phone h2 {
+  margin: 0 2%;
+}
+
+.phone .name-input-box {
+  margin: 0 2%;
+}
+
+.phone .pay-box .pay-item {
+  width: 42vw;
+  height: 42vw;
+  margin: 4vw;
+}
+
+.phone .pay-box .submit-box {
+  width: 90%;
+  margin: 0 auto;
+}

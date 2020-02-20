@@ -12,13 +12,14 @@
         input.name(type="text" placeholder="联系人")
         input.phone(type="text" placeholder="联系电话")
     h2 支付方式
-    .pay-box.clear
-      .pay-item.pay-1
-        img(src="@|pay.png|")
-      .pay-item.pay-2
-        img(src="@|pay.png|")
-      .pay-item.pay-3
-        img(src="@|pay.png|")
+    .pay-box
+      .pay-item-box.clear
+        .pay-item.pay-1
+          img(src="@|pay.png|")
+        .pay-item.pay-2
+          img(src="@|pay.png|")
+        .pay-item.pay-3
+          img(src="@|pay.png|")
       .submit-box
         .radio-box
           input(type="radio")
@@ -186,6 +187,7 @@ h2 {
     line-height: 40px;
     margin-bottom: 10px;
     padding: 0 1%;
+    border-radius: 5px;
   }
   .contact-box {
     display: flex;
@@ -213,7 +215,6 @@ h2 {
   }
   .submit-box {
     margin-left: 40px;
-    float: left;
   }
   .radio-box {
     display: flex;

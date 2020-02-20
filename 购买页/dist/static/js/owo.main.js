@@ -1,4 +1,4 @@
-// Thu Feb 20 2020 13:01:22 GMT+0800 (GMT+08:00)
+// Thu Feb 20 2020 14:48:09 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -299,37 +299,6 @@ _owo.showPage = function() {
 // 执行页面加载完毕方法
 _owo.ready(_owo.showPage)
 
-
-// 事件推送方法
-owo.tool.emit = function (eventName) {
-  var argumentsList = []
-  for (var ind = 1; ind < arguments.length; ind++) {
-    argumentsList.push(arguments[ind])
-  }
-  function recursion(obj) {
-    for (var key in obj) {
-      if (obj.hasOwnProperty(key)) {
-        var page = obj[key];
-        if (page.broadcast && page.broadcast[eventName]) {
-          if (!page.$el) page.$el = document.querySelector('[template="' + key + '"]')
-          page.broadcast[eventName].apply(page, argumentsList)
-        }
-        // 判断是否有组件
-        if (page.template) {
-          recursion(page.template)
-        }
-        if (page.view) {
-          for (var viewKey in page.view) {
-            var template = page.view[viewKey];
-            recursion(template)
-          }
-        }
-      }
-    }
-  }
-
-  recursion(owo.script)
-}
 
 
 

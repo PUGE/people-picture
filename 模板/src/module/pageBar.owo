@@ -1,0 +1,105 @@
+<template lang="pug">
+.page-bar
+  .page-list
+    a.active(href="#") 1
+    a(href="#") 2
+    a(href="#") 3
+    a(href="#") 4
+    a.more.icon(href="#") &#xe618;
+    a.last(href="#") 99
+    a.next(href="#") 下一页
+  .turn
+    span 到
+    input(type="number")
+    span 页
+  input.ok(type="button" value="确定")
+</template>
+
+
+<style lang="less" original>
+.page-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  .page-list {
+    display: flex;
+    a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      border: 1px solid #ccc;
+      font-size: 18px;
+      border-radius: 3px;
+      margin: 0 7px;
+      color: #666;
+    }
+    a:hover {
+      border: 1px solid #e1001d;
+    }
+    .active {
+      background-color: #e1001d;
+      color: white;
+    }
+    .next {
+      width: 90px;
+      color: #333;
+    }
+    .next:hover {
+      background-color: #009fe9;
+      color: white;
+      border: 1px solid #009fe9;
+    }
+  }
+  .turn {
+    margin: 0 10px;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  input[type="number"] {
+    width: 40px;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px 10px;
+    height: 28px;
+  }
+  .ok {
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #333;
+    height: 30px;
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  .ok:hover {
+    background-color: #009fe9;
+    color: white;
+  }
+  input[type='number']{-moz-appearance:textfield;}
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0;}
+}
+.phone .page-bar {
+  .page-list a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+  .turn, .ok {
+    display: none;
+  }
+  .page-list .next {
+    width: 60px;
+  }
+}
+</style>

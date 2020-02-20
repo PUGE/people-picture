@@ -1,0 +1,54 @@
+<template lang="pug">
+.switch
+  .left.switch-item.active(o-tap="activeItem(false)") 单张显示
+  .right.switch-item(o-tap="activeItem(true)") 组图显示
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      state: false
+    },
+    activeItem: function (e) {
+      const bool = e === 'true'
+      if (this.data.state === bool) return
+      this.data.state = bool
+      if (bool) {
+        this.$el.getElementsByClassName('right')[0].classList.add('active')
+        this.$el.getElementsByClassName('left')[0].classList.remove('active')
+      } else {
+        this.$el.getElementsByClassName('left')[0].classList.add('active')
+        this.$el.getElementsByClassName('right')[0].classList.remove('active')
+      }
+      owo.tool.emit('activeItem', bool)
+    }
+  }
+</script>
+
+
+<style lang="less">
+.switch {
+  border: 1px solid #ccc;
+  display: flex;
+  width: 201px;
+  line-height: 40px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 40px;
+}
+.switch-item {
+  width: 100px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+.left {
+  border-right: 1px solid #ccc;
+}
+.active {
+  background-color: #e1001d;
+  color: white;
+}
+</style>

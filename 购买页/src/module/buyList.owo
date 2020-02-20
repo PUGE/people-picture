@@ -1,0 +1,77 @@
+<template lang="pug">
+.buy-list
+  table(border="0")
+    tr
+      th 图片ID
+      th 组图标题
+      th 图片
+      th 尺寸
+      th 价格
+      th 
+    tr
+      td.id 9999
+      td 毛概邓选
+      td
+        img(src="http://vip-public.people.com.cn/attachment/2020/1/23/f1a57022e3df4c78babe76c79a3ed635BxX5.jpg")
+      td
+        select
+          option 1000x2000px/dpi
+          option 2000x4000px/dpi
+          option 3000x6000px/dpi
+      td 200 元
+      td
+        .button 移除
+    tr
+      td.id 9999
+      td 毛概邓选
+      td
+        img(src="http://vip-public.people.com.cn/attachment/2020/1/23/f1a57022e3df4c78babe76c79a3ed635BxX5.jpg")
+      td
+        select
+          option 1000x2000px/dpi
+          option 2000x4000px/dpi
+          option 3000x6000px/dpi
+      td 200 元
+      td
+        .button 移除
+</template>
+
+
+<style lang="less">
+table {
+  width: 100%;
+  border-right: 1px solid #cdced4;
+}
+th {
+  background-color: #e1001d;
+  height: 40px;
+  color: white;
+}
+td {
+  text-align: center;
+}
+td img {
+  height: 100px;
+}
+td {
+  border-bottom: 1px solid #cdced4;
+  border-left: 1px solid #cdced4;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+tr {
+  border-bottom: 1px solid #cdced4;
+}
+.button {
+  width: 76px;
+  height: 31px;
+  line-height: 31px;
+  background-color: #e1001d;
+  color: white;
+  margin: 0 auto;
+}
+.id {
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>

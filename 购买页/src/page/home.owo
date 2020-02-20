@@ -3,7 +3,29 @@
   plug(_name="topBar" _logo="@|logo.png|" _src="https://owo.ink/public/bc77e0f072a2eea00ecd79c64034dea9.page")
   plug(_name="navBar" _src="./src/module/navBar.owo")
   plug(_name="searchBar2" _src="./src/module/searchBar2.owo")
-
+  .w1200
+    plug(_name="buyList" _src="./src/module/buyList.owo")
+    h2 最终授权使用
+    .name-input-box
+      input.company(type="text" placeholder="公司名")
+      .contact-box
+        input.name(type="text" placeholder="联系人")
+        input.phone(type="text" placeholder="联系电话")
+    h2 支付方式
+    .pay-box.clear
+      .pay-item.pay-1
+        img(src="@|pay.png|")
+      .pay-item.pay-2
+        img(src="@|pay.png|")
+      .pay-item.pay-3
+        img(src="@|pay.png|")
+      .submit-box
+        .radio-box
+          input(type="radio")
+          .info
+            span 同意
+            a(href="#") 《图片使用协议》
+        .submit 提交
   //- 客服
   plug(_name="customer" _src="./src/module/customer.owo")
   //- 底部版权信息
@@ -148,5 +170,71 @@ h1 {
 }
 .card-content {
   padding-top: 30px;
+}
+.home {
+  background-color: #eeeeee;
+}
+h2 {
+  line-height: 80px;
+  color: #1b1a1a;
+}
+.name-input-box {
+  input {
+    width: 98%;
+    border: none;
+    background-color: white;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 1%;
+  }
+  .contact-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    input {
+      width: 47%;
+    }
+  }
+}
+.pay-box {
+  margin-bottom: 40px;
+  .pay-item {
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    float: left;
+    img {
+      width: 90px;
+    }
+  }
+  .submit-box {
+    margin-left: 40px;
+    float: left;
+  }
+  .radio-box {
+    display: flex;
+    line-height: 40px;
+    input {
+      margin: 13px;
+      width: 14px;
+      height: 14px;
+    }
+    a {
+      color: #0000dd;
+    }
+  }
+  .submit {
+    background-color: #e1001d;
+    text-align: center;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
 }
 </style>

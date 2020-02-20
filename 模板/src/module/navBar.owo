@@ -1,48 +1,86 @@
 <template lang="pug">
-.nav-bar.w1200
-  .logo
-    img(src="@|people-picture-logo.png|")
-  .nav
-    .nav-item.active
-      a(href="#") 首页
-    .nav-item
-      a(href="#") 最新
-    .nav-item
-      a(href="#") 图片故事
-    .nav-item
-      a(href="#") 专题策划
-    .nav-item
-      a(href="#") 见报图片
-    .nav-item
-      a(href="#") 按分类查询
-  .menu
-    .menu-item
-      .icon &#xe643;
-      p 作品发布
-    .menu-item
-      .icon &#xe603;
-      p 作品购买
-    .menu-item
-      .icon &#xe634;
-      p 联系我们
-    .menu-item
-      .icon &#xe606;
-      p 全部公告
-    .menu-item(:tap="switchUserMenu")
-      .icon &#xe619;
-      p 个人中心
-  //- 个人中心浮动条
-  .user-menu
-    ul
-      li.user
-        a(href="#") 小白萝卜头
-      li
-        a(href="#") 收藏夹
-      li
-        a(href="#") 个人中心
-      li
-        a(href="#") 退出
-    .top
+.nav-bar
+  .menu-button.icon.no-pc(o-tap="showMenuBar") &#xe63c;
+  .user.icon.no-pc(o-tap="showMenuBar2") &#xe619;
+  .nav-box(o-tap="hideMenuBar")
+    .logo.no-phone
+      img(src="@|people-picture-logo.png|")
+    //- 点击菜单弹出的窗口
+    .nav
+      .logo-bar.no-pc
+        img(src="@|phone-logo.jpg|")
+      .nav-item.active
+        a(href="#")
+          .icon &#xe604;
+          span 首页
+      .nav-item
+        a(href="#")
+          .icon &#xe602;
+          span 最新
+      .nav-item
+        a(href="#")
+          .icon &#xe9b3;
+          span 图片故事
+      .nav-item
+        a(href="#")
+          .icon &#xe690;
+          span 专题策划
+      .nav-item
+        a(href="#")
+          .icon &#xe616;
+          span 见报图片
+      .nav-item
+        a(href="#")
+          .icon &#xe608;
+          span 按分类查询
+      .line
+    .menu.no-phone
+      .menu-item
+        a(href="#")
+          .icon &#xe643;
+          p 作品发布
+      .menu-item
+        a(href="#")
+          .icon &#xe603;
+          p 作品购买
+      .menu-item
+        a(href="#")
+          .icon &#xe634;
+          p 联系我们
+      .menu-item
+        a(href="#")
+          .icon &#xe606;
+          p 全部公告
+      .menu-item
+        .icon &#xe619;
+        p 个人中心
+        //- 个人中心浮动条
+        .user-menu.hide-item
+          ul
+            li.user
+              a(href="#") 小白萝卜头
+            li
+              a(href="#") 收藏夹
+            li
+              a(href="#") 个人中心
+            li
+              a(href="#") 退出
+          .top
+    .nav-2.no-pc
+      .logo-bar
+        img(src="@|phone-logo.jpg|")
+      .nav-item
+        a(href="#")
+          .icon &#xe631;
+          span 收藏夹
+      .nav-item
+        a(href="#")
+          .icon &#xe611;
+          span 个人中心
+      .nav-item
+        a(href="#")
+          .icon &#xe61d;
+          span 退出
 </template>
 
 <script>
@@ -50,124 +88,245 @@
     data: {
       userMenuIsShow: false
     },
-    switchUserMenu: function () {
-      this.data.userMenuIsShow = !this.data.userMenuIsShow
-      if (this.data.userMenuIsShow) {
-        owo.query('.user-menu')[0].style.display = 'block'
-      } else {
-        owo.query('.user-menu')[0].style.display = 'none'
-      }
+    showMenuBar: function (params) {
+      if (!screenInfo.isPhone) return
+      owo.query('.nav-bar .nav-box')[0].style.display = 'block'
+      setTimeout(() => {
+        owo.query('.nav-bar .nav-box .nav')[0].style.left = '0'
+      }, 0)
+    },
+    hideMenuBar: function (params) {
+      if (!screenInfo.isPhone) return
+      owo.query('.nav-bar .nav-box .nav')[0].style.left = '-60vw'
+      owo.query('.nav-bar .nav-box .nav-2')[0].style.left = '-60vw'
+      setTimeout(() => {
+        owo.query('.nav-bar .nav-box')[0].style.display = 'none'
+      }, 600)
+    },
+    showMenuBar2: function () {
+      if (!screenInfo.isPhone) return
+      owo.query('.nav-bar .nav-box')[0].style.display = 'block'
+      setTimeout(() => {
+        owo.query('.nav-bar .nav-box .nav-2')[0].style.left = '0'
+      }, 0)
     }
   }
 </script>
 
 
-<style lang="less">
+<style lang="less" original>
 .nav-bar {
-  display: flex;
-  padding-top: 10px;
-  position: relative;
-  justify-content: space-between;
+  z-index: 9;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 6px #9c94bd;
 }
-.nav, .menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #484848;
-}
-.menu-item {
-  width: 60px;
-  height: 50px;
-  cursor: pointer;
-  .icon {
-    width: 100%;
-    text-align: center;
-    font-size: 24px;
-    line-height: 30px;
+.phone {
+  .nav-bar {
+    height: 45px;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px #9c94bd;
+    width: 1200px;
+    .logo {
+      height: 38px;
+      width: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+    }
+    .menu-button {
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      line-height: 45px;
+      color: #757575;
+      text-align: center;
+    }
+    .nav-box {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 999;
+      display: none;
+      background-color: rgba(0, 0, 0, 0.5);
+      .nav, .nav-2 {
+        width: 60%;
+        height: 100%;
+        left: -60vw;
+        position: absolute;
+        transition: left 0.6s;
+        background-color: white;
+        top: 0;
+        overflow: hidden;
+      }
+    }
+    .logo-bar {
+      height: 50px;
+      padding-left: 5px;
+    }
+    .nav-item, .menu-item {
+      height: 45px;
+      line-height: 45px;
+      color: rgba(0,0,0,.54);
+      font-size: 18px;
+      a {
+        display: flex;
+        align-items: center;
+      }
+      .icon {
+        width: 40px;
+        text-align: center;
+        font-size: 22px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+    .line {
+      height: 1px;
+      background-color: #ccc;
+      margin: 0 10px;
+    }
+    .user {
+      font-size: 28px;
+      position: absolute;
+      right: 0;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      color: #757575;
+    }
   }
-  p {
-    text-align: center;
-    line-height: 18px;
-    font-size: 12px;
-  }
-  p, .icon {
-    user-select: none;
-    pointer-events: none;
-  }
 }
-.nav-item:last-child a {
-  border-right: none;
-}
-.nav {
-  font-size: 18px;
-  color: #484848;
-  font-family: "Microsoft YaHei";
-  .nav-item {
-    text-align: center;
-    height: 100%;
+.pc {
+  .nav-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  a {
-    display: block;
-    width: 100%;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 15px;
-    border-right: 1px solid #ccc;
-  }
-  a:hover {
-    text-decoration: none;
-    color: #e64e1f;
-  }
-  .active {
-    color: #e1001d;
-    font-weight: bold;
-    background-image: url('@|triangle.png|');
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    padding-top: 10px;
+    position: relative;
+    width: 1200px;
+    margin: 0  auto;
+    justify-content: space-between;
+    .logo {
+      margin-top: -10px;
+    }
+    .nav, .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #484848;
+    }
+    .menu-item {
+      width: 60px;
+      height: 50px;
+      cursor: pointer;
+      .icon {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p {
+        text-align: center;
+        line-height: 18px;
+        font-size: 12px;
+      }
+      p, .icon {
+        user-select: none;
+        pointer-events: none;
+      }
+    }
+    .menu-item:hover {
+      color: #e64e1f;
+      .hide-item {
+        display: block;
+      }
+    }
+    .nav-item:last-child a {
+      border-right: none;
+    }
+    .nav {
+      font-size: 18px;
+      color: #484848;
+      font-family: "Microsoft YaHei";
+      .nav-item {
+        text-align: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon {
+          display: none;
+        }
+        a {
+          display: block;
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 15px;
+          border-right: 1px solid #ccc;
+        }
+        a:hover {
+          text-decoration: none;
+          color: #e64e1f;
+        }
+        .active {
+          color: #e1001d;
+          font-weight: bold;
+          background-image: url('@|triangle.png|');
+          background-repeat: no-repeat;
+          background-position: center bottom;
+        }
+      }
+    }
+    .top:before,.top:after{
+      position: absolute;
+      content: '';
+      border-top: 10px transparent dashed;
+      border-left: 10px transparent dashed;
+      border-right: 10px transparent dashed;
+    }
+    .top:after{
+      top: 1px; /*覆盖并错开1px*/
+      border-bottom: 10px #e1021d solid;
+    }
+    .top {
+      position: absolute;
+      top: -21px;
+      left: 41px;
+      margin: auto;
+    }
+    .user-menu {
+      position: absolute;
+      background-color: #e1021d;
+      color: white;
+      right: -17px;
+      top: 82px;
+      width: 100px;
+      text-align: center;
+      line-height: 28px;
+      border-radius: 5px;
+      display: none;
+      a {
+        display: block;
+        margin: 0 7px;
+        user-select: none;
+        pointer-events: none;
+      }
+      .user a {
+        border-bottom: 1px solid #cb0110;
+      }
+    }
+    .user-menu li:hover {
+      color: #e64e1f;
+    }
   }
 }
-.top:before,.top:after{
-  position: absolute;
-  content: '';
-  border-top: 10px transparent dashed;
-  border-left: 10px transparent dashed;
-  border-right: 10px transparent dashed;
-}
-.top:after{
-  top: 1px; /*覆盖并错开1px*/
-  border-bottom: 10px #e1021d solid;
-}
-.top {
-  position: absolute;
-  top: -21px;
-  left: 41px;
-  margin: auto;
-}
-.user-menu {
-  position: absolute;
-  background-color: #e1021d;
-  color: white;
-  right: -17px;
-  top: 82px;
-  width: 100px;
-  text-align: center;
-  line-height: 28px;
-  border-radius: 5px;
+.pc .nav-bar .no-pc, .phone .nav-bar .no-phone {
   display: none;
-  a {
-    display: block;
-    margin: 0 7px;
-    user-select: none;
-    pointer-events: none;
-  }
-  .user a {
-    border-bottom: 1px solid #cb0110;
-  }
-}
-.user-menu:hover {
-  color: #e64e1f;
 }
 </style>

@@ -449,6 +449,49 @@ li {
 .phone .search-bar-box input[type="text"] {
   width: calc(65vw - 40px);
 }
+.buy-list table {
+  width: 100%;
+  border-right: 1px solid #cdced4;
+}
+
+.buy-list th {
+  background-color: #e1001d;
+  height: 40px;
+  color: white;
+}
+
+.buy-list td {
+  text-align: center;
+}
+
+.buy-list td img {
+  height: 100px;
+}
+
+.buy-list td {
+  border-bottom: 1px solid #cdced4;
+  border-left: 1px solid #cdced4;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.buy-list tr {
+  border-bottom: 1px solid #cdced4;
+}
+
+.buy-list .button {
+  width: 76px;
+  height: 31px;
+  line-height: 31px;
+  background-color: #e1001d;
+  color: white;
+  margin: 0 auto;
+}
+
+.buy-list .id {
+  font-size: 18px;
+  font-weight: bold;
+}
 .customer {
   position: fixed;
   bottom: 20%;
@@ -696,5 +739,88 @@ h1 {
 
 .card-content {
   padding-top: 30px;
+}
+
+.home {
+  background-color: #eeeeee;
+}
+
+h2 {
+  line-height: 80px;
+  color: #1b1a1a;
+}
+
+.name-input-box input {
+  width: 98%;
+  border: none;
+  background-color: white;
+  line-height: 40px;
+  margin-bottom: 10px;
+  padding: 0 1%;
+}
+
+.name-input-box .contact-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.name-input-box .contact-box input {
+  width: 47%;
+}
+
+.pay-box {
+  margin-bottom: 40px;
+}
+
+.pay-box .pay-item {
+  background-color: white;
+  width: 140px;
+  height: 140px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  margin: 0 20px;
+  float: left;
+}
+
+.pay-box .pay-item img {
+  width: 90px;
+}
+
+.pay-box .submit-box {
+  margin-left: 40px;
+  float: left;
+}
+
+.pay-box .radio-box {
+  display: -webkit-box;
+  display: flex;
+  line-height: 40px;
+}
+
+.pay-box .radio-box input {
+  margin: 13px;
+  width: 14px;
+  height: 14px;
+}
+
+.pay-box .radio-box a {
+  color: #0000dd;
+}
+
+.pay-box .submit {
+  background-color: #e1001d;
+  text-align: center;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
 }
 

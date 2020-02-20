@@ -4,8 +4,8 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 1200px;
-  font: normal 12px/180% "SimSun";
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
@@ -21,7 +21,7 @@ body, html, .ox {
   position: relative;
 }
 body {
-  background-color: #eeeeee;
+  background-color: white;
 }
 h1, h2, h3, h4, h5, input {
   margin: 0;
@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
@@ -68,13 +68,12 @@ a {
 }
 
 @font-face {
-  font-family: 'iconfont';  /* project id 1531972 */
-  src: url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.eot');
-  src: url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1531972_6qsprkvwfwi.svg#iconfont') format('svg');
+  font-family: 'iconfont';
+  src: url('@|iconfont.eot|');
+  src: url('@|iconfont.eot|?#iefix') format('embedded-opentype'),
+  url('@|iconfont.woff2|') format('woff2'),
+  url('@|iconfont.woff|') format('woff'),
+  url('@|iconfont.ttf|') format('truetype');
 }
 
 .icon {
@@ -97,11 +96,51 @@ a {
   display: none;
 }
 
-.customer:hover .message-box {
-  display: block;
+.phone .w1200 {
+  width: 100%;
+}
+
+.pc .no-pc, .phone .no-phone, .phone .title-bar {
+  display: none;
 }
 
 .copyright {
   background-color: white;
   padding-top: 20px;
+}
+
+.phone h1 {
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.7;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.phone .card-box-nav a {
+  font-size: 16px;
+  width: 80px;
+}
+
+.phone .switch {
+  display: none;
+}
+
+.phone .card-content {
+  padding-top: 10px;
+}
+
+.phone .one-picture-card {
+  width: 96vw;
+  margin: 0 2vw;
+  margin-bottom: 10px;
+}
+
+.phone .one-picture-card .img-box {
+  width: 96vw;
+  height: 65vw;
+}
+
+.phone .card-box {
+  padding: 0;
 }

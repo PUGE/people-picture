@@ -1,0 +1,75 @@
+<template lang="pug">
+.one-picture-card
+  .img-box
+    img(src="http://vip-public.people.com.cn/photo/2019/11/30/26446396934f4774b80d6c579c25ae32euFe_s.jpg")
+  .bottom-box
+    p.text 湖北利川：一对返乡小夫妻 巧做脱贫大文章(13)
+    p.time 2019-11-30 14:45:22
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      shoppingCart: false,
+      start: false
+    },
+    created: function () {
+
+    },
+    switchShoppingCart: function () {
+      this.data.shoppingCart = !this.data.shoppingCart
+      if (!this.$target.getAttribute("value")) return
+      if (this.data.shoppingCart) {
+        this.$target.classList.add('check')
+        this.$target.getElementsByClassName('text').innerText = '移除购物车'
+        owo.tool.emit('addShoppingCart', this.$target.getAttribute("value"))
+      } else {
+        this.$target.classList.remove('check')
+        this.$target.getElementsByClassName('text').innerText = '添加购物车'
+        owo.tool.emit('removeShoppingCart', this.$target.getAttribute("value"))
+      }
+    }
+  }
+</script>
+
+
+<style lang="less">
+.one-picture-card {
+  width: 370px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 0px 3px #ccc;
+  padding-bottom: 5px;
+  overflow: hidden;
+  height: 360px;
+}
+.img-box {
+  width: 370px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+.bottom-box {
+  padding: 8px 10px;
+  .text {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+  }
+}
+p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #110b11;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.time {
+  color: #666;
+}
+</style>

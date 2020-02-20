@@ -1,0 +1,38 @@
+<template lang="pug">
+.card-box-nav
+  a.active(href="#") 最新
+  a(href="#") 天安门
+  a(href="#") 灯光秀
+  a(href="#") 天安门
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.card-box-nav {
+  height: 65px;
+  display: flex;
+  a {
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: #3b3b3b;
+    margin-top: 22px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 110px;
+    text-align: center;
+  }
+  .active {
+    font-weight: bold;
+    border-bottom: 3px solid #ce2a32;
+  }
+}
+</style>

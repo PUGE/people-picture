@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   padding:0;
 }
 
+table {
+  border-spacing: 0;
+}
+
 .clear:after {
   content: "";
   height: 0;
@@ -69,11 +73,11 @@ a {
 
 @font-face {
   font-family: 'iconfont';
-  src: url('../resource/iconfont.eot');
-  src: url('../resource/iconfont.eot?#iefix') format('embedded-opentype'),
-  url('../resource/iconfont.woff2') format('woff2'),
-  url('../resource/iconfont.woff') format('woff'),
-  url('../resource/iconfont.ttf') format('truetype');
+  src: url('@|iconfont.eot|');
+  src: url('@|iconfont.eot|?#iefix') format('embedded-opentype'),
+  url('@|iconfont.woff2|') format('woff2'),
+  url('@|iconfont.woff|') format('woff'),
+  url('@|iconfont.ttf|') format('truetype');
 }
 
 .icon {
